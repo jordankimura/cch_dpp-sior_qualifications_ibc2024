@@ -1,117 +1,75 @@
 # Special Inspector Qualification — 2024 IBC revision
 
-![verify](https://github.com/OWNER/REPO/actions/workflows/verify.yml/badge.svg)
+![verify](https://github.com/jordankimura/cch_dpp-sior_qualifications_ibc2024/actions/workflows/verify.yml/badge.svg)
 
-> Replace `OWNER/REPO` in the badge URL above once the repository is created.
+A draft revision of the Honolulu DPP Special Inspection Qualifications matrix, moved from the
+2018 to the 2024 International Building Code, with the Hawaii State and City & County amendments
+traced.
 
-Draft revision of the DPP Special Inspection Qualifications matrix, moved from the
-2018 to the 2024 International Building Code, as amended by the Hawaii State Building
-Code and ROH 16-1.1.
-
-**Status: draft, not adopted.** Honolulu currently adopts the Hawaii State Building
-Code of 20 April 2021, which adopts the **2018** IBC (ROH 16-1.1, Ord. 24-15, effective
-9 August 2024). This revision is forward-looking.
-
----
+**Status: draft, not adopted.** Honolulu adopts the Hawaii State Building Code of 20 April 2021,
+which adopts the **2018** IBC (ROH 16-1.1). This revision is forward-looking.
 
 ## What's here
 
 ```
-Special Inspector Qualification 2024 IBC rev18.xlsx   the deliverable
-verification/
-    verify_si.py                the check harness — run this
-    gen_sources_md.py           regenerates SOURCES.md from the manifest
-    verification-report.txt     its output as of this bundle
-    sources/
-        manifest.json           every source, with hashes and stated limits
-        SOURCES.md              generated from manifest.json — do not hand-edit
-        public/                 Revised Ordinances of Honolulu — public law
-        licensed/               extracts of copyrighted standards — SEE LICENSING.md
-handoff/
-    VERIFICATION-BRIEF.md       brief for an independent reviewer
+Special Inspector Qualification 2024 IBC.xlsx   the deliverable (open the README tab first)
 reference/
-    Special Inspection Qualifications 082625 (original from DPP).xlsx
-    si-lookup.html              browser lookup tool, open in any browser
+    Special Inspection Qualifications 082625 (original from DPP).xlsx   DPP's 2018 sheet, the baseline
+verification/
+    verify_si.py        the checks - run this
+    evidence.json       what backs every claim in the workbook (generates the Evidence tab)
+    workbook.txt        plain-text dump of every tab, so git diffs show cell-level changes
+    sources/            full text of every document relied on, plus manifest.json (the catalog)
+    edits/              every scripted change to the workbook, in order, with the reason
+    tools/              extraction, safe workbook editing, and sync
+handoff/
+    QA-REPORT-2026-09-11.md    independent QA of rev18 and what was fixed
+    VERIFIER-BRIEF.md          instructions for the next independent check
 ```
 
 **Before making this repository public, read `LICENSING.md`.**
 
-## The workbook
-
-Thirteen tabs. The four that matter first:
-
-| Tab | What it is |
-|---|---|
-| **Matrix 2024** | The deliverable. One row per classification, filterable. |
-| **Flags** | The note behind every flagged row, keyed by Ref. |
-| **Decisions** | 15 items only DPP can settle, with answer / initials / date columns. |
-| **Credential check** | Every certification checked against its issuer. |
-
-Then: `SI FORM dropdown` (what changed in the pick list), the five original tabs
-including `SI Qualification (2018 as received)` untouched, `Change Log`, `Sources`,
-and `QA log`.
-
-**Certification columns are reproduced from the 2018 sheet and have not been edited.**
-They are DPP policy of record; findings about them are recorded on Decisions and
-Credential check, not applied.
-
-## Running the verification
+## Running the checks
 
 ```
 cd verification
-python3 verify_si.py \
-  --new  "../Special Inspector Qualification 2024 IBC rev18.xlsx" \
-  --orig "../reference/Special Inspection Qualifications 082625 (original from DPP).xlsx"
+python verify_si.py --new "../Special Inspector Qualification 2024 IBC.xlsx" --orig "../reference/Special Inspection Qualifications 082625 (original from DPP).xlsx"
 ```
 
-Requires `python3` and `openpyxl` (`pip install openpyxl`). Sources are found
-automatically in `verification/sources`. Exit code 0 if every check passes, 1 if not.
+Python 3 only, no packages. Add `--excel` on a Windows machine with Excel to also have Excel open
+the file and read the SI FORM dropdown back. GitHub runs the checks on every push; the badge above
+is the result for the latest commit.
 
-26 deterministic checks. **No language model is involved in any assertion** — each one
-compares files, hashes them, or greps a source document. Checks are tagged by method:
+What the checks establish, in plain terms:
 
-- **I — Inspection.** File comparison. Proves what was *not* touched.
-- **A — Analysis.** Internal consistency, recomputed independently.
-- **T — Test.** Checked against a source document on disk.
-- **M — Manifest.** The source corpus checked against its own declaration.
+- DPP's 2018 data, SI FORM and dropdowns are untouched where they must be.
+- The file obeys the rules Excel enforces when opening (rev18 did not; see Change Log CL-17).
+- Every "who may perform" cell is a faithful translation of the 2018 notation.
+- Every IBC and City citation is a real heading in the full code text, titles exact.
+- Collisions are computed from the code text, not asserted.
+- Every flag, credential basis, Flags note, Decision, Credential check row and citation change has
+  evidence, and every quote is found in the full text of its source.
+- A "does not exist" claim is only accepted against a complete source.
+- Every source file matches its fingerprint and is used.
 
-A result of **`PASS*`** means the check is sound but the source under it was an extract,
-not a whole document. The report prints what that extract cannot establish. This exists
-because the recurring failure on this document was reading part of a source and reporting
-the result as if the whole had been read.
+Each check was also run against deliberately broken copies (a wrong quote, a missing flag, rows out
+of order, an over-long tab name, a false "does not exist" claim, and 13 others) to confirm it fails.
+The workbook also passes after being opened and re-saved by Excel.
 
-The report ends with five items marked **NOT MACHINE-VERIFIABLE**, each with its reason.
-Those are not failures; they are questions no program can settle.
+What no check can establish is listed at the end of every run under **OPEN**.
 
-### The source manifest
+## Changing the workbook
 
-`verification/sources/manifest.json` enumerates all **32** sources: 5 bundled and hashed,
-20 read but not frozen (live issuer pages, non-redistributable documents), 7 that could
-not be obtained. Each entry carries how it was retrieved, whether it was read in full,
-what it may *not* be used to establish, and — for the unobtainable ones — what it leaves
-open.
+Opening and re-saving the workbook with common Python libraries **deletes the SI FORM dropdowns**.
+Either:
 
-It turns "were all the sources used?" into three questions a program can fail:
+- **edit in Excel**, save, then run `python verification/tools/sync_workbook.py "<workbook>"` and the
+  checks; or
+- **script the change** in `verification/edits/` using `tools/xlsx.py`, which edits only what it
+  touches.
 
-| Check | Fails when |
-|---|---|
-| **M-01** | a bundled source no longer matches its hash, a file in `sources/` is not in the manifest, or `SOURCES.md` has drifted from the manifest |
-| **M-02** | a check reads a source the manifest doesn't list, a bundled source is listed but no check reads it, or an issuer on **Credential check** has no source behind it |
-| **M-03** | a partial source doesn't state its limit, an unobtainable source doesn't name what it blocks, or an open item it names isn't in the unverifiable list |
+Then commit with a message that says what changed and why. When DPP answers the Decisions tab, one
+commit per decision (`Decision 3: welding exception applies to shop fabrication`).
 
-`SOURCES.md` is generated. Edit `manifest.json`, then run `python3 gen_sources_md.py`.
-
-## What still needs DPP
-
-1. The 15 items on the Decisions tab, chiefly: renumbering the two City sections that
-   collide with base-code numbers under the 2024 edition, and the welding /
-   high-strength-bolting exception in ROH 16-1.1 amendment (111).
-2. The five NOT MACHINE-VERIFIABLE items, chiefly the status of NICET's
-   "Geotechnical Engineering Technology" program, which five rows depend on.
-3. Confirmation of the attribution sentence at the foot of Matrix 2024.
-
-## A caution
-
-`reference/si-lookup.html` is generated from the same data as the workbook but is
-**not linked to it**. If the matrix changes, the page does not. Treat the workbook as
-the record and the page as a reading aid.
+To add or change a source: add it to `CATALOG` in `tools/extract_sources.py`, re-run it with the
+originals, run `gen_sources_md.py`, then cite it from `evidence.json`.
