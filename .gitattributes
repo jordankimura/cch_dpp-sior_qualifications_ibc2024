@@ -1,0 +1,4 @@
+# Source texts are fingerprinted byte-for-byte (check C-01): never convert their line endings.
+verification/sources/** -text
+verification/workbook.txt text eol=lf
+*.xlsx binary

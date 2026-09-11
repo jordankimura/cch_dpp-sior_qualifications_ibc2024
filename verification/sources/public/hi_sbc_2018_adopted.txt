@@ -1,0 +1,2943 @@
+# Hawaii State Building Code as adopted 20 Apr 2021 (SBCC adoption document: 2018 IBC with state amendments)
+# source id: hi-sbc-2018 | original: hi_sbc_2018_adopted.pdf | original sha256: 246b2abe0583bd150764979101eab292f4972cf06580968308048cb0c3033074 | retrieved: 2026-09-11 | https://ags.hawaii.gov/wp-content/uploads/2021/09/2018StateBuildingCode_20210817.pdf
+
+DAVID Y. IGE                                                                                     Curt T. Otaguro
+                                                                                                    Comptroller
+  GOVERNOR
+                                                                                                    AUDREY HIDANO
+JOSH GREEN
+                                                                                                Deputy Comptroller
+   LT. GOVERNOR
+
+                                          STATE OF HAWAII
+
+                 DEPARTMENT OF ACCOUNTING AND GENERAL SERVICES
+                                    STATE BUILDING CODE COUNCIL
+
+                                                     P.O. BOX 119, HONOLULU, HAWAII 96810-0119
+
+April 20, 2021
+
+SUBJECT: State Building Code Adoption
+                  Adopting the 2018 International Building Code with Amendments
+
+The attached document is the Hawaii State Building Code as adopted on April 20, 2021 by the
+State Building Code Council in accordance with HRS 107-24.
+No later than April 20, 2022, the design of all State building construction must comply with the
+attached code in accordance with HRS 107-27.
+No later than April 20, 2023, each county in the State of Hawaii must amend and adopt the
+attached code in accordance with HRS 107-28(a).
+If by April 20, 2023, a county does not amend the attached code, it shall become applicable as an
+interim county building code in accordance with HRS 107-28(b).
+
+                                                           State Building Code Council
+
+Attached: Hawaii State Building Code
+State Building Code  SBCC approved 08/17/21
+
+                                                  STATE OF HAWAII
+
+                                       State Building Code Council
+
+                                        HAWAII STATE BUILDING CODE
+
+                                     Effective Date: April 20, 2021
+                                 Errata and Addenda: August 17,2021
+
+                                                  ________________
+
+Scope................................................................ 4
+Definitions.......................................................... 4
+Adoption of the International Building Code.......................... 4
+Permit authorization................................................. 4
+Amendments to the 2018 ICC International Building Code (IBC)......... 5
+
+   1. Title and purpose. ............................................ 5
+   2. Scope. ........................................................ 5
+   3. Appendices. ................................................... 5
+   4. Referenced codes. ............................................. 5
+   5. Existing structures. .......................................... 6
+   6. Part 2 � Administration and Enforcement ....................... 6
+   7. Definitions ................................................... 6
+   8. Occupant evacuation elevators. ................................ 6
+   9. Community Storm Shelters. ..................................... 7
+   10. Hawaii Residential Safe Room .................................. 7
+   11. State and County Enhanced Hurricane Protection Areas .......... 7
+   12. Group R. ...................................................... 7
+   13. Portable fire extinguishers. .................................. 7
+   14. Fire command center. .......................................... 7
+   15. Fire pumps. ................................................... 7
+   16. Emergency power for illumination. ............................. 7
+   17. Doors, Gates and Turnstiles ................................... 8
+   18. Exterior Exit Stairways and Ramps ............................. 8
+   19. Emergency Escape and Rescue ................................... 8
+   20. Chapter 11 Accessibility ...................................... 8
+   21. Roof slope .................................................... 9
+   22. Roof drains. .................................................. 9
+   23. Revised Notations for Section 1602 ............................ 9
+   24. Construction documents. ....................................... 9
+25. Wind design data. ............................................ 10
+26. Wind loads ................................................... 10
+27. Seismic design � short period ................................ 10
+28. Seismic design � long period ................................. 10
+29. Special inspections and tests. ............................... 10
+30. Special inspector qualifications. ............................ 11
+31. Statement of special inspections ............................. 11
+32. Report requirement. .......................................... 11
+33. Statement of special inspections ............................. 12
+34. Submittals to the building official .......................... 12
+35. Special Inspections for concrete construction ................ 12
+36. Special Inspections for wind resistance ...................... 13
+37. Complete load path and uplift ties. .......................... 13
+38. Complete load path and uplift ties. .......................... 13
+39. Pile splices. ................................................ 13
+40. Concrete strap type anchors. ................................. 14
+41. Modification to ACI 318 - water cement ratio ................. 14
+42. Modification to ACI 318 - embedments ......................... 14
+43. Modification to ACI 318 - Incorporation of ACI 562 ........... 14
+44. Masonry cleanouts. ........................................... 14
+45. Protection of sill track. .................................... 15
+46. Cold-formed steel prescriptive framing. ...................... 15
+47. Wood design requirements. .................................... 15
+48. Preservative-treated wood .................................... 15
+49. Wood structural panel sheathing. ............................. 17
+50. Wood structural panel sheathing. ............................. 17
+51. Protection against decay and termites. ....................... 17
+52. Conventional light-frame construction. ....................... 18
+53. Wood Frame Construction Manual ............................... 19
+54. Elevators and Conveying Systems .............................. 19
+55. Elevators and Conveying Systems. ............................. 19
+56. Appendix U � Hawaii hurricane sheltering provisions for new
+construction. ..................................................... 20
+
+   Section U101 Community Storm Shelters. .......................... 20
+   Section U102 Hawaii Residential Safe Room. ...................... 20
+   Section U103 State- and County-owned public high occupancy
+   buildings - design criteria for enhanced hurricane protection
+   areas. .......................................................... 24
+
+                                  Hawaii State Building Code - 2
+57. Appendix W � Hawaii wind design provisions for new construction.
+         ............................................................. 29
+
+   W101 Revisions to Chapter 2, Chapter 16 and Chapter 23. ......... 29
+   W102 Windborne Debris Region definition ......................... 29
+   W103 Revised Notations for Section 1602 ......................... 29
+   W104 Wind design data. .......................................... 29
+   W105 Amendments to Section 1609.1 through 1609.4 ................ 30
+   W106 Roof-top Solar panels ...................................... 56
+   W107 Revisions to Section 2304.6.1. ............................. 57
+   W108 Revisions to Table 2304.6.1. ............................... 58
+   W109 Revisions to Table 2308.7.5. ............................... 59
+58. Appendix X � Hawaii provisions for indigenous Hawaiian
+architecture structures. .......................................... 61
+   Section X101 General. ........................................... 61
+   Section X201 Material requirements. ............................. 61
+   Section X202 Size and location. ................................. 62
+   Section X203 Allowable and prohibited uses. ..................... 62
+   Section X301 Fire protection. ................................... 63
+   Section X401 Design standards. .................................. 66
+   Section X402 Allowable designs. ................................. 66
+
+                                  Hawaii State Building Code - 3
+Scope.
+The State Building Code is hereafter referred to as "this code". This
+code sets forth minimum requirements for the construction, alteration,
+movement, enlargement, replacement, repair, equipment, use and
+occupancy, location, maintenance, removal and demolition of every
+building or structure or any appurtenances connected or attached to
+buildings or structures.
+
+Definitions.
+Unless the context otherwise requires, in this code:
+
+"IBC" means the "State Building Code" adopted by the State Building
+Code Council adopting and amending the "International Building Code,
+2018 Edition", published by the International Code Council.
+
+"ICC" means the International Code Council.
+
+"IEBC" means the "State Existing Building Code", adopted by the State
+Building Code Council adopting and amending the "International
+Existing Building Code, 2018 Edition", published by the International
+Code Council.
+
+"IECC" means the "State Energy Conservation Code", Hawaii
+Administrative Rules, Chapter 3-181.1 adopting and amending the
+"International Energy Conservation Code, 2018 Edition" published by
+the International Code Council.
+
+"IRC" means the "State Residential Code" adopted by the State Building
+Code Council adopting and amending the "International Residential Code
+for One- and Two-family Dwellings, 2018 Edition", published by the
+International Code Council.
+
+"Section" means a section of a chapter of the International Building
+Code, 2018 Edition or a section of this code.
+
+Adoption of the International Building Code.
+The "International Building Code, 2018 Edition", as copyrighted and
+published in 2017 by International Code Council, Incorporated, 500 New
+Jersey Avenue, 6th Floor, Washington, DC 20001, is adopted by
+reference and made a part of this code. This incorporation by
+reference includes all parts of the International Building Code
+subject to the amendments hereinafter set forth. The ICC International
+Building Code 2018 Edition, is made a part of this chapter, subject to
+the amendments provided in this code. The appendices of the ICC IBC
+are not adopted except as provided in this code.
+
+Permit authorization.
+Each county of the State of Hawaii may, by ordinance, require that a
+permit be obtained from the building official for any area regulated
+by this code.
+
+                                     Hawaii State Building Code - 4
+       Amendments to the 2018 ICC International Building Code (IBC)
+
+1. Title and purpose.
+       Section 101.1 is amended to read as follows:
+       "[A] 101.1 Title. These regulations shall be known as the Building
+       Code of the State of Hawaii, hereinafter referred to as "this code"."
+
+2. Scope.
+       Section 101.2 is amended to read as follows:
+       "[A] 101.2 Scope. The provisions of this code shall apply to the
+       construction, alteration, relocation, enlargement, replacement,
+       repair, equipment, use and occupancy, location, maintenance, removal
+       and demolition of every building or structure or any appurtenances
+       connected or attached to such buildings or structures.
+       Exception: Detached one- and two-family dwellings and townhouses not
+       more than three stories above grade plane in height with a separate
+       means of egress, and their accessory structures not more than three
+       stories above grade plane in height, shall be permitted to comply with
+       the State Residential Code if provided with debris impact protection
+       in accordance with Section 1609.2 Protection of Openings. Exception 3
+       in Section 1609.2 shall not apply."
+
+3. Appendices.
+       Section 101.2.1 is amended to read as follows:
+       "[A] 101.2.1 Appendices. Provisions in the appendices shall not apply
+       unless specifically adopted.
+       Exceptions:
+       1. Appendix U, Hawaii Hurricane Sheltering Provisions for New
+       Construction, shall be adopted.
+       2. Appendix W, Hawaii Wind Design Provisions for New Construction,
+       shall be adopted.
+       3. Appendix X, Hawaii Provisions for Indigenous Hawaiian
+       Architecture Structures, shall be adopted".
+
+4. Referenced codes.
+       Section 101.4 is amended to read as follows:
+       "[A] Section 101.4 Referenced codes. The other codes listed in
+       Sections 101.4.2 through 101.4.6 shall be considered to be part of the
+       requirements of this code to the prescribed extent of each such
+       reference.
+
+       [A] 101.4.1 Conflicts with other codes.
+       If a referenced code conflicts with another applicable law of the
+       jurisdiction, then said applicable law shall prevail over the
+       referenced code.
+
+       [A} 101.4.2 Gas. Whenever the term International Fuel Gas Code is
+       used in this code, it shall mean the adopted State Plumbing Code.
+
+       [A] 101.4.3 Plumbing. Whenever the term International Plumbing Code is
+       used in this code it shall mean the adopted State Plumbing Code.
+
+                                            Hawaii State Building Code - 5
+       [A] 101.4.4 Fire prevention. Whenever the term International Fire
+       Code is used in this code, it shall mean the adopted State Fire Code.
+
+       [A] 101.4.5 Energy. Whenever the term International Energy
+       Conservation Code is used in this code, it shall mean the adopted
+       State Energy Conservation Code.
+
+       [A] 101.4.6 Existing Buildings. Whenever the term International
+       Existing Building Code is used in this code, it shall mean the adopted
+       State Existing Building Code.
+
+       [A] 101.4.7 Electrical Code
+       The provisions of the State Electrical Code shall apply.
+
+       [A] 101.4.8 Other Codes. Other referenced codes not listed in Section
+       101.4 are considered referenced guidelines and not mandatory.
+
+5. Existing structures.
+       Section 102.6 is amended to read as follows:
+       "[A] 102.6 Existing structures. The legal occupancy of any structure
+       existing on the date of adoption of this code shall be permitted to
+       continue without change, except as otherwise specifically provided in
+       this code, the State Existing Building Code, or the State Fire Code.
+
+6. Part 2 � Administration and Enforcement
+       Administration and Enforcement, Sections 103 through 116, are deleted
+       in their entirety, except Section 106.1 which is amended to read as
+       follows:
+       "[A] 106.1 Live loads posted. In commercial or industrial buildings,
+       for each floor or portion thereof designed for live loads 100 psf
+       (4.80 kN/m2), such design live loads shall be conspicuously posted by
+       the owner or owner's authorized agent in that part of each story in
+       which they apply, using durable signs. It shall be unlawful to remove
+       or deface such notices".
+
+7. Definitions
+       The definitions in Section 202 are amended to read as follows and as
+       noted in Appendix W:
+       "STRUCTURAL OBSERVATION. The visual observation of the structural
+       system by a registered design professional for general conformance to
+       the approved construction documents.
+       Structural observation is equivalent to "observation of construction"
+       of the structural system, as defined in Hawaii Administrative Rules
+       chapter 16-115, implementing Hawaii Revised Statutes chapter 464.
+       Structural observation does not include or waive the responsibility
+       for the inspection required by Section 1705 or other sections of this
+       code".
+
+8. Occupant evacuation elevators.
+       Section 403.6.2 Occupant evacuation elevators is deleted in its
+       entirety.
+
+                                            Hawaii State Building Code - 6
+9. Community Storm Shelters.
+       Section 423 is deleted and replaced in Section U101 of Appendix U.
+
+10. Hawaii Residential Safe Room
+       Section 429 is added in Section U102 of Appendix U.
+
+11. State and County Enhanced Hurricane Protection Areas
+       Section 430 is added in Section U103 of Appendix U.
+
+12. Group R.
+       Section 903.2.8 is amended to read:
+       "[F]Section 903.2.8 Group R. An automatic sprinkler system installed
+       in accordance with section 903.3 shall be provided throughout all the
+       buildings with a Group R fire area.
+       Exception: In accordance with HRS 46-19.8 Fire Sprinklers;
+       residences, until June 30, 2027 no county shall require the
+       installation or retrofitting of automatic fire sprinklers or an
+       automatic fire sprinkler system in:
+            1. Any new or existing detached one-or two-family dwelling unit in a
+                 structure used only for residential purposes; and
+            2. Nonresidential agricultural and aquacultural buildings and
+                 structures located outside an urban area; provided that this
+                 section shall not apply to new homes that require a variance from
+                 access roads or firefighting water supply requirements."
+
+13. Portable fire extinguishers.
+       Section 906 is deleted in its entirety and replaced to read as
+       follows:
+       "SECTION 906
+       PORTABLE FIRE EXTINGUISHERS
+       906.1 General. Portable fire extinguishers shall be provided as
+       required by the State Fire Code."
+
+14. Fire command center.
+       Section 911 is deleted in its entirety and replaced to read as
+       follows:
+       "SECTION 911
+       FIRE COMMAND CENTER
+       911.1 General. Where required by other sections of this code, a fire
+       command center for fire department operations shall be provided and
+       shall comply with the State Fire Code."
+
+15. Fire pumps.
+       Section 913 is deleted in its entirety and replaced to read as
+       follows:
+       "SECTION 913
+       FIRE PUMPS
+       913.1 Fire pumps. Where provided, fire pumps shall be installed in
+       accordance with the State Fire Code."
+
+16. Emergency power for illumination.
+
+                                            Hawaii State Building Code - 7
+       Section 1008.3.1 is amended to read as follows:
+       "Section 1008.3.1 General. In the event of power supply failure in
+       rooms and spaces that require two or more means of egress, an
+       emergency electrical system shall automatically illuminate all the
+       following areas:
+
+            1. Aisles
+            2. Corridors
+            3. Exit access stairways and ramps.
+            4. Enclosed stairways of buildings more than two stories in height."
+
+17. Doors, Gates and Turnstiles
+       Section 1010.2 is amended to read as follows:
+       "Section 1010.2 Gates. Gates serving the means of egress system shall
+       comply with the requirements of this section. Gates used as a
+       component in a means of egress shall conform to the applicable
+       requirements for doors.
+       Exceptions:
+            1. Horizontal sliding or swinging gates exceeding the 4�foot (1219
+                 mm) maximum leaf width limitation are permitted in fences and
+                 walls surrounding a stadium.
+            2. Security gates maybe permitted across corridors or passageways in
+                 school buildings if there is a readily visible durable sign on or
+                 adjacent to the gate, stating "THIS GATE IS TO REMAIN SECURED IN
+                 THE OPEN POSITION WHENEVER THIS BUILDING IS IN USE." The sign
+                 shall be in letters not less than one inch high on a contrasting
+                 background. The use of this exception may be revoked by the
+                 building official for due caused."
+
+18. Exterior Exit Stairways and Ramps
+       Section 1027.2 is deleted in its entirety.
+
+19. Emergency Escape and Rescue
+       Section 1030.2 is amended to by adding a new paragraph 1030.2.2 and
+       reads as follows:
+       "1030.2.2 Glass jalousie windows. Glass jalousie windows complying
+       with section 2403.5 may be used for emergency escape or rescue
+       windows."
+
+20. Chapter 11 Accessibility
+       Accessibility. Chapter 11 is deleted in its entirety and replaced to
+       read as follows:
+       "1101 Scope. Buildings or portions of buildings shall be accessible
+       to persons with disabilities in accordance with the following
+       regulations:
+            1. For construction of buildings or facilities of the state and
+                 county governments, compliance with Section 103-50 HRS,
+                 administered by the Disability and Communication Access Board,
+                 State of Hawaii.
+            2. Department of Justice's Americans with Disabilities Act Standards
+                 for Accessible Design.
+
+                                            Hawaii State Building Code - 8
+            3. Housing and urban development recognized "safe harbors" for
+                 compliance with the Fair Housing Acts design and construction
+                 requirements.
+
+            4. Other pertinent laws relating with disabilities shall be
+                 administered and enforced by agencies responsible for their
+                 enforcement.
+
+       Prior to the issuance of a building permit, the owner (or the owner's
+       representative, professional architect, or engineer) shall submit a
+       statement that all requirements, relating to accessibility for persons
+       with disabilities, shall be complied with."
+
+21. Roof slope
+       Section 1502 is amended by adding a new section 1502.5 Slope to read
+       as follows:
+       "1502.5 Slope. Roof shall be sloped a minimum of 1 unit vertical in
+       48 units horizontal (2 per cent slope) for drainage unless designed
+       for water accumulation in accordance with Section 1611. Leaders,
+       conductors, and storm drains shall be sized on the basis of Figure
+       1611.1 and the Plumbing Code."
+
+22. Roof drains.
+       Section 1502 is amended by adding a new section 1502.6 Roof drains to
+       read as follows:
+       "1502.6 Roof drains. Unless roofs are sloped to drain over the roof
+       edges, roof drains shall be installed at each low point of the roof."
+
+23. Revised Notations for Section 1602
+       Section 1602 is amended in Section W103 of Appendix W.
+
+24. Construction documents.
+       Section 1603.1 is amended to read as follows:
+       "1603.1 General. Construction documents shall show the size, section
+       and relative locations of structural members with floor levels, column
+       centers and offsets dimensioned. The design loads and other
+       information pertinent to the structural design required by Sections
+       1603.1.1 through 1603.1.9 shall be indicated on the construction
+       documents.
+       Exception: Construction documents for buildings constructed in
+       accordance with the conventional light-frame construction provisions
+       of Section 2308 shall indicate the following structural design
+       information:
+            1. Floor and roof dead and live loads.
+            2. Ground snow load, Pg.
+            3. Basic design wind speed, V, miles per hour (mph) (km/hr) and
+                 effective allowable stress design wind speed, Veff-asd, as
+                 determined in accordance with Section 1609.3.1 and wind exposure.
+            4. Design spectral response acceleration parameters, SDS and SD1
+            5. Seismic design category and site class.
+            6. Flood design data, if located in flood hazard areas established
+                 in Section 1612.3.
+            7. Design load-bearing values of soils.
+
+                                            Hawaii State Building Code - 9
+8. Rain load data".
+
+25. Wind design data.
+       Section 1603.1.4 is amended in Section W104 of Appendix W.
+
+26. Wind loads
+       Section 1609 is amended in Sections W105 and W106 of Appendix W.
+
+27. Seismic design � short period
+       Table 1613.2.5(1) is amended to read as follows:
+
+"TABLE 1613.2.5(1) SEISMIC DESIGN CATEGORY BASED ON SHORT-PERIOD (0.2
+
+second) RESPONSE ACCELERATION
+
+VALUE OF SDS                               RISK CATEGORY
+
+                                  I or II  III            IV
+
+SDS < 0.167g                      A        A              A
+0.167g  SDS < 0.33g
+0.33g  SDS < 0.50g                B        B              C
+0.50g  SDS < 0.60g
+0.60g  SDS                        C        C              D
+
+                                  C        D              D
+
+                                  D        D              D
+
+28. Seismic design � long period
+
+Table 1613.2.5(2) is amended to read as follows:
+
+"TABLE 1613.2.5(2) SEISMIC DESIGN CATEGORY BASED ON 1-SECOND PERIOD
+
+RESPONSE ACCELERATION
+
+VALUE OF SD1                               RISK CATEGORY
+
+                                  I or II  III            IV
+
+SD1 < 0.067g                      A        A              A
+0.067g  SD1 < 0.133g
+0.133g  SD1 < 0.20g               B        B              C
+0.20g  SD1 < 0.27g
+0.27g  SD1                        C        C              D
+
+                                  C        D              D
+
+                                  D        D              D
+
+29. Special inspections and tests.
+
+       Section 1704.2 is amended to read as follows:
+       "1704.2 Special inspections and tests. Where application is made to
+       the building official for construction, the owner or the registered
+       design professional in responsible charge acting as the owner's
+       authorized agent, shall employ one or more special inspectors
+       independent of the contractors performing the work to provide special
+       inspections and tests during construction on the types of work
+       specified in Section 1705 and identify the special inspectors to the
+       building official. These special inspections and tests are in addition
+       to the inspections by the building.
+       Exceptions:
+
+            1. Special inspections and tests are not required for construction
+                 of a minor nature or as warranted by conditions in the
+                 jurisdiction as approved by the building official.
+
+            2. Unless otherwise required by the building official, special
+                 inspections and tests are not required for Group U occupancies
+                 that are accessory to a residential occupancy including, but not
+                 limited to, those listed in Section 312.1.
+
+              Hawaii State Building Code - 10
+            3. Special inspections and tests are not required for portions of
+                 structures designed and constructed in accordance with the cold-
+                 formed steel light-frame construction provisions of Section
+                 2211.1.2 or the conventional light-frame construction provisions
+                 of Section 2308. For these structures, Section 1705.11 shall
+                 nevertheless apply.
+
+            4. The contractor is permitted to employ the special inspectors
+                 where the contractor is also the owner.
+
+            5. The employment of a special inspector shall not be required for
+                 construction work for any government agency that provides for its
+                 own special inspections and tests.
+
+            6. Special inspections and tests are not required for building
+                 components unless the design involves the practice of
+                 professional engineering or architecture as defined by Hawaii
+                 Revised Statutes chapter 464.
+
+30. Special inspector qualifications.
+       Section 1704.2.1 is amended to read as follows:
+       "1704.2.1 Special inspector qualifications. Prior to the start of the
+       construction, each special inspector shall provide written
+       documentation to the building official demonstrating the competence
+       and relevant experience or training of the special inspectors who will
+       perform the special inspections and tests during construction.
+       Experience or training shall be considered to be relevant where the
+       documented experience or training is related in complexity to the same
+       type of special inspection or testing activities for projects of
+       similar complexity and material qualities. These qualifications are
+       in addition to qualifications specified in other sections of this
+       code.
+       The registered design professional in responsible charge and engineers
+       of record involved in the design of the project are permitted to act
+       as the special inspector and their personnel are permitted to act as
+       special inspectors for the work designed by them, provided they
+       qualify as special inspectors".
+
+31. Statement of special inspections
+       Section 1704.2.3 is amended to read as follows:
+       "1704.2.3 Statement of special inspections. The applicant shall
+       submit a statement of special inspections in accordance with Section
+       107.1 as a condition for permit issuance. This statement shall be
+       deemed to be satisfied by Section 1704.3.
+
+32. Report requirement.
+       Section 1704.2.4 is amended to read as follows:
+       "1704.2.4 Report requirement. Special Inspectors shall keep records
+       of special inspections and tests. The special inspector shall submit
+       reports of special inspections and tests to the owner and licensed
+       engineer or architect of record. Reports shall indicate whether the
+       work inspected and tested was done in conformance to approved
+       construction documents. Discrepancies shall be brought to the
+       immediate attention of the contractor for correction, then, if
+       uncorrected, to the licensed engineer or architect of record and to
+
+                                           Hawaii State Building Code - 11
+       the building official. The special inspector shall submit a final
+       signed report to the owner and licensed engineer or architect of
+       record, stating whether the work requiring special inspection was, to
+       the best of the inspector's knowledge, in conformance with the
+       approved plans and specifications and the applicable workmanship
+       provisions of this code.
+
+       Prior to the final inspection by the building official, the licensed
+       engineer or architect of record shall submit a written statement
+       verifying receipt of the final special inspection reports and
+       documenting that there are no known unresolved code requirements that
+       create significant public safety deficiencies."
+
+33. Statement of special inspections
+       Section 1704.3 is deleted in its entirety and replaced to read as
+       follows:
+       "1704.3 Statement of special inspections. Where special inspection or
+       testing is required by Section 1705, the construction drawings shall
+       include a complete list of special inspections required by this
+       section".
+
+34. Submittals to the building official
+       Section 1704.5 is deleted in its entirety.
+
+35. Special Inspections for concrete construction
+       Section 1704.3 is amended to read as follows:
+       "1705.3 Concrete construction. Special inspections and tests of
+       concrete construction shall be performed in accordance with this
+       section and Table 1705.3.
+       Exception: Unless required by section 1705.11 Special inspections for
+       wind resistance or section 1705.12 Special inspections for seismic
+       resistance special inspections and tests shall not be required for
+       concrete used in:
+            1. Isolated spread concrete footings of buildings three stories or
+                 less above grade plane that are fully supported on earth or rock
+                 where:
+                   1.1. The footings support columns of light-frame construction.
+                   1.2. The structural design of the footing is based on a
+                            specified compressive strength, f 'c, not more than 2,500
+                            pounds per square inch (psi) (17.2 MPa), regardless of the
+                            compressive strength specified in the approved construction
+                            documents or used in the footing construction.
+
+            2. Continuous concrete footings supporting walls of buildings three
+                 stories or less above grade plane that are fully supported on
+                 earth or rock where:
+                   2.1. The footings support walls of light-frame construction.
+                   2.2. The footings are designed in accordance with Table 1809.7.
+                   2.3. The structural design of the footing is based on a
+                            specified compressive strength, f 'c, not more than 2,500
+                            pounds per square inch (psi) (17.2 MPa), regardless of the
+
+                                           Hawaii State Building Code - 12
+                            compressive strength specified in the approved construction
+                            documents or used in the footing construction.
+            3. Nonstructural concrete slabs supported directly on the ground,
+                 including prestressed slabs on grade, where the effective
+                 prestress in the concrete is less than 150 psi (1.03 MPa).
+            4. Concrete foundation walls constructed in accordance with Table
+                 1807.1.6.2.
+            5. Concrete patios, driveways and sidewalks, on grade".
+
+36. Special Inspections for wind resistance
+       Section 1704.11 is amended to read as follows:
+       "1705.11 Special inspections for wind resistance. Special inspections
+       for wind resistance specified in Section 1705.11.1, unless exempted by
+       the exceptions to Section 1704.2, are required for buildings and
+       structures constructed where the basic design wind speed, V, is 120
+       mph (53 m/sec) or greater".
+
+37. Complete load path and uplift ties.
+       Section 1705.11.1 is amended to read as follows:
+       "1705.11.1 Complete Load Path and Uplift Ties. Special inspection is
+       required for metal connectors, anchors, or fasteners for wood and
+       cold-formed steel construction at the following locations: roof
+       ridges, roof rafters to beam or wall supports, beams to posts, posts
+       or walls to floor framing or foundation below, ground anchors, and all
+       other connections that are part of the load path to resist uplift
+       forces.
+
+       Continuous special inspection is required during field gluing
+       operations of elements of the main windforce-resisting system.
+
+       The special inspector need not be present during the installation of
+       all of the connectors, provided that the special inspector verifies
+       that all of the connectors are installed in conformance with the
+       requirements of this code.
+
+38. Complete load path and uplift ties.
+       Sections 1705.11.2 and 1705.11.3 are deleted in their entirety.
+
+39. Pile splices.
+       Section 1810.3.6 is amended to read as follows:
+       "1810.3.6 Splices. Splices shall be constructed so as to provide and
+       maintain true alignment and position of the component parts of the
+       deep foundation element during installation and subsequent thereto and
+       shall be designed to resist the axial and shear forces and moments
+       occurring at the location of the splice during driving and under
+       service loading.
+
+       Splices occurring in the upper 10 feet (3048 mm) of the embedded
+       portion of an element shall be designed to resist at allowable
+       stresses the moment and shear that would result from an assumed
+       eccentricity of the axial load of 3 inches (76 mm), or the element
+
+                                           Hawaii State Building Code - 13
+       shall be braced in accordance with Section 1810.2.2 to other deep
+       foundation elements that do not have splices in the upper 10 feet
+       (3048 mm) of embedment.
+
+40. Concrete strap type anchors.
+       Section 1904.3 is added to read as follows:
+       "1904.3 Concrete Strap Type Anchors. Concrete strap-type anchors
+       made out of cold-formed steel shall not be used along the perimeter
+       edges of a slab on grade where the steel does not have at least 1-
+       1/2 inches side cover or other adequate protection".
+
+41. Modification to ACI 318 - water cement ratio
+       Section 1905.1.9 is added to read as follows:
+       "1905.1.9 ACI 318, Section 19.3.2.1. Modify ACI 318 Table 19.3.2.1 as
+       follows: Change the Maximum w/cm ratio for Exposure Class Cl to 0.50."
+
+42. Modification to ACI 318 - embedments
+       Section 1905.1.10 is added to read as follows:
+       "1905.1.10 ACI 318, Section 20.7 Embedments. Add ACI 318, Section
+       20.7.6 Anchor Bolts at the Perimeter Edge of a Slab on Grade. Anchor
+       bolts shall be hot dipped galvanized in accordance with ASTM F2329 and
+       have a minimum concrete side cover of 1-1/2 inches unless provisions
+       have been made to protect the anchor bolts from corrosion".
+
+43. Modification to ACI 318 - Incorporation of ACI 562
+       Add Section 1905.2 to the 2018 IBC to read as follows:
+       "1905.2 ACI 318, Section 1.4.2
+       Revised ACI 318, Section 1.4.2 to read as follows:
+       "1.4.2 Applicable provisions of ACI 318 shall be permitted to be used
+       for structures not governed by the general building code. Where
+       repairs and rehabilitation are not required to satisfy the provisions
+       of ACI 318, the provisions of ACI 562-16 shall be permitted to be used
+       for the assessment, repair, and rehabilitation of existing
+       structures."
+
+44. Masonry cleanouts.
+       Section 2104.1.3 is added to read as follows:
+       "2104.1.3 Cleanouts. Cleanouts shall be provided for all grout pours
+       over 5 feet 4 inches in height. Special provisions shall be made to
+       keep the bottom and sides of the grout spaces, as well as the minimum
+       total clear area required by TMS 602 clean and clear prior to
+       grouting.
+
+       Exception: Cleanouts are not required for grout pours 8 feet or less
+       in height providing all of the following conditions are met:
+
+            1. The hollow masonry unit is 8-inch nominal width or greater.
+            2. The specified compressive strength of masonry, f'm, is less than
+
+                 or equal to 2,000psi as determined per TMS 602 Table 2;
+            3. Fine grout is used complying with ASTM C-476 with a minimum
+
+                 compressive strength of 3,000 psi; and
+            4. Special Inspection is provided".
+
+                                           Hawaii State Building Code - 14
+45. Protection of sill track.
+       Section 2203.2 is added to read as follows:
+       "2203.2 Protection of Sill Track.
+       Cold formed steel framing sills that directly bear on concrete or
+       masonry that is in direct contact with earth shall be shielded along
+       the exterior flange and bottom of the sill track with a self-adhered
+       rubberized asphalt flashing material with a minimum thickness of 25
+       mil (0.64 mm) or other moisture barrier conforming to ASTM D412, D570,
+       and E96/E96M."
+
+46. Cold-formed steel prescriptive framing.
+       Section 2211.1.2 is amended to read as follows:
+       "2211.1.2 Prescriptive framing. Detached one- and two-family
+       dwellings and townhouses, less than or equal to three stories above
+       grade plane, shall be permitted to be constructed in accordance with
+       AISI S230 subject to the limitations therein. Prescriptive framing
+       shall not be applicable for structures designed using exception 3 in
+       Section 1609.2 Protection of Openings in the Hawaii Amendments to this
+       code."
+
+47. Wood design requirements.
+       Section 2302.1 is amended to read as follows:
+       "2302.1 General. The design of structural elements or systems,
+       constructed partially or wholly of wood or wood-based products, shall
+       be in accordance with one of the following methods:
+            1. Allowable stress design in accordance with Sections 2304, 2305
+                 and 2306
+            2. Load and resistance factor design in accordance with Sections
+                 2304, 2305 and 2307
+            3. Conventional light-frame construction in accordance with Section
+                 2304 and 2308.
+            4. AWC WFCM in accordance with Section 2309.
+            5. The design and construction of log structures in accordance with
+                 the provisions of ICC 400.
+
+       Exception:
+       Prescriptive requirements in applicable to the exterior roof and wall
+       enclosure in 2304, 2308 and 2309 shall not be applicable for
+       structures designed using exception 3 in Section 1609.2 Protection of
+       Openings.
+
+       Method 3 and method 4 shall not be applicable for structures designed
+       using exception 3 in Section 1609.2 Protection of Openings".
+
+48. Preservative-treated wood
+       Section 2303.1.9 is deleted in its entirety and replaced to read as
+       follows:
+       "2303.1.9 Preservative-treated wood. Structural lumber, including
+       plywood, posts, beams, rafters, joists, trusses, studs, plates, sills,
+       sleepers, roof and floor sheathing, flooring and headers of new wood-
+       frame buildings and additions shall be:
+
+                                           Hawaii State Building Code - 15
+    1. Treated in accordance with AWPA Standard U1 (UC1 thru UC4B) for
+         AWPA Standardized Preservatives, all marked or branded and
+         monitored by an approving agency. Incising is not required,
+         providing that the retention and penetration requirements of
+         these standards are met.
+
+    2. For SBX disodium octaborate tetrahydrate (DOT), retention shall
+         be not less than 0.28 pcf B2O3 (0.42 = pcf DOT) for exposure to
+         Formosan termites. All such lumber shall be protected from
+         direct weather exposure as directed in AWPA UC1 and UC2.
+
+    3. For structural glued-laminated members made up of dimensional
+         lumber, engineered wood products, or structural composite lumber,
+         pressure treated in accordance with AWPA U1 (UC1 thru UC4B) or by
+         Light Oil Solvent Preservative (LOSP) treatment standard as
+         approved by the building official. Water based treatment
+         processes as listed in paragraphs 1 and 2 are not allowed to be
+         used on these products unless specified by a structural engineer
+         for use with reduced load values and permitted by the product
+         manufacturer.
+
+    4. For structural composite wood products, treated by non-pressure
+         processes in accordance with AWPA Standard U1 (UC1, UC2 and UC3A)
+         or approved by the building official.
+
+2303.1.9.1 Treatment. Wood treatment shall include the following:
+    1. A quality control and inspection program which meets or exceeds
+         the current requirements of AWPA Standards M2-01 and M3-03;
+    2. Inspection and testing for the treatment standards as adopted by
+         this code shall be by an independent agency approved by the
+         building official, accredited by the American Lumber Standards
+         Committee (ALSC) and contracted by the treating company;
+    3. Field protection of all cut surfaces with a preservative, which
+         shall be applied in accordance with AWPA Standard M4-02 or in
+         accordance with the approved preservative manufacturer's ICC-
+         Evaluation Services report requirements.
+
+2303.1.9.2 Labeling. Labeling shall be applied to all structural
+lumber 2 inches or greater nominal thickness, with the following
+information provided on each piece as a permanent ink stamp on one
+face or on a durable tag permanently fastened to ends with the
+following information:
+
+    1. Name of treating facility;
+    2. Type of preservative;
+    3. AWPA use category;
+    4. Quality mark of third party inspection agency;
+    5. Retention minimum requirements; and
+    6. Year of treatment.
+All lumber less than 2 inches in nominal thickness, shall be
+identified per bundle by means of a label consisting of the above
+requirements. Labels measuring no less than 6 inches by 8 inches
+shall be placed on the lower left corner of the strapped bundle.
+
+2303.1.9.3 Moisture content. Where preservative-treated wood treated
+with a water-borne preservative is used in enclosed locations where
+
+                                    Hawaii State Building Code - 16
+       drying in service cannot readily occur, such wood shall be at a
+       moisture content of 19 percent or less before being covered with
+       insulation, interior wall finish, floor covering or other material".
+
+49. Wood structural panel sheathing.
+       Section 2304.6.1 is amended in Sections W107 and W108 of Appendix W.
+
+50. Wood structural panel sheathing.
+       Section 2304.7.5 is amended in Section W109 of Appendix W.
+
+51. Protection against decay and termites.
+       Section 2304.12 is deleted in its entirety and replaced to read as
+       follows:
+       "2304.12 Protection against decay and termites.
+       2304.12.1 General. Where required by this section, protection from
+       decay and termites shall be provided by the use of naturally durable
+       or preservative-treated wood.
+
+       2304.12.2 Wood used above ground. Structural lumber installed above
+       ground shall be preservative-treated wood in accordance with Section
+       2303.1.8.
+
+       2304.12.2.1 Soil treatment and termite barriers. Where structural
+       lumber of wood frame buildings or structures are supported directly on
+       the ground by a concrete slab, or concrete and/or masonry foundation,
+       Formosan subterranean termite protection shall be provided by either
+       chemically treating the soil beneath and adjacent to the building or
+       structure by a Hawaii licensed pest control operator, or stainless
+       steel termite barrier, or other termite protection measures approved
+       by the building official.
+       All soil treatment, stainless steel termite barrier, and termite
+       protection measures shall be installed according to manufacturer's
+       recommendations for control of Formosan subterranean termites, with
+       chemical barriers applied at the maximum label rates.
+
+       2304.12.3 Wood in ground contact. Wood supporting permanent buildings
+       and structures, which is in direct soil contact or is embedded in
+       concrete or masonry in direct contact with earth shall be treated to
+       the appropriate commodity specification of AWPA Standard U1.
+       Wood in direct soil contact but not supporting any permanent buildings
+       or structures shall be treated to the appropriate commodity
+       specification of AWPA Standard U1 for ground contact.
+
+       2304.12.4 Retaining walls. Wood in retaining or crib wall shall be
+       treated to AWPA Standard U1.
+
+       2304.12.5 Wood and earth separation. Where wood is used with less
+       than 6-inch vertical separation from earth (finish grade), the wood
+       shall be treated for ground-contact use.
+       Where planter boxes are installed adjacent to wood frame walls, a 2-
+       inch-wide (51 mm) air space shall be provided between the planter and
+       the wall. Flashings shall be installed when the air space is less
+
+                                           Hawaii State Building Code - 17
+       than 6 inches (152 mm) in width. Where flashing is used, provisions
+       shall be made to permit circulation of air in the air space. The
+       wood-frame wall shall be provided with an exterior wall covering
+       conforming to the provisions of section 2304.6.
+
+       2304.12.6 Under-floor clearance for access and inspection. Minimum
+       clearance between the bottom of floor joists or bottom of floors
+       without joists and the ground beneath shall be 24 inches; the minimum
+       clearance between the bottom of girders and the ground beneath shall
+       be 18 inches.
+       Exception: Open slat wood decks shall have ground clearance of at
+       least 6 inches for any wood member.
+
+       Accessible under-floor areas shall be provided with a minimum 18 inch-
+       by 24 inch access opening, effectively screened or covered. Pipes,
+       ducts and other construction shall not interfere with the
+       accessibility to or within under-floor areas.
+
+       2304.12.7 Wood used in retaining walls and cribs. Wood installed in
+       retaining or crib walls shall be preservative treated in accordance
+       with AWPA U1 (Commodity Specifications A or F) for soil and fresh
+       water use.
+
+       2304.12.8 Weather exposure. All portions of timbers (over 5-inch
+       nominal width) and glued-laminated timbers that form structural
+       supports of a building or other structure shall be protected by a
+       roof, eave, overhangs, flashings, or similar coverings.
+       All wood or wood composite panels, in weather-exposed applications,
+       shall be of exterior type.
+
+       2304.12.9 Water splash. Where wood-frame walls and partitions are
+       covered on the interior with plaster, tile or similar materials and
+       are subject to water splash, the framing shall be protected with
+       approved waterproof paper conforming to Section 1404.2.
+
+       2304.12.10 Pipe and other penetrations. Insulations around plumbing
+       pipes shall not pass through ground floor slabs. Openings around
+       pipes or similar penetrations in a concrete or masonry slab, which is
+       in direct contact with earth, shall be filled with non-shrink grout,
+       BTB, or other approved physical barrier.
+
+52. Conventional light-frame construction.
+       Section 2308.1 is amended to read as follows:
+       "2308.1 General. The requirements of this section are intended for
+       conventional light-frame construction. Other construction methods are
+       permitted to be used, provided that a satisfactory design is submitted
+       showing compliance with other provisions of this code. Interior non
+       load-bearing partitions, ceilings and curtain walls of conventional
+       light-frame construction are not subject to the limitations of Section
+       2308.2. Detached one- and two-family dwellings and townhouses not more
+       than three stories above grade plane in height with a separate means
+       of egress and their accessory structures shall be permitted to comply
+
+                                           Hawaii State Building Code - 18
+       with the State Residential Code subject to the limitations of Sections
+       2308.2 and 101.2.
+
+       2308.1.1 Portions exceeding limitations of conventional light-frame
+       construction.
+       Where portions of a building of otherwise conventional light-frame
+       construction exceed the limits of Section 2308.2 and the other
+       provisions of this code, those portions and the supporting load path
+       shall be designed in accordance with accepted engineering practice and
+       the provisions of this code. For the purposes of this section, the
+       term "portions" shall mean parts of buildings containing volume and
+       area such as a room or a series of rooms. The extent of such design
+       need only demonstrate compliance of the nonconventional light-framed
+       elements with other applicable provisions of this code and shall be
+       compatible with the performance of the conventional light-framed
+       system".
+
+53. Wood Frame Construction Manual
+       Section 2309.1 is amended to read as follows:
+       "2309.1 Wood Frame Construction Manual. Structural design in
+       accordance with the AWC WFCM shall be permitted for buildings assigned
+       to Risk Category I or II subject to the limitations of Section 1.1.3
+       of the AWC WFCM, Section 1609.1.1.1 and the load assumptions contained
+       therein. Structural elements beyond these limitations shall be
+       designed in accordance with accepted engineering practice".
+
+54. Elevators and Conveying Systems
+       Section 3001.1 is amended as follows:
+       3001.1 Scope. This chapter governs the design and construction of the
+       building elements for elevator and conveying systems. The design,
+       construction, installation, alteration, repair and maintenance of
+       elevators and conveying systems and their components are regulated by
+       the State of Hawaii, Department of Labor and Industrial Relations,
+       Hawaii Occupational Safety and Health Division, Boiler and Elevator
+       Inspection Branch.
+
+55. Elevators and Conveying Systems.
+       Section 3008 Occupant Evacuation Elevators is deleted in its entirety.
+
+                                           Hawaii State Building Code - 19
+56. Appendix U � Hawaii hurricane sheltering provisions for new construction.
+       Appendix U is added to read as follows:
+
+                                                              "APPENDIX U
+                  Hawaii Hurricane Sheltering Provisions for New Construction
+
+       Section U101 Community Storm Shelters.
+       Section 423 is deleted and replaced to read as follows:
+
+       "SECTION 423 COMMUNITY STORM SHELTERS
+
+       423.1 General. In addition to other applicable requirements in this
+       code, designated earthquake, hurricane or other community storm shelters
+       shall be constructed in accordance with ICC-500.
+
+       423.1.1 Scope. This section applies to the construction of storm
+       shelters constructed as separate detached buildings or constructed as
+       safe rooms within buildings for the purpose of providing safe refuge
+       from storms that produce high winds, such as hurricanes. Such structures
+       shall be designated to be hurricane shelters.
+
+       423.2 Definitions. The following words and terms shall, for the purposes
+       of this chapter and as used elsewhere in this code, have the meanings
+       shown herein.
+
+       COMMUNITY STORM SHELTER. A building, structure, or portion thereof,
+       constructed in accordance with ICC/NSSA 500 Standard on the Design and
+       Construction of Storm Shelters and designated for use during a severe
+       wind storm event such as a hurricane."
+
+       Section U102 Hawaii Residential Safe Room.
+       Chapter 4 is amended by adding Section 429 to read as follows:
+
+       "SECTION 429 HAWAII RESIDENTIAL SAFE ROOM
+
+       429.1 Performance-based design criteria. The residential safe room
+       shall meet the minimum performance specifications of Sections 429.1.1
+       through 429.10.
+
+       429.1.1 Intent and scope. The intent of the residential safe room is
+       to temporarily provide an enhanced protection area, fully enclosed
+       within a dwelling or within an accessory structure to a residence,
+       which is designed and constructed to withstand the wind pressures,
+       windborne debris impacts, and other requirements of this section.
+
+       429.1.2 Alternative standards.
+            1. Manufactured safe room designs subject to approval. A
+                 manufactured safe room or safe room kit may be substituted if
+                 documentation is submitted and approved by the building official.
+                 The safe room shall be engineered, tested, and manufactured to
+                 meet or exceed the criteria of this section.
+
+                                           Hawaii State Building Code - 20
+    2. FEMA in-residence shelter designs permitted. It shall be
+         permissible to build FEMA In-Residence Shelters of up to 64
+         square feet of floor area with walls up to 8 feet long that are
+         built in accordance with construction details of FEMA 320.
+
+429.2 Site criteria. Residential safe rooms shall not be constructed
+within areas subject to stream flooding, coastal flooding or dam
+failure inundation within any of the following areas:
+
+    1. FEMA Special Flood Hazard Areas (SFHA) subject to rainfall runoff
+         flooding or stream or flash flooding;
+
+    2. Coastal zones "V" or "A" identified in the Flood Insurance Rate
+         Map (FIRM) issued by FEMA for floodplain management purposes, in
+         which the flood hazard are tides, storm surge, waves, tsunamis,
+         or a combination of these hazards;
+
+    3. Areas subject to dam failure inundation as determined by the
+         Department of Land and Natural Resources.
+
+429.3 Size of safe room. The safe room shall be designed to provide a
+minimum of 15 square feet per person in a room which does not need to
+exceed 120 square feet (11 m2) of floor area.
+
+429.4 Provisions for exiting. The safe room shall be equipped with an
+inward-swinging interior door and an impact-protected operable window
+or exterior door suitable for a means of alternative exiting in an
+emergency.
+
+429.5 Design for dead, live, wind, rain, and impact loads.
+
+429.5.1 Structural integrity criteria.
+    1. The residential safe room shall be built with a complete
+         structural system and a complete load path for vertical and
+         lateral loads caused by gravity and wind.
+    2. The building that the residential safe room is in shall be
+         assumed to be destroyed by the storm and shall not be taken as
+         offering any protective shielding to the safe room enclosure.
+    3. The ceiling structure and wall shall be capable of supporting a
+         superimposed debris load of the full weight of any building
+         floors and roof above, but not less than 125 psf.
+    4. The residential safe room enclosure shall be capable of
+         simultaneously resisting lateral and uplift wind pressures
+         corresponding to a 145 mph 3-second peak gust ultimate design
+         wind speed, determined in accordance with ASCE 7, Minimum Design
+         Loads for Buildings and Other Structures. The site exposure
+         factor shall be based on exposure C or the exposure shown in
+         Figure 1609.4, whichever is the greater. The values for the gust
+         factor and the directionality factor shall be taken as 0.85.
+         Topographic wind amplification caused by mountainous terrain
+         shall be considered in accordance with the building code.
+         Internal pressure shall be determined in accordance with ASCE 7.
+    5. The residential safe room shall be anchored to a foundation
+         system capable of resisting the above loading conditions.
+
+                                    Hawaii State Building Code - 21
+429.5.2 Windborne debris impact protection of building enclosure
+
+elements. The entire enclosure of the safe room, including all walls,
+ceilings, and openings, fixed or operable windows, and all entry doors
+into the safe room, shall meet or exceed Level D requirements of ASTM
+E 1996 (Table 422.5-1), or be an approved assembly listed in Section
+429.5.4. Any wall or ceiling penetration greater than 4 square inches
+shall be considered an opening.
+Exception: Electrical outlet boxes and interior lighting switches not
+penetrating more than 2.5-inches into the interior wall surface and a
+plumbing piping or conduit not greater than 1.5-inch in diameter shall
+be exempted from this requirement.
+
+429.5.3 Cyclic pressure loading of glazing and protective systems.
+Impact protective systems shall meet the ASTM E 1996 cyclic pressure
+requirement for the loading given in Table 429.5-1.
+
+Table 429.5-1
+Windborne Debris Protection and Cyclic Pressure Criteria for
+
+Residential Safe Rooms
+
+ASTM E         Debris Missile    Debris    Enclosure Wall
+1996           Size              Impact    Ceiling, and Floor
+Missile                          Speed     Cyclic Air Pressure
+Level                                      Testing - maximum
+Rating                                     inward and maximum
+                                           outward pressures
+
+               2 x 4 weighing    50
+
+D              9.0 lb. +/- 0.25  ft./sec.  35 psf inward
+               lb., and with     or at     45 psf outward
+               min. length 8     least 34
+
+               ft. +/- 4-inch    mph
+
+429.5.4 Approved Debris Impact Resistant Wall Assemblies. The
+following methods of wall assembly construction shall be deemed to
+comply with Section 429.5.2:
+
+    1. 3/4-inch plywood on wood studs spaced at 16 inches on-center
+           with #8 X 3 inch wood screws at 6 inches on-center.
+
+    2. 3/4-inch plywood attached to double studs spaced at 16 inches
+           on-center with #8 X 3 inch wood screws at 6 inches on-center.
+
+    3. 8-1/4 inch cementitious lap siding over 22 gage sheet metal
+           attached to 350S-162-33 studs spaced at 24 inches on-center.
+
+    4. 8-1/4 inch cementitious lap siding attached to 350S-162-33 studs
+           spaced at 24 inches on-center studs with interior �-inch
+           interior plywood sheathing.
+
+    5. 8-1/4 inch cementitious lap siding attached to 350S-162-33 studs
+           spaced at 24 inches on-center with �-inch interior 22 gage sheet
+           metal composite gypsum wallboard.
+
+    6. 8-1/4 inch cementitious lap siding attached to 2 inch X 4 inch
+           wood studs spaced at 16 inches on-center with �-inch interior 22
+           gage sheet metal composite gypsum wallboard.
+
+               Hawaii State Building Code - 22
+    7. 8-1/4 inch cementitious lap siding attached to 2 inch X 4 inch
+           wood studs spaced at 16 inches on-center with 22 gage sheet
+           metal and 1/2-inch interior gypsum wallboard.
+
+    8. Cementitious lap siding attached to 5/8-inch structural plywood
+           on 2 inch X 4 inch wood studs spaced at 16 inches on-center.
+
+    9. Cementitious-panel siding attached to 5/8-inch structural
+           plywood on 2 inch X 4 inch or 362S-137-43 steel studs spaced at
+           16 inches on-center.
+
+    10. EFS with 1/2-inch dens-glass gold exterior sheathing on 362S-
+           137-43 steel studs spaced at 16 inches on-center and 1/2-inch
+           interior gypsum wallboard.
+
+    11. 24 gage steel sheet (50 ksi) on girts.
+    12. Concrete with a thickness of 4 inches with reinforcing.
+    13. Concrete masonry units with a thickness of 6 inches with partial
+
+           grouting and reinforcing spaced at 24 inches on-center.
+    14. Concrete masonry units with a thickness of 8 inches with partial
+
+           grouting and reinforcing spaced at 24 inches on-center.
+    15. Interior or exterior wall with laterally braced 2 inch x 4 inch
+
+           wood studs with sheathing on either side of 22 gage sheet metal.
+
+Sheathing shall be attached to studs with fasteners at 6 inches (152
+mm) on center for edge and field fastening.
+
+429.6 Ventilation. The residential safe room shall be naturally
+ventilated to allow the enclosure to have approximately one air change
+every two hours. This requirement may be satisfied by 12 square
+inches of venting per occupant. There shall be at least two operable
+vents. The vents shall be protected by a cowling or other device that
+shall be impact tested to comply with ASTM E 1996-14 Level D.
+Alternatively, the room shall be evaluated to determine if the
+openings are of sufficient area to constitute an open or partially
+enclosed condition as defined in ASCE 7.
+
+429.7 Communications. The residential safe room shall be equipped
+with a phone line and telephone that does not rely on a separate
+electrical power outlet. Alternatively, a wireless telephone shall be
+permitted to rely on an Uninterruptible Power Supply (UPS) battery
+device.
+
+429.8 Construction documents. Construction documents for the
+residential safe room shall be directly prepared by a Hawaii licensed
+professional structural engineer.
+
+429.9 Special inspection. The construction or installation of the
+residential safe room shall be verified for conformance to the
+drawings in accordance with the appropriate requirements of Chapter
+17.
+
+429.10 Notification. The owner of the safe room shall notify the
+state department of defense and county civil defense agency of the
+property's tax map key or global positioning system coordinates."
+
+                                    Hawaii State Building Code - 23
+Section U103 State- and County-owned public high occupancy buildings -
+
+design criteria for enhanced hurricane protection areas.
+Chapter 4 is amended by adding Section 430 to read as follows:
+
+"SECTION 430 STATE- AND COUNTY-OWNED PUBLIC HIGH OCCUPANCY BUILDINGS -
+
+DESIGN CRITERIA FOR ENHANCED HURRICANE PROTECTION AREAS
+
+430.1 Intent. The purpose of this section is to establish minimum
+life safety design criteria for enhanced hurricane protection areas in
+high occupancy state- and county-owned buildings occupied during
+hurricanes of up to Saffir Simpson Category 3.
+
+430.2 Scope. This section shall apply to state- and county-owned
+buildings which are of Risk Category III and IV defined by Table
+1604.5 and of the following specific occupancies:
+
+    1. Enclosed and partially enclosed structures whose primary
+         occupancy is public assembly with an occupant load greater than
+         300.
+
+    2. Health care facilities with an occupant load of 50 or more
+         resident patients, but not having surgery or emergency treatment
+         facilities.
+
+    3. Any other state- and county-owned enclosed or partially enclosed
+         building with an occupant load greater than 5,000.
+
+    4. Hospitals and other health care facilities having surgery or
+         emergency treatment facilities.
+
+Exception: Facilities located within flood zone V and flood zone A
+that are designated by the owner to be evacuated during hurricane
+warnings declared by the National Weather Service, shall not be
+subject to these requirements.
+
+430.3 Site criteria.
+430.3.1 Flood zones. Comply with ASCE 24-14, Flood Resistant Design
+and Construction, based on provisions for Risk Category III.
+
+    1. Floor slab on grade shall be 1.5 foot above the base flood
+         elevation of the county's flood hazard map, or a higher elevation
+         as determined by a modeling methodology that predicts the maximum
+         envelope and depth of inundation including the combined effects
+         of storm surge and wave actions with respect to a Category 3
+         hurricane, nor less than the flood elevation associated with a
+         500-year mean recurrence interval.
+
+    2. Locate outside of V and Coastal A flood zones unless justified by
+         site-specific analysis or designed for vertical evacuation in
+         accordance with a method approved by the building official. When
+         a building within a V or Coastal A flood zone is approved, the
+         bottom of the lowest structural framing member of any elevated
+         first floor space shall be 2 feet above the base flood elevation
+         of the county's flood hazard map, or at higher elevation as
+         determined by a modeling methodology that predicts the maximum
+         envelope and depth of inundation including the combined effects
+         of storm surge and wave actions with respect to a Category 3
+
+                                    Hawaii State Building Code - 24
+         hurricane, nor less than the flood elevation associated with a
+         500-year mean recurrence interval.
+
+430.3.2 Emergency vehicle access. Provide at least one route for
+emergency vehicle access. The portion of the emergency route within
+the site shall be above the 100-year flood elevation.
+
+430.3.3 Landscaping and utility laydown impact hazards. Landscaping
+around the building shall be designed to provide standoff separation
+sufficient to maintain emergency vehicle access in the event of mature
+tree blowdown. Trees shall not interfere with the functioning of
+overhead or underground utility lines, nor cause laydown or falling
+impact hazard to the building envelope or utility lines.
+
+430.3.4 Adjacent buildings. The building shall not be located within
+1,000 feet of any hazardous material facilities defined by Table
+1604.5. Unanchored light-framed portable structures shall be not
+permitted within 300 feet of the building, unless the windborne debris
+hazard of the portable structure uplift is mitigated.
+
+430.4 Enhanced hurricane protection area program requirements.
+
+430.4.1 Applicable net area. At least 50 per cent of the net square
+feet of a facility shall be constructed to qualify as an enhanced
+hurricane protection area. The net floor area shall be determined by
+subtracting from the gross square feet the floor area of excluded
+spaces, exterior walls, columns, fixed or movable objects, equipment
+or other features that under probable conditions cannot be removed or
+stored during use as a storm shelter.
+
+430.4.2 Excluded spaces. Spaces such as mechanical rooms, electrical
+rooms, storage rooms, attic and crawl spaces, shall not be considered
+as net floor area permitted to be occupied during a hurricane.
+
+430.4.3 Occupancy capacity. The occupancy capacity shall be
+determined by dividing the net area of the enhanced hurricane
+protection area by 15 square feet net floor area per person.
+
+430.4.4 Toilets and hand washing facilities. Toilet and hand washing
+facilities shall be located and accessible from within the perimeter
+of the enhanced hurricane protection area.
+
+430.4.5 Accessibility. Where the refuge occupancy accommodates more
+than 50 persons, provide an ADA-accessible route to a shelter area at
+each facility with a minimum of 1 wheelchair space for every 200
+enhanced hurricane protection area occupants determined in accordance
+with Section 430.4.3.
+
+430.5 Design wind, rain, and impact loads.
+430.5.1 Structural design criteria. The building main wind force
+resisting system and structural components shall be designed per ASCE
+7 for a 145 mph minimum peak 3-second gust ultimate design wind speed.
+
+                                    Hawaii State Building Code - 25
+Topographic and directionality factors shall be the site-specific
+values determined per Appendix W. Design for interior pressure shall
+be based on the largest opening in any exterior facade or roof
+surface.
+
+430.5.2 Windborne debris missile impact for building enclosure
+elements. Exterior glazing and glazed openings, louvers, roof
+openings and doors shall be provided with windborne debris impact
+resistance or protection systems conforming to ASTM E1996-14 Level D,
+i.e., 9 lb. 2 X 4 @ 50 fps (34 mph).
+
+430.5.3 Cyclic pressure loading of impact resistive glazing or
+windborne impact protective systems. Resistance to the calculated
+maximum inward and outward pressure shall be designed to conform to
+ASTM E1996-14.
+
+430.5.4 Windows. All unprotected window assemblies and their
+anchoring systems shall be designed and installed to meet the wind
+load and missile impact criteria of this section.
+
+430.5.5 Window protective systems. Windows may be provided with
+permanent or deployable protective systems, provided the protective
+system is designed and installed to meet the wind load and missile
+impact criteria and completely covers the window assembly and
+anchoring system.
+
+430.5.6 Doors. All exterior and interior doors subject to possible
+wind exposure or missile impact shall have doors, frames, anchoring
+devices, and vision panels designed and installed to resist the wind
+load and missile impact criteria or such doors, frames, anchoring
+devices, and vision panels shall be provided with impact protective
+systems designed and installed to resist the wind load and missile
+impact criteria of this section.
+
+430.5.7 Exterior envelope. The building enclosure, including walls,
+roofs, glazed openings, louvers and doors, shall not be perforated or
+penetrated by windborne debris, as determined by compliance with ASTM
+E1996-14 Level D.
+
+430.5.8 Parapets. Parapets shall satisfy the wind load and missile
+impact criteria of the exterior envelope.
+
+430.5.9 Roofs
+430.5.9.1 Roof openings. Roof openings (e.g., HVAC fans, ducts,
+skylights) shall be provided with protection for the wind load and
+missile impact criteria of Sections 430.5.2 and 430.5.3.
+
+430.5.9.2 High wind roof coverings. Roof coverings shall be specified
+and designed according to the latest ASTM Standards for high wind
+uplift forces and Section 1507, whichever is the greater.
+
+                                    Hawaii State Building Code - 26
+430.5.9.3 Roof drainage. Roofs shall have adequate slope, drains and
+overflow drains or scuppers sized to accommodate 100-year hourly
+rainfall rates in accordance with Section 1611.1, but not less than 2-
+inches per hour for 6 continuous hours.
+
+430.6 Ventilation
+430.6.1 Mechanical ventilation. Mechanical ventilation as required in
+accordance with the International Mechanical Code. Air intakes and
+exhausts shall be designed and installed to meet the wind load and
+missile impact criteria of Sections 430.5.2 and 430.5.3.
+
+430.6.2 HVAC equipment anchorage. HVAC equipment mounted on roofs and
+anchoring systems shall be designed and installed to meet the wind
+load criteria. Roof openings for roof-mounted HVAC equipment shall
+have a 12-inch-high curb designed to prevent the entry of rain water.
+
+430.7 Standby electrical system capability. Provide a standby
+emergency electrical power system per Chapter 27 and NFPA 70 Article
+700 Emergency Systems and Article 701 Legally Required Standby
+Systems, which shall have the capability of being connected to an
+emergency generator or other temporary power source. The emergency
+system capabilities shall include:
+
+    1. An emergency lighting system;
+    2. Illuminated exit signs;
+    3. Fire protection systems, fire alarm systems and fire sprinkler
+
+         systems; and
+    4. Minimum mechanical ventilation for health/safety purposes.
+
+430.7.1 Emergency generator. When emergency generators are pre-
+installed, the facility housing the generator, permanent or portable,
+shall be an enclosed area designed to protect the generators from wind
+and missile impact.
+Generators hardened by the manufacturer to withstand the area's design
+wind and missile impact criteria shall be exempt from the enclosed
+area criteria requirement.
+
+430.8 Quality assurance
+430.8.1 Information on construction documents. Construction documents
+shall include design criteria, the occupancy capacity of the enhanced
+hurricane protective area, and Project Specifications shall include
+opening protection devices. Floor plans shall indicate all enhanced
+hurricane protection area portions of the facility and exiting routes
+there from. The latitude and longitude coordinates of the building
+shall be recorded on the construction documents.
+
+430.8.2 Special inspection. In addition to the requirements of
+Chapter 17, special inspections shall include at least the following
+systems and components:
+
+    1. Roof cladding and roof framing connections;
+    2. Wall connections to roof and floor diaphragms and framing;
+    3. Roof and floor diaphragm systems, including collectors, drag
+
+         struts and boundary elements;
+
+                                    Hawaii State Building Code - 27
+    4. Vertical windforce-resisting systems, including braced frames,
+         moment frames and shear walls;
+
+    5. Windforce-resisting system connections to the foundation; and
+    6. Fabrication and installation of systems or components required to
+
+         meet the impact-resistance requirements of Section 1609.1.2.
+Exception: Fabrication of manufactured systems or components that have
+a label indicating compliance with the wind-load and impact-resistance
+requirements of this code.
+
+430.8.3 Quality assurance plan. A construction quality assurance
+program shall be included in the construction documents and shall
+include:
+
+    1. The materials, systems, components, and work required to have
+         special inspection or testing by the building official or by the
+         registered design professional responsible for each portion of
+         the work;
+
+    2. The type and extent of each special inspection;
+    3. The type and extent of each test;
+    4. Additional requirements for special inspection or testing for
+
+         seismic or wind resistance; and
+    5. For each type of special inspection, identification as to whether
+
+         it will be continuous special inspection or periodic special
+         inspection.
+
+430.8.4 Peer review. Construction documents shall be independently
+reviewed by a Hawaii-licensed structural engineer. A written opinion
+report of compliance shall be submitted to Hawaii Emergency Management
+Agency, the building official, and the owner.
+
+430.9 Maintenance. The building shall be periodically inspected every
+three years and maintained by the owner to ensure structural integrity
+and compliance with this section. A report of inspection shall be
+furnished to the State Civil Defense.
+
+430.10 Compliance re-certification when altered, deteriorated, or
+damaged. Alterations shall be reviewed by a Hawaii-licensed
+structural engineer to determine whether any alterations would cause a
+violation of this section. Deterioration or damage to any component
+of the building shall require an evaluation by a Hawaii-licensed
+structural engineer to determine repairs necessary to maintain
+compliance with this section."
+
+                                    Hawaii State Building Code - 28
+57. Appendix W � Hawaii wind design provisions for new construction.
+       Appendix W is added to read as follows:
+
+                                                              "APPENDIX W
+                          Hawaii Wind Design Provisions for New Construction
+
+       W101 Revisions to Chapter 2, Chapter 16 and Chapter 23.
+       Wind design shall be in accordance with this code as amended by
+       Sections W101 through W109.
+
+       W102 Windborne Debris Region definition
+       The definition of "Windborne Debris Region" in Section 202 is amended
+       to read as follows:
+       "WIND-BORNE DEBRIS REGION. Areas in Hawaii where the basic design
+       wind speed is 130 mph (63 m/s) or greater. For Risk Category II
+       buildings and structures, the wind-borne debris region shall be based
+       on Figure 26.5-2B of ASCE 7. For Risk Category III buildings and
+       structures, the wind-borne debris region shall be based on Figure
+       26.5-2C of ASCE 7. For Risk Category IV buildings, the windborne
+       debris region shall be based on Figure 26.5-2D of ASCE 7."
+
+       W103 Revised Notations for Section 1602
+       The following Notations are added to Section 1602:
+       "Veff-asd = Effective allowable stress design wind speed, miles per hour
+       (mph) (km/hr) where applicable, calculated per Section 1609.3.1, that
+       includes the effect of the special Hawaii factors for topographic
+       effects and directionality.
+       V = Basic design wind speeds, miles per hour (mph) (km/hr) determined
+       from Figures 26.5-2A through 26.5-2D of ASCE 7 for the Risk Category,
+       applied to the strength design of the structure.
+       Vunt = Ultimate design wind speed miles per hour, (mph) (km/hr), of the
+       region prior to any pressure calculation adjustments of topographic
+       effects per Section 1609.3.2 or directionality effects per Section
+       1609.3.3."
+
+       W104 Wind design data.
+       Section 1603.1.4 is amended to read as follows:
+       "1603.1.4 Wind design data. The following information related to wind
+       loads shall be shown, regardless of whether wind loads govern the
+       design of the lateral force-resisting system of the structure:
+
+            1. Basic design wind speed, V, miles per hour (km/hr) and effective
+                 allowable stress design wind speed, Veff-asd, as determined in
+                 accordance with Section 1609.3.1.
+
+            2. Risk category.
+            3. Wind exposure. Applicable wind direction if more than one wind
+
+                 exposure is utilized.
+            4. Applicable internal pressure coefficient.
+            5. Design wind pressures to be used for exterior component and
+
+                 cladding materials not specifically designed by the registered
+                 design professional responsible for the design of the structure,
+                 psf (kN/m2)."
+
+                                           Hawaii State Building Code - 29
+W105 Amendments to Section 1609.1 through 1609.4
+Sections 1609.1 through 1609.4 are amended to read as follows:
+"1609.1 Applications.
+Buildings, structures and parts thereof shall be designed to withstand
+the minimum wind loads prescribed herein. Decreases in wind loads
+shall not be made for the effect of shielding by other structures.
+
+1609.1.1 Determination of wind loads.
+Wind loads on every building or structure shall be determined in
+accordance with Chapters 26 to 30 of ASCE 7. Minimum values for
+Directionality Factor, Kd, Velocity Pressure Exposure Coefficient, Kz,
+and Topographic Factor, Kzt, shall be determined in accordance with
+Section 1609. The type of opening protection required, the basic
+design wind speed, V, and the exposure category for a site is
+permitted to be determined in accordance with Section 1609 or ASCE 7.
+Wind shall be assumed to come from any horizontal direction and wind
+pressures shall be assumed to act normal to the surface considered.
+
+Exceptions:
+    1. Subject to the limitations of Section 1609.1.1.1, the provisions
+         of ICC 600 shall be permitted for applicable Group R-2 and R-3
+         buildings.
+    2. Subject to the limitations of Section 1609.1.1.1, residential
+         structures using the provisions of AWC WFCM.
+    3. Subject to the limitations of Section 1609.1.1.1, residential
+         structures using the provisions of AISI S230.
+    4. Designs using NAAMM FP 1001.
+    5. Designs using TIA-222 for antenna-supporting structures and
+         antennas, provided the effect of topography is included in
+         accordance with Section 1609.3.3 Topographic effects.
+    6. Wind tunnel tests in accordance with ASCE 49 and Sections 31.4
+         and 31.5 of ASCE 7.
+
+The wind speeds in Figures 26.5-2A through 26.5-2D of ASCE 7 are basic
+design wind speeds, V, and shall be converted in accordance with
+Section 1609.3.1 to allowable stress design wind speeds, Veff-asd, when
+the provisions of the standards referenced in Exceptions 4 and 5 are
+used.
+
+1609.1.1.1 Applicability
+The provisions of ICC 600 are applicable only to buildings located
+within Exposure B or C as defined in Section 1609.4.
+
+The prescriptive provisions of ICC 600, AWC WFCM, or AISI S230 shall
+not be permitted for either of the following cases:
+
+         1. Structures which are more than three stories above grade plane
+              in height.
+
+         2. Structures designed using exception 3 in Section 1609.2
+              Protection of Openings.
+
+                                    Hawaii State Building Code - 30
+1609.2 Protection of openings.
+
+In windborne debris regions, glazing in buildings shall be impact
+resistant or protected with an impact-resistant covering meeting the
+requirements of an approved impact-resistant standard or ASTM E1996 and
+ASTM E1886 referenced herein as follows:
+
+         1. Glazed openings located within 30 feet (9144 mm) of grade
+              shall meet the requirements of the large missile test of ASTM
+              E1996.
+
+         2. Glazed openings located more than 30 feet (9144 mm) above
+              grade shall meet the provisions of the small missile test of
+              ASTM E1996.
+
+         3. Glazing in Risk Category II, III or IV buildings located over
+              60 feet (18 288 mm) above the ground and over 30 feet (9144
+              mm) above aggregate surface roofs located within 1,500 feet
+              (458 m) of the building shall be permitted to be unprotected.
+
+         4. Glazing in Risk Category IV buildings and structures, and
+              those Risk Category III buildings of the following occupancies
+              shall be provided with windborne debris protection:
+              a. Covered structures whose primary occupancy is public or
+                   educational assembly with an occupant load greater than
+                   300.
+              b. Health care facilities with an occupant load of 50 or more
+                   resident patients, but not having surgery or emergency
+                   treatment facilities.
+              c. Any other public building with an occupant load greater
+                   than 5,000.
+
+         5. Glazing in Risk Category I, II, and other Risk Category III
+              buildings and structures are subject to the following
+              exceptions:
+              Exceptions:
+              1. Wood structural panels with a minimum thickness of 7/16
+                   inch (11.1 mm) and maximum panel span of 8 feet (2438 mm)
+                   shall be permitted for opening protection in buildings with
+                   a mean roof height of 33 feet (10 058 mm) or less that are
+                   classified as a Group R-3 or R-4 occupancy. Panels shall
+                   be precut so that they shall be attached to the framing
+                   surrounding the opening containing the product with the
+                   glazed opening. Panels shall be predrilled as required for
+                   the anchorage method and shall be secured with the
+                   attachment hardware provided. Attachments shall be
+                   designed to resist the components and cladding loads
+                   determined in accordance with the provisions of ASCE 7,
+                   with corrosion-resistant attachment hardware provided and
+                   anchors permanently installed on the building. Attachment
+                   in accordance with Table 1609.2 with corrosion-resistant
+                   attachment hardware provided and anchors permanently
+                   installed on the building is permitted for buildings with a
+                   mean roof height of 45 feet (13 716 mm) or less where Veff-
+                   asd determined in accordance with Section 1609.3.1 does not
+                   exceed 140 mph (63 m/s).
+              2. Glazing in Risk Category I buildings, including greenhouses
+                   that are occupied for growing plants on a production or
+
+                                    Hawaii State Building Code - 31
+                   research basis, without public access shall be permitted to
+                   be unprotected.
+              3. Risk Category II buildings shall be permitted to be
+                   designed with unprotected openings subject to the following
+                   requirements:
+                   a) For each direction of wind, determination of enclosure
+
+                        classification shall be based on the assumption that all
+                        unprotected glazing on windward walls are openings while
+                        glazing on the remaining walls and roof are intact and
+                        are not assumed to be openings.
+                   b) Partially enclosed and open occupancy R-3 buildings
+                        without wind-borne debris protection shall also include a
+                        residential safe room in accordance with Section 425,
+                        Hawaii residential safe room, or alternatively provide an
+                        equivalently sized room structurally protected by
+                        construction complying with Section 429.5.
+
+1609.2.1 Louvers.
+Louvers protecting intake and exhaust ventilation ducts not assumed to
+be open that are located within 30 feet (9144 mm) of grade shall meet
+the requirements of AMCA 540.
+
+1609.2.2 Application of ASTM E1996.
+The text of Section 6.2.2 of ASTM E1996 shall be substituted as
+follows:
+
+6.2.2 Unless otherwise specified, select the wind zone based on the
+basic design wind speed, V, as follows:
+6.2.2.1 Wind Zone 1-130 mph  basic design wind speed, V < 140 mph.
+
+6.2.2.2 Wind Zone 2-140 mph  basic design wind speed, V < 150 mph at
+greater than one mile (1.6 km) from the coastline. The coastline
+shall be measured from the mean high water mark.
+
+6.2.2.3 Wind Zone 3-150 mph (58 m/s)  basic design wind speed, V <
+160 mph (63 m/s), or 140 mph (54 m/s)  basic design wind speed, V 
+160 mph (63 m/s) and within one mile (1.6 km) of the coastline. The
+coastline shall be measured from the mean high water mark.
+
+6.2.2.4 Wind Zone 4 - basic design wind speed, V > 160 mph (63 m/s).
+
+                                    Hawaii State Building Code - 32
+Table 1609.2.2
+
+Wind-Borne Debris Protection Fastening Schedule
+
+For Wood Structural Panels a,b,c,d
+
+                                     Fastener Spacing
+
+Fastener Type            Panel span  Panel span > 4 feet and  Panel span > 6 feet and
+                           4 feet
+                                     6 feet               8 feet
+
+No. 8 Wood screw based
+anchor with 2 inch       16"         10"                 8"
+embedment length
+
+No. 10 Wood screw based  16"         12"                 9"
+anchor with 2-inch
+embedment length
+
+�-inch lag screw based   16"         16"
+anchor with 2-inch                                       16"
+embedment length
+
+For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 pound = 0.454 kg,
+1 mile per hour = 1.609 km/h.
+
+a. This table is based on a 175 mph ultimate design wind speed
+
+and a mean roof height of 45 feet.
+b. Fasteners shall be installed at opposing ends of the wood
+
+structural panel. Fasteners shall be located a minimum of 1 inch
+
+from the edge of the panel.
+
+c. Anchors shall penetrate through the exterior wall covering
+with an embedment length of 2 inches minimum into the building
+
+frame. Fasteners shall be located a minimum of 2-1/2 inches from
+
+the edge of concrete block or concrete.
+d. Where panels are attached to masonry or masonry/stucco, they
+
+shall be attached utilizing vibration-resistant anchors having a
+
+minimum withdrawal capacity of 1,500 pounds.
+
+1609.2.3 Garage doors.
+
+Garage door glazed opening protection for windborne debris shall meet
+the requirements of an approved impact-resisting standard of
+ANSI/DASMA 115.
+
+1609.3 Basic design wind speed.
+
+The basic design wind speed, V, in mph, for the determination of the
+wind loads shall be determined by Figures 26.5-2A through 26.5-2D of
+ASCE 7. The basic design wind speed, V, for use in the design of Risk
+Category II buildings and structures shall be obtained from Figure
+26.5-2B of ASCE 7. The basic design wind speed, V, for use in the
+design of Risk Category III buildings and structures shall be obtained
+from Figure 26.5-2C of ASCE 7). The basic design wind speed, V, for
+use in the design of Risk Category IV buildings and structures shall
+be obtained from Figure 26.5-2D of ASCE 7. The basic design wind
+speed, V, for use in the design of Risk Category I buildings and
+structures shall be obtained from Figure 26.5-2A of ASCE 7. The basic
+design wind speed, V, shown for Hawaii in Figures 26.5-2A through
+26.5-2D of ASCE 7 include topographic effects near mountainous terrain
+and near gorges, and shall be used with a topographic factor Kzt of 1.0
+and the directionality factors given in Table 26.6-1 of ASCE 7.
+
+                        Hawaii State Building Code - 33
+Alternatively, when determining wind loads using both the explicit
+topographic factors given in section 1609.3.2 and the explicit
+directionality factors of section 1609.3.3, the ultimate design wind
+speed, Vunt, in mph, without topographic effects shall be as follows:
+
+         Risk Category I buildings and structures: 115 mph
+         Risk Category II buildings and structures: 130 mph
+         Risk Category III buildings and structures: 145 mph
+         Risk Category IV buildings and structures: 153 mph
+
+1609.3.1 Wind speed conversion
+
+Where required, the basic design wind speeds of Figures 26.5-2A through
+26.5-2D of ASCE 7, shall be converted to effective allowable stress
+design wind speeds, Veff-asd, using Table 1609.3.1 or Equation 16-33.
+
+          Veff-asd = V .        (Equation 16-33)
+
+where:
+         Veff-asd = Effective Allowable stress design wind speed applicable
+         to methods specified in Exceptions 4 and 5 of Section 1609.1.1
+         and for Section 2308.10.1.
+         V = Basic design wind speeds determined from Figures 26.5-2A
+         through 26.5-2D of ASCE 7.
+
+TABLE 1609.3.1
+WIND SPEED CONVERSIONS a, b, c
+
+V         100 110 120 130 140 150 160 170 180 190 200
+
+Veff-asd  78 85            93   101 108 116 124 132 139 147 155
+
+          For SI: 1 mile per hour = 0.44 m/s.
+          a. Linear interpolation is permitted.
+          b. Veff-asd = Allowable stress design wind speed applicable to
+          methods specified in Exceptions 4 through 5 of Section 1609.1.1.
+          c. V = basic design wind speeds determined from Figures 26.5-2A
+          through 26.5-2D of ASCE 7.
+
+1609.3.2 Topographic effects.
+
+Wind speed-up effects caused by topography shall be included in the
+calculation of wind loads by using the factor Kzt, where Kzt is given in
+Figures 1609.3.2(a) through 1609.3.2(f).
+Exception:
+Site-specific probabilistic analysis of directional Kzt based on wind-
+tunnel testing of topographic speed-up shall be permitted to be
+submitted for approval by the building official.
+Basic design wind speed, V, is determined per Figures 26.5-2A through
+26.5-2D of ASCE 7 that already include topographic effects near
+mountainous terrain and near gorges, which shall be used with a
+topographic factor Kzt of 1.0 and the directionality factors given in
+Table 26.6-1 of ASCE 7.
+
+                           Hawaii State Building Code - 34
+Figure 1609.3.2(a)
+County of Hawaii Peak Gust Topographic Factor Kzt
+
+                                    Hawaii State Building Code - 35
+Figure 1609.3.2(b)
+County of Maui, Island of Maui Peak Gust Topographic Factor Kzt
+
+                                    Hawaii State Building Code - 36
+Figure 1609.3.2(c)
+County of Maui, Island of Molokai Peak Gust Topographic Factor Kzt
+
+                                    Hawaii State Building Code - 37
+Figure 1609.3.2(d)
+County of Maui, Island of Lanai Peak Gust Topographic Factor Kzt
+
+                                    Hawaii State Building Code - 38
+Figure 1609.3.2(e)
+City and County of Honolulu Peak Topographic Factor Kzt for Building
+Heights up to 100 feeta,b
+a. Site-specific probabilistic analysis of directional Kzt based on
+wind-tunnel testing of topographic speed-up shall be permitted to be
+submitted for approval by the building official. For buildings taller
+than 160 feet, this submittal shall include peak gust velocity
+profiles for all wind direction sectors.
+b. At Exposure B sites with ground elevations less than 500 feet, Kzt
+values  1.2 shall be permitted to be reduced for building heights
+greater than 100 feet by multiplying Kzt mapped in Figure 1609.3.2(e)
+by the height adjustments given in the Table 1609.3.2(e).
+Interpolation is permitted.
+
+                                    Hawaii State Building Code - 39
+Table 1609.3.2(e)
+Height Adjustment of Mapped Kzt Values at Sites with Ground Elevation
+Less than 500 feet
+
+Building roof height above  100  120 140 160 180 200 220 240
+ground (ft)
+
+Adjustment factor to Kzt    100% 98% 96% 94% 92% 90% 92% 94%
+1.2
+
+                            Hawaii State Building Code - 40
+Figure 1609.3.2(f)
+County of Kauai Peak Gust Topographic Factor Kzt
+
+                                    Hawaii State Building Code - 41
+1609.3.3 Directionality factor.
+
+The wind directionality factor, Kd, shall be determined from Tables
+1609.3.3(a)(1) through 1609.3.3(a)(3) and 1609.3.3(b)(1) through
+1609.3.3(b)(3), and Figures 1609.3.3(a)(4) and 1609.3.3(b)(4).
+Exception: Basic design wind speed, V, is determined per Figures
+1609.3(5) through 1609.3(8) that already include topographic effects
+near mountainous terrain and near gorges, which shall be used with a
+topographic factor Kzt of 1.0 and the directionality factors given in
+Table 26.6-1 of ASCE 7.
+
+Table 1609.3.3(a)(1)
+
+Kd Values for Main Wind Force Resisting Systems Sited in Hawaii County
+
+a,b
+
+Topographic Location     Main Wind Force Resisting        Main Wind Force Resisting       Biaxially
+on the Island of Hawaii            Systems                    Systems with totally     Symmetric and
+                                                                                       Axisymmetric
+                                                         independent systems in each  Structures of any
+                                                              orthogonal direction
+                                                                                         Height and
+                           Mean Roof       Mean Roof      Mean Roof     Mean Roof       Arched Roof
+                         Height less than     Height      Height less      Height        Structures
+                         or equal to 100                 than or equal
+                                           greater than    to 100 ft.   greater than
+                                ft.           100 ft.                      100 ft.
+
+Sites in North Kohala,
+South Kohala, South
+Kona, South Hilo, and
+ Puna Districts at an    0.65              0.70          0.70           0.75          0.85
+
+elevation not greater
+than 3000 ft.
+
+All other sites          0.70              0.80          0.75           0.80          0.95
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+
+permitted to be submitted for approval by the Building Official, but Kd
+shall have a value not less than 0.65.
+
+                         Hawaii State Building Code - 42
+Table 1609.3.3(a)(2)
+
+Kd Values for Main Wind Force Resisting Systems Sited in Maui County a,b
+
+Topographic Location in Main Wind Force Resisting         Main Wind Force Resisting    Biaxially
+the County of Maui              Systems                   Systems with totally         Symmetric and
+                                                          independent systems in each Axisymmetric
+
+                                                          orthogonal direction         Structures of
+                                                                                       any Height and
+                            Mean Roof       Mean Roof      Mean Roof     Mean Roof      Arched Roof
+                          Height less than     Height      Height less      Height       Structures
+                          or equal to 100                 than or equal
+                                            greater than                 greater than
+
+                          ft.               100 ft.       to 100 ft.     100 ft.
+
+Sites on the Island of    0.60
+Maui at an elevation not                    0.65          0.70           0.75          0.85
+greater than 1000 ft.
+
+Sites on the Island of    0.65
+Maui at an elevation                        .70           0.75           0.80          0.90
+greater than 1000 ft.
+
+All other sites on the
+
+Islands of Molokai and    0.80              0.85          0.80           0.85          0.95
+Lanai
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+permitted to be submitted for approval by the Building Official, but Kd
+shall have a value not less than 0.60.
+
+                          Hawaii State Building Code - 43
+Table 1609.3.3(a)(3)
+
+Kd Values for Main Wind Force Resisting Systems Sited on Oahu, Hawaiia,b
+
+     Topographic Location on Oahu, Main Wind Force Resisting Main Wind Force Resisting          Biaxially
+     Hawaii                                    Systems        Systems with totally              Symmetric and
+
+                                                              independent systems in each Axisymmetric
+                                                              orthogonal direction              Structures of
+                                                                                                any Height and
+                                          Mean Roof Mean Roof Mean Roof Mean Roof                Arched Roof
+                                          Height less Height Height less Height                   Structures
+                                         than or equal greater than than or equal greater than
+                                         to 100 ft. 100 ft.   to 100 ft.  100 ft.
+
+Sites within valleys at an elevation of
+at least 50 ft. but not greater than 500 0.65           0.70  0.70        0.75                  0.85
+
+ft.
+
+Central Oahu above an elevation of
+500 ft, the Ewa and Kapolei plains,
+and coastal areas with Kzt (10m) not     0.75           0.80  0.75        0.80                  0.95
+
+greater than 1.2
+
+All other areas, including Hills,
+Hillsides, Ridges, Bluffs, and
+Escarpments at any elevation or          0.70           0.75  0.75        0.80                  0.90
+
+height; coastal and inland areas with
+Kzt (10m) greater than 1.2
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+
+testing of topography and peak gust velocity profile shall be
+permitted to be submitted for approval by the Building Official, but Kd
+
+shall have a value not less than 0.65.
+
+                                   Hawaii State Building Code - 44
+Figure 1609.3.3(a)(4)
+Kd Values for Main Wind Force Resisting Systems Sited on Kauai County,
+Hawaii a,b
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+permitted to be submitted for approval by the Building Official, but Kd
+shall have a value not less than 0.65.
+
+                                    Hawaii State Building Code - 45
+Table 1609.3.3(b)(1)
+
+Kd Values for Components and Cladding of Buildings Sited in Hawaii
+County a,b
+
+Topographic Location on the Island of             Components and Cladding
+                 Hawaii
+                                            Mean Roof Height     Mean Roof      Risk Category IV
+                                            less than or equal  Height greater   Buildings and
+                                                                                   Structures
+                                                 to 100 ft.      than 100 ft.
+
+Sites in North Kohala, South Kohala, South                      0.70
+Kona, South Hilo, and Puna Districts at an  0.65                                0.75
+
+elevation not greater than 3000 ft.
+
+All other sites                             0.75                0.80            0.85
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+permitted to be submitted for approval by the Building Official, but
+in any case, subject to a minimum value of 0.65.
+
+                 Hawaii State Building Code - 46
+Table 1609.3.3(b)(2)
+Kd Values for Components and Cladding of Buildings Sited in Maui County
+
+a,b
+
+Topographic Location on the County of Maui           Components and Cladding
+
+                                               Mean Roof Height     Mean Roof      Risk Category IV
+                                               less than or equal  Height greater   Buildings and
+                                                                                      Structures
+                                                    to 100 ft.      than 100 ft.
+
+Sites on the Island of Maui at an elevation    0.65                0.70            0.75
+not greater than 1000 ft
+
+Sites on the Island of Maui at an elevation    0.70                0.75            0.85
+greater than 1000 ft.
+
+All other sites on the Islands of Molokai and  0.80                0.85            0.85
+Lanai
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+
+permitted to be submitted for approval by the Building Official, but
+in any case, subject to a minimum value of 0.65.
+
+Hawaii State Building Code - 47
+Table 1609.3.3(b)(3)
+
+Kd Values for Components and Cladding of Buildings Sited on Oahu,
+Hawaii a,b
+
+Topographic Location on Oahu                        Components and Cladding
+
+                                                 Mean Roof          Mean Roof      Risk Category IV
+                                              Height less than     Height greater   Buildings and
+                                              or equal to 100 ft.                     Structures
+                                                                    than 100 ft.
+
+Sites within valleys at an elevation of at    0.65                 0.70            0.75
+least 50 ft. but not greater than 500 ft.
+
+Central Oahu above an elevation of 500 ft,
+the Ewa and Kapolei plains, and coastal       0.75                 0.80            0.85
+
+areas with Kzt (10m) not greater than 1.2
+
+All other areas, including Hills, Hillsides,
+Ridges, Bluffs, and Escarpments at any
+elevation or height; coastal and inland       0.70                 0.75            0.80
+
+areas with Kzt (10m) greater than 1.2
+
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+
+permitted to be submitted for approval by the Building Official, but
+
+in any case, subject to a minimum value of 0.65.
+
+Hawaii State Building Code - 48
+Figure 1609.3.3(b)(4)
+Kd Values for Components and Cladding of Buildings Sited on Kauai
+County, Hawaii a,b
+a. The values of Kd for other non-building structures indicated in
+ASCE-7 Table 26.6-1 shall be permitted.
+b. Site-specific probabilistic analysis of Kd based on wind-tunnel
+testing of topography and peak gust velocity profile shall be
+permitted to be submitted for approval by the Building Official, but Kd
+shall have a value not less than 0.65.
+
+                                    Hawaii State Building Code - 49
+1609.4 Exposure Category.
+For each wind direction considered, an exposure category that
+adequately reflects the characteristics of ground surface
+irregularities shall be determined for the site at which the building
+or structure is to be constructed. Account shall be taken of
+variations in ground surface roughness that arise from natural
+topography and vegetation as well as from constructed features.
+1609.4.1 Wind directions and sectors.
+For each selected wind direction considered, at which the wind loads
+are to be evaluated, the exposure of the building or structure shall
+be determined for the two upwind sectors extending 45 degrees (0.79
+rad) either side of the selected wind direction. The exposures in
+these two sectors shall be determined in accordance with Sections
+1609.4.2 and 1609.4.3 and the exposure resulting in the highest wind
+loads shall be used to represent winds from that direction.
+Exception: Exposure categories shall be permitted to be determined
+using Figures 1609.4(a) through 1609.4(e).
+
+                                    Hawaii State Building Code - 50
+Figure 1609.4 (a)
+Exposure Category Zones for Hawaii County
+
+                                    Hawaii State Building Code - 51
+Figure 1609.4. (b)
+Exposure Category Zones for Island of Maui, Maui County
+
+                                    Hawaii State Building Code - 52
+Figure 1609.4 (c)
+Exposure Category Zones for Islands of Molokai and Lanai, Maui County
+
+                                    Hawaii State Building Code - 53
+Figure 1609.4 (d)
+Exposure Category Zones for the City and County of Honolulu
+
+                                    Hawaii State Building Code - 54
+Figure 1609.4 (e)
+Exposure Category Zones for Kauai County"
+
+                                    Hawaii State Building Code - 55
+W106 Roof-top Solar panels
+Section 1609.5.4 is added to read as follows:
+
+"1609.5.4 Roof-top solar panels for conditions not included in ASCE 7
+
+Chapter 29.
+
+The normal force on other configurations of roof-top panels not
+
+regulated by ASCE 7 Chapter 29 shall be not less than that determined
+
+by Equation 1609-5:
+F = qh(GCp)CN A (lb) (N)              (Equation 1609-5)
+
+Where:
+
+CN = pressure coefficients for monoslope free roofs from ASCE 7-
+
+16 Table 30.8-1 considering each elevated panel as a free roof
+surface in clear wind flow. The angle  used for the
+
+determination of CN shall be measured as the angle of the panel
+
+with respect to the plane of the roof ( in Figure 1609.5-1).
+
+Values of CN for forces on the panel may be taken as the Zone 1
+coefficients.
+
+Exception: Zone 2 coefficients for CN shall be used where the
+
+panel angle, , is greater than 7.5 degrees; panels are located a
+
+distance less than or equal to twice the roof height measured
+
+from a roof corner; and the parapet is greater than 24 inches
+(610 mm) in height above the roof.
+
+GCp = the component and cladding external pressure coefficient
+
+for roofs for the roof zone corresponding to the location of the
+
+solar panel, and the effective wind area shall be that of the
+solar panel. The minimum magnitude of negative pressure values
+
+of GCp in Zone 1 shall be taken as -1.0.
+
+A = the total area of the solar panel element.
+When located in roof zone 2 or 3 as defined in ASCE 7, the force
+
+F shall be applied with an eccentricity equal to a third of the
+
+solar panel width.
+
+1609.5.4.1 Additive panel wind loads. The load on the panel shall be
+applied as point load anchorage reactions additive to the resultant of
+the pressure determined acting on the portion of the roof underlying
+the panel.
+
+1609.5.4.2 Ballasted panels. Panels that are ballasted for uplift
+resistance and tilted at an angle  of 10 degrees or more from a
+horizontal plane shall be designed to resist the force determined by
+Equation 1609-7:
+
+Fballast     F  (    cos     sin   )  (lb) (N) (Equation 1609-7)
+                     cos     sin 
+
+Where:
+F = the normal force on each panel determined in accordance with
+Section 1609.5.4
+ = the angle of the roof plane with respect to horizontal.
+ = the angle of tilt of the panel with respect to the roof plane.
+ = the static friction coefficient between the panel base and its
+bearing surface.
+
+                            Hawaii State Building Code - 56
+Alternatively, to resist uplift and sliding, ballasted panels that are
+tilted at an angle of less than 10 degrees from a horizontal plane
+shall each be ballasted to resist a force equal to 2 times the normal
+force on each panel. Ballasted panels that are tilted at an angle
+between 10 degrees to 25 degrees from a horizontal plane shall each be
+ballasted to resist a force equal to 8 times the normal force on each
+panel.
+1609.5.4.3 Permeability. A reduction of load on the panels for
+permeability of the panel system shall not be permitted unless
+demonstrated by approved wind-tunnel testing or recognized
+documentation for the type of panel system being considered. Testing
+or documentation shall replicate the panel separation spacing and
+height above the roof.
+1609.5.4.4 Shielding. A reduction of load on the panels for shielding
+provided by the roof or other obstruction shall not be permitted
+unless demonstrated by approved wind-tunnel testing or recognized
+documentation for the type of panel system being considered. Testing
+or documentation shall replicate the panel separation spacing and
+height above the roof."
+
+W107 Revisions to Section 2304.6.1.
+Section 2304.6.1 is amended to read as follows:
+"2304.6.1 Wood structural panel sheathing. Where wood structural
+panel sheathing is used as the exposed finish on the exterior of
+outside walls, it shall have an exterior exposure durability
+classification. Where wood structural panel sheathing is used
+elsewhere, but not as the exposed finish, it shall be of a type
+manufactured with exterior glue (Exposure 1 or Exterior). Wood
+structural panel wall sheathing or siding used as structural sheathing
+shall be capable of resisting wind pressures in accordance with
+Section 1609. Maximum effective wind speeds for wood structural panel
+sheathing used to resist wind pressures shall be in accordance with
+Table 2304.6.1 for enclosed buildings with a mean roof height not
+greater than 30 feet (9144 mm)."
+
+                                    Hawaii State Building Code - 57
+W108 Revisions to Table 2304.6.1.
+Table 2304.6.1 is amended to read as follows:
+
+"TABLE 2304.6.1
+
+MAXIMUM EFFECTIVE ALLOWABLE STRESS DESIGN WIND SPEED, Veff-asd PERMITTED
+
+FOR WOOD STRUCTURAL PANEL WALL SHEATHING USED TO RESIST WIND
+
+PRESSURESa,b,c
+
+ MINIMUM NAIL            MINIMUM    MINIMUM    MAXIMU     PANEL NAIL        MAXIMUM EFFECTIVE
+Size Penetration          WOOD      NOMINAL        M       SPACING          ALLOWABLE STRESS
+                                                                            DESIGN WIND SPEED,
+             (inches)  STRUCTURA      PANEL      WALL     Edges     Field
+                              L    THICKNESS     STUD     (inches  (inches       Veff-asdd (MPH)
+                                               SPACING
+                       PANEL SPAN    (inches)   (inches)   o.c.)    o.c.)   Wind exposure category
+                          RATING
+
+                                                                            B  C    D
+
+6d                     24/0        3/8         16         6        12       110 90  85
+                       24/16
+common    1.5                      7/16        16         6        12       110 100 90
+ (2.0" �
+
+0.113")                                                            6        150 125 110
+
+8d                                             16         6        12       130 110 105
+
+common    1.75         24/16       7/16                            6        150 125 110
+ (2.5" �
+0.131")                                                            12       110 90  85
+                                               24         6
+                                                                   6        110 90 85
+
+For SI: 1 inch = 25.4 mm, 1 mile per hour = 0.447 m/s.
+a. Panel strength axis shall be parallel or perpendicular to supports.
+Three-ply plywood sheathing with studs spaced more than 16 inches on
+center shall be applied with panel strength axis perpendicular to
+supports.
+b. The table is based on wind pressures acting toward and away from
+building surfaces in accordance with Chapter 27 of ASCE 7. Lateral
+requirements shall be in accordance with Section 2305 or 2308.
+c. Wood structural panels with span ratings of wall-16 or wall-24
+shall be permitted as an alternative to panels with a 24/0 span
+rating. Plywood siding rated 16 o.c. or 24 o.c. shall be permitted as
+an alternative to panels with a 24/16 span rating. Wall-16 and
+plywood siding 16 o.c. shall be used with studs spaced a maximum of 16
+inches o.c.
+6. Veff-asd shall be determined in accordance with Section 1609.3.1."
+
+                       Hawaii State Building Code - 58
+W109 Revisions to Table 2308.7.5.
+Table 2308.7.5 is amended to read as follows:
+
+"Table 2308.7.5
+
+Required Rating of Approved Uplift Connectors (pounds)a,b,c,d,e,f,g,h,i
+
+Effective Allowable               Roof Span (feet)                 Overhangs
+Stress Design Wind                                                 (pounds/ft)d
+
+      Speed,
+
+Veff-asd, 3-sec gust  12  20  24  28  32                   36  40
+
+        85            -72 -120 -144 -168 -192 -216 -240            -38.55
+                                                                   -43.22
+        90            -91 -152 -182 -213 -243 -274 -304            -53.36
+                                                                   -64.56
+        100           -131 -218 -262 -305 -349 -392 -436           -76.83
+
+        110           -175 -292 -350 -409 -467 -526 -584
+
+        120           -240 -400 -480 -560 -640 -720 -800
+
+        130           -304 -506 -607 -708 -810 -911 -1012          -90.17
+
+For SI: 1 inch = 25.4 mm, 1 foot = 304.8 mm, 1 mile per hour = 1.61
+
+km/hr, 1 pound = 0.454 Kg, 1 pound/foot = 14.5939 N/m.
+a. The uplift connection requirements are based on a 30-foot mean
+roof height located in Exposure B. For Exposure C and for other mean
+roof heights, multiply the above loads by the adjustment coefficients
+
+below.
+
+        Exposure                  Mean Roof Height (feet)
+
+                      15 20 25 30 35 40 45 50 55 60
+
+        B             1.00 1.00 1.00 1.00 1.05 1.09 1.12 1.16 1.19 1.22
+
+        C             1.21 1.29 1.35 1.40 1.45 1.49 1.53 1.56 1.59 1.62
+
+        D             1.47 1.55 1.61 1.66 1.70 1.74 1.78 1.81 1.84 1.87
+
+For SI: 1 inch � 25.4 mm, 1 foot = 304.8 mm, 1 mile per hour = 1.61
+
+km/hr, 1 pound = 0.454 Kg, 1 pound/foot = 14.5939 N/m.
+
+b. The uplift connection requirements are based on the framing being
+spaced 24 inches on center. Multiply by 0.67 for framing spaced 16
+inches on center and multiply by 0.5 for framing spaced 12 inches on
+center.
+c. The uplift connection requirements include an allowance for 10
+pounds of dead load.
+d. The uplift connection requirements do not account for the effects
+of overhangs. The magnitude of the above loads shall be increased by
+adding the overhang loads found in the table. The overhang loads are
+also based on framing spaced 24 inches on center. The overhang loads
+given shall be multiplied by the overhang projection and added to the
+roof uplift value in the table.
+e. The uplift connection requirements are based upon wind loading on
+end zones as defined in Chapter 30, Figure 30.5-1, of ASCE 7.
+Connection loads for connections located a distance of 20 percent of
+the least horizontal dimensions of the building from the corner of the
+building are permitted to be reduced by multiplying the table
+connection value by 0.7 and multiplying the overhang load by 0.8.
+f. For wall-to-wall and wall-to-foundation connections, the capacity
+of the uplift connector is permitted to be reduced by 100 pounds for
+each full wall above. (For example, if a 500-pound rated connector is
+
+                      Hawaii State Building Code - 59
+used on the roof framing, a 400-pound rated connector is permitted at
+the next floor level down.)
+g. Interpolation is permitted for intermediate values of basic wind
+speeds and roof spans.
+h. The rated capacity of approved tie-down devices is permitted to
+include up to a 60-percent increase for wind effects where allowed by
+material specifications.
+i. Veff-asd is determined from Section 1609.3.1"
+
+                                    Hawaii State Building Code - 60
+58. Appendix X � Hawaii provisions for indigenous Hawaiian architecture
+       structures.
+       Appendix X is added to read as follows:
+
+                                                              "APPENDIX X
+            Hawaii Provisions for Indigenous Hawaiian Architecture Structures
+
+       Section X101 General.
+       X101.1 Scope. The provisions of this appendix shall apply exclusively
+       to Indigenous Hawaiian Architecture Structures. The purpose of these
+       provisions is to acknowledge and establish procedures for designing
+       and constructing indigenous Hawaiian architecture structures.
+
+       X101.2 Publications incorporated by reference. The following
+       publications are incorporated by reference and made a part of these
+       provisions. Where there is a conflict between Appendix X and the
+       referenced documents, Appendix X shall prevail.
+
+           1. "Hawaiian Thatched House" (1971), by Russell A. Apple, published
+                by the United States Department of the Interior,
+
+           2. "Hale Construction Standards" (2000), by Francis Sinenci and Bill
+                Sides,
+
+           3. "The Hawaiian Grass House in Bishop Museum" (1988), by Catherine
+                C. Summers, and
+
+           4. "Arts and Crafts of Hawaii", Section II, Houses (1957) by Te Rangi
+                Hiroa (Peter H. Buck)
+
+       X101.3 Definitions. See Chapter 2 for general definitions. As used
+       in this appendix:
+
+       CERTIFIED HALE BUILDER. A person who has obtained a certificate of
+       completion for satisfactorily completing a course in Hawaiian hale
+       construction from the University of Hawaii, or any of its community
+       colleges, or as approved by the Building Official.
+
+       GROUP OF STRUCTURES. A group of indigenous Hawaiian architecture
+       structures that are in close proximity to each other and have an
+       aggregate floor area of 1,800 square feet or less.
+
+       HALE or INDIGENOUS HAWAIIAN ARCHITECTURE STRUCTURE. A structure that
+       is consistent with the design, construction methods and uses of
+       structures built by Hawaiians in the 1800's, which uses natural
+       materials found in the Hawaiian Islands, and complies with this
+       appendix and references.
+
+       SEPARATION. The clear distance between two structures.
+
+       SETBACK. The clear distance between a structure and a property line.
+
+       Section X201 Material requirements.
+       X201.1 Hale materials. Hale shall be constructed using only materials
+       grown and harvested in the State of Hawaii.
+
+                                           Hawaii State Building Code - 61
+X201.2 Wood framing material. The wood members for the hale, such as
+posts and rafters, shall be, but not limited to hardwoods of unmilled,
+straight sections of trunks or branches of the following species:
+
+   1. Casaurina equisitafolia (ironwood).
+   2. Prosopis-allid (kiawe).
+   3. Eucalyptus robusta (eucalyptus).
+   4. Psidium cattleianum (strawberry guava).
+   5. Metrosideros polymorpha (ohia).
+   6. Rizophora mangle (mangrove).
+Exception: Ardisia elliptica (inkberry) may be used only for roof
+purlins as an alternative to specified woods listed in Items 1 through
+6.
+
+X201.3 Roofing and siding. Thatched roofing and siding materials for
+the hale may be any grass or leaf material grown and harvested in the
+State of Hawaii, to include but not be limited to pili, kualohia,
+pueo, kawelu, sugarcane leaves, and ti leaves.
+
+X201.4 Cord. Natural or synthetic cord used for lashing structural
+members of the hale shall be 400 pound test. Cord used for tying
+floating purlins and thatched materials shall be 100 pound test. All
+cord used on the hale shall be shades of green, tan, brown or black.
+
+X201.5 Metal prohibited. Metal shall not be used for the construction
+of the hale.
+
+Section X202 Size and location.
+
+X202.1 Height and size limitation. Hale shall be one-story, detached
+structure not exceeding 1,800 square feet. Hale shall not exceed the
+size indicated in Table X202.1.
+
+Table X202.1
+Maximum Size of Hale (feet)
+
+Hale halawai  Hale ku`ai     Hale noa          Hale wa`a
+                             14 X 24            30 X 60
+30 X 60       14 X 20
+
+X202.2 Zoning requirements. Hale shall comply with minimum yard
+requirements in the zoning codes.
+
+X202.3 Minimum separation. The minimum separation between a hale and
+another structure shall be at least 10 feet for a one-story structure;
+15 feet for a two-story structure; or a distance equal to the height
+of the hale, whichever is more. The minimum separation between two
+hale shall be at least 10 feet or a distance equal to the height of
+the taller hale.
+
+X202.4 Hale Noa. Hale noa structures may only be constructed on
+property where a separate residence exists on the property.
+
+Section X203 Allowable and prohibited uses.
+
+              Hawaii State Building Code - 62
+X203.1 Allowable uses. To the extent permitted by other applicable
+law, allowable uses for hale structures shall be in accordance with
+Table X203.1.
+
+Table X203.1
+
+Allowable Use for Each Hale Type
+
+         Use              Hale halawai    Hale ku`ai      Hale noa      Hale wa`a
+     Eating (ai)             Allowed        Allowed     Not permitted     Allowed
+     Assembling              Allowed        Allowed     Not permitted     Allowed
+      (halawai)                          Not permitted                 Not permitted
+   Sleeping (moe)         Not permitted     Allowed        Allowed        Allowed
+Retailing (e.g., fruits)     Allowed        Allowed     Not permitted     Allowed
+                                                        Not permitted
+       (ku`ai)            Not permitted
+  Storage (papa`a)
+
+X203.2 Prohibited uses and activities. The following uses and
+activities shall be prohibited from occurring within or near the hale:
+
+   1. Cooking.
+   2. Open flames.
+   3. Generators.
+   4. Extension cords.
+   5. Electrical switches, fixtures, or outlets.
+   6. Plumbing faucets, fixtures, or drains.
+   7. Power tools.
+   8. No screen, mesh, plastic or any other similar material shall be
+
+        attached to the hale.
+   9. Hale shall not be used as a food establishment as defined in the
+
+        administrative rules adopted by the state department of health.
+
+X203.3 Maintenance. The hale shall be maintained by the owner to
+ensure structural integrity. Repairs for maintenance of the hale
+shall not require additional building permits.
+
+Section X301 Fire protection.
+
+X301.1 Fire protection classifications. Fire protection for
+Indigenous Hawaiian architecture structures shall be as required in
+Table X301.1.
+
+                          Hawaii State Building Code - 63
+Table X301.1
+Fire Protection Requirements Based on Setback
+
+   Class                               Setback Requirements                                      Fire Protection
+                                                                                                 Requirements
+
+          The structure (or a group of structures) is:
+          1. Located at least 100 feet from any existing structure on the same or
+          neighboring properties; and
+
+          2. Located at least 100 feet from any property line, except as follows:
+          a. If the property line abuts a public way, the 100 feet minimum setback for
+A         that property line shall be reduced by the width of the public way,                    No fire protection is
+          b. If the property line abuts the shoreline, the minimum setback for that              required for the
+          property line shall be the shoreline setback, or                                       structure.
+
+          c. For any hale ku'ai in the agricultural district that is less than 200 square feet,
+          that is completely open on three sides, and that is used as an agricultural
+          products' stand and if the property line abuts a public way, the minimum
+
+          setback for that property line shall be 15 feet.
+
+                                                                                                 Automatic fire sprinkler
+
+                                                                                                 system shall be
+                                                                                                 installed in accordance
+          The structure (or a group of structures) that conforms to applicable zoning            with design standards in
+B         setback requirements but does not satisfy Class A setback requirements.                Section X301.2. An
+
+                                                                                                 electrical permit is
+                                                                                                 required for fire
+                                                                                                 sprinklers systems.
+
+X301.2 Automatic fire sprinklers. The design standards for automatic
+fire sprinklers for Class B indigenous Hawaiian architecture
+structures shall be in accordance with NFPA 13.
+Exception: The design standards for automatic fire sprinklers for
+Class B indigenous Hawaiian architecture structures shall be permitted
+as follows:
+1. 18 gallons per minute for a single head at 140 square feet
+maximum coverage of roof area.
+2. 13 gallons per minute for each subsequent head at 140 square feet
+maximum coverage of roof area per head.
+3. The minimum supply pressure at the base of the riser shall not be
+less than 40 pounds per square inch.
+4. The minimum residual pressure at the highest sprinkler shall be
+not less than 12 pounds per square inch.
+5. Sprinkler head spacing shall not exceed 14 feet.
+6. Sprinkler heads shall be open type upright, pendent, or sidewall
+with 1/2-inch or 17/32-inch orifice and have a wax corrosion resistant
+coating.
+7. The total number of sprinklers on a branch shall not exceed 6
+heads.
+8. The total number of sprinklers shall not exceed the quantity
+shown in Table X301.2(a).
+
+          Hawaii State Building Code - 64
+Table X301.2(a)
+
+Total Number of Fire Sprinklers Based on Pipe Size
+
+                 Piping Size  Number of Sprinklers
+
+ 1 inch diameter              2 sprinklers
+1� inch diameter              3 sprinklers
+1� inch diameter              5 sprinklers
+
+ 2 inch diameter              10 sprinklers
+2� inch diameter              30 sprinklers
+
+3 inch diameter               60 sprinklers
+
+9. The pipe schedule table in Item 8 shall not apply to
+hydraulically designed systems.
+10. The water density shall not be less than 0.10 gpm per square
+foot.
+11. The source of water may be by domestic water meters, detector
+check meter, underground well, storage tank, swimming pool, ponds,
+etc., but must meet the design requirements for adequate pressure and
+duration.
+12. Water supply shall be sufficient to provide 30 minutes duration.
+13. If domestic water meters are used as the source of water for the
+fire sprinklers, without a storage tank and booster pump, the maximum
+number of sprinklers shall not exceed the number shown in Table
+X301.2(b).
+
+Table X301.2(b)
+
+Total Number of Fire Sprinklers Based on Water Meter Size
+
+Size of Water Meter           Number of Sprinklers
+
+5/8 inch water meter          1 sprinkler
+
+� inch water meter            2 sprinklers
+
+1 inch water meter            3 sprinklers
+
+1� inch water meter           7 sprinklers
+
+2 inch water meter            11 sprinklers
+
+3 inch water meter            27 sprinklers
+
+14. The piping material shall be hard drawn copper with silver solder
+or brazed fittings, or carbon steel with corrosion-resistant coatings.
+Plastic pipes shall not be allowed, except for below grade supply
+pipes.
+15. Fire sprinkler system shall be actuated by smoke detectors
+located at the highest points of the roof and spaced as recommended by
+the manufacturer.
+16. Flow control valves shall be either hydraulically or electrically
+operated with a manual override switch.
+17. Where the width of a roof exceeds the width allowed for one row
+of sprinklers, two or more rows of sprinklers shall be placed such
+that the entire roof area is protected.
+18. Prevailing wind direction shall be considered in the placement of
+sprinklers.
+19. Deflectors for sprinklers shall be parallel with the roof surface
+or tilted slightly towards the peak of the roof.
+
+Hawaii State Building Code - 65
+20. Fire sprinklers system shall have a local alarm activated by a
+smoke detector.
+
+X301.3 Certification of water supply. For any hale that requires fire
+protection pursuant to Section X301.1, the applicant shall provide a
+certification from a licensed engineer or a licensed C-20 contractor
+that the water supply for the fire sprinkler system has been tested
+and is capable of delivering the required fire flow for 30 minutes
+duration.
+
+X302 Smoke alarm. Any hale used for sleeping shall have an approved
+battery operated smoke alarm installed in the hale.
+
+Section X401 Design standards.
+X401.1 General design standards. All types of hale shall be designed
+and constructed in accordance with the standards set out in this
+section.
+1. The minimum diameter size of all structural members shall be
+measured at the member's midpoint, except that the minimum diameter
+size of posts shall be measured at the smaller end. For structure
+sizes not specifically shown in the tables, the requirements in the
+next larger width size shall be applicable.
+2. The specifications for structural members were estimated based on
+no wind loads. Hale shall be constructed to allow all thatching
+materials to separate from the structure prior to adding significant
+loads.
+3. The mix formula for mortar specified in these rules shall be one
+part portland cement, four parts clean sand, and sufficient fresh
+water to make the mixture workable.
+4. Every hale, except hale noa, shall have at least two sides
+completely open.
+5. Lashing and thatching methods shall comply with illustrations
+found in "Arts and Crafts of Hawaii" or "The Hawaiian Grass House in
+Bishop Museum" referenced in Section X101.2.
+
+Section X402 Allowable designs.
+Hale shall be designed and constructed in accordance with the
+requirements in Sections 402.1 through 402.4.
+
+X402.1 Hale Halawai. Each end of the Hale Halawai may be open or
+thatched. The ends may also be constructed with a thatched roof hip
+as an alternate design. Hale Halawai shall be designed in accordance
+with the following schematics and illustrations. Structural
+components for Hale Halawai shall meet the size and spacing
+requirements in Table X402.1(a). Foundations for Hale Halawai shall
+be designed in accordance with Table X402.1(b).
+
+                                    Hawaii State Building Code - 66
+                 HALE HALAWAI
+               Open End Style
+
+                 HALE HALAWAI
+           Thatched End Style
+Hawaii State Building Code - 67
+                                   FRAMING SCHEMATIC
+
+Table X402.1(a)
+Size and Spacing Requirements for Structural Components used in Hale
+Halawai
+
+  Size  pou
+WxLxH
+        kihi       pou       pou hana o'a kuaiole kauhuhu lohelau Maximum Maximum
+                   kukuna    &             &                    post    rafter
+                   &         pouomanu      holo                 spacing spacing
+                   pou kaha                                     (feet)  (feet)
+
+        Minimum Diameter (inches)
+
+12' x 20' x 7' 4   3�        4         3�  2�         3     3   5       3
+
+14' x 24' x 7' 4   4         4�        3�  2�         3     3�  5       3
+
+24' x 30' x 7' 5   4�        4�        4   2�         3     3�  5       3
+
+25' x 50' x 7' 5�  5         5�        4   2�         3     3�  5       3
+
+30' x 60' x 7' 6   5�        6         4�  2�         3     4   5       3
+
+                           Hawaii State Building Code - 68
+Hawaii State Building Code - 69
+Table X402.1(b)
+
+Foundation Design for Hale Halawai
+
+   Size                            Foundation Type
+(W x L x H)
+
+                      kahua               pa pohaku             pou kanu
+                Diameter x Height  Width x Height x Length  Diameter x Depth
+
+12' x 20' x 7'   3'6" x 24"H       2'6"W x 2'8"H x 4'0"L      30" x 2'8"D
+                                                              30" x 2'9"D
+14' x 24' x 7'   3'8" x 24"H       2'6"W x 2'8"H x 4'0"L      36" x 3'0"D
+                                                              36" x 3'0"D
+24' x 30' x 7'   4'0" x 30"H       3'0"W x 3'0"H x 4'0"L      36" x 3'3"D
+
+25' x 50' x 7'   4'0" x 30"H       3'0"W x 3'0"H x 4'0"L
+
+30' x 60' x 7'   4'0" x 30"H       3'0"W x 3'3"H x 4'0"L
+
+                 Hawaii State Building Code - 70
+X402.2 Hale Ku`ai. Hale Ku`ai shall be designed in accordance with
+the following schematics and illustrations. Structural components for
+Hale Ku`ai shall meet the size and spacing requirements in Table
+X402.2(a). Foundations for Hale Ku`ai shall be designed in accordance
+with Table X402.2(b).
+
+                                                       HALE KU`AI
+                                                       SHED STYLE
+
+                                                       HALE KU`AI
+                                                      GABLE STYLE
+                                    Hawaii State Building Code - 71
+          FRAMING SCHEMATIC 1
+          FRAMING SCHEMATIC 2
+Hawaii State Building Code - 72
+Table X402.2(a)
+
+Size and Spacing Requirements for Structural Components used in Hale
+
+Ku`ai
+
+       Size  pou pou pou pouo o'a kuaiole kauhuhu lohelau Maximum
+
+(W x L x H) kihia kahaa hanab manub            &             rafter
+                                               holo          spacing
+                                                             (feet)
+             Minimum Diameter (inches)
+
+5' x 10' x 5' 4  3    3                 4  3   2     3   2   4
+
+9' x 12' x 5' 4  3    3                 4  3   2     3�  2   4
+
+12' x 16' x 5' 4� 3�  4                 4  3�  2     4   2�  4
+
+14' x 20' x 5' 4� 3�  4                 4  3�  2�    4�  2�  4
+
+a The maximum post spacing for pou kihi and pou kaha is five feet.
+
+b The maximum post spacing for pou hana and pouomanu is twelve feet.
+
+                 Hawaii State Building Code - 73
+Table X402.2(b)
+
+Foundation Design for Hale Ku`ai
+
+   Size               kahua              Foundation Type        pou kanu
+(W x L x H)     Diameter x Height         pa pohaku         Diameter x Depth
+                                   Width x Height x Length
+
+5' x 10' x 5'    3'0" x 24"H       2'6"W x 2'0"H x 4'0"L    30" x 2'6"D
+9' x 12' x 5'    3'4" x 24"H       2'6"W x 2'0"H x 4'0"L    30" x 2'6"D
+12' x 16' x 5'   3'6" x 24"H       2'6"W x 2'8"H x 4'0"L    30" x 2'8"D
+14' x 20' x 5'   3'8" x 24"H       2'6"W x 2'8"H x 4'0"L    30" x 2'9"D
+
+402.3 Hale Noa. Hale Noa shall have at least two openings. One
+opening shall be at least 3 feet wide and 5 feet high, and the other
+opening shall be at least 2 feet wide and 3 feet high. Hale Noa shall
+be designed in accordance with the following schematics and
+illustrations. Structural components for Hale Noa shall meet the size
+and spacing requirements in Table X402.3(a). Foundations for Hale Noa
+shall be designed in accordance with Table X402.3(b).
+
+                 Hawaii State Building Code - 74
+                    HALE NOA
+
+                 SECTION VIEW
+Hawaii State Building Code - 75
+                               FRAMING SCHEMATIC
+
+Table X402.3(a)
+
+Size and Spacing Requirements for Structural Components used in Hale
+
+Noa
+
+  Size  pou       pou       pou pouomanu o'a kuaiole      kauhuhu  lohelau  Maximum   Maximum
+WxLxH   kihi kukuna hana             &                                         post     rafter
+                  &                  holo                                              spacing
+                  pou kaha                                                   spacing    (feet)
+                                                                              (feet)
+
+                               Minimum Diameter (inches)
+
+9' x 12' x 7' 3�  3         4  3  3  2�                   3�       2�       6         4
+
+12' x 20' x 7' 4  4�        4  3  3� 2�                   3�       2�       6         4
+
+4' x 24' x 7' 5�  4�        4  3  3� 2�                   3�       3        6         4
+
+                            Hawaii State Building Code - 76
+402.4 Hale Wa`a. Hale Wa`a shall be designed in accordance with the
+following schematics and illustrations. Structural components for
+Hale Wa`a shall meet the size and spacing requirements in Table
+X402.4.
+
+                                                        HALE WA`A
+                                    Hawaii State Building Code - 77
+                      FRAMING SCHEMATIC
+
+Table X402.4
+
+Size and Spacing Requirements for Structural Components used in Hale
+
+Wa`a
+
+      Size       o'a  kuaiole  kauhuhu Spacing between Minimum Ridge
+      (W x L)         &                  Rafters   Height
+                      holo                         (H)
+
+      20' x 60'  4"   3"       4"        4' to 5'  22�'
+
+      25' x 60'  5"   3"       4"        4' to 5'  27�'
+
+      30' x 60'  5�"  3"       4"        4' to 5'  27�'
+
+                 Hawaii State Building Code - 78
+                                                                   "
+
+Hawaii State Building Code - 79
+

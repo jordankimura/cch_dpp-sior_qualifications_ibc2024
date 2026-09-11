@@ -1,4 +1,7 @@
-ARTICLE 1: GENERAL PROVISIONS
+# Revised Ordinances of Honolulu Sec. 19-1, Plumbing Code
+# source id: roh-19-1 | original: ROH 19-1.docx | original sha256: 7ae0338ee993c54478126eadda0636f268e2a30b946c57042a0b26101e9e3d58 | retrieved: 2026-09-11
+
+ARTICLE 1: GENERAL PROVISIONS
 Sections
    19-1.1   Adoption of the Hawaii State Plumbing Code
 § 19-1.1 Adoption of the Hawaii State Plumbing Code.
@@ -218,3 +221,4 @@ Disclaimer: This Code of Ordinances and/or any other documents that appear on th
 
 For further information regarding the official version of any of this Code of Ordinances or other documents posted on this site, please contact the Municipality directly or contact American Legal Publishing toll-free at 800-445-5588.
 Hosted by: American Legal Publishing
+

@@ -1,0 +1,141 @@
+# PCI Personnel Certification Program Overview
+# source id: pci-overview | original: pci_overview.html | original sha256: 74b845acb8ec831915c887d2e64450f79900fd0e5fb7073e874467d9ba7ca058 | retrieved: 2026-09-11 | https://www.pci.org/PCI/PCI/PCI-Certification/Personnel/Overview.aspx
+
+Personnel Certification Program Overview
+Skip to main content
+PCI
+Sign In
+Toggle search
+Search
+Toggle navigation
+Search
+Personnel Certification Program Overview
+PCI Quality Control Schools
+Plant Quality Control Technician/Inspector Certification
+Level I
+Level II
+Level III
+GFRC
+Field Quality Control Technician/Inspector Certification
+Certified Field Auditor (CFA)
+Certified Company Auditor (CCA)
+The Plant Quality Personnel Certification Program, started in 1985, provides instruction and evaluation for three levels of trained, knowledgeable, and certified plant quality-control personnel. Specific certification is also available for glass fiber reinforced concrete QC technicians and inspectors. PCI also provides training and certification programs for Certified Field Auditors (CFAs) and Certified Company Auditors (CCAs), which extends personnel certification into the field.
+PCI personnel certifications are available to both PCI members and nonmembers, without regard to race, color, creed, physical disability or other legally protected groups. Candidates who are interested in attaining PCI Personnel Certification should be qualified for the certification that they seek.
+How to Become PCI Certified
+Certification Program Benefits
+PCI provides certification for personnel trained to conduct in-plant inspections to PCI standards and to conduct inspections and audits of industry erection procedures. PCI’s personnel certification programs help ensure that the high quality realized by following PCI standards will be achieved during fabrication in the plant and maintained throughout installation.
+Owners, architects, engineers, and contractors all benefit from working with PCI-certified precast concrete plants and erectors that employ PCI-certified quality-control personnel. These professionals can effectively and efficiently develop and implement a quality-control program, and they can help improve the quality component of the precaster or erector in many other ways. Their input can help companies cut costs as they produce and erect better, more efficient precast concrete components and building systems.
+Achieving PCI personnel certification status is a demanding task, but those who rise to the challenge improve their proficiency and provide better service to the precast concrete industry. PCI certification is a reliable means of ensuring that the precaster or erector working on your project meets the highest possible industry standards.
+Plant Quality Control Technicians/Inspectors
+Demand for qualified personnel continues to grow. Plant quality personnel certification is required by over forty state departments of transportation. These agencies require PCI certification not only for plant personnel, but also for their own materials inspectors and quality control personnel. These technicians/inspectors are responsible for all appropriate fresh concrete tests, verifying correct mix design is being used for all concrete, maintaining complete project documents and quality control records on the appropriate worksheets or forms, and perform daily inspections of batching, mixing, conveying, placing, compacting, curing, and finishing of concrete, as required by the plant or per the project specification(s).
+Plant Quality Control Technicians/Inspectors must possess excellent communication skills, be perceptive, self-reliant, decisive, and organized to fulfill their duties. Knowledge of basic math and algebra is a prerequisite so candidates must have mathematical skills to apply formulas appropriately to solve problems.
+PCI Plant Certification Program Requirements for Personnel Certification
+PCI plant quality control manuals are the precast industry’s manufacturing and quality control standards:
+MNL-116, Manual for Quality Control for Plants and Production of Structural Pre­cast Concrete Products
+MNL-117, Manual for Quality Control for Plants and Production of Architectural Precast Concrete Products
+PCI Level I, II and III-certified technicians/inspectors must have advanced knowledge of these standards. These standards are further discussed in training manuals:
+TM-101, Quality Control Technician/Inspector Level I & II Training Manual
+TM-103, Quality Control Technician/Inspector Level III Training Manual
+QC personnel should also be familiar with:
+MNL-135, Tolerance Manual for Precast and Prestressed Concrete Construction
+.
+MNL-116 and MNL-117 require that plants have at least one PCI Level II-certified technician/inspector in the plant during production if the plant produces products with prestressed reinforcement. Plants producing precast concrete products without prestressed reinforcement must have a PCI Level I-certified technician/inspector in the plant during production.
+The PCI Architectural Certification Program Supplemental Requirements include a stipulation that plants producing non-prestressed architectural precast concrete in the PCI Plant Certification Program, Categories AA and AB, must have an employee who holds the PCI Level I certification and an employee who holds the PCI Concrete Mix Design Training Program certificate, or an employee with PCI Level III certification. Plants that produce prestressed architectural precast concrete in the PCI Plant Certification Program, Categories AA and AB, must have an employee that holds the PCI Level II certification and an employee who holds the PCI Concrete Mix Design Training Program certificate, or an employee with PCI Level III certification.
+MNL-130, Manual for Quality Control for Plants and Production of Glass Fiber Reinforced Concrete Products
+requires that plants have at least one PCI-certified GFRC technician/inspector in the plant during production if the plant produces products with glass fiber reinforced concrete. The GFRC certification examination is not available through a PCI training course. The GFRC certification examination must be requested through the PCI Proctored Online Exam Program.
+Field Quality Control Technicians/Inspectors
+Today's business environment demands a high degree of training and certification in all areas of concrete manufacturing and installation. Customer satisfaction is the principal means of achieving profitability and a thorough quality control program that extends beyond the plant to the point of install is the only way to ensure satisfaction. PCI provides certification for personnel trained to conduct audits of industry erection procedures to the PCI standards. Certified Field Auditors (CFA) help ensure that the high quality achieved in the plant is maintained throughout installation.
+These CFAs are responsible for field quality control and inspection to the PCI standards and practices, maintaining complete project documents and quality control records on the appropriate worksheets or forms, and perform daily inspections, as required by the erector or per the project specifications. Certified Company Auditors (CCA) have received additional training in the specific requirements of PCI’s Erector Certification Program, to assist in ensuring an erector’s compliance with those program requirements.
+CFAs and CCAs must possess excellent communication skills, be perceptive, self-reliant, decisive, and organized to fulfill their duties. Knowledge of basic math and algebra is a prerequisite so candidates must have mathematical skills to apply formulas appropriately to solve problems.
+PCI Erector Certification Program Requirements for Personnel Certification
+PCI Quality Standards are the precast industry’s erection standards:
+MNL-127, Erector’s Manual – Standards and Guidelines for the Erection of Precast Concrete Products
+MNL-132, Erection Safety for Precast and Prestressed Concrete
+Field Quality Control Technicians or Certified Field Auditors (CFA) and Certified Company Auditors (CCA) must have advanced knowledge of these standards. Auditors should also be familiar with:
+MNL-135, Tolerance Manual for Precast and Prestressed Concrete Construction
+The PCI Plant Certification Program requires that plants certified in Architectural Product Categories AA, AB and AC use a PCI-certified erector to erect their architectural precast products. The erector must be certified in category A. Also, the PCI Erector Certification Program, requires all erectors to employ a Certified Field Auditor (CFA). The CFA is responsible for conducting the PCI Certified Erectors’ internal field quality audits.
+Candidates who attain the CFA certification are included on a list of CFAs that PCI distributes to erector companies participating in the PCI Erector Certification Program. Erectors must contact an external CFA (a CFA not employed by their company) to coordinate an external field audit which will be conducted in compliance to the requirements of the PCI Erector Certification Program.
+Precasters reserve the privilege to conduct unannounced field audits on erection of their product at any time using a CFA in their employ. The PCI Erector Certification Program also requires erectors to be audited annually by Certified Company Auditors (CCA) to ensure an erector’s compliance to the program’s quality management system documentation and record-keeping standards and requirements. The CCA training course prepares individuals to conduct Company Quality Audits for the PCI Erector Certification Program, to ensure an erector’s compliance to the PCI requirements. Anyone interested in becoming a Company Auditor for PCI should refer to the PCI Company Auditor FAQ
+for details.
+The CCA training course is also great resource for all erectors, including management, to gain a better understanding of the required management system documents and records an erector should be maintaining to verify compliance to industry erection standards and PCI requirements. The course is highly recommended for all new PCI Erector Certification applicants. Any erector interested in PCI Erector Certification should contact QualityPrograms@pci.org
+for more details.
+Facebook
+Twitter
+Instagram
+LinkedIn
+YouTube
+Certification
+Overview
+For Plants
+For Erectors
+For Personnel
+Why to Specify
+Updates/Alerts
+Publications
+Bookstore
+Free Resources
+PCI Journal
+Ascent
+Aspire
+Proceedings
+Directories
+Certified Plants
+Certified Erectors
+Service Associates
+Supplier Associates
+Professional Members
+Supporting Orgs
+News/Events
+Latest News
+Advertising
+Calendar
+Careers
+Request for Proposals
+Awards
+Design Resources
+How Precast Builds
+Project Profiles
+Architectural
+Building
+Transportation
+Sustainability
+Guides/Manuals
+Member Resources
+Business
+Education
+Marketing
+Productivity
+Quality Assurance
+R&D
+Technical
+Education
+eLearning
+For Students
+For Professors
+For Quality Control
+Leadership PCI
+Webinars
+PCI Foundation
+About
+Join
+| Regions
+Staff
+| History
+Board of Directors
+Councils/Committees
+Body of Knowledge
+Standards Development
+Premier Partners
+©
+Precast/Prestressed Concrete Institute
+| Privacy Policy
+| Contact Us
+×
+{1}
+##LOC[OK]##
+{1}
+##LOC[OK]##
+##LOC[Cancel]##
+{1}
+##LOC[OK]##
+##LOC[Cancel]##

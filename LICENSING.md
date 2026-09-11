@@ -1,33 +1,29 @@
 # Licensing note — read before making this repository public
 
-`verification/sources/licensed/` contains extracts of copyrighted standards. They are
-here so the verification harness can check citations offline. They are inputs to a
-test, not reference copies.
+`verification/sources/licensed/` holds the **full text** of copyrighted codes and standards, so the
+checks can confirm every quote against the whole document rather than an extract:
 
-| File | Rights holder | What it contains |
-|---|---|---|
-| `ibc2024_ch17_index.txt` | International Code Council | Section numbers and headings only — no provisions |
-| `aci318_19_sec26_13.txt` | American Concrete Institute | Extract of Sec. 26.13, Inspection |
-| `aws_d1_1_sec8_1_4.txt` | American Welding Society | Extract of Sec. 8.1.4, Qualification of Inspection Personnel |
+| File | Rights holder |
+|---|---|
+| `ibc2024_ch17.txt`, `ibc2024_ch35.txt`, `ibc2021_ch17.txt`, `ibc2018_ch17_hawaii.txt` | International Code Council |
+| `aci318_19_code.txt`, `aci318_19_commentary.txt` | American Concrete Institute |
+| `aws_d1_1_2020.txt`, `aws_d1_4_2018.txt`, `aws_d1_6_2017.txt` | American Welding Society |
+| `aisc360_22.txt`, `aisc360_16.txt` | American Institute of Steel Construction |
+| `upc_2018.txt` | IAPMO |
 
-`verification/sources/public/` contains the Revised Ordinances of Honolulu, which are
-public law and carry no such restriction.
+`verification/sources/snapshots/` holds dated text copies of issuer web pages and IAS AC291; those
+publishers also hold copyright. `verification/sources/public/` holds the Revised Ordinances of
+Honolulu and the Hawaii State Building Code adoption document, which are public law.
 
 ## Keep this repository private
 
-That is the simple answer, and the recommended one. A private repo under the
-department's account raises no question at all.
+That is the simple answer. A private repository shared only with the people doing the work raises
+no question.
 
-## If it must be made public
+## If it must ever be made public
 
-1. Uncomment the `verification/sources/licensed/` line in `.gitignore`
-2. `git rm --cached -r verification/sources/licensed`
-3. Commit
-
-The harness degrades gracefully: checks T-01, T-04, T-05, T-06, T-07 and T-08 will
-report **SKIP — source not supplied** rather than failing, and anyone with licensed
-access can restore the folder locally to run the full suite.
-
-Note that removing the files from the working tree does **not** remove them from git
-history. If they have already been pushed to a public repository, rewriting history or
-starting a fresh repository is the only real remedy.
+Do not flip the existing repository to public: the licensed text is in its history. Start a fresh
+repository from a copy with `verification/sources/licensed/` and `verification/sources/snapshots/`
+removed. The checks that read those files will then fail rather than pass silently, which is the
+intended behaviour; anyone holding licensed copies can restore the folders locally with
+`tools/extract_sources.py`.

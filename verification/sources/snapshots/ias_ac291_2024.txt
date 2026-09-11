@@ -1,0 +1,983 @@
+# IAS AC291 Accreditation Criteria for Special Inspection Agencies (effective 2024-01-01), incl. Table 1 minimum inspector certifications
+# source id: ias-ac291 | original: ias_ac291.pdf | original sha256: 3315a10003f661c87e54a4040d0f54927e2b2036b120188505f762588e58211d | retrieved: 2026-09-11 | https://cdn-v2.iasonline.org/wp-content/uploads/2023/11/AC291-Final.pdf
+
+              ACCREDITATION CRITERIA FOR SPECIAL INSPECTION AGENCIES
+
+                                                          AC291
+
+                                                    October 4, 2023
+
+                                             Effective January 1, 2024
+
+                                                        PREFACE
+
+The attached accreditation criteria have been issued to provide all interested parties with
+guidelines on implementing performance features of the applicable standards referenced
+herein. The criteria were developed and adopted following public hearings conducted by the
+International Accreditation Service, Inc. (IAS), Accreditation Committee and are effective on
+the date shown above. All accreditations issued or reissued on or after the effective date must
+comply with these criteria. If the criteria are an updated version from a previous edition, solid
+vertical lines (|) in the outer margin within the criteria indicate a technical change or addition
+from the previous edition. Deletion indicators () are provided in the outer margins where a
+paragraph or item has been deleted if the deletion resulted from a technical change. These
+criteria may be further revised as the need dictates.
+
+                                                   Copyright � 2023
+
+Page 1 of 20       IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+          ACCREDITATION CRITERIA FOR SPECIAL INSPECTION AGENCIES
+
+1.0 INTRODUCTION
+     1.1 Scope: These criteria set forth the requirements for obtaining and maintaining International
+             Accreditation Service, Inc. (IAS), Special Inspection Agency accreditation. These criteria
+             supplement the IAS Rules of Procedure for Special Inspection Agencies.
+
+1.2 References and Normative Documents: Publications listed below refer to current editions
+        (unless otherwise stated).
+        1.2.1 International Building Code� (IBC) or applicable codes currently adopted by the
+                   jurisdiction in which the project is to be constructed.
+        1.2.2 ISO/IEC Standard 17020, Conformity assessment � Requirements for the operation of
+                   various types of bodies performing inspection.
+        1.2.3 ISO/IEC Standard 17024, Conformity assessment � General requirements for bodies
+                   operating certification of persons.
+        1.2.4 IAS Rules of Procedure for Special Inspection Agency Accreditation.
+        1.2.5 IAS AC371, Accreditation Criteria for Training Agencies for Workforce Qualification
+                   Programs.
+        1.2.6 IAS AC478, Accreditation Criteria for Inspection Practices of Metal Building
+                   Assemblers.
+        1.2.7 ICC/IAS Model Program for Special Inspection
+        1.2.8 ILAC P10, ILAC Policy on Traceability of Measurement Results.
+        1.2.9 ILAC P15, Application of ISO/IEC 17020:2012 for the Accreditation of Inspection
+                   Bodies.
+        1.2.10 Publications of the following Standards Development Organizations (SDOs), AAMA,
+                   ACI, ASHRAE, AISC, ANSI, ASCE, ASME, ASTM, AWPA, AWS, AWWA, CSA, NHMA,
+                   FEMA, FM, ICC, NFPA, NHMA, SDI, SJI, SMACNA, TIA, TPI, UL and WDMA may also
+                   be used, as applicable.
+
+2.0 DEFINITIONS
+     Applicable definitions of ISO/IEC Standard 17000 series apply.
+     2.1 Approved: Acceptable to the building official or authorized representative of the local AHJ.
+     2.2 Approved Agency: An established and recognized agency regularly engaged in conducting
+             tests and/or furnishing inspection services, when such agency has been approved.
+     2.3 Authority Having Jurisdiction (AHJ)/Authorizing Agency (AA): An organization, office, or
+             individual responsible for enforcing the requirements of a code or standard, or for approving
+             equipment, materials, an installation, or procedure.
+     2.4 Extending Accreditation: Process of enlarging the scope of accreditation.
+
+Page 2 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+2.5 Fabricated Item: Structural load-bearing or lateral load-resisting assemblies consisting of
+        materials assembled prior to installation in a building or structure, or subjected to operations
+        such as heat treatment, thermal cutting, cold working or reforming after manufacture and prior
+        to installation in a building or structure. Materials produced in accordance with standard
+        specifications referenced by the building code, such as rolled structural steel shapes, steel-
+        reinforcing bars, masonry units, and wood structural panels or in accordance with a standard
+        listed in the IBC that provides requirements for quality control done under the supervision of a
+        third-party quality control agency shall not be considered "fabricated items."
+
+2.6 Fire Protection Engineer (F.P.E.): An individual with specialized training in fire protection
+        systems for building construction, as evidenced by a bachelor's or higher degree in fire
+        protection engineering from an accredited college, university or engineering school.
+
+2.7 Fire-resistant Materials: Cementitious or fibrous materials, intumescent or thin films that are
+        applied to provide fire-resistant protection of the substrates.
+
+2.8 Firestop System: An assemblage of materials including fire-resistance-rated assembly;
+        penetrating item(s); gap size; the fill, void or cavity materials installed as a system in the breach
+        of the assembly to extend the fire; smoke or other resistance rating of the assembly at the
+        breach due to penetration by electrical, plumbing or mechanical items tested to ASTM E814/UL
+        1479, by expansion and construction joints tested to UL 2079/ASTM E1966, and by perimeter
+        joints tested to ASTM E2307 in buildings.
+
+2.9 Intumescent Fire-resistant Coatings: Thin film liquid mixture applied to substrates by brush,
+        roller, spray or trowel that expands into a protective foamed layer to provide fire-protection of
+        substrates when exposed to flame or intense heat.
+
+2.10 Label: An identification applied on a product by the manufacturer that contains the name of the
+        manufacturer, the function and performance characteristics of the product or material, and the
+        name and identification of an approved agency; and that indicates that a representative sample
+        of the product or material has been tested and evaluated by an approved agency.
+
+2.11 Management System Documentation: Documentation, inclusive of operating process and
+        technical work instructions, such as the inspection procedures/methods/checklists/forms/report
+        templates, etc., on the requirements stated in these criteria (AC291) and ISO/IEC Standard
+        17020, including policies and objectives for effective implementation at all levels of operation.
+
+2.12 Manufacturer's Designation/Mark: An identification applied on a product by the manufacturer
+        indicating that a product or material complies with a specified standard or criteria.
+
+2.13 Mastic Fire-resistant Coatings: Liquid mixture applied to a substrate by brush, roller, spray or
+        trowel that provides fire-resistant protection of a substrate when exposed to flame or intense
+        heat.
+
+2.14 Professional Engineer (P.E.): An engineer licensed to practice the applicable discipline in the
+        jurisdiction where the project is to be constructed.
+
+Page 3 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+2.15 Qualified: Meeting the minimum requirements of Table 1, unless otherwise determined by the
+        AHJ.
+
+2.16 Registered Architect (R.A.): An architect licensed to practice the applicable discipline in the
+        jurisdiction where the project is to be constructed.
+
+2.17 Registered Design Professional: An individual who is registered or licensed to practice their
+        respective design profession as defined by the statutory requirements of the professional
+        registration laws of the jurisdiction where the project is to be constructed.
+
+2.18 Scope of Accreditation: Specific conformity assessment services for which accreditation is
+        sought or has been granted.
+
+2.19 Special Inspection: Inspection as herein required of the materials, installation, fabrication,
+        erection or placement of components and connections requiring special expertise to ensure
+        compliance with approved construction documents and referenced standards. Reference the
+        International Building Code Chapter 17, Section 1702, or the code most currently adopted by
+        the AHJ in the jurisdiction where the project is to be constructed.
+
+2.20 Special Inspection Agency (SIA): A third-party entity approved by the building official to
+        perform special inspections.
+
+2.21 Special Inspector: A qualified person employed by an SIA, who shall demonstrate
+        competence to the satisfaction of the building official, for the inspection of the particular type of
+        construction or operation requiring special inspection.
+
+2.22 Witnessing: Observation of the approved agency carrying out conformity assessment services
+        within its scope of accreditation.
+
+3.0 ELIGIBILITY
+     Accreditation services are available to organizations that provide special inspection services
+
+4.0 REQUIRED BASIC INFORMATION
+     Management Systems (MS) and Technical Documentation
+     The criteria requirements and documented information that must be submitted by special inspection
+     agencies applying for Special Inspection Agency accreditation are noted below:
+     Note: An electronic format is preferred.
+     4.1 Documented Information Submission: The submission of management system
+             documentation shall comply with all requirements stated in this document � Policy Document
+             complying with each clause/subclause of AC291 listed in this section 4.0, and Inspection
+             Procedure Documents for each category of inspection. This may also include a checklist, forms
+             used by the inspector and an inspection reporting template, along with the
+             documentation/records addressing relevant requirements of ISO/IEC Standard 17020:2012 and
+             the building code currently adopted by the AHJ in the jurisdiction where the project is to be
+
+Page 4 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+constructed. This includes all additional requirements (technical guides, local laws, bulletins,
+regulations, directives, executive orders, etc.) promulgated by the AHJ.
+
+4.2 Legal Status: The SIA, or the organization of which it forms a part, shall be a legal entity.
+
+4.3 Liability Insurance: The SIA organization or organization of which it forms a part shall provide
+        evidence of liability insurance per contractual requirement or the local requirements as
+        enforced by the AHJ.
+
+4.4 Risk to Impartiality: The SIA shall identify and document the mechanism and maintain
+        records of analysis of actual and perceived risks to impartiality on an on-going basis.
+        NOTE: Risks to impartiality can arise from situations where management, staff and special
+        inspectors experience undue pressure from any source, internal or external, that could
+        influence the results of special inspection, project signoff, contract/quote approval, work
+        scheduling or any other related activity.
+        4.4.1 Compensation of inspectors must not depend on the number of inspections performed
+                   and the results of such inspections.
+        4.4.2 A company-wide Ethics Procedure and Conduct shall be documented and
+                   implemented.
+        4.4.3 An affidavit signed by the principal owners/stakeholders of the SIA and acknowledged
+                   by all employees whose job responsibilities are related to special inspection functions,
+                   attesting to compliance with the third-party requirements described below:
+          4.4.3.1 The applicant SIA and its inspection staff shall not be part of or have a financial or
+                     other interest in the construction, manufacture, representation, supply, installation or
+                     maintenance of the structures or components (including personnel, facility,
+                     technology or methodology) which they inspect, or in entities that supply similar
+                     competitive items or services.
+          4.4.3.2 The SIA and its staff shall not engage in any activities that may conflict with their
+                     independence of judgment and integrity.
+          4.4.3.3 The SIA must operate in a nondiscriminatory, transparent manner to allow full access
+                     to its services by interested parties.
+          4.4.3.4 Rules and regulations of the local jurisdiction regarding Special Inspections shall be
+                     adhered to in the performance of Special Inspections.
+
+4.5 Confidentiality: The SIA shall have a policy that ensures confidentiality of the customer
+        information by the SIA and/or by any subcontractors, taking into account any relevant legal and
+        statutory requirements. Implementation of Sections 4.4 and 4.5 must provide objective
+        evidence that the SIA personnel have read and understood these requirements. Appropriate
+
+Page 5 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+        objective evidence may be in a form referencing the requirement, or any other method
+        appropriate to ensure personnel understand and attest they are in compliance with the
+        requirements.
+
+4.6 Organization and Independence: The SIA size, structure and composition shall be suitable
+        for competent performance of the tasks within the SIA's scope. A single person (1 inspector)
+        agency (SPA) may be accredited provided all relevant requirements of this document are
+        effectively implemented. Categorization of the SIA shall match the requirement of ISO/IEC
+        Standard 17020, Clause 4.1.6 (Type-A, B or C).
+
+        The SIA shall maintain an up-to-date organizational chart clearly identifying the functions and
+        lines of authority for its staff. Any relationship between special inspections and other activities
+        within the organization shall also be defined. The position of the technical manager (and deputy
+        technical manager) and quality manager (and deputy quality manager) (however named) shall
+        be clearly shown in the chart.
+
+        Job descriptions and responsibilities of key personnel shall be defined including:
+        4.6.1 A technical manager (however named) with the necessary qualifications and
+
+                   experience and who has overall responsibility for the technical operations.
+        4.6.2 A quality manager (however named) with the necessary qualifications and experience
+
+                   and who has the responsibility for the management system and its implementation.
+                   This person shall have direct access to the highest level of authority within the
+                   organization. Necessary qualifications and experience must be sufficient to effectively
+                   perform their responsibilities.
+        4.6.3 Field supervisor(s) who is (are) responsible for the results of inspections, and the
+                   training and monitoring of inspectors for each field of inspection. If the field inspection
+                   supervisor covers more than one field of inspection, he/she shall be suitably qualified in
+                   each field.
+        4.6.4 Deputies in the absence of technical manager, quality manager and/or field
+                   supervisor(s).
+                   Note: The purpose of nominating a deputy is to satisfy the need for competent
+                   management in the absence of the manager. In an organization where the absence of
+                   a key person causes the cessation of work, the requirement for deputies may be
+                   waived.
+        4.6.5 Other positions that could affect the quality of inspection activities, such as manager
+                   and inspectors, shall be described.
+
+Page 6 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+  4.7 Technical Competency of Special Inspectors: A matrix matching inspector qualifications,
+
+  certifications and relevant experience to categories in which they are authorized to conduct
+
+  special inspections, shall be maintained. Inspector's education, certification(s) and relevant
+
+  documented experience shall satisfy the requirements of the AHJ or Table 1 (if none are
+
+  specified). The matrix shall include the date of employment and expiration dates for
+
+  certifications (if any).
+
+  IAS shall assess the appropriateness of the competence requirements, education, qualification,
+  training, technical knowledge, hands-on skills as demonstrated onsite or by interview and mock
+  demonstration. Personnel found to possess inadequate skills and job knowledge will be
+  expected to undertake additional training, mentoring or gain needed experience to correct such
+  discrepancies.
+
+  The matrix shall also identify staff that are authorized by the SIA to perform technical reviews,
+  approvals and release of reports, including any additional requirement of the AHJ. SIA staff that
+  are authorized to perform onsite supervision, monitoring and onsite training shall also be
+  identified.
+
+  4.8 Jobsite Safety: Safety procedures addressing perceived risks in each field of inspection,
+          along with measures for mitigating such unsafe conditions during field inspections and testing,
+          shall be implemented by the SIA. Special conditions applied to each project/installation by local,
+          state and Federal authorities shall be binding.
+
+  4.9 Measuring and Monitoring Resources: The SIA shall document policies and procedures on
+          equipment maintenance, including equipment used to perform special inspections and/or verify
+          testing under special inspections in the field.
+          4.9.1 Special inspection agencies shall maintain a list of testing and measuring equipment
+                     used for conducting special inspections under these criteria. This list shall include
+                     information on range, accuracy, maintenance, calibration status and frequency of
+                     calibration. Wherever possible, calibration services shall be provided by a calibration
+                     laboratory accredited by IAS or by an accreditation body that is a mutual signatory of
+                     the ILAC Mutual Recognition Agreement (MRA).
+
+  It is recognized there may not be nationally recognized standards available for unique
+  inspection equipment. When such instances exist, calibration procedures must be in
+  compliance with manufacturer's recommendations to the extent that such inspection
+  equipment is calibrated to ensure consistency with the required measuring capabilities.
+
+                            Page 7 of 20
+
+                                               IAS/SIA/011
+                                                      AC291
+
+                                          October 4, 2023
+                   It is the SIA's responsibility to ensure that such equipment is properly calibrated prior to
+                   use, specifically including when another entity is responsible for supplying or
+                   performing inspections/tests being witnessed and reviewed for acceptance by the SIA.
+        4.9.2 The SIA shall have policies and procedures for handling defective equipment. The SIA
+                   shall examine the effect of test and/or measuring equipment found to be defective on
+                   previous inspections and, when necessary, take appropriate corrective action.
+        4.9.3 All testing and measurement equipment (SIA owned, SIA leased/rented or supplied by
+                   others) used at job sites shall be sorted into different categories, depending upon the
+                   precision of measurement and complexity of process, as follows:
+          4.9.3.1 Equipment calibrated by an external source (accredited partner with IAS in an MRA).
+          4.9.3.2 Equipment for which verification of calibration is done internally by SIA or others.
+
+                     Verifiable documents shall be readily available before final acceptance of results of
+                     tests/measurements.
+          4.9.3.3 Equipment that does not require ongoing calibration, but verification before use.
+
+4.10 Record and Document Control: All documented information issued to personnel in the SIA
+        as part of the management system documentation shall be reviewed and approved for use by
+        authorized personnel prior to issue. A master list or an equivalent document control procedure
+        (in any form) identifying the current revision status and distribution of documents in the
+        management system shall be established and be readily available to preclude the use of invalid
+        and/or obsolete documents. Records shall be maintained by the SIA for a period specified by
+        the AHJ or a period, as per a contractual requirement, whichever is longer, and shall include, at
+        least the following but not limited to:
+        4.10.1 Legal entity status and AHJ's registration requirement, if any;
+        4.10.2 Human resources record for confidentiality, impartiality and conflict of interest;
+        4.10.3 Liability insurance;
+        4.10.4 Perceived risk analysis and mitigation records;
+        4.10.5 Signed quotes/contracts;
+        4.10.6 Record of inspection schedules/dispatch record;
+        4.10.7 Inspector's competency matrix (for each category of inspection and for contract
+                   employees, if any);
+        4.10.8 List of subcontractors (for inspection, testing and calibration, if any);
+        4.10.9 Special inspection reports with discrepancy logs and all resolutions, if any;
+        4.10.10 Calibration record of measuring and monitoring equipment (owned, rented, witnessed
+                   and/or supplied by others);
+        4.10.11 Chain of custody of samples (created or supervised), if kept separately;
+
+Page 8 of 20
+
+                   IAS/SIA/011
+                          AC291
+
+              October 4, 2023
+  4.10.12 List of controlled documents (including: management system manual, process
+
+  documents, inspection procedures, worksheets prepared by the inspector, templates
+
+  and other forms);
+
+  4.10.13 Internal audit, corrective measures, preventive actions and plans for improvement;
+
+  4.10.14 Customer complaints with record of resolution;
+
+  4.10.15 Feedback analysis;
+
+  4.10.16 Training plan(s) and/or training records;
+
+  4.10.17 Supervision and monitoring plan for special inspectors, including a report of evaluation.
+
+  4.10.18 Uniquely identified management system documents. Such identification shall include:
+
+  the date of issue and/or revision identification, page numbering, total number of pages,
+
+  a mark to signify the end of the document and the issuing authority.
+
+  4.10.19 Procedures established to describe the process for changing and controlling electronic
+
+  documents.
+
+  4.10.20 Documented policies and procedures on retention and protection (onsite/offsite) of
+
+  records by SIA.
+
+  Note: Some records need not be maintained separately if they are part of, or subparts
+
+  of, other records.
+
+  Controlled documents include, but are not limited to, the quality manual, standard
+
+  operating procedures, special inspection procedures, and copies of forms, checklists,
+
+  regulations, codes, etc., relevant to the inspection activities.
+
+  4.10.21 Invalid or obsolete documents must be promptly removed from all points of issue or
+
+  use. Obsolete documents retained for either legal or knowledge-preservation purposes
+
+  must be suitably identified.
+
+  4.11 Quotation and Contract: Contracts or work orders (RFQ or agreement of similar intent) for
+          special inspections shall ensure a clear and demonstrable understanding between the SIA and
+          its customer (owner or their authorized representative). The scope of the inspection work to be
+          undertaken by the SIA shall be clearly defined and agreed to in writing. Where appropriate
+          each contract or request should be reviewed by the SIA to ensure that:
+          4.11.1 The SIA has the capability and only conducts work within its area of expertise
+                     (manpower and other resources to perform inspection) to meet the customer's
+                     requirements,
+          4.11.2 Contract conditions are agreed to and documented,
+          4.11.3 Special equipment needs (as appropriate) are identified,
+          4.11.4 Personnel training needs, if any, are identified,
+          4.11.5 Regulatory and statutory requirements are identified,
+          4.11.6 Special safety requirements are identified,
+
+                                Page 9 of 20
+
+                                                                             IAS/SIA/011
+                                                                                    AC291
+
+                                                                        October 4, 2023
+  4.11.7 The extent of subcontracting arrangements required are identified and communicated,
+  4.11.8 Documentation needs are identified, report submission schedule/modes are
+
+            communicated,
+  4.11.9 The final contract or request accepted by the SIA agrees with the original version that
+
+            was reviewed,
+  4.11.10 Perceived risk analysis is done for a specific quote, as applicable,
+  4.11.11 All records of contract review are retained.
+
+    4.11.11.1 For routine or repeat work requests, review may be limited to considerations of
+                  time and human resources and an acceptable record in such cases would be a
+                  signed acceptance of the contract by an appropriately authorized person.
+
+    4.11.11.2 In situations where verbal agreements are acceptable, the SIA should keep a
+                  record of all requests and instructions received verbally, dates and the identity of
+                  the customer's representative.
+
+  4.12 Sample Handling: Procedures for the preparation, acquisition, handling and storage of
+          material samples or field-prepared specimens in accordance with applicable codes and/or
+          standards shall be documented by the SIA. Traceability of samples prepared by SIA or other
+          agencies involved in preparation, storage and transportation of samples, must be maintained.
+
+  In the absence of such information, the SIA must have procedures for sampling, handling,
+  storage and transportation techniques.
+
+  4.13 Subcontracting/Outsourced Inspection Services: Outsourcing part of the SIA's
+
+  responsibility is permitted only to accredited SIAs (accredited to the similar scope by an
+
+  accreditation body that is a partner in the ILAC MRA), unless specified otherwise by the AHJ.
+
+  The outsourced organization (otherwise called subcontractor) must have documentation
+
+  substantiating that it agrees to operate under the SIA's management system for subcontracting
+
+  process qualification. A list of current outsourcing vendors must be maintained.
+
+  Contract inspectors, who work under the SIA's system, are not considered to be subcontractors
+  when they perform inspections in the same manner as regular employees and need to comply
+  with the policies and procedures of the SIA.
+  Note: Logistics services provider for measuring and testing equipment is not considered as a
+  subcontractor.
+
+  Page 10 of 20
+
+                                                                                         IAS/SIA/011
+                                                                                                AC291
+
+                                                                                    October 4, 2023
+4.14 Complaints & Appeals: Policies and procedures for handling complaints and appeals from
+      clients and regulatory agencies shall be documented and implemented by the SIA. Records of
+      all complaints/appeals and resolutions shall be maintained.
+
+4.15 Feedback Collection: Policies and procedures for client feedback shall be documented and
+      implemented by the SIA. Records shall be maintained.
+      Note: Examples of feedback include client satisfaction surveys and review of inspection
+      reports with clients. Jobsite visits or interactions with clients can also generate valuable
+      feedback.
+
+4.16 Internal Audit: Policies and procedures for internal audits shall be documented and
+      implemented by the SIA. Records of internal audits and corrective actions shall be available for
+      review.
+      Note: For agencies with no additional qualified internal auditors, such internal audits may be
+      performed by an independent qualified individual.
+
+4.17 Management Review: Policies and procedures for management review shall be documented
+        and implemented by the SIA. The management review shall, at a minimum, take account of:
+        4.17.1 Internal audit reports,
+        4.17.2 External assessment reports,
+        4.17.3 Complaints/appeals from clients,
+        4.17.4 Adequacy of staff and equipment resources,
+        4.17.5 Results of client feedback,
+        4.17.6 Training needs,
+        4.17.7 Results of supervision and monitoring activities of inspectors, including verification of
+                   inspector's performance related to ethical and impartial behavior,
+        4.17.8 Changes needed in the management system,
+        4.17.9 Perceived risk to impartiality.
+
+4.18 Status Review and Notification/Reporting Discrepancy: Policies and procedures shall be in
+        place to notify the building official(s) and registered design professional(s) if corrective actions
+        arising from special inspections remain unresolved. These must be consistent with the building
+        code requirements and those stipulated by the AHJ in the area where the project is to be
+        constructed.
+
+4.19 Procedures for Dispatching Daily, Intermediate and Final Reports: Issuance of a final
+        inspection report shall occur only after verification that remaining discrepancies in each special
+
+Page 11 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+        inspection category have been resolved to the satisfaction of the owner or their authorized
+        representative. Evidence of correlation of data shall be made available during onsite
+        assessment.
+
+4.20 Contents and Coverage of Inspection Reports
+        4.20.1 Inspection reports issued by the SIA shall accurately and clearly present the results of
+                   special inspections. Inspection reports shall comply with the reporting requirements of
+                   the building code or AHJ's requirements and contain the following minimum
+                   information, as applicable: inspection date, and arrival and departure times (or total
+                   duration onsite) of the inspector.
+        4.20.2 Structure/item inspected, including applicable codes, standards, approved construction
+                   documents, etc.
+        4.20.3 Results of inspection/tests witnessed or performed.
+        4.20.4 Resolution of any discrepancies noted during previous inspections.
+        4.20.5 Description of samples obtained, if any, including quantity, dimensions and relevant
+                   physical characteristics. Samples collected and sent to a test laboratory for evaluation
+                   and testing shall have appropriate documents showing an unbroken chain of custody.
+        4.20.6 Identification of measurement and monitoring devices used during inspection and
+                   measurement/testing, where results are declared and included as part of the inspection
+                   report with attestation.
+        4.20.7 Names and signatures of the inspector and client's representative (if applicable per
+                   contract).
+
+4.21 Training
+        4.21.1 Training plan/Calendar: Identification of training needs for each person shall take
+                   place at least once per year. This review shall result in documented plans for further
+                   training or a statement that no further training is presently required for the individual.
+        4.21.2 Training records should be reviewed and signed by the reviewer. The training records
+                   must include the details of training completed, date it was completed and identity of the
+                   reviewer. In case the staff is noted to be qualified with no additional training required,
+                   records reflecting evaluation of competency need to be maintained by the agency.
+
+        Where records indicate that a member of staff has not maintained current involvement in a
+        particular skill area, the SIA must have documented procedures for evaluating and updating the
+        competency of the staff, as appropriate. Procedures must also be in place for providing
+        refresher training where required.
+
+Page 12 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+  4.22 Supervision/Monitoring of Inspectors
+        To ensure consistency in inspections and compliance with accreditation requirements, SIAs shall
+        have an effective supervision/monitoring system for their inspectors. The extent, nature and level
+        of supervision/monitoring exercised shall consider the qualifications, experience, training and
+        technical knowledge of the SIA staff and the inspections being undertaken. Regular review of
+        inspection reports by supervisory personnel shall include:
+          4.22.1 Desk Top Review
+            4.22.1.1 Review of the inspection reports for adequacy and completeness, at periodicity
+                          commensurate with project needs, but at least once during each calendar year.
+            4.22.1.2 Technical review by supervisors with the authority and acquired
+                          knowledge/expertise in specific area of inspection. For inspections by licensed
+                          professionals, the SIA shall determine whether technical reviews are warranted.
+            4.22.1.3 Completeness reviews to ensure all required information is included in the final
+                          report prior to its release.
+            4.22.1.4 Competence of the inspector with the SIA's policies, operating procedures and
+                          regulatory/statutory requirements to be compiled for specific job responsibility.
+            4.22.1.5 Compliance with requirements imposed by the jurisdiction in which inspections are
+                          conducted.
+            4.22.1.6 Review of feedback from the clients (and building department staff, if applicable).
+
+  In the event that no inspection activities were performed in a given situation, the
+
+  supervisor must formally make an attempt to simulate the inspection environment and
+
+  authorize the inspector to perform inspections on demand.
+
+  Note: In case of a single special inspector, random review by peer group or client may
+
+  be essential, at the discretion of the agency.
+
+  Note: In case of inspection performed by a primary inspector and no other equally (at
+
+  least) qualified personnel are available in the agency, such reports could be self-
+
+  certified by performing inspector.
+
+  4.22.2 Onsite Review
+
+  4.22.2.1 Review of records maintained of the monitoring of inspectors at least once during
+
+  their first month of employment.
+
+  4.22.2.2 Review of records of periodic monitoring of inspectors in the field not less than
+
+  once every four years for each field of inspection by the SIA. A plan shall be made
+
+  available at the initial stage of implementation and continuity shall be
+
+  demonstrated.
+
+  4.22.2.3 Review of the quality of inspection activities established by the SIA which may
+
+  include, but are not limited to:
+
+                        Page 13 of 20
+
+                                                                                 IAS/SIA/011
+                                                                                        AC291
+
+                                                                            October 4, 2023
+                     4.22.2.3.1 Comparison of findings: Several inspectors (drawn from one or several
+                                      sites) may inspect an item (either concurrently or over a time interval such
+                                      that the stability of the inspected item is assured) and the findings are then
+                                      compared. Comparisons may be numerical or qualitative and a statistical
+                                      analysis of outcomes may highlight whether the findings from each inspector
+                                      are satisfactory. Comparison is against the consensus of the group.
+
+                     4.22.2.3.2 Measurement audits: An object of inspection with known reference values
+                                      or qualities may be used in a manner similar to that described in Section
+                                      4.22.2.3.1 above. The extent of variance between the reported results from
+                                      the inspector and the reference value/quality may be used as a performance
+                                      valuation tool.
+
+                     4.22.2.3.3 Technical witnessing: An inspector may observe another inspector during
+                                      an inspection, to confirm the coverage and application of judgment. This
+                                      technique is frequently used as a measure of the effectiveness of training.
+
+             4.22.3 Authorization and Identification of Special Inspectors: Documentation of the start
+                        date of authorization of each special inspector.
+
+5.0 ADDITIONAL INFORMATION (AS APPLICABLE)
+     Minimum Qualifications for Special Inspectors
+     Qualification requirements for special inspectors are as specified in Table 1, unless otherwise
+     stipulated by the AHJ/Scheme Owner. Where professional licensing is NOT a local AHJ requirement
+     to perform duties, other equivalent education, qualification and professional experience shall be
+     considered as equivalent, as determined in the Table and application for specified economy or AHJ
+     only. Similarly, where relevant personnel certification courses are not available in the economy (or
+     web-based certification programs are not available), other equivalent personnel certification shall be
+     applied based on relevant and AHJ/Scheme Owner's requirement.
+
+6.0 LINKS TO ADDITIONAL REFERENCES
+     6.1 Asia Pacific Accreditation Cooperation � www.apac-accreditation.org
+     6.2. International Laboratory Accreditation Cooperation � www.ilac.org
+     6.3. International Organization for Standardization � www.iso.org
+     6.4. International Electrotechnical Commission � www.iec.ch
+     6.5. International Accreditation Service � www.iasonline.org
+     6.6 International Code Council � www.iccsafe.org
+
+Page 14 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+These criteria were previously issued: January 2005 as Requirements; May 2005, August 2006, May 2007, April 2008, September
+2008, October 2009, May 2010, April 2011, October 2011, August 2012, June 2013, February 2016, August 2016, September 2017
+and September 2019.
+
+Page 15 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+CREDENTIAL REQUIREMENT FOR SPECIAL INSPECTORS
+(where AHJ/AA does not prescribe a specific requirement)
+
+Professional License: A professional engineering or architecture license issued by any of the State Licensing
+Boards within the U.S. (only applicable to a U.S. domiciled agency). Professional Credentials from other countries
+
+may be accepted on a case-by-case basis upon establishment of technical equivalency to licenses issued by U.S.
+entities.
+
+Recognized Education: The following degreed programs are acceptable (ABET recognition is NOT criteria unless
+the AHJ/AA wants it mandated in written law/regulation/bulletin or similar other statement:
+
+Engineering Degree: An engineering degree (four or more years) which results in a Bachelor of Science designation
+from a post-secondary institution accredited by accredited agencies or state approval agencies recognized by the
+U.S. Secretary of Education.
+
+Architecture Degree: An architecture degree which results in a Bachelor of Architecture designation from a post-
+secondary institution accredited by accredited agencies or state approval agencies recognized by the U.S. Secretary
+of Education.
+
+Any other Technical Degree from another Economy: Professional credentials from other countries may be accepted
+on a case-by-case basis upon establishment of technical equivalency to licenses issued by U.S. entities.
+
+Demonstratable Experience: To qualify as a special inspector based on experience, an inspector needs to
+demonstrate to the assessor that his/her knowledge and experience are relevant to the inspection tasks being
+performed.
+
+The following are used as an acceptable means:
+
+      � Self-maintenance of a log of national certifications from a third-party training service provider; example:
+            FCIA, IFC, AWS, ICC.
+
+      � An inspector is expected to demonstrate skill-based, hands-on competence to the satisfaction of the
+            assessor(s) at the site or similar environment.
+
+Training and Certification
+
+In-house Training: Documented in-house training could be considered, provided it includes structured class room or
+semi-structured web-based training followed by an individual evaluation of skills acquired. Class room/web-based
+instruction, onsite instruction, and hands-on training by supervisors/qualified inspectors, as determined by each SIA
+management could be accepted subject to compliance with AHJ/AA requirements.
+
+Documentation shall include project or location of training, type of training, name and signature of training service
+(name of individual with identity, name of organization may not be sufficient, if no accreditation status could be
+verified) who provided such training, topics discussed, areas inspected, and other necessary information. The
+documentation of the in-house training shall be signed by the participant and the instructor(s).
+
+IAS Recognized Certification/Training: Certifications from the following third-party training service and certification
+service providers (both ISO/IEC 17024 accredited and otherwise) are recognized for special inspection, subject to
+approval from the respective AHJ/AA:
+
+      � AABC (Air Balance Testing/Mechanical/smoke Control, Stairwell Pressurization): Certified Test and
+            Balance Technician (AABC-CTBT), Test and Balance Engineer (AABC-TBE)
+
+      � ACG (Air Balance Testing): Certified Commissioning Technician CxT (ACG-CCT), and Commissioning
+            Authority CxA (ACG-CA)
+
+      � ACI (Concrete): Field personnel, ACI Concrete Construction Special Inspector (ACI-CCSI)
+
+Page 16 of 20
+
+                                                               IAS/SIA/011
+                                                                      AC291
+
+                                                          October 4, 2023
+      � ACI (Concrete and Masonry): Field personnel: ACI Field Testing Technician-Grade I (ACI-I-F).
+
+      � ACI-CRSI (Adhesive Anchors): Adhesive Anchor Installer (ACI-CRSI)
+
+      � ACIL: Construction Materials Engineering and Testing Section Soil Testing Technician Certification
+
+      � ASNT (Structural Steel: Non-Destructive Testing): NDT II (Radiographic Testing, RT; Magnetic Particle
+            Testing, MT; Liquid Penetrant Testing, PT; and Ultrasonic Testing, UT) qualified in accordance with
+            American Society of Nondestructive Testing (ASNT) document SNT-TC-1A (current edition). NDT III (RT,
+            MT, PT, and UT) certified by ASNT. In-house certification of NDT II is acceptable. In-house certification of
+            NDT III is not acceptable. Program qualification to other documents will be considered on a case-by-case
+            basis
+
+      � AWCI (Exterior Wall System): Exterior Insulated Finish System Inspector (EIFS-I)
+
+      � AWS (Structural Steel: Welding): CWI, according to AWS guidelines or CSA Standard W178.2; SCWI
+            according to AWS guidelines
+
+      � CSWIP as administered by TWI Certification Ltd: For Welding Inspectors
+
+      � FCIA Training Program to FCIA Manual of Practice, (MOP): The Firestop Standard � The FCIA Firestop
+            Industry Manual of Practice, developed to be the basis for the FM 4991 Approved Firestop Contractor and
+            UL Qualified Firestop Contractor Exam. Once a person passes the exam and is employed / appointed by an
+            FM 4991 Approved or UL Qualified Firestop Contractor they become a Designated Responsible Individual
+            (DRI)
+
+      � FM: A certification for fire penetration inspectors issued by FM Global
+
+      � ICC (Concrete, Masonry, Structural Steel & Welding, Fireproofing, Soils, and Building): Reinforced
+            Concrete Special Inspector (47); Pre-stressed Concrete Special Inspector (92); Structural Masonry Special
+            Inspector (84); Structural Steel and Bolting Special Inspector (S1); Structural Welding Special Inspector
+            (S2); Soil Special Inspector (EC); Spray-applied Fireproofing Special Inspector (86)
+
+      � NEBB: National Environmental Balancing Bureau
+
+      � NFPA (Smoke Control): Certified Fire Protection Specialist (CFPS) or Certified Fire Inspector (CFI) to NFPA
+            1031
+
+      � NICET (Earthwork, Shallow Foundations, and Deep Foundations): Field Personnel, Geotechnical
+            Engineering Technology-Construction Subfield Levels I, II, III, and IV (N-I-GET, N-II-GET, N-III-GET, and N-
+            IV-GET). Laboratory Personnel, Construction Materials Testing-Soils Subfield levels I, II, III, and IV (N-I-
+            CMT, N-II-CMT, N-III-CMT, and N-IV-CMT)
+
+      � NICET (Smoke-Control /Fire Protection): Level II in; Fire Protection Engineering Technology, Water Based
+            Fire Protection Systems Layout Subfield (N-II-FPSL); Fire Alarm Systems Subfield (N-II-FPFA), Inspection
+            and Testing of Water Based Systems Subfield (N-II-FPIT), and Special Hazards Suppression Systems
+            Subfield (N-II-FPSHS)
+
+      � NPCA (National Precast Concrete Association): As applicable
+
+      � Portland Cement Association (PCA): As Applicable
+
+      � PTI (Concrete): Level 2 Unbonded Post-Tensioning Inspector (PTI-L2)
+
+      � TABB (Air Balance Testing): Certified Technician (TABB-CT), Supervisor (TABB-S)
+
+AHJ/AA � Authority Having Jurisdiction/Authorizing Authority
+
+Page 17 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+            Table 1 -- Minimum Acceptable Technical Competency for a Special Inspector
+         (the below table shall be used in absence of any specified requirement by AHJ/AA)
+
+No. Special Inspection Category Required Certification(s)
+
+1 Reinforced Concrete               ICC Reinforced Concrete Special Inspector (SI) or ACI Concrete Construction
+                                    Special Inspector
+
+2 Concrete Construction (Pre-       ICC Pre-stressed SI and ICC Reinforced Concrete SI
+        stressed/Precast)
+
+3 Soils                             ICC Soils SI (ICC-EC) or NICET II (geotechnical or construction or construction
+                                    material testing or soils)
+
+4 Masonry                           ICC Structural Masonry SI
+
+5 Structural Steel (Welding),       AWS CWI or ICC Structural Welding SI, CSWIP (WI 6/92 where admissible)
+        High-Pressure Steam Piping
+        (Welding),                  Hours of field experience as per -CP-189 NDT or SNT-TC-1a NDT, or ACCP or
+        Gas Piping (Welding),       equivalent
+        Hot Water Piping (Welding)
+
+6 Nondestructive Testing (NDT)
+        (All applicable Methods)
+
+7 Structural Cold-formed Steel      ICC Commercial Building Inspector or ICC Residential Building Inspector
+
+8 Steel (High-Strength Bolting)     ICC Structural Steel and Bolting SI
+
+9 Post-Installed Structural Anchors ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI
+        in Concrete and Masonry,
+        Prestressed Rock and Soil
+        anchors installation
+
+10 Structural Safety - Stability and RDP, PE, or BS Engineering / Architecture where licensing is not practiced or
+
+Mechanical Demolition,              Valid Site Safety Manager Certification.
+
+Underpinning,                       NICET II (geotechnical or construction or construction material testing or soils)
+
+Excavation - Sheeting, Shoring,
+
+and Bracing
+
+11 Seismic Isolation Systems        RDP, PE, or BS Engineering with Civil/Structural, where licensing is not practiced
+
+12 Pier and Pile Foundations        NICET II (geotechnical or construction or construction material testing or soils)
+
+13 Wood Construction                ICC Commercial Building Inspector or ICC Residential Building Inspector
+
+14 Wall Panels, Curtain Walls, and ICC Commercial Building Inspector or ICC Residential Building Inspector
+        Veneers
+
+15 Chimneys and Vents               ICC Commercial Mechanical Inspector or ICC Residential Mechanical Inspector
+
+16 Smoke Control Systems            AABC, NEBB or other equivalent Balancing Technician Certification for
+                                    personnel, and if subcontracted NEEB/AABC or another equivalent accreditation
+                                    for agency subcontractor
+
+17 Mechanical Systems               ICC Commercial Mechanical Inspector or ICC Residential Mechanical Inspector
+
+18 Heating Systems                  ICC Commercial Mechanical Inspector or ICC Residential Mechanical Inspector
+
+19 Fuel-oil Storage and Piping      ICC Commercial Mechanical Inspector or ICC Residential Mechanical Inspector
+        Systems                     or API Aboveground Storage Tank Inspector
+
+20 Spray-applied Fire-resistant     ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I or Certified Fire
+
+Materials / Intumescent Fire-       Inspector (NFPA 1031, where admissible)
+
+resistant Coatings / Mastic Fire-
+
+resistant Coatings
+
+21 Fire-resistant Penetrations &    ICC CLA or UL Firestop Examination or FM Firestop Examination or IFC third-
+        Joint Systems               party Firestop Special Inspector Examination
+
+                                    Page 18 of 20
+
+                                                                                             IAS/SIA/011
+                                                                                                    AC291
+
+                                                                                        October 4, 2023
+  22 Sprinkler Systems             ICC Commercial Building Inspector or ICC Residential Building Inspector, or ICC
+                                   Fire Inspector I or Certified Fire Inspector (NFPA 1031, where admissible)
+
+  23 Standpipe Systems             ICC Commercial Building Inspector or ICC Residential Building Inspector, or ICC
+                                   Fire Inspector I or Certified Fire Inspector (NFPA 1031, where admissible)
+
+  24 Combustible Exterior Wall     AWCI EIFS Inspector
+          Coverings
+
+  25 Site Storm Drainage Disposal  ICC Soils SI or NICET II (geotechnical or construction or construction material
+
+  and Detention/Retention System testing or soils)
+
+  26 Fa�ade Inspection, as per     ICC Commercial Building Inspector or ICC Residential Building Inspector, having
+
+  Owner's Contract Provision or    5 years of experience in high-rise building construction/ maintenance/restoration/
+
+  AHJ Requirement                  design/engineering, inspection or as per provision of AHJ.
+
+  27 Metal Building Assembly        � OSHA 10 certificate for employees with more than one year of experience;
+          Inspection                   and
+
+                                   Metal Buildings Institute Quality and Craftsmanship Training Series or Ironworker
+                                   Quality Construction Practices Metal Building Systems training
+
+  28 Special Cases                 ICC Commercial Building Inspector or ICC Residential Building Inspector
+
+  Note(s): Required Minimum Educational Qualification and Required Relevant Experience
+
+  1. When qualifications for special inspectors are locally defined by statute, ordinance or rule, and vary from the
+        requirements outlined in these criteria, these local requirements may be recognized for work within the
+        Authorizing AHJ.
+
+  2. Professional Development of Special Inspectors requires those individuals to obtain onsite experience
+        performing inspections of actual work to acquire the skills, under supervision and the duration of such training
+        varies with time spent on actual inspection tasks. SIAs need to have defined their own written Professional
+        Development Program to use apprentice/provisional inspectors and will limit their use based upon the level of
+        supervision and the complexity of the special inspection assignment. The complexity of an assignment for newer
+        inspectors should be minimal and task specific. All documents related to work by an associate or apprentice
+        inspector must be co-signed by a qualified special inspector. The written program documentation must establish
+        compliance with the program.
+
+  3. An Apprentice Special Inspector having higher educational degree (masters degree, earned PhD, having
+        relevance of subject matters) could reduce the number of years of experience before becoming fully qualified
+        and authorized to perform independent work. A masters degree or an earned PhD may reduce the numbers of
+        years of experience by 1 and 2 years, respectively.
+
+  4. Special Inspection Agency shall comply with one of the following education and experience requirements, unless
+        stipulated by the AHJ with an additional requirement(s):
+
+        a. Professional Engineer (P.E.), licensed Architect, or Registered Design Professional (RDP) and a minimum
+              of three months of relevant work experience; or
+
+        b. 4 Years of verified Bachelor of Science Degree (BS) in Engineering, Architecture, or Physical Science and a
+              minimum of six months of relevant work experience; where licensing is not practiced, minimum experience
+              period may be extended at the discretion of the AHJ; or
+
+        c. Two years of verified college or technical school (copy of diploma or transcript required) and a minimum of
+              one year of relevant work experience; or
+
+        d. High school or equivalent graduate (copy of diploma or certificate required) and a minimum of two years of
+              verified relevant work experience; or
+
+        e. A minimum of two years structural design/engineering experience, or a minimum of two years in
+              manufacturing/testing
+
+        f. A minimum of three years of verified relevant work experience.
+
+  5. RDPs, PEs, or RAs are exempt from Required Certification(s) listed in Table 1 above unless required by AHJ,
+        but are subject to following:
+
+        a. Onsite assessment of competence during assessment, and
+
+                                   Page 19 of 20
+
+                                                             IAS/SIA/011
+                                                                    AC291
+
+                                                        October 4, 2023
+      b. Objective evidence of professional development hours (PDH) in relevant category of inspection specific
+            discipline.
+
+Where licensing is not practiced, Bachelor of Science Degree (BS) in Engineering, Architecture, or Physical Science
+shall be used as equivalent educational need. 
+
+Page 20 of 20
+
+                    IAS/SIA/011
+                           AC291
+
+               October 4, 2023
+

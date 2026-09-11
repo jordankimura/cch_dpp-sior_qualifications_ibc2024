@@ -1,0 +1,1534 @@
+# NICET Geotechnical Engineering Technology Program Detail Manual (hosted PDF)
+# source id: nicet-geotech-manual | original: nicet_geotech.pdf | original sha256: 88aebdb67257630ec8b7396b3f5bcec81b549d20d328776151686aba5afb669a | retrieved: 2026-09-11 | https://www.nicet.org/nicetorg/assets/file/public/geotech.pdf
+
+NATIONAL INSTITUTE FOR CERTIFICATION IN ENGINEERING TECHNOLOGIES�
+
+                           A division of the National Society of Professional Engineers
+
+                         Geotechnical Engineering Technology
+
+  CONSTRUCTION, EXPLORATION,
+               LABORATORY
+
+                     PROGRAM DETAIL MANUAL
+
+Please check NICET's website (www.nicet.org) to make sure you
+have the most recent edition of this document.
+
+Effective upon issuing a new edition of any program detail manual,
+all previous editions of that program detail manual become obsolete.
+
+This manual may be freely copied in its entirety.
+
+Field Code: 009                                                       Fourth Edition
+Subfield Codes: 02, 03, 04                                            November 2012
+            IMPORTANT INFORMATION
+
+The Institute occasionally makes changes in its certification programs which will         KEEP YOUR
+significantly affect the currency of individual program detail manuals. These             MANUALS
+changes could include any or all of the following:                                        CURRENT
+
+o  deletion, modification, or addition of work elements
+
+o  modification to the Examination Requirements Chart
+
+o  modification to the crossover work element credit
+
+o  changes to the work experience requirement
+
+o  changes to the verification requirement
+
+Such changes could affect the requirements for certification. Therefore, if this manual is more than a year old,
+NICET highly recommends that you check www.nicet.org (or, if you don't have access to the Internet, call NICET at
+888-476-4238) to make sure that you have the current edition of the Program Detail Manual before applying for an
+examination. The date of publication of this manual is June 1994.
+
+It is the responsibility of all applicants to make sure they are using a current manual.
+
+   CHANGES  This fourth edition of the Construction, Exploration, and Laboratory program detail
+   TO THIS  manual contains the following substantive change from the third edition:
+   MANUAL
+            o Work element #11001, "Basic Metric Units and Conversions," is
+                  no longer mandatory for certification at Levels II, III, and IV.
+
+Once certified, each certificant will be mailed an annual renewal bill. If the      PAYMENT OF ANNUAL
+yearly payment is not made for three consecutive calendar years, the                RENEWAL BILL
+certification "expires" (all certification records as well as all previous testing
+records will be deleted) and active certification can be regained only by
+reapplying as a new applicant and meeting the current criteria.
+
+Payment of an exam fee does not substitute for payment of the annual renewal fee.
+
+   Whenever an exam requirement changes, those persons who are already
+   certified should understand that they do not need to comply with any changes
+   for the level(s) of certification they have already been awarded - they only
+   have to satisfy the exam requirement for the higher level(s).
+
+   In other words, if you are already certified, NICET recognizes you as having
+   met all the exam requirements for that level even if the requirement changes
+   from what it was when you were awarded certification.
+                                   FIELD OF GEOTECHNICAL ENGINEERING TECHNOLOGY
+                         SUBFIELDS OF CONSTRUCTION, EXPLORATION, AND LABORATORY
+
+                                                            TABLE OF CONTENTS
+
+GENERAL INFORMATION AND PROGRAM DESCRIPTION .................................................................. 1
+
+CERTIFICATION REQUIREMENTS............................................................................................................. 1
+
+WORK ELEMENT DESCRIPTION................................................................................................................ 2
+
+FIELD CODE AND WORK ELEMENT IDENTIFICATION NUMBERS .................................................... 2
+
+WORK ELEMENT SELECTION FOR AN INITIAL EXAM ........................................................................ 3
+
+CROSSOVER WORK ELEMENTS ................................................................................................................ 4
+
+EXAMINATION REQUIREMENTS CHARTS.............................................................................................. 5
+
+WORK ELEMENT SELECTION FOR ALL SUBSEQUENT EXAMS ......................................................... 9
+
+VERIFICATION OF WORK ELEMENTS...................................................................................................... 9
+
+WORK EXPERIENCE REQUIREMENT ....................................................................................................... 9
+
+LEVEL IV WORK EXPERIENCE REQUIREMENT..................................................................................... 10
+
+EARLY TESTING OF LEVEL IV WORK ELEMENTS................................................................................ 11
+
+PREPARATION FOR TESTING..................................................................................................................... 11
+
+TRAINING COURSES .................................................................................................................................... 11
+
+WORK ELEMENT LISTING
+Level I General Work Elements........................................................................................................................ 12
+Level I Special Work Elements ........................................................................................................................ 13
+Level II General Work Elements ...................................................................................................................... 14
+Level II Special Work Elements ....................................................................................................................... 15
+Level III General Work Elements ..................................................................................................................... 18
+Level III Special Work Elements...................................................................................................................... 19
+Level IV General Work Elements..................................................................................................................... 23
+Level IV Special Work Elements...................................................................................................................... 24
+
+PERSONAL TALLY WORKSHEET .............................................................................................................. 26
+
+SELECTED GENERAL REFERENCES ......................................................................................................... 28
+
+SAMPLE SCORE REPORT............................................................................................................................. 29
+GENERAL INFORMATION
+
+     This Program Detail Manual contains the information needed to apply for the NICET certification examinations in the
+Construction, Exploration, and Laboratory subfields of Geotechnical Engineering Technology.
+
+     This manual does not contain all of the rules and procedures for obtaining certification. For this, you must refer to our
+website (www.nicet.org).
+
+                                                      National Institute for Certification
+                                                    in Engineering Technologies (NICET)
+                                           1420 King Street, Alexandria, Virginia 22314-2794
+                                   1-888-476-4238 (staff response � 8:30am to 5pm Eastern Time)
+                                                     (voice mail system at all other times)
+
+                                                        1-703-548-1518 (local number)
+                                                                   www.nicet.org
+
+PROGRAM DESCRIPTION
+     This certification program was designed for technicians engaged in soil investigation and determination of engineering
+
+properties prior to and concurrent with initial construction activities. It recognizes, through its three subfields (Construction,
+Exploration, and Laboratory), situations in which the principal activities of the technician are concentrated in the construction
+site environment, the exploration operation, or the laboratory environment. The program also recognizes the situation in
+which the technician routinely has job tasks in all three subfield areas and thus is considered a generalist rather than a
+specialist. Areas covered include knowledge of standard soil classification tests; specialized laboratory and field tests;
+construction practices; and recordkeeping and reports.
+
+    This program was made operational with the assistance of the California Geotechnical Engineers Association (CGEA).
+This work element program replaced a two-part geotechnical certification program that was introduced in 1977 and was
+discontinued on December 1, 1984.
+
+CERTIFICATION REQUIREMENTS
+
+          Certification candidates must meet the following criteria:
+                              complete the written examination requirement
+                              work element verification by the immediate supervisor
+                              appropriate employment history
+                              technician recommendation by an acceptable recommender (required at Level III)
+
+          Simply passing the examination does not guarantee certification. All other components MUST be accepted and
+approved in order to achieve certification.
+
+          Level I is designed for entry-level technicians with very limited relevant work experience in the technical subfield.
+The Institute recommends that persons with eighteen or more months of relevant work experience set their initial certification
+goal at Level II. Certification at Levels II, III, and IV does NOT require prior certification at Level I. The Examination
+Requirements Charts list the actual examination requirements for certification at Levels I, II, III, and IV in the subfields of
+Construction, Exploration, Laboratory, and Generalist.
+
+                                                                           1
+WORK ELEMENT DESCRIPTION
+
+     The typical job duties and associated responsibilities of geotechnical technicians have been broken down into discrete
+work elements which form the basis for an evaluation of the candidate's knowledge. Each work element is written in
+sufficient detail to permit candidates to make reasonable assumptions about the types of questions likely to be asked.
+
+     In addition, the supervisor verifying the experience of the candidate should be able to interpret the scope of the activities
+associated with each work element.
+
+FIELD CODE AND WORK ELEMENT IDENTIFICATION NUMBERS
+
+     In order for NICET to prepare individualized examinations for each applicant, identification numbers have been assigned
+to each work element. The technical field code number of Geotechnical Engineering Technology is 009.
+
+This identification number is normally five digits long. The first digit identifies the technical subfield within the field of
+Geotechnical Engineering Technology:
+
+(1) Construction, Exploration, Laboratory General Work Elements
+(2) All Construction Special Work Elements
+(3) All Exploration Special Work Elements
+(4) All Laboratory Special Work Elements
+
+The second digit identifies the level (Levels I through IV) and the work element type (General or Special):
+
+GENERAL WORK ELEMENTS                                            SPECIAL WORK ELEMENTS
+(1) Level I General                                              (2) Level I Special
+(3) Level II General                                             (4) Level II Special
+(5) Level III General                                            (6) Level III Special
+(7) Level IV General                                             (8) Level IV Special
+
+The third, fourth and fifth digits identify the individual work element within each category.
+
+A sample of this numbering system is illustrated below for work element numbers 13008 and 34013:
+
+                            13008
+
+Subfield:              1                                         (Construction, Exploration, Laboratory)
+                                                                 (Level II General)
+Level/Type:            3
+
+Work Element Number:   001
+
+                            34013
+
+Subfield:              3                                         (Exploration)
+                                                                 (Level II Special)
+Level/Type:            4
+
+Work Element Number:   013
+
+     This five-digit identification number is needed when using the application form to request an examination or provide
+work element verification.
+
+                            2
+WORK ELEMENT SELECTION FOR AN INITIAL EXAM
+1. You must select which subfield certification you wish to pursue first. A selection must be made on your initial exam
+
+     whether to concentrate on work elements applicable to Construction, Exploration, or Laboratory.
+2. After the choice of subfield has been made, find the appropriate Examination Requirements Chart beginning on page 5 in
+
+     this manual.
+3. Select the appropriate box for the level of certification desired.
+4. Note the number of work elements required for certification, by category, as shown in the selected box.
+5. Turn to the Work Element Listing section and carefully select work elements from the required categories, paying
+
+     attention at each level to whether they are classified as General or Special work elements. Select first those work
+     elements most likely to be passed. Bear in mind that all General work elements are the same in all three subfields. Once
+     any General work element has been passed on an exam, credit will be given for it in all three subfields.
+6. When possible, select a few extra in each category so that failing one or more work elements leaves enough passed work
+     elements to satisfy the examination requirement.
+7. If the requirement for the desired level is more than 34, it is advisable to examine first all lower level work elements
+     needed to achieve certification. Save the upper level work elements for a subsequent examination.
+8. It is strongly recommended that the maximum number of work elements (34) be selected for each examination taken.
+     Selection of 34 work elements provides the greatest opportunity for successful completion of the examination
+     requirement with the smallest number of subsequent examinations. Recognize, however, that all elements selected on an
+     exam application WILL BE SCORED, even if no attempt is made to answer the questions. That is, a score of "0" will be
+     assigned to the work element even if the questions are not answered and the work element will have one failure marked
+     against it.
+9. It is suggested that all examination applicants keep a copy of their filled-out applications. This will assist in resolving
+     questions over the telephone.
+
+                                                                           3
+CROSSOVER WORK ELEMENTS
+     NICET makes every effort to identify work elements in a subfield that are identical or virtually identical in coverage and
+
+intent to work elements in one or more other fields/subfields. Once such a work element is passed on an examination it does
+not normally have to be taken again on any other examinations. Such work elements are classified as crossover work
+elements.
+
+     Crossover work elements within a technical field which are passed on an examination are automatically credited to all
+subfields within that field. The recognized crossovers within the field of Geotechnical Engineering Technology are listed
+together in the Work Element Listing section of this manual. In addition, the crossover work elements are identified on the
+"Personal Tally Worksheet" in this manual.
+
+     It is not permitted to sign up for crossover work elements on the same exam, using different numbers. (If you sign up for
+work elements 24006 and 34006 on the same exam, you will only get one of them - this is because they are identical.)
+
+     Some NICET certification programs permit crossover work element credit among different technical fields. Contact the
+NICET office by phone or mail to request the field-to-field Crossover Listing for Geotechnical Engineering Technology. You
+may use this listing to request crossover credit to other fields. In the Geotechnical program, field-to-field crossover credit will
+be given for work elements in the Construction Materials Testing and the Transportation/Highway Materials programs.
+
+     NICET has also developed "generic" work elements which are treated as crossover work elements among almost all of
+our certification programs. These generic work elements cover communication skills, math, physical science and other basic
+areas of knowledge which should be known by all engineering technicians. Call NICET to request a copy of the "Generic
+Work Element Crossover Credit Listing" if you have taken any previous exams and have passed any of these generic work
+elements. The generic crossover work elements are identified in the Work Element Listing by the symbol (^) after the work
+element title.
+
+                                                                       WARNING
+      Revisions to certification programs can occasionally eliminate previous crossovers relationships or create new ones.
+      Thus, crossover credit shown on the "Personal Crossover Evaluation" and on any "Crossover Listing" cannot be
+      assumed to be permanent.
+      The Personal Crossover Evaluation is a "potential" list. Only when a new subfield is tested and the crossover credit is
+      posted to the test record does it become permanent. The Official Personal Transcript shows the crossover credit
+      actually awarded.
+
+                                                                           4
+                                               EXAMINATION REQUIREMENTS CHART
+                                                           Subfield: Construction
+
+You must pass the number of work elements shown in each box to complete the exam requirement for certification at that level.
+
+Level I    Level I - General � 5                You must pass this many work elements to
+Level II   Level I - Special - 3                complete the Level I exam requirement.
+Level III
+                         TOTAL       8          You must pass this many work elements to
+                                                complete the Level II exam requirement.
+           Level I � General � 8
+           Level I - Special - 4                You must pass this many work elements to
+           Level II - General � 12              complete the Level III exam requirement.
+           Level II - Special - 6               Read note (a) below.
+
+                         TOTAL       30
+
+           Level I � General � 8a
+           Level I - Special - 4
+           Level II - General � 12
+           Level II - Special - 10
+           Level III - General � 4
+           Level III - Special - 10
+
+                         TOTAL       48
+
+           Level I - General � 8a
+
+           Level I - Special - 4
+
+           Level II - General - 12              You must pass this many work elements to
+                                                complete the Level IV exam requirement.
+Level IV   Level II - Special - 15              Read notes (a) and (b) below.
+
+           Level III - General � 4
+
+           Level  III -  Special  -  17  d Not
+           Level  IV -   General  -   4
+
+           Level IV - Special - 1
+
+                         TOTAL       65
+
+NOTES:
+(a) Time restrictions dictate that no more than 34 work elements can be scheduled for any single examination sitting.
+
+     Therefore, at least two examination sittings will be needed in order to complete this requirement.
+(b) Read very carefully the two sections applicable to Level IV certification in this manual before seeking Level IV
+
+     certification.
+
+GENERAL NOTES:
+(1) Work elements passed which are in excess of the requirement for a particular type and level, but which are
+
+     needed to meet the requirement at the next higher level are automatically applied to that higher level
+     requirement.
+(2) Use the Personal Tally Worksheet in this manual to keep track of the number of work elements you have passed.
+
+                         5
+                                               EXAMINATION REQUIREMENTS CHART
+                                                             Subfield: Exploration
+
+You must pass the number of work elements shown in each box to complete the exam requirement for certification at that level.
+
+Level I    Level I - General � 5                  You must pass this many work elements to
+Level II   Level I - Special - 3                  complete the Level I exam requirement.
+Level III
+                         TOTAL       8            You must pass this many work elements to
+                                                  complete the Level II exam requirement.
+           Level I � General � 8
+           Level I - Special - 3                  You must pass this many work elements to
+           Level II - General � 12                complete the Level III exam requirement.
+           Level II - Special - 5                 Read note (a) below.
+
+                         TOTAL       28
+
+           Level I � General � 8a
+           Level I - Special - 3
+           Level II - General � 12
+           Level II - Special - 9
+           Level III - General � 4
+           Level III - Special - 8
+
+                         TOTAL       44
+
+           Level I - General � 8a
+
+           Level I - Special - 3
+
+           Level II - General - 12                You must pass this many work elements to
+                                                  complete the Level IV exam requirement.
+Level IV   Level II - Special - 11                Read notes (a) and (b) below.
+
+           Level III - General � 4
+
+           Level  III -  Special  -  R124ead Not
+           Level  IV -   General  -
+
+           Level IV - Special - 4
+
+                         TOTAL       58
+
+NOTES:
+(a) Time restrictions dictate that no more than 34 work elements can be scheduled for any single examination sitting.
+
+     Therefore, at least two examination sittings will be needed in order to complete this requirement.
+(b) Read very carefully the two sections applicable to Level IV certification in this manual before seeking Level IV
+
+     certification.
+
+GENERAL NOTES:
+(1) Work elements passed which are in excess of the requirement for a particular type and level, but which are
+
+     needed to meet the requirement at the next higher level are automatically applied to that higher level
+     requirement.
+(2) Use the Personal Tally Worksheet in this manual to keep track of the number of work elements you have passed.
+
+                         6
+                                               EXAMINATION REQUIREMENTS CHART
+                                                             Subfield: Laboratory
+
+You must pass the number of work elements shown in each box to complete the exam requirement for certification at that level.
+
+Level I    Level I - General � 5                  You must pass this many work elements to
+Level II   Level I - Special - 3                  complete the Level I exam requirement.
+Level III
+                         TOTAL       8            You must pass this many work elements to
+                                                  complete the Level II exam requirement.
+           Level I � General � 8
+           Level I - Special - 4                  You must pass this many work elements to
+           Level II - General � 12                complete the Level III exam requirement.
+           Level II - Special - 6                 Read note (a) below.
+
+                         TOTAL       30
+
+           Level I � General � 8a
+           Level I - Special - 4
+           Level II - General � 12
+           Level II - Special - 9
+           Level III - General � 4
+           Level III - Special - 9
+
+                         TOTAL       46
+
+           Level I - General � 8a
+
+           Level I - Special - 4
+
+           Level II - General - 12                You must pass this many work elements to
+                                                  complete the Level IV exam requirement.
+Level IV   Level II - Special - 12                Read notes (a) and (b) below.
+
+           Level III - General � 4
+
+           Level  III -  Special  -  R134ead Not
+           Level  IV -   General  -
+
+           Level IV - Special - 4
+
+                         TOTAL       61
+
+NOTES:
+(a) Time restrictions dictate that no more than 34 work elements can be scheduled for any single examination sitting.
+
+     Therefore, at least two examination sittings will be needed in order to complete this requirement.
+(b) Read very carefully the two sections applicable to Level IV certification in this manual before seeking Level IV
+
+     certification.
+
+GENERAL NOTES:
+(1) Work elements passed which are in excess of the requirement for a particular type and level, but which are
+
+     needed to meet the requirement at the next higher level are automatically applied to that higher level
+     requirement.
+(2) Use the Personal Tally Worksheet in this manual to keep track of the number of work elements you have passed.
+
+                         7
+                                               EXAMINATION REQUIREMENTS CHART
+                                                             Subfield: Generalist
+
+You must pass the number of work elements shown in each box to complete the exam requirement for certification at that level.
+
+Level I    Level I - General � 5                   You must pass this many work elements to
+Level II   Level I - Special - 3                   complete the Level I exam requirement.
+Level III
+                         TOTAL       8             You must pass this many work elements to
+                                                   complete the Level II exam requirement.
+           Level I � General � 8                   Read notes (c) and (d) below.
+           Level I - Special - 4c
+           Level II - General � 12                 You must pass this many work elements to
+           Level II - Special - 9d                 complete the Level III exam requirement.
+                                                   Read notes (a), (c), (d), and (e) below.
+                         TOTAL       33
+
+           Level I � General � 8a
+           Level I - Special - 4c
+           Level II - General � 12
+           Level II - Special � 18d
+           Level III - General � 4
+           Level III - Special � 12d
+
+                         TOTAL       58
+
+           Level I - General � 8a
+
+           Level I - Special - 4b
+
+           Level II - General - 12                 You must pass this many work elements to
+                                                   complete the Level IV exam requirement.
+Level IV   Level II - Special � 18e                Read notes (a), (b), (c), (d), and (e) below.
+
+           Level III - General � 4
+
+           Level  III -  Special  �  R274eead Not
+           Level  IV -   General  -
+
+           Level IV - Special - 7e
+
+                         TOTAL       84
+
+NOTES:
+(a) Time restrictions dictate that no more than 34 work elements can be scheduled for any single examination sitting.
+
+     Therefore, at least two examination sittings will be needed in order to complete this requirement.
+(b) Read very carefully the two sections applicable to Level IV certification in this manual before seeking Level IV
+
+     certification.
+(c) Can be any Level I Special (disregard subfield category.) Crossover work elements can only be counted once.
+(d) Level II and III Special work elements must be divided equally among the 3 subfield categories of Construction,
+
+     Exploration, and Laboratory. Crossover work elements can only be counted once.
+(e) Level IV Special work elements must be distributed as follows: 1 from Construction, 3 from Exploration, and
+
+     3 from Laboratory. Crossover work elements can only be counted once.
+
+GENERAL NOTES:
+(1) Work elements passed which are in excess of the requirement for a particular type and level, but which are
+
+     needed to meet the requirement at the next higher level are automatically applied to that higher level
+     requirement.
+(2) Use the Personal Tally Worksheet in this manual to keep track of the number of work elements you have passed.
+
+                         8
+WORK ELEMENT SELECTION FOR ALL SUBSEQUENT EXAMS
+
+     All the items listed on page 3 for the initial examination apply to subsequent exams. In addition, the following should be
+understood:
+
+1. It is not necessary to retest failed work elements if there are other work elements, in the appropriate categories, which can
+     be selected. If you need to retest a failed work element, you must wait three months from the last time you failed it before
+     you will be permitted to test that element again. In addition, you will be blocked from signing up for a work element a
+     fourth time if it has been previously failed four times within a two-year span. For further information, read Policy
+     #20, "Retesting of Failed Work Elements," available on our website (www.nicet.org).
+
+2. If an adequate number of work elements has been selected to meet the certification requirement (with a few extra selected
+     to provide a cushion), and there is room on the exam application to add more elements, it is appropriate to include work
+     elements that will satisfy the examination requirement of the next level of certification or to include work elements from
+     another subfield or another field.
+
+VERIFICATION OF WORK ELEMENTS
+
+     Verification should be provided by the applicant's immediate supervisor. The verifier, by signing his or her initials, is
+signifying that the applicant has actually performed at least the operations indicated in the work element description and that
+the verifier is confident that the applicant has performed the specific job tasks repeatedly and satisfactorily. Exposure to a
+job task through demonstrations by others or through partial involvement by the applicant should not be a basis for a
+supervisor to verify that the task can be performed correctly by the candidate under a variety of conditions.
+
+                                                                     WARNING
+
+     NICET takes very seriously the role of the verifier. All certification candidates and their verifiers
+     must understand that verification is an important component of the certification process.
+
+     NICET's Policy #2, "Handling of Certification Process Irregularities" says, in part, that if NICET determines that any
+verification was obtained from a non-qualified verifier or was given for tasks not actually performed, the NICET action
+against the candidate can be to permanently deny the certification sought or revoke the certification(s) held. The NICET
+action against the verifier can be to terminate the privilege of serving as a verifier. If the verifier is NICET-certified, the
+certification(s) could be revoked.
+
+     Lack of verification on any (or all) work elements does not prevent an applicant from testing those work elements.
+Certification, however, will not be awarded until all work elements counted toward certification are verified.
+
+WORK EXPERIENCE REQUIREMENT
+
+     Your work experience will not be evaluated until after a written exam requirement has been met. Carefully consider your
+actual experience before testing in a technical area where you have limited or no experience - meeting an exam requirement
+does not guarantee certification.
+
+                o NICET certification is only awarded to persons performing engineering technician level work. This must
+                     be documented in the examinee's Employment History in the Test Application form.
+
+                o A preponderance of the work experience must be acquired while residing in the United States and its
+                     territories, employing U.S. standards and work practices.
+
+                o A significant proportion of the relevant work experience must be recent.
+
+                                                                           9
+LEVEL IV WORK EXPERIENCE REQUIREMENT
+     In addition to the normal work experience information requested on the technician application form, all candidates for
+
+certification at Level IV, Senior Engineering Technician, in Geotechnical Engineering Technology must establish, in writing,
+that they have occupied a senior position of responsibility on at least one major geotechnical construction project. It must be
+remembered that ten years or more of employment in the technical area, by itself, is not sufficient for the granting of a Level
+IV certification.
+
+     The write-up sent to NICET must provide a detailed, concise description of a geotechnical project which shows the
+candidate's recent involvement in a majority of the various aspects of geotechnical construction work. The pertinent work
+experience must be described in depth by the candidate personally -- official job descriptions or testimonials from others will
+not be evaluated.
+
+     The write-up on each activity/project should include such information as:
+          1. the type of project:
+                a. earthwork - embankment, excavating
+                b. supporting structures - foundations, piling, retaining walls
+                c. drainage works - surface and/or groundwater control
+          2. scope of project:
+                a. contract time period, contract value, your time period on the project, the project components
+          3. the supervisory responsibilities and on-site authority;
+          4. the range of experiences on the project including, but not limited to reports, recordkeeping at meetings,
+                schedule monitoring, quality assurance, new construction, and rehabilitation.
+          Your documentation must address the Level IV requirement that your level of responsibility
+          demonstrates independent engineering technician work, including delegated responsibilities and
+          duties for which engineering precedent exists.
+
+     In order to avoid lengthy delays in processing your Level IV certification, this documentation should be sent with the
+Level IV examination application.
+
+                                                                           10
+EARLY TESTING OF LEVEL IV WORK ELEMENTS
+     Although NICET does permit testing of Level IV work elements prior to satisfying the work experience requirement, the
+
+Institute reserves the right to question the validity of Level IV work elements passed by, and verified for, persons with little
+work experience. If, for example, a technician with a total of 3 years of experience passes Level IV work elements, NICET
+may require documentation of how this higher level knowledge was obtained without accumulating the requisite work
+experience.
+
+     If documentation is inadequate, NICET may require specific work elements to be tested and passed again, at the
+candidate's expense, at the time of the Level IV certification decision.
+
+     In addition, NICET reserves the right to require reverification of work elements designated for meeting the Level IV
+examination requirement if the verifications were signed three years prior to the time of the Level IV certification decision.
+PREPARATION FOR TESTING
+
+     The NICET written examinations are designed by the individual who has performed the work elements associated with
+the program. Preparation for this examination should be minimal.
+
+     When appropriate, the work element description specifies the applicable standards or procedures. The standards and
+other references cited in the work element descriptions are permitted (and encouraged) at the test site.
+TRAINING COURSES
+
+     NICET does not endorse, certify, or accredit training programs and any claims to that effect should be viewed with
+caution. NICET does, however, provide information on the certification procedures and objectives so that training courses
+can be developed specifically to help persons planning to take a NICET certification exam.
+
+                                                                           11
+        WORK ELEMENT LISTING
+
+        Subfields of Construction, Exploration, Laboratory
+
+        LEVEL I - GENERAL WORK ELEMENTS
+
+        (Work at Level I Should Be Performed Under Direct Supervision)
+
+All General Work Elements are common to all three subfields of Construction, Exploration, and Laboratory. Each General Work Element
+ID No. begins with the digit one (1). All General Work Elements which are passed will be posted to all three subfields.
+
+ID No.  Work Element Title and Description
+
+11001 BASIC METRIC UNITS AND CONVERSIONS (^)
+          Understand basic metric (SI) units and perform conversions to and from metric units. (E380)
+
+11002   BASIC MATHEMATICS (^)
+        Solve mathematical problems requiring simple addition, subtraction, multiplication, and division. Round to the
+        correct number of significant figures, calculate percentages, read graphs, and use simple geometric definitions and
+        formulas. (See general mathematics textbooks.)
+
+11003 BASIC COMMUNICATION SKILLS (^)
+          Use proper punctuation, vocabulary, spelling, and sentence structure. Follow written instructions.
+
+11004 TERMS AND DEFINITIONS
+          Know the standard definitions of soil and rock terms as defined by ASTM. (D653)
+
+11005   BASIC PHYSICAL SCIENCE (^)
+        Recognize constants, definitions, symbols, and terminology in common use in the application of chemistry, geology,
+        and physics to Geotechnical Engineering Technology. Understand fundamental laws and principles. (References:
+        general physics, general chemistry, and basic geology textbooks.)
+
+11006 HANDLING AND STORING SOIL SAMPLES
+          Know the proper methods of handling, labeling and storing bulk soil samples. (D420)
+
+11007 MOISTURE CONTENT DETERMINATION
+          Perform moisture content tests. (D2216)
+
+11008 BASIC SOIL CLASSIFICATION
+          Perform visual/manual classification of soils in the field and laboratory. (D2488)
+
+11009 UNIT WEIGHT TESTS
+          Perform direct measurement unit weight tests of cylindrical samples.
+
+11010 BASIC INDIVIDUAL SAFETY (^) (new work element - 1994)
+          Follow standard safety practices in performing job tasks. Recognize and call attention to improper safety practices at
+          the work site. (OSHA 2202)
+
+(^) Indicates that generic crossover credit exists in other fields/subfields for this work element. Contact the Institute to obtain a copy of the "Generic Work Element Listing."
+
+GENERAL NOTE: See "Selected General References" page in this manual for information on listed standards and publications.
+
+                                                   12
+                                    LEVEL I - SPECIAL WORK ELEMENTS
+
+                                    (Work at Level I Should Be Performed Under Direct Supervision)
+
+                              * * * * *CROSSOVER WORK ELEMENTS* * * * *
+
+In the Special Work Element listing, an initial digit of 2 indicates the Construction subfield, an initial digit of 3 indicates the
+Exploration subfield, an initial digit of 4 indicates the Laboratory subfield. When a work element has more than 1 number
+listed, it means that it is a crossover work element and credit will be given in each subfield listed. On your exam application,
+only list the first number. Pages 23 and 24 list all the crossovers.
+
+22001(Const) -- 42001(Lab)
+          REDUCE ROUTINE TEST DATA
+          Mathematically reduce test data and present basic test results both numerically and graphically.
+
+22002(Const) -- 32001(Expl)
+          TOPOGRAPHIC MAPS AND SITE PLANS
+          Use topographic maps and site plan drawings to locate sample sites and determine drainage patterns. Determine grid
+          coordinates, stationing, elevations, offsets and bearings.
+
+22003(Const) -- 32002(Expl)
+          BORING LOGS AND BORING LOCATION PLANS
+          Read and interpret boring log symbols and descriptions and location plans.
+
+22004(Const) -- 42002(Lab)
+          SOIL MOISTURE-DENSITY RELATIONSHIP
+          Perform moisture-density relationship test (Proctor density). (D698, D1557)
+
+22005(Const) -- 42003(Lab)
+          SIEVE ANALYSIS/AGGREGATES
+          Determine and record the particle size distribution of fine and coarse aggregate by sieving. (T27, C136)
+
+22006(Const) -- 32005(Expl) -- 42005(Lab)
+          TEST SAMPLE (SOIL) PREPARATION
+          Know the proper techniques for preparing soil samples for testing to include adequate sample size, splitting
+          techniques, and moisture conditioning. (T87, T146, D421, D2217)
+
+32004(Expl) -- 42004(Lab)
+          SOIL SAMPLING I
+          Know the techniques used to obtain bulk samples, block samples, SPT samples, and thin walled Shelby Tube
+          samples. (D-420, D-1586, D-1587, D-4220)
+
+                          * * * * *NON-CROSSOVER WORK ELEMENTS* * * * *
+
+EXPLORATION
+
+32003 STANDARD EXPLORATION EQUIPMENT
+          Know and understand the uses of commonly-used exploration equipment such as hand-operated motorized boring
+          machines, seismic or resistivity equipment.
+
+                                                                           13
+LABORATORY
+
+42006 WASH TEST FOR SOILS
+          Use wash test to determine the amount finer than No. 200 sieve in a soil sample. (D1140)
+
+42007 STANDARD LAB EQUIPMENT
+          Be familiar with equipment, devices, scales, ovens, moisture chambers, strain gauges etc. commonly used in the
+          laboratory.
+
+       LEVEL II - GENERAL WORK ELEMENTS
+
+       (Work at Level II Should Be Performed Under General Supervision)
+
+All General Work Elements are common to all three subfields of Construction, Exploration, and Laboratory. Each General
+Work Element ID No. begins with the digit one (1). All General Work Elements which are passed will automatically be
+posted to all three subfields.
+
+13001 OSHA AND OTHER SAFETY REGULATIONS
+          Understand what is needed to comply with OSHA, organizational, state and local safety requirements. Recognize
+          violations and report violations to project engineer. (OSHA 2207)
+
+13002 BUSINESS COMMUNICATIONS (^)
+          Use the rules of syntax and style to write clear sentences and paragraphs in preparing routine correspondence and
+          reports. Follow standard business communications procedures. (See basic grammar and writing handbooks.)
+
+13003 STANDARD GEOTECHNICAL TERMS
+          Know the standard geotechnical terms.
+
+13004 INTERMEDIATE MATHEMATICS (^)
+          Perform mathematical calculations utilizing basic algebra (fundamental laws, algebraic expressions), geometry, and
+          the trigonometric functions of right triangles. (See basic textbooks on algebra and trigonometry.)
+
+13005 INTERMEDIATE PHYSICAL SCIENCE (^)
+          Solve problems in mechanics, electricity, heat, and inorganic chemistry. (Solutions may involve algebra and
+          trigonometry.)
+
+13006 ACTIVITY NOTES AND REPORTS
+          Prepare accurate and detailed laboratory and field notes and reports.
+
+13007  TEST RESULTS
+       Review test results to see if they contain all required information and a reasonably unbiased estimate of the
+       information desired. Compare results with conclusions determined under similar circumstances in the same area
+       working with the same or similar materials. Review procedures used and determine if results properly utilize data
+       collected. Reconcile apparent divergences from standard results.
+
+13008 TEST DATA PROCESSING
+          Compute, record, handle and file test information in accordance with a good standard procedure.
+
+13009 SOILS CLASSIFICATION
+          Classify soils in accordance with the Unified Soil Classification System and the AASHTO Soil Classification
+          System. (M-145, D-2487, D-3282)
+
+13010 SOIL PROFILES
+          Assist in the preparation of generalized soil profiles in the office or the field.
+
+                                                 14
+13011 SOIL WEIGHT-VOLUME RELATIONSHIPS
+          Calculate basic soil weight-volume relationships. (See basic soil mechanics textbooks.)
+
+13012 POCKET PENETROMETER AND POCKET VANE TESTS
+          Perform pocket penetrometer test and pocket vane (Torvane) test.
+
+13013 EQUIPMENT AND INSTRUMENTS
+          Care for, clean, perform basic calibrations, and safeguard standard lab and field equipment and instruments.
+
+13014 FIRST AID PROCEDURES (^) (new work element - 1994)
+          Understand the basic rules and procedures of first aid. (See general handbooks on first aid.)
+
+                                   LEVEL II - SPECIAL WORK ELEMENTS
+
+                              * * * * * CROSSOVER WORK ELEMENTS * * * *
+
+In the Special Work Element listing, an initial digit of 2 indicates the Construction subfield, an initial digit of 3 indicates the
+Exploration subfield, an initial digit of 4 indicates the Laboratory subfield. When a work element has more than 1 number
+listed, it means that it is a crossover work element and credit will be given in each subfield listed. On your exam application,
+only list the first number. Pages 23 and 24 list all the crossovers.
+
+24001(Const) -- 34001(Expl)
+          STANDARD PLANS AND SPECIFICATIONS
+          Read, interpret, and utilize standard plans and specifications, such as site, grading and utility plans.
+
+24002(Const) -- 34002(Expl)
+          BASIC SURVEYING AND DRAFTING
+          Perform planimetric surveys, showing the location of sample sites and recognizable features. Draft plans and
+          location diagrams in accordance with standard practices to permit clear understanding of sampling locations. Key
+          work to topographic maps or plans used on projects.
+
+24003(Const) -- 34003(Expl)
+          GEOTECHNICAL REPORTS AND PROPOSALS
+          Have a comprehensive understanding of the requirements of geotechnical reports and the desired results of an
+          engineering/geotechnical proposal.
+
+24004(Const) -- 34004(Expl)
+          LOCATING UTILITIES
+          Know where to find the necessary information to locate utilities in the field.
+
+24005(Const) -- 34005(Expl)
+          MEASURE ELEVATIONS
+          Determine elevations in the field using only hand level and tape or range poles.
+
+24006(Const) -- 34006(Expl)
+          MONITOR GROUNDWATER LEVELS
+          Monitor groundwater levels in boreholes and observation wells.
+
+24010(Const) -- 34007(Expl)
+          PRELIMINARY CLASSIFICATION OF SOILS
+          Perform basic classification of soil samples obtained in field.
+
+                                                                           15
+24012(Const) -- 44008(Lab)
+          UNCONFINED COMPRESSIVE STRENGTH TESTS
+          Perform unconfined compressive strength tests in the field or laboratory. (D2166)
+
+24013(Const) -- 44012(Lab)
+          PLASTIC FINES BY SAND EQUIVALENT TEST
+          Determine the relative proportions of fine dust or claylike materials in soils or graded aggregates by the Sand
+          Equivalent test. (T176, D2419)
+
+24014(Const) -- 44013(Lab)
+          MOISTURE-DENSITY RELATIONS/SOILS
+          Determine the relation between moisture content and density of soils by use of the Standard Proctor and Modified
+          Proctor tests. (T99, T180, T224, D698, D1557)
+
+24019(Const) -- 44014(Lab)
+          MOISTURE-DENSITY RELATIONS OF SOIL-CEMENT MIXTURES
+          Determine the relationship between the moisture content and the density of soil-cement mixtures when compacted
+          before cement hydration. (T134, D558)
+
+24020(Const) -- 34015(Expl) -- 44016(Lab)
+          REAGENTS
+          Know the reagents used for common field and lab tests. Know limitations on use of reagents and how results are
+          affected.
+
+24022(Const) -- 34016(Expl) -- 44018(Lab)
+          BASIC DRAFTING (^)
+          Recognize and describe standard manual drafting techniques. Describe the characteristics and proper usage of
+          standard drafting equipment. (See basic technical drawing textbooks.)
+
+                           * * * * *NON-CROSSOVER WORK ELEMENTS** * * *
+
+CONSTRUCTION
+
+24007 GRADING OPERATIONS
+          Know the various potential construction problems that may occur during a grading operation; i.e., the effect of
+          property line conditions, off-site structures, off-site soil conditions, existing underground structures, etc.
+
+24008 EARTHWORK PROJECTS
+          Know the special preparations that may be required prior to or during a major earthwork project because of
+          subdrains, culverts, natural gas venting, organic materials, keys in soil or rock, etc.
+
+24009 GRADE STAKES AND CONSTRUCTION SURVEYING
+          Understand the various types of temporary survey monuments and temporary survey aids set up during a construction
+          project.
+
+24011 SOIL PLACEMENT
+          Know the soil preparation techniques and equipment for placing and compacting soil on a grading project.
+
+24015 FIELD DENSITY BY SAND CONE METHOD
+          Determine the in-place moisture content and dry density of soils using the Sand Cone Method. (T191, D1556)
+
+24016 FIELD DENSITY BY RUBBER BALLOON METHOD
+          Determine the in-place moisture content and dry density of soils using the Rubber Balloon Method. (T205, D2167)
+
+                                                                           16
+24017 FIELD DENSITY BY DRIVE CYLINDER METHOD
+          Determine the in-place moisture content and dry density of soils using the Drive Cylinder Method. (T204, D2937)
+
+24018 NUCLEAR METHODS
+          Determine the density and moisture content of soil and soil-aggregate in-place using nuclear equipment. Be familiar
+          with safety precautions and all applicable government regulations. (D2922, D3017)
+
+24021 SUBGRADE AND BASE PREPARATION FOR PAVING
+          Know the general requirements and specifications for subgrade and base preparation for paved areas.
+
+EXPLORATION
+
+34008 SOIL SAMPLING II
+          Know how obtain soil samples by use of the Ring sampler, Denison type sampling, Osterberg sampler, SPT.
+
+34009 APPLICATION OF SOIL SAMPLING METHODS
+          Know the conditions which dictate specific soil sampling procedures in the field.
+
+34010 FIELD LAYOUT OF BORINGS
+          Lay out boring locations under field conditions using only chain (or tape) and range poles.
+
+34011 FIELD LOG OF BORINGS
+          Prepare accurate field logs of borings and test pits.
+
+34012 SOIL AUGERING METHODS
+          Understand the field use of Solid Stem, Hollow Stem, hand auger, bucket type rig or large diameter auger.
+
+34013 ROCK DRILLING
+          Understand the field use of air drilling procedures and diamond/carbide coring of hard and soft rocks.
+
+34014 ROTARY DRILLING AND WASH BORING PROCEDURES
+          Know rotary and wash boring techniques, including use of bits, drill fluids, casing, driving, etc.
+
+LABORATORY
+
+44001 LABORATORY DATA
+          Prepare laboratory standard test data and curves for presentation.
+
+44002 LABORATORY TEST DESCRIPTIONS
+          Read and understand standard laboratory test descriptions as specified by ASTM, AASHTO, and others.
+
+44003 LIQUID AND PLASTIC LIMITS
+          Determine the liquid and plastic limits of soils and derive the Plasticity Index from the data obtained. (T89, T90,
+          D4318)
+
+44004 PARTICLE-SIZE ANALYSIS OF SOILS
+          Determine the quantitative distribution of particle sizes in a soil sample. (T88, D422)
+
+44005 CBR OF LAB COMPACTED SOILS
+          Determine the bearing ratio of soil when compacted and tested in the laboratory by comparing the penetration load
+          of the soil to that of a standard material. (T193, D1883)
+
+44006 SPECIFIC GRAVITY/SOILS
+          Determine the specific gravity of a soil sample by means of a pycnometer. (T100, D854)
+
+44007 RELATIVE DENSITY
+          Determine minimum and maximum index density of cohesionless soils in the laboratory. (D4253-4254)
+
+                                                                           17
+44009 UNCONSOLIDATED-UNDRAINED TRIAXIAL COMPRESSION TESTS
+          Perform unconsolidated-undrained triaxial compression tests (no pore pressure measurements) in the laboratory.
+          (D2850)
+
+44010 LOSS ON IGNITION TESTS
+          Perform loss on ignition tests.
+
+44011 PERMEABILITY TESTS
+          Perform routine permeability tests of granular soils in the laboratory. (D2434)
+
+44015 WIRE CLOTH SIEVES
+          Use sieves for testing purposes. (E11, M92)
+
+44017 SHRINKAGE FACTORS OF SOILS
+          Determine the following soil constants: shrinkage limit, shrinkage ratio, volumetric shrinkage, and linear shrinkage.
+          (T92, D427)
+
+                                  LEVEL III - GENERAL WORK ELEMENTS
+
+All General Work Elements are common to all three subfields of Construction, Exploration, and Laboratory. Each General
+Work Element ID No. begins with the digit one (1). All General Work Elements which are passed will automatically be
+posted to all three subfields.
+15001 DAILY OBSERVATIONS AND SUMMARY REPORTS
+
+          Review daily reports of observations and prepare summary reports for submittal to supervising engineer.
+15002 GEOTECHNICAL LITERATURE
+
+          Review geotechnical literature for pertinent data for use in analysis, reports, or field operations.
+15003 GEOLOGY
+
+          Demonstrate comprehension of basic geology through an understanding of pertinent data for use in analysis, reports,
+          or field operations.
+15004 INTERNAL RELATIONS
+          Establish effective and proper working relations within the company.
+15005 TECHNICAL PRESENTATIONS AND REPORTS (^)
+          Organize and deliver oral presentations and prepare technical reports and correspondence.
+15006 WORK ELEMENT DELETED. Credit retained by those who previously passed it.
+15007 SUPPLIES AND EQUIPMENT
+          Keep accurate inventories of supplies, equipment and property records.
+
+                                                                           18
+                                   LEVEL III - SPECIAL WORK ELEMENTS
+
+                              * * * * * CROSSOVER WORK ELEMENTS * * * *
+
+In the Special Work Element listing, an initial digit of 2 indicates the Construction subfield, an initial digit of 3 indicates the
+Exploration subfield, an initial digit of 4 indicates the Laboratory subfield. When a work element has more than 1 number
+listed, it means that it is a crossover work element and credit will be given in each subfield listed. On your exam application,
+only list the first number. Pages 23 and 24 list all the crossovers.
+
+26003(Const) -- 36002(Expl)
+          CBR TESTS
+          Perform field CBR tests in the field. (D4429)
+
+26004(Const) -- 36003(Expl)
+          INSTRUMENTED STATIC LOAD TESTS
+          Monitor instrumented static load tests under direction of engineer or senior level technician.
+
+26005(Const) -- 36004(Expl)
+          EARTH STRAIN GAUGES
+          Monitor earth strain gauges.
+
+26006(Const) -- 36005(Expl)
+          SETTLEMENT OF FOUNDATIONS OR EMBANKMENTS
+          Monitor vertical and lateral deflection of foundations or embankments.
+
+26007(Const) -- 36006(Expl)
+          PORE PRESSURES
+          Monitor pore pressures in the field.
+
+26008(Const) -- 36007(Expl)
+          VIBRATION MONITORING
+          Perform vibration monitoring.
+
+26009(Const) -- 36008(Expl)
+          INCLINOMETERS
+          Monitor inclinometers.
+
+26011(Const) -- 36009(Expl)
+          GROUNDWATER CONDITIONS
+          Recognize changed groundwater conditions in the field.
+
+26016(Const) -- 46011(Lab)
+          BASIC STATISTICS
+          Apply basic statistical concepts related to probability, frequency distributions such as histograms, central tendency
+          measures such as mean and mode, and dispersion measures such as standard deviation. (See elementary statistics
+          textbooks.)
+
+26018(Const) -- 46018(Lab)
+          GRADED AGGREGATE BASE MATERIALS
+          Know the specifications for graded aggregate materials for bases or subbases for highways or airports. (D2940)
+
+\\
+
+                                                                           19
+                           * * * * *NON-CROSSOVER WORK ELEMENTS * * * *
+
+CONSTRUCTION
+
+26001 INSTRUMENTS
+          Maintain routine instruments and test equipment according to manufacturers' instructions.
+
+26002 EARTHWORK QUANTITIES
+          Compute earthwork quantities in the office, considering loss by shrinkage and other factors.
+
+26010 FIELD OBSERVATIONS OF EXCAVATED FOUNDATION CONSTRUCTION
+          Perform field observations of foundation construction, including shallow foundations, caissons and bored friction
+          piles.
+
+26012 SUBSURFACE CONDITIONS
+          Recognize changed subsurface conditions in the field.
+
+26013 TIEBACKS AND SOLDIER PILES
+          Monitor installation and stressing procedures of tied back shoring systems.
+
+26014 SPECIAL CONDITIONS DURING GRADING OPERATIONS
+          Understand and solve various potential construction problems occurring during a grading project.
+
+26015 TEMPORARY SUBTERRANEAN CUTS IN SOIL
+          Monitor, observe and record information during preparation of designed unsupported cuts in soil for temporary
+          subterranean excavations.
+
+26017 DEWATERING PROCEDURES
+          Know common dewatering method monitoring procedures and materials.
+
+26019 DRIVEN PILES
+          Know the recording procedures, observations and general procedural requirements during the installation of various
+          types of driven piles.
+
+26020 GEOFABRICS
+          Know the types, uses and installation of typical polypropylene/nylon fabrics for geotechnical purposes.
+
+26021 SUBDRAIN SYSTEMS
+          Know the types and installation of drainage systems used around structures to relieve fluid pressure.
+
+26022 EROSION OF NATURAL AND FILL SLOPES
+          Know the basic requirements for surface drainage systems, surface preparation, and planting for natural and
+          compacted earth fill slopes.
+
+26023 TRENCH BACKFILL COMPACTION
+          Know the techniques and materials that should be employed to provide proper trench backfill in a variety of
+          conditions.
+
+26024 SLOPE REPAIRS
+          Know the procedures and techniques used in restoring slumped or failed earthen slopes back to a condition similar to
+          that existing prior to the failure.
+
+26025 EARTHWORK PROJECT PREPARATIONS
+          Approve the special preparations that may be required prior to or during a mass earthwork project because of
+          subdrains, culverts, natural gas venting, organic materials, keys in soil or rock, etc.
+
+                                                                           20
+EXPLORATION
+
+36001 INSTRUMENTS
+          Maintain routine instruments and test equipment according to manufacturers' instructions.
+
+36010 FIELD PERMEABILITY TESTING IN SOIL
+          Perform routine field permeability tests (down-borehole, percolation, doublering infiltration, etc.).
+
+36011 FIELD PERMEABILITY TESTING IN ROCK CORED HOLES
+          Perform down borehole packer testing and pump-in tests in boreholes cored in rock.
+
+36012 VANE SHEAR TESTING
+          Perform vane shear testing in the field. (D2573)
+
+36013 PRESSURE METER TESTS
+          Perform pressure meter testing in the field.
+
+36014 DUTCH CONE TEST
+          Perform cone and friction cone testing in the field. (D3441)
+
+36015 DILATOMETER TEST
+          Perform Dilatometer testing in the field.
+
+36016 PLATE BEARING TESTS
+          Perform plate bearing tests in the field. (D1194, D1195, D1196)
+
+36017 SWEDISH FOIL SAMPLER
+          Obtain samples in cohesive soil by use of the Swedish Foil Sampler.
+
+36018 FIELD SOIL-STRUCTURE CORROSION TESTS
+          Perform soil-structure corrosion tests in the field.
+
+LABORATORY
+
+46001 INSTRUMENTS
+          Maintain routine instruments and test equipment according to manufacturers' instructions.
+
+46002 SUPERVISE AND COORDINATE SOIL TESTING
+          Perform, supervise and coordinate routine soil testing in the laboratory.
+
+46003 CONSOLIDATION TESTING
+          Perform routine consolidation testing in the laboratory. (D2435)
+
+46004 SWELL TESTING
+          Perform swell testing of soil in the laboratory. (D3877)
+
+46005 DIRECT SHEAR TESTING
+          Perform simple direct shear testing in the laboratory. (D3080)
+
+46006 CONSOLIDATED-UNDRAINED TRIAXIAL COMPRESSION TESTING
+          Perform consolidated-undrained triaxial compression tests (no pore pressure measurements) in the laboratory.
+          (D4767)
+
+46007 FREEZE-THAW TESTING
+          Perform freeze-thaw testing on compacted soil-cement mixtures in the laboratory. (D560)
+
+                                                                           21
+46008 DISPERSION TESTING
+          Perform dispersion testing (including pin-hole test) in the laboratory. (D4221, Laboratory Soils Testing)
+
+46009  TESTS ON SPECIAL MATERIALS
+       Perform routine testing on special materials (modified soils, manufactured soils, industrial wastes, etc.) in the
+       laboratory (grain size, CBR, plasticity, unconfined compressive strength, permeability, moisture-density
+       relationship).
+
+46010 PERMEABILITY TESTS
+          Perform recognized methods of laboratory permeability tests on noncohesive and cohesive soils. (D2434)
+
+46012 TRIAXIAL COMPRESSION TESTS WITH PORE PRESSURE MEASUREMENTS
+          Perform triaxial compression and extension tests with pore pressure measurements in the laboratory.
+
+46013 ELECTRICAL RESISTIVITY TESTS
+          Perform electrical resistivity testing in the laboratory.
+
+46014  RESISTANCE R-VALUE AND EXPANSION PRESSURE OF COMPACTED SOILS
+       Test treated and untreated laboratory compacted soils or aggregates with the stabilometer and expansion pressure
+       devices to obtain results indicative of performance when placed in the base, subbase, or subgrade of a road subjected
+       to traffic. (T190, D2844)
+
+46015 COMPRESSIVE STRENGTH OF ROCK CORE SPECIMENS
+          Demonstrate knowledge of the testing procedure to determine the compressive strength of rock core specimens.
+          (D2938)
+
+46016 SOIL/LIME MIXTURES
+          Demonstrate knowledge of soil/lime testing procedures; laboratory preparation, strength, and lime content of
+          soil/lime mixtures. (D3551)
+
+46017 COMPACTED SOIL-CEMENT MIXTURES
+          Determine the soil-cement loss, moisture changes, and volume changes produced by repeated wetting and drying or
+          freezing and thawing of hardened soil-cement specimens. (T135, T136, D559, D560)
+
+46019 pH OF SOIL
+          Know how to use the pH test of a soil to supplement soil resistivity measurements. (G51)
+
+46020 WORK ELEMENT DELETED. Credit retained by those who previously passed it.
+
+       22
+                                  LEVEL IV - GENERAL WORK ELEMENTS
+         NOTE: Certification at Level IV requires that the candidate must have occupied a
+         senior position of responsibility throughout the duration of one major
+         geotechnical project. There are no exceptions to this requirement and
+         documentation must be present in the work history listed on the application form.
+
+All General Work Elements are common to all three subfields of Construction, Exploration, and Laboratory. Each General
+Work Element ID No. begins with the digit one (1). All General Work Elements which are passed will automatically be
+posted to all three subfields.
+17001 COMPUTERS
+
+          Have a general knowledge of the functions and use of computers and potential uses in the field of engineering.
+17002 COST AND PERFORMANCE MANAGEMENT
+
+          Maintain effective internal management over cost and performance on any project assigned.
+17003 EXTERNAL WORKING RELATIONS
+
+          Establish effective and proper working relations with contractors, subcontractors, suppliers, consultants, utility
+          companies, government agencies, municipalities, property owners, design personnel, and the public.
+17004 QUALITY ASSURANCE
+          Perform quality assurance for all direct work or supervised work.
+17005 QUALITY ASSURANCE DOCUMENTATION
+          Maintain formal quality assurance documentation for those projects where a QA program is part of the contract.
+17006 EQUIPMENT CALIBRATION
+          Calibrate, or direct the calibration of all equipment not requiring tracing to National Bureau of Standards.
+
+                                                                           23
+                                   LEVEL IV - SPECIAL WORK ELEMENTS
+
+                              * * * * * CROSSOVER WORK ELEMENTS * * * *
+
+In the Special Work Element listing, an initial digit of 2 indicates the Construction subfield, an initial digit of 3 indicates the
+Exploration subfield, an initial digit of 4 indicates the Laboratory subfield. When a work element has more than 1 number
+listed, it means that it is a crossover work element and credit will be given in each subfield listed. On your exam application,
+only list the first number. Pages 23 and 24 list all the crossovers.
+
+28001(Const) -- 48005(Lab)
+          RADIOACTIVE MATERIAL REGULATIONS
+          Know the general state/federal regulations governing radioactive materials, including documentation, licensing, film
+          badges, wipe tests and knowledge of radioactive hazard in the field relative to low level radiation in nuclear
+          moisture/density gauges and laboratory equipment.
+
+28003(Const) -- 48008(Lab)
+          DELETED WORK ELEMENT. Credit retained by those who previously passed it.
+
+28004(Const) -- 48006(Lab)
+          DELETED WORK ELEMENT. Credit retained by those who previously passed it.
+
+                           * * * * *NON-CROSSOVER WORK ELEMENTS * * * *
+
+CONSTRUCTION
+
+28002 SOIL STABILIZATION METHODS
+          Know grouting practices (slurry, chemical and compaction), slurry walls, etc. and observations to be made during
+          field operations.
+
+EXPLORATION
+
+38001 ELECTRICAL RESISTIVITY TESTING IN THE FIELD
+          As part of a geophysical survey, demonstrate knowledge of electrical resistivity testing in the field.
+
+38002 SURFACE SEISMIC SURVEY
+          Perform surface seismic survey using multi-channel recorders.
+
+38003 DOWNHOLE (SINGLE) OR CROSS HOLE (MULTIPLE) SEISMIC SURVEYS
+          As part of a geophysical survey, demonstrate the method for downhole (single) or cross hole (multiple) seismic
+          surveys. (D4428, D4428M)
+
+38004 EXPLORATION EQUIPMENT SELECTION
+          Aid the engineering staff in the selection of exploration equipment for a variety of project types, soil conditions and
+          geographic locations.
+
+38005 EXPLORATION PROJECTS
+          Aid the engineering staff in mobilizing drilling projects in various environmental conditions such as isolated
+          geographical areas, residential areas, downtown areas, etc. and discuss the relevant considerations.
+
+                                                                           24
+38006 EXPLORATION EQUIPMENT PURCHASE
+          Aid the engineering staff in purchasing exploration equipment, taking into consideration the nature of the most
+          common project types, size of the company, and potential overhead, repair costs and back-up personnel required.
+
+38007 DELETED WORK ELEMENT. Credit retained by those who previously passed it.
+38008 DRILL BITS FOR ROCK CORE PROJECTS
+
+          Select drill bit types for various rock types and drilling depths and demonstrate basic knowledge of drill bit
+          construction and drill bit life and wear factors.
+
+LABORATORY
+
+48001 DYNAMIC TESTING
+          Perform dynamic testing. (D4015)
+
+48002 CONSOLIDATION TESTING
+          Perform consolidation testing including back pressure saturation.
+
+48003 DELETED WORK ELEMENT. Credit retained by those who previously passed it.
+48004 ROCK MECHANICS TESTS
+
+          Perform rock mechanics testing.
+48007 ELECTRONIC MONITORING EQUIPMENT
+
+          Understand electronic monitoring equipment such as transducers, load cells, and read out equipment used, and care
+          and maintenance of such equipment.
+48009 SUPERVISE SOIL LABORATORY
+          Select, maintain and calibrate test equipment; select appropriate test to be performed; supervise sampling, testing and
+          reporting for a field soil laboratory. Responsible for all operations under the supervision of an engineer.
+48010 TRIAXIAL TEST DATA CALCULATIONS II
+          Calculate and interpret results of consolidated-undrained triaxial compression tests on triaxial compression-tests with
+          pore pressure measurements.
+
+                                                                           25
+                                PERSONAL TALLY WORKSHEET
+                 Passed Work Elements in Geotechnical Engineering Technology
+
+ALL GENERAL WORK ELEMENTS/ALL SUBFIELDS
+
+LEVEL I  LEVEL II                   LEVEL III    LEVEL IV
+                                                    17001
+11001    13001     13008                 15001      17002
+                                                    17003
+11002    13002     13009                 15002      17004
+                                                    17005
+11003    13003     13010                 15003      17006
+
+11004    13004     13011                 15004
+
+11005    13005     13012                 15005
+
+11006    13006     13013                 15006*
+
+11007    13007     13014                 15007
+
+11008
+
+11009
+
+11010
+
+ALL LEVEL I SPECIAL WORK ELEMENTS
+
+WORK ELEMENTS WITH NO CROSSOVER CREDIT           CROSSOVER WORK ELEMENTS
+
+CONSTR   EXPLOR    LAB                           (Check off all in row once one is passed)
+
+none     32003     42006                         22001                                 none   42001
+
+                   42007                         22002                                 32001  none
+
+                                                 22003                                 32002  none
+
+                                                 22004                                 none   42002
+
+                                                 22005                                 none   42003
+
+                                                 none                                  32004  42004
+
+                                                 22006                                 32005  42005
+
+ALL LEVEL II SPECIAL WORK ELEMENTS
+
+WORK ELEMENTS WITH NO CROSSOVER CREDIT           CROSSOVER WORK ELEMENTS
+
+CONSTR   EXPLOR    LAB                           (Check off all in row once one is passed)
+
+24007    34008     44001                         24001                                 34001  none
+
+24008    34009     44002                         24002                                 34002  none
+
+24009    34010     44003                         24003                                 34003  none
+24011    34011     44004                         24004                                 34004  none
+24015    34012     44005                         24005                                 34005  none
+24016    34013     44006                         24006                                 34006  none
+24017    34014     44007                         24010                                 34007  none
+24018              44009                         24012                                 none   44008
+24021              44010                         24013                                 none   44012
+                   44011                         24014                                 none   44013
+                   44015                         24019                                 none   44014
+                   44017                         24020                                 34015  44016
+                                                 24022                                 34016  44018
+
+*work element has been deleted. Credit is retained by those who previously passed it.
+
+                                         26
+LEVEL III SPECIAL WORK ELEMENTS
+
+WORK ELEMENTS WITH NO CROSSOVERS      CROSSOVER WORK ELEMENTS
+
+CONSTR EXPLOR LAB                     (Check off all in row once one is passed)
+
+__26001  36001  46001                 26003                                            36002  none
+
+26002    36010  46002                 26004                                            36003  none
+
+26010    36011  46003                 26005                                            36004  none
+
+26012    36012  46004                 26006                                            36005  none
+
+26013    36013  46005                 26007                                            36006  none
+
+26014    36014  46006                 26008                                            36007  none
+
+26015    36015  46007                 26009                                            36008  none
+
+26017    36016  46008                 26011                                            36009  none
+
+26019    36017  46009                 26016                                            none   46011
+
+26020    36018  46010                 26018                                            none   46018
+
+26021           46012
+
+26022           46013
+
+26023           46014
+
+26024           46015
+
+26025           46016
+
+                46017
+
+                46019
+
+                46020*
+
+LEVEL IV SPECIAL WORK ELEMENTS
+
+WORK ELEMENTS WITH NO CROSSOVERS      CROSSOVER WORK ELEMENTS
+
+CONSTR EXPLOR LAB                     (Check off all in row once one is passed)
+
+28002    38001  48001                 28001                                            none   48005
+
+         38002  48002                 28003*                                           none   __48008*
+
+         38003  48003*                28004*                                           none   __48006*
+
+         38004  48004
+
+         38005  48007
+
+         38006  48009
+
+         38007* 48010
+
+         38008
+
+*work element has been deleted. Credit is retained by those who previously passed it.
+
+                                  27
+                                                  SELECTED GENERAL REFERENCES
+
+Annual Book of ASTM Standards, Volumes 04.02, 04.03 and 04.08, American Society for Testing and Materials,
+Philadelphia, Current Year.
+Construction Industry - OSHA Safety and Health Standards Digest (OSHA 2202). 1990 Reprint, Government Printing
+Office, Washington, D.C.
+Engineering Properties of Soils and Their Measurement. J.E. Bowles.
+McGraw-Hill Book Co. New York, 1978.
+Foundation Engineering Handbook. H.F. Winterkorn and H. Fang. Van Nostrand Reinhold. New York. 1975.
+Laboratory Soils Testing. (EM1110-2-1906). U.S. Army Corps of Engineers. 1970.
+Measurement of Soil Properties in the Triaxial Test. A.W. Bishop and D.J. Henkel. Edward Arnold Ltd. London. 1962.
+OSHA Field Operations Manual and Industrial Hygiene Field Operations. (OSHA Inst. CPL 2.45A). U.S. Department of
+Labor. 1986.
+Pile Foundations. R.D. Chellis. McGraw-Hill Book Co. New York. 1961.
+Principles of Engineering Geology and Geotechnics. D.P. Drynine and W.R. Judd. McGraw-Hill Book Co. New York.
+1957.
+Problems in Engineering Soils. P.L. Capper, W.F. Cassie and J.D. Geddes. E. & F.N. Spon Ltd. London. 1966.
+Site Investigation Practice, M.D. Joyce. E. & F.N. Spon Ltd. London. 1982
+Soil Testing for Engineers. T.W. Lambe. John Wiley and Sons. New York. 1951.
+Special Procedures for Testing Soil and Rock for Engineering Purposes. STP 479. American Society for Testing and
+Materials. Philadelphia. 1970.
+Standard Specifications for Transportation Materials and Methods of Sampling and Testing. American Association of State
+Highway and Transportation Officials. Washington, D.C. 1987.
+Subsurface Exploration and Sampling of Soils for Civil Engineering Purposes. J. Hvorslev. The Engineering Foundation.
+New York. 1949 (reprinted 1962 and 1965).
+Subsurface Investigation for Design and Construction of Foundations of Buildings.
+Manual No. 56. American Society of Civil Engineers. New York. 1976.
+
+                                                                      WARNING
+   On its website, NICET maintains a complete listing of references that are allowed in the paper-and-pencil testing
+   centers. Please view the document "Reference Material Allowed in NICET Paper and Pencil Test Centers" at
+   www.nicet.org/candidates/allowable_reference_material.pdf.
+
+                                                                           28
+                                          SAMPLE SCORE REPORT
+
+Exam No. 000100                               Test Date: 10/01/93
+Examinee: JOHN EXAMINE                        Report Date: 11/01/93
+
+Work Element Number and Title                 Score (%) Pass/Fail
+
+                                 GEOTECHNICAL ENGINEERING TECHNOLOGY
+
+26019 Driven Piles                            70.75                   P
+26020 Geofabrics
+26021 Subdrain Systems                        80.00                   P
+26022 Erosion of Natural and Fill Slopes
+26023 Trench Backfill Compaction              35.00                   F*
+26024 Slope Repairs
+26025 Earthwork Project Preparations          100.00                  P
+46001 Instruments
+                                              86.00                   P
+
+                                              98.00                   P
+
+                                              57.00                   F**
+
+                                              72.00                   P
+
+__________________________
+
+Asterisks (*,**,***,****) indicate the number of times a work element has been failed. Additional information can be found
+on our website: http://www.nicet.org/about/policies.cfm#policy20.
+
+JOHN EXAMINE
+1420 King Street
+Alexandria, Virginia 22314-2715
+
+                                          29
+
