@@ -20,8 +20,11 @@ Code of 20 April 2021, which adopts the **2018** IBC (ROH 16-1.1, Ord. 24-15, ef
 Special Inspector Qualification 2024 IBC rev18.xlsx   the deliverable
 verification/
     verify_si.py                the check harness — run this
+    gen_sources_md.py           regenerates SOURCES.md from the manifest
     verification-report.txt     its output as of this bundle
     sources/
+        manifest.json           every source, with hashes and stated limits
+        SOURCES.md              generated from manifest.json — do not hand-edit
         public/                 Revised Ordinances of Honolulu — public law
         licensed/               extracts of copyrighted standards — SEE LICENSING.md
 handoff/
@@ -64,15 +67,39 @@ python3 verify_si.py \
 Requires `python3` and `openpyxl` (`pip install openpyxl`). Sources are found
 automatically in `verification/sources`. Exit code 0 if every check passes, 1 if not.
 
-23 deterministic checks. **No language model is involved in any assertion** — each one
-compares files or greps a source document. Checks are tagged by method:
+26 deterministic checks. **No language model is involved in any assertion** — each one
+compares files, hashes them, or greps a source document. Checks are tagged by method:
 
 - **I — Inspection.** File comparison. Proves what was *not* touched.
 - **A — Analysis.** Internal consistency, recomputed independently.
 - **T — Test.** Checked against a source document on disk.
+- **M — Manifest.** The source corpus checked against its own declaration.
+
+A result of **`PASS*`** means the check is sound but the source under it was an extract,
+not a whole document. The report prints what that extract cannot establish. This exists
+because the recurring failure on this document was reading part of a source and reporting
+the result as if the whole had been read.
 
 The report ends with five items marked **NOT MACHINE-VERIFIABLE**, each with its reason.
 Those are not failures; they are questions no program can settle.
+
+### The source manifest
+
+`verification/sources/manifest.json` enumerates all **32** sources: 5 bundled and hashed,
+20 read but not frozen (live issuer pages, non-redistributable documents), 7 that could
+not be obtained. Each entry carries how it was retrieved, whether it was read in full,
+what it may *not* be used to establish, and — for the unobtainable ones — what it leaves
+open.
+
+It turns "were all the sources used?" into three questions a program can fail:
+
+| Check | Fails when |
+|---|---|
+| **M-01** | a bundled source no longer matches its hash, a file in `sources/` is not in the manifest, or `SOURCES.md` has drifted from the manifest |
+| **M-02** | a check reads a source the manifest doesn't list, a bundled source is listed but no check reads it, or an issuer on **Credential check** has no source behind it |
+| **M-03** | a partial source doesn't state its limit, an unobtainable source doesn't name what it blocks, or an open item it names isn't in the unverifiable list |
+
+`SOURCES.md` is generated. Edit `manifest.json`, then run `python3 gen_sources_md.py`.
 
 ## What still needs DPP
 

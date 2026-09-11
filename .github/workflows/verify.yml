@@ -18,9 +18,14 @@ jobs:
       - name: Install dependencies
         run: pip install openpyxl
 
+      - name: Check SOURCES.md is generated from the manifest
+        working-directory: verification
+        run: python3 gen_sources_md.py --check
+
       - name: Run verification harness
         working-directory: verification
         run: |
+          set -o pipefail          # without this the exit code comes from tee, not the harness
           python3 verify_si.py \
             --new  "../Special Inspector Qualification 2024 IBC rev18.xlsx" \
             --orig "../reference/Special Inspection Qualifications 082625 (original from DPP).xlsx" \

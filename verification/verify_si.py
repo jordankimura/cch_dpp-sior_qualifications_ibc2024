@@ -12,21 +12,38 @@ Usage:
 
 Exit code 0 if every executed check passes, 1 otherwise.
 """
-import argparse, re, sys, zipfile, os
+import argparse, re, sys, zipfile, os, json, hashlib
 try:
     import openpyxl
 except ImportError:
     sys.exit("openpyxl required:  pip install openpyxl")
 import warnings; warnings.filterwarnings("ignore")
 
+UNVERIFIABLE="""NOT MACHINE-VERIFIABLE — these require a document I cannot obtain, or a judgement:
+  U-01  Whether NICET still offers "Geotechnical Engineering Technology".
+        Absent from their current programs page; a 1994 manual is still hosted with
+        no withdrawal notice. Needs the issuer.
+  U-02  Whether DPP intends the 2021 UPC reference despite ROH 19-1 adopting the
+        2018 edition. Intent, not fact.
+  U-03  Whether CAWI alongside CWI is acceptable to DPP. AWS D1.1 Sec. 8.1.4.5 makes
+        CAWI an assistant qualification; whether that bars the listed use is a
+        determination for the building official.
+  U-04  HDOA course numbers 4322 / 4415 / 4422 / 4484. Portal returns Forbidden.
+  U-05  Whether the certification set for any row is the CORRECT one. The code
+        delegates this to the building official, so there is no external referent.
+"""
+
 RESULTS=[]
-def check(cid, method, desc, fn):
-    """method: I=Inspection (file compare)  A=Analysis (derived)  T=Test (against source doc)"""
+def check(cid, method, desc, fn, sources=()):
+    """method: I=Inspection (file compare)  A=Analysis (derived)  T=Test (against source doc)
+                M=Manifest (the source corpus checking itself)
+    sources: manifest IDs this check reads. Declared, not inferred — M-02 checks both
+    directions, so a check that quietly reads an undeclared source fails the build."""
     try:
         ok, detail = fn()
     except Exception as e:
         ok, detail = False, "harness error: %r" % (e,)
-    RESULTS.append((cid, method, desc, ok, detail))
+    RESULTS.append((cid, method, desc, ok, detail, list(sources)))
 
 def norm(s):
     return re.sub(r"\s+", " ", (s or "")).strip().lower()
@@ -175,11 +192,11 @@ def main():
                 else "not found: "+", ".join(sorted(set(miss))[:6]))
 
     check("T-01","T","Every citation marked IBC appears in the 2024 IBC Chapter 17 text",
-      lambda: cite_in_source("IBC", IBC, "the 2024 IBC text"))
+      lambda: cite_in_source("IBC", IBC, "the 2024 IBC text"), sources=['ibc-2024-ch17-index'])
     check("T-02","T","Every citation marked ROH 16-1.1 appears in that ordinance text",
-      lambda: cite_in_source("ROH 16-1.1", ROH, "ROH 16-1.1"))
+      lambda: cite_in_source("ROH 16-1.1", ROH, "ROH 16-1.1"), sources=['roh-16-1-1'])
     check("T-03","T","Every citation marked ROH 19-1 appears in that ordinance text",
-      lambda: cite_in_source("ROH 19-1", ROH19, "ROH 19-1"))
+      lambda: cite_in_source("ROH 19-1", ROH19, "ROH 19-1"), sources=['roh-19-1'])
 
     def titles_match():
         if IBC is None: return (None,"source not supplied — skipped")
@@ -194,7 +211,7 @@ def main():
             pat=re.compile(re.escape(sec)+r"\s+"+re.escape(title[:24]), re.I)
             if not pat.search(IBC): bad.append("%s %s"%(sec,title[:28]))
         return (not bad, "section titles match the code text" if not bad else "mismatch: "+"; ".join(bad[:4]))
-    check("T-04","T","Each IBC section title is transcribed as printed in the code text", titles_match)
+    check("T-04","T","Each IBC section title is transcribed as printed in the code text", titles_match, sources=['ibc-2024-ch17-index'])
 
     def collision_is_real():
         if IBC is None or ROH is None: return (None,"sources not supplied — skipped")
@@ -204,7 +221,7 @@ def main():
         flagged={str(M.cell(r,C_SEC).value).strip() for r in DATA if norm(M.cell(r,C_FLAG).value)=="collision"}
         return (overlap.issubset(flagged) and overlap=={"1705.19","1705.20"},
                 "shared numbers: %s ; flagged: %s"%(sorted(overlap), sorted(flagged & overlap)))
-    check("T-05","T","The claimed collisions are exactly the section numbers used by both IBC and ROH", collision_is_real)
+    check("T-05","T","The claimed collisions are exactly the section numbers used by both IBC and ROH", collision_is_real, sources=['ibc-2024-ch17-index', 'roh-16-1-1'])
 
 
     ACI=load("aci318_19_sec26_13.txt"); AWSD=load("aws_d1_1_sec8_1_4.txt")
@@ -214,7 +231,7 @@ def main():
         ok = re.search(r"26\.13\.1\.4.{0,400}?D1\.4", ACI, re.S) is not None
         return (ok, "ACI 318-19 Sec. 26.13.1.4 names AWS D1.4 for reinforcement welding"
                     if ok else "could not locate the D1.4 requirement in Sec. 26.13.1.4")
-    check("T-06","T","The claim that rebar welding inspection follows AWS D1.4 is in ACI 318-19", aci_rebar_d14)
+    check("T-06","T","The claim that rebar welding inspection follows AWS D1.4 is in ACI 318-19", aci_rebar_d14, sources=['aci-318-19-sec26-13'])
 
     def aci_anchor_programs():
         if ACI is None: return (None,"source not supplied — skipped")
@@ -222,7 +239,7 @@ def main():
         b = re.search(r"26\.13\.1\.[56]", ACI) is not None
         return (a and b, "ACI 318-19 Sec. 26.13.1.5/.1.6 name CPP 681.2 and CPP 681.1"
                          if (a and b) else "anchor inspector programs not found where claimed")
-    check("T-07","T","The claim that post-installed anchors need the ACI anchor inspector programs is in ACI 318-19", aci_anchor_programs)
+    check("T-07","T","The claim that post-installed anchors need the ACI anchor inspector programs is in ACI 318-19", aci_anchor_programs, sources=['aci-318-19-sec26-13'])
 
     def aws_tiers():
         if AWSD is None: return (None,"source not supplied — skipped")
@@ -232,7 +249,7 @@ def main():
         return (insp and asst and sup,
                 "8.1.4.2 -> CWI/SCWI for the Inspector; 8.1.4.5 -> CAWI for the Assistant, under supervision"
                 if (insp and asst and sup) else "tier structure not confirmed in the extract")
-    check("T-08","T","The claim that CAWI is an ASSISTANT qualification, not an alternative to CWI, is in AWS D1.1", aws_tiers)
+    check("T-08","T","The claim that CAWI is an ASSISTANT qualification, not an alternative to CWI, is in AWS D1.1", aws_tiers, sources=['aws-d1-1-2020-sec8-1-4'])
 
     def credcheck_traceable():
         try: CC=NEW["Credential check"]
@@ -258,32 +275,164 @@ def main():
                 if not miss else "not declared: "+", ".join(miss))
     check("A-09","A","Sources declares what was NOT consulted, not only what was", unverifiable_declared)
 
+    # ---------- M: the source corpus checked against its own manifest ----------
+    # These answer "were all the sources used, and is each claim as strong as its source?"
+    # in a form that can fail. Before the manifest existed, that question had no falsifiable
+    # shape and was answered by assertion.
+    MANP = os.path.join(a.sources, "manifest.json")
+    MAN  = json.load(open(MANP, encoding="utf-8")) if os.path.exists(MANP) else None
+    SRCID = {x["id"]: x for x in MAN["sources"]} if MAN else {}
+
+    def manifest_integrity():
+        """Bundled sources are byte-identical to what the manifest says, in both directions,
+        and SOURCES.md has not drifted from the manifest."""
+        if MAN is None: return (False, "manifest.json not found at "+MANP)
+        problems=[]; listed=set()
+        for src in MAN["sources"]:
+            if not src.get("file"): continue
+            rel=src["file"]; listed.add(rel)
+            path=os.path.join(a.sources, rel)
+            if not os.path.exists(path):
+                problems.append("%s: file missing"%src["id"]); continue
+            raw=open(path,"rb").read()
+            if hashlib.sha256(raw).hexdigest()!=src["sha256"]:
+                problems.append("%s: sha256 mismatch"%src["id"])
+            elif src.get("bytes") and len(raw)!=src["bytes"]:
+                problems.append("%s: size mismatch"%src["id"])
+        on_disk=set()
+        for sub in ("public","licensed"):
+            d=os.path.join(a.sources, sub)
+            if os.path.isdir(d):
+                on_disk |= {sub+"/"+f for f in os.listdir(d) if not f.startswith(".")}
+        for extra in sorted(on_disk - listed):
+            problems.append("%s: on disk but not in the manifest"%extra)
+        # SOURCES.md must be a faithful rendering of the manifest
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            from gen_sources_md import render
+            want=render(MAN).strip()
+            md=os.path.join(a.sources,"SOURCES.md")
+            have=open(md,encoding="utf-8").read().strip() if os.path.exists(md) else ""
+            if want!=have:
+                problems.append("SOURCES.md is out of date — run gen_sources_md.py")
+        except Exception as e:
+            problems.append("could not verify SOURCES.md: %r"%(e,))
+        return (not problems,
+                "%d bundled sources hashed and matched; SOURCES.md in sync"%len(listed)
+                if not problems else "; ".join(problems[:4]))
+    check("M-01","M","Bundled sources match the manifest by hash, nothing is unlisted, SOURCES.md is in sync",
+          manifest_integrity)
+
+    def manifest_coverage():
+        """Both directions. Forward: every source a check declares exists in the manifest.
+        Reverse: every bundled source is actually consumed by a check — an unused bundled
+        source means either dead weight or a check somebody meant to write and didn't.
+        Third: every issuer on the Credential check tab resolves to a manifest entry."""
+        if MAN is None: return (False, "manifest.json not found")
+        problems=[]
+        declared=set()
+        for cid,_m,_d,_ok,_det,srcs in RESULTS:
+            for sid in srcs:
+                declared.add(sid)
+                if sid not in SRCID:
+                    problems.append("%s declares unknown source %r"%(cid,sid))
+        for src in MAN["sources"]:
+            if src.get("frozen") and src["id"] not in declared:
+                problems.append("%s is bundled but no check reads it"%src["id"])
+            if src.get("frozen"):
+                claimed=set(src.get("supports") or [])
+                actual={cid for cid,_m,_d,_ok,_det,srcs in RESULTS if src["id"] in srcs}
+                if claimed!=actual:
+                    problems.append("%s: manifest says %s, harness uses %s"%(
+                        src["id"], sorted(claimed) or "none", sorted(actual) or "none"))
+        try:
+            CC=NEW["Credential check"]
+            covered={i for src in MAN["sources"] for i in src.get("issuers") or []}
+            seen=[]
+            for r in range(3, CC.max_row+1):
+                v=CC.cell(r,1).value
+                if v and v not in seen: seen.append(v)
+            for iss in seen:
+                if iss not in covered:
+                    problems.append("issuer %r on Credential check has no source in the manifest"%iss)
+        except KeyError:
+            problems.append("Credential check tab missing")
+        return (not problems,
+                "%d sources; every bundled one consumed; %d issuers all resolve"%(
+                    len(MAN["sources"]), len({i for s_ in MAN["sources"] for i in s_.get("issuers") or []}))
+                if not problems else "; ".join(problems[:4]))
+    check("M-02","M","Source coverage closes in both directions, and every issuer resolves to a source",
+          manifest_coverage)
+
+    def confidence_discipline():
+        """No claim may be stated more strongly than the source under it. Mechanically:
+        a source that was not read in full must say what it cannot establish; a source that
+        could not be obtained must name what it leaves open; and every open item it names
+        must actually appear in the NOT MACHINE-VERIFIABLE list."""
+        if MAN is None: return (False, "manifest.json not found")
+        problems=[]; declared_U=set()
+        for src in MAN["sources"]:
+            if src["completeness"]!="full" and not (src.get("limitation") or "").strip():
+                problems.append("%s is %s but states no limitation"%(src["id"],src["completeness"]))
+            if src["completeness"]=="unavailable" and not src.get("blocks"):
+                problems.append("%s is unavailable but names nothing it blocks"%src["id"])
+            for b in src.get("blocks") or []:
+                m_=re.match(r"^(U-\d+)$", str(b).strip())
+                if m_: declared_U.add(m_.group(1))
+        for u in sorted(declared_U):
+            if u not in UNVERIFIABLE:
+                problems.append("%s is named in the manifest but not listed as unverifiable"%u)
+        qualified=[cid for cid,_m,_d,ok,_det,srcs in RESULTS
+                   if ok and any(SRCID.get(x,{}).get("completeness")!="full" for x in srcs)]
+        return (not problems,
+                "every partial source states its limit; %s rest on partial sources and are "
+                "reported qualified"%(", ".join(qualified) or "no checks")
+                if not problems else "; ".join(problems[:4]))
+    check("M-03","M","Partial and unobtainable sources state their limits, and every open item they name is declared",
+          confidence_discipline)
+
     # ---------- report ----------
-    w=max(len(d) for _,_,d,_,_ in RESULTS)
+    w=max(len(d) for _,_,d,_,_,_ in RESULTS)
     run=[x for x in RESULTS if x[3] is not None]
     passed=[x for x in run if x[3]]
-    print("="*(w+26))
+
+    def partial_of(srcs):
+        return [x for x in srcs if SRCID.get(x,{}).get("completeness") not in (None,"full")]
+
+    print("="*(w+28))
     print("VERIFICATION REPORT — deterministic checks only, no model judgement")
-    print("="*(w+26))
-    for cid,meth,desc,ok,detail in RESULTS:
-        tag = "SKIP" if ok is None else ("PASS" if ok else "FAIL")
+    print("="*(w+28))
+    qualified=[]
+    for cid,meth,desc,ok,detail,srcs in RESULTS:
+        part=partial_of(srcs)
+        if ok is None:   tag="SKIP "
+        elif not ok:     tag="FAIL "
+        elif part:       tag="PASS*"; qualified.append((cid,part))
+        else:            tag="PASS "
         print("%-5s %s  %-*s  %s" % (cid, tag, w, desc, detail))
-    print("-"*(w+26))
+    print("-"*(w+28))
     print("%d/%d executed checks passed, %d skipped"%(len(passed),len(run),len(RESULTS)-len(run)))
-    print("""
-NOT MACHINE-VERIFIABLE — these require a document I cannot obtain, or a judgement:
-  U-01  Whether NICET still offers "Geotechnical Engineering Technology".
-        Absent from their current programs page; a 1994 manual is still hosted with
-        no withdrawal notice. Needs the issuer.
-  U-02  Whether DPP intends the 2021 UPC reference despite ROH 19-1 adopting the
-        2018 edition. Intent, not fact.
-  U-03  Whether CAWI alongside CWI is acceptable to DPP. AWS D1.1 Sec. 8.1.4.5 makes
-        CAWI an assistant qualification; whether that bars the listed use is a
-        determination for the building official.
-  U-04  HDOA course numbers 4322 / 4415 / 4422 / 4484. Portal returns Forbidden.
-  U-05  Whether the certification set for any row is the CORRECT one. The code
-        delegates this to the building official, so there is no external referent.
-""")
+
+    if qualified:
+        print("""
+PASS* — PASSED AGAINST A SOURCE THAT WAS NOT READ IN FULL.
+The check is sound; the source under it is an extract. Read each as "consistent with the
+part of the document held here", not "confirmed against the document".""")
+        for cid,part in qualified:
+            for sid in part:
+                print("  %-5s %s\n        %s" % (cid, sid, SRCID[sid]["limitation"]))
+
+    if MAN:
+        t={1:0,2:0,3:0}
+        for x in MAN["sources"]: t[x["tier"]]=t.get(x["tier"],0)+1
+        print("""
+SOURCE CORPUS — %d sources enumerated in verification/sources/manifest.json
+  tier 1  %2d  bundled here, hashed, and read by the checks above
+  tier 2  %2d  read during the work but not frozen: live issuer pages, non-redistributable
+  tier 3  %2d  could not be obtained — each one names what it leaves open"""
+              % (len(MAN["sources"]), t.get(1,0), t.get(2,0), t.get(3,0)))
+
+    print("\n"+UNVERIFIABLE)
     sys.exit(0 if len(passed)==len(run) else 1)
 
 if __name__=="__main__":
