@@ -1,0 +1,34 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Run verification harness
+        working-directory: verification
+        run: |
+          python3 verify_si.py \
+            --new  "../Special Inspector Qualification 2024 IBC rev18.xlsx" \
+            --orig "../reference/Special Inspection Qualifications 082625 (original from DPP).xlsx" \
+            | tee verification-report.txt
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-report
+          path: verification/verification-report.txt

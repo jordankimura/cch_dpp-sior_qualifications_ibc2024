@@ -1,0 +1,42 @@
+=======================================================================================================================
+VERIFICATION REPORT — deterministic checks only, no model judgement
+=======================================================================================================================
+I-01  PASS  The 2018 original tab is cell-for-cell identical to the source workbook                        rows 1-56, cols A-M
+I-02  PASS  Drop-down column B rows 2-25 are unchanged (they feed the SI FORM validation)                  B2:B25
+I-03  PASS  The SI FORM tab differs from the original ONLY in its validation ranges                        identical once the validation ranges are normalised
+I-04  PASS  All SI FORM dropdown rules survive and point at the extended range                             8 validation nodes, list ranges={"'Drop-down'!$B$1:$B$29"}
+I-05  PASS  Certification columns are reproduced from the 2018 sheet without edits                         all certification cells reproduced verbatim
+I-06  PASS  Workbook archive is not corrupt                                                                zip integrity
+A-01  PASS  Every matrix row carries a Ref, a Code and a Section                                           41 rows
+A-02  PASS  Every Ref is unique                                                                            41 refs
+A-03  PASS  Credential basis matches the rule stated on the sheet, recomputed from source                  rule reproduced on every row
+A-04  PASS  Every COLLISION row is traceable to a Decision entry                                           3 collision rows, each named by Ref on the Decisions tab
+A-07  PASS  Every CONFLICT row is traceable to a Decision entry                                            8 conflict rows, each named by Ref on the Decisions tab
+A-05  PASS  Rows flagged as gaps have no certifications assigned to them                                   gap rows carry no invented certifications
+A-06  PASS  Every dropdown entry sits inside the validation range B1:B29                                   28 entries inside B1:B29, 0 stranded beyond it
+T-01  PASS  Every citation marked IBC appears in the 2024 IBC Chapter 17 text                              every IBC citation found in the 2024 IBC text
+T-02  PASS  Every citation marked ROH 16-1.1 appears in that ordinance text                                every ROH 16-1.1 citation found in ROH 16-1.1
+T-03  PASS  Every citation marked ROH 19-1 appears in that ordinance text                                  every ROH 19-1 citation found in ROH 19-1
+T-04  PASS  Each IBC section title is transcribed as printed in the code text                              section titles match the code text
+T-05  PASS  The claimed collisions are exactly the section numbers used by both IBC and ROH                shared numbers: ['1705.19', '1705.20'] ; flagged: ['1705.19', '1705.20']
+T-06  PASS  The claim that rebar welding inspection follows AWS D1.4 is in ACI 318-19                      ACI 318-19 Sec. 26.13.1.4 names AWS D1.4 for reinforcement welding
+T-07  PASS  The claim that post-installed anchors need the ACI anchor inspector programs is in ACI 318-19  ACI 318-19 Sec. 26.13.1.5/.1.6 name CPP 681.2 and CPP 681.1
+T-08  PASS  The claim that CAWI is an ASSISTANT qualification, not an alternative to CWI, is in AWS D1.1   8.1.4.2 -> CWI/SCWI for the Inspector; 8.1.4.5 -> CAWI for the Assistant, under supervision
+A-08  PASS  Every issuer named in Credential check is accounted for on the Sources tab                     every issuer appearing in Credential check is accounted for on Sources
+A-09  PASS  Sources declares what was NOT consulted, not only what was                                     every un-consulted source is declared on the Sources tab
+-----------------------------------------------------------------------------------------------------------------------
+23/23 executed checks passed, 0 skipped
+
+NOT MACHINE-VERIFIABLE — these require a document I cannot obtain, or a judgement:
+  U-01  Whether NICET still offers "Geotechnical Engineering Technology".
+        Absent from their current programs page; a 1994 manual is still hosted with
+        no withdrawal notice. Needs the issuer.
+  U-02  Whether DPP intends the 2021 UPC reference despite ROH 19-1 adopting the
+        2018 edition. Intent, not fact.
+  U-03  Whether CAWI alongside CWI is acceptable to DPP. AWS D1.1 Sec. 8.1.4.5 makes
+        CAWI an assistant qualification; whether that bars the listed use is a
+        determination for the building official.
+  U-04  HDOA course numbers 4322 / 4415 / 4422 / 4484. Portal returns Forbidden.
+  U-05  Whether the certification set for any row is the CORRECT one. The code
+        delegates this to the building official, so there is no external referent.
+

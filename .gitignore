@@ -1,0 +1,12 @@
+# scratch
+*.pyc
+__pycache__/
+.DS_Store
+~$*.xlsx
+
+# ---------------------------------------------------------------------------
+# IF THIS REPO IS EVER MADE PUBLIC, uncomment the block below and run:
+#     git rm --cached -r verification/sources/licensed
+# These are extracts of copyrighted standards. See LICENSING.md.
+# ---------------------------------------------------------------------------
+# verification/sources/licensed/
