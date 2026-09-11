@@ -1,0 +1,3364 @@
+########## README
+A1: README — how to read this workbook
+A2: Topic
+B2: What it is
+A3: Status
+B3: DRAFT, not adopted. Honolulu adopts the Hawaii State Building Code of 20 April 2021, which adopts the 2018 IBC (ROH 16-1.1). This workbook updates DPP's special inspector qualification matrix to the 2024 IBC, ahead of any adoption.
+A4: Start here
+B4: Matrix 2024 is the deliverable: one row per special inspection classification. Use the filter on the Flag column to see what needs attention, and the Decisions tab for what only DPP can settle.
+A5: Matrix 2024
+B5: The deliverable. Columns H to K: who may perform the inspection. Columns L to P: minimum certification, copied unchanged from the 2018 sheet. Q: where the credential requirement comes from. R: Evidence IDs.
+A6: Flags
+B6: The note behind every flagged or checked row, keyed by Ref.
+A7: Decisions
+B7: Questions only DPP can answer. Columns F to H are for DPP's answer, initials and date.
+A8: Credential check
+B8: Each certification checked against its issuer or the referenced standard.
+A9: Evidence
+B9: What backs each claim: the document, the section, and a short quote. Every quote is checked automatically against the full text of the document.
+A10: SI FORM dropdown
+B10: What changed in the SI FORM pick-list, and what was held back.
+A11: SI FORM, Drop-down, Footer, blurb
+B11: DPP's original tabs. SI FORM's text is untouched; only its dropdown ranges were extended. Drop-down column C maps each pick-list entry to matrix rows.
+A12: SI Qual 2018 (as received)
+B12: DPP's 2018 sheet, cell-for-cell as received (renamed only because Excel limits tab names to 31 characters).
+A13: Change Log
+B13: What changed from the 2018 sheet, and every repair or correction since.
+A14: Sources
+B14: Every document relied on, with its edition and completeness, plus the documents that could not be obtained and what each leaves open.
+A15: Flags, in one line
+B15: COLLISION = same section number used by City and base code. CONFLICT = the row permits something a code, standard or ordinance appears to restrict. GAP = 2024 section with no row. check = needs DPP confirmation. policy = department policy. Blank = checked, nothing found.
+A16: Evidence IDs
+B16: E-### points to a row on the Evidence tab. Types: supports (the quote is in the document); absent (the terms do not occur in a complete document or section); internal (the quote is a cell of DPP's 2018 sheet); open (the document is not held, see Sources).
+A17: How this is checked
+B17: The workbook is kept in a private git repository with an automated check script (verification/verify_si.py) that runs on every change: the 2018 data and SI FORM are untouched, every citation and title matches the code text, every flag and credential basis has evidence, every quote is found in its source, and the file opens in Excel's format rules.
+########## Matrix 2024
+A1: Flag
+B1: Ref
+C1: Section No.
+D1: Code
+E1: Section title — as printed
+F1: Special Inspection Classification
+H1: Who may perform the special inspection
+L1: Minimum certification required
+Q1: Credential basis
+R1: Evidence
+F2: Classification
+G2: Sub-category
+H2: DPOR / EOR (PE or AR)
+I2: Employee under DPOR supervision
+J2: DPP-registered 3rd party, or IAS agency
+K2: Registered Special Inspector
+L2: ICC
+M2: ACI
+N2: NICET
+O2: AWS
+P2: Other
+A3: check
+B3: SI-003
+C3: 1705.3
+D3: IBC
+E3: Concrete Construction
+F3: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+G3: Concrete/ Precast
+H3: ✓
+I3: ✓  ICC + ACI + NICET
+J3: SE or AR (ICC + AWS), or IAS agency
+K3: ✓  ICC + ACI + NICET
+L3: Reinforced Concrete (47)
+M3: Conc Construction & Conc Field Testing Technician Grade 1
+N3: NICET Lvl III with 2 yrs experience
+Q3: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+R3: E-073, E-096, E-097
+A4: CONFLICT
+B4: SI-004
+C4: 1705.2.4
+D4: IBC
+E4: Open-Web Steel Joists and Joist Girders
+F4: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+G4: Steel Joists & Joist Girders
+H4: ✓
+I4: ✓  ICC + AWS
+J4: SE or AR (ICC + AWS), or IAS agency
+K4: ✓  ICC + AWS
+L4: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+O4: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q4: DPP policy
+R4: E-001, E-048
+A5: CONFLICT
+B5: SI-005
+C5: 1705.2.6
+D5: IBC
+E5: Metal Building Systems
+F5: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+G5: Metal Buildings
+H5: ✓
+I5: ✓  ICC + AWS
+J5: SE or AR (ICC + AWS), or IAS agency
+K5: ✓  ICC + AWS
+L5: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+O5: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q5: standard: AISC 360-22 N4.2 (via IBC 1705.2.6 and 1705.2.1) + DPP policy
+R5: E-001, E-038, E-040, E-042
+A6: CONFLICT
+B6: SI-006
+C6: 1705.2.1
+D6: IBC
+E6: Structural Steel
+F6: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+G6: Structural Steel
+H6: ✓
+I6: ✓  ICC + AWS
+J6: SE or AR (ICC + AWS), or IAS agency
+K6: ✓  ICC + AWS
+L6: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+O6: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q6: standard: AISC 360-22 N4.2 (via IBC 1705.2.1) + DPP policy
+R6: E-001, E-038, E-040
+B7: SI-007
+C7: 1705.5
+D7: IBC
+E7: Wood Construction
+F7: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+G7: Wood Construction
+H7: ✓
+I7: ✓  ICC + Other
+J7: SE or AR (ICC), or IAS agency
+K7: ✓  ICC + Other
+L7: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+P7: AWC Durable Construction with Preservative -Treated Wood
+Q7: DPP policy
+R7: E-103
+A8: GAP — no row
+B8: NEW-04
+C8: 1705.11
+D8: IBC
+E8: Fabricated Items
+F8: Fabricated Items
+Q8: to be set by DPP
+A9: CONFLICT
+B9: SI-008
+C9: 1705.2.1
+D9: IBC
+E9: Structural Steel
+F9: Structural Steel - High Strenth Bolting
+H9: ✓
+I9: ✓  ICC + AWS
+J9: SE or AR (ICC + AWS)
+K9: ✓  ICC + AWS
+L9: Structural Steel Bolting (S1)
+O9: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q9: DPP policy (AISC 360-22 N4.2 asks bolting inspectors only for documented training and experience)
+R9: E-001, E-038, E-041
+A10: CONFLICT
+B10: SI-009
+C10: 1705.2.1
+D10: IBC
+E10: Structural Steel
+F10: Structural Steel - Welding
+H10: ✓
+I10: ✓  ICC + AWS
+J10: SE (ICC + ACI)
+K10: ✓  ICC + AWS
+L10: Structural Steel Welding SI
+O10: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q10: standard: AISC 360-22 N4.2 (via IBC 1705.2.1) + DPP policy
+R10: E-001, E-038, E-040
+B11: SI-010
+C11: 1705.2.3 / .2.4 / .2.5
+D11: IBC
+E11: Cold-Formed Steel Deck / Open-Web Steel Joists and Joist Girders / Cold-Formed Steel Trusses Spanning 60 Feet or Greater
+F11: Steel - Structural Cold-Formed Steel
+H11: ✓
+I11: ✓
+J11: SE (ICC)
+K11: ✓  ICC
+L11: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+Q11: unverified: SDI QA/QC not held (IBC 1705.2.3) + DPP policy
+R11: E-049, E-050
+A12: GAP — no row
+B12: NEW-01
+C12: 1705.2.2
+D12: IBC
+E12: Structural Stainless Steel
+F12: Steel - Structural Stainless Steel
+Q12: to be set by DPP
+A13: check
+B13: SI-011
+C13: 1705.5.1 / 1705.5.2
+D13: IBC
+E13: High-Load Diaphragms / Metal-Plate-Connected Wood Trusses Spanning 60 Feet or Greater
+F13: Structural Wood Construction - High-load diaphragms; Metal-plate-wood truss
+H13: ✓
+I13: ✓  ICC
+J13: SE or AR (ICC)
+K13: ✓  ICC
+L13: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+Q13: DPP policy
+R13: E-100, E-101, E-104
+A14: GAP — no row
+B14: NEW-02
+C14: 1705.5.3
+D14: IBC
+E14: Mass Timber Construction
+F14: Wood - Mass Timber Construction
+Q14: to be set by DPP
+A15: GAP — no row
+B15: NEW-05
+C15: 1705.20
+D15: IBC
+E15: Sealing of Mass Timber
+F15: Sealing of Mass Timber
+Q15: to be set by DPP
+A16: check
+B16: SI-012
+C16: 1705.3
+D16: IBC
+E16: Concrete Construction
+F16: Concrete
+H16: ✓
+I16: ✓
+J16: SE or AR or CE
+K16: ✓  ACI
+M16: Conc Construction & Conc Field Testing Technician Grade 1
+Q16: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3)
+R16: E-073, E-081, E-082
+A17: check
+B17: SI-013
+C17: 1705.3
+D17: IBC
+E17: Concrete Construction
+F17: Concrete - Reinforced Concrete
+H17: ✓
+I17: ✓  ICC
+J17: SE or CE (ICC)
+K17: ✓  ICC + ACI
+L17: Reinforced Concrete (47)
+M17: Conc Construction & Conc Field Testing Technician Grade 1
+Q17: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+R17: E-070, E-073
+A18: CONFLICT
+B18: SI-014
+C18: 1705.3.1
+D18: IBC
+E18: Welding of Reinforcing Bars
+F18: Concrete - Reinforced Concrete
+G18: Welding of Reinforcement
+H18: ✓
+I18: ✓  ICC + AWS
+J18: SE (ICC + AWS)
+K18: ✓  ICC + AWS
+L18: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+O18: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q18: standard: AWS D1.4 9.1.2 (via IBC 1705.3.1) + DPP policy
+R18: E-001, E-066, E-069
+B19: SI-015
+C19: 1705.3
+D19: IBC
+E19: Concrete Construction
+F19: Concrete - Pre-Stressing & Precast
+H19: ✓
+I19: ✓  ICC or Other + ACI
+J19: SE or CE (ICC or Other)
+K19: ✓  ICC or Other + ACI
+L19: Pre-stressed Concrete (92) & Reinforced Concrete (49)
+M19: Conc Construction & Conc Field Testing Technician Grade 1
+P19: PCI - Inspector Level II
+Q19: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+R19: E-073
+A20: check
+B20: SI-016
+C20: 1705.3
+D20: IBC
+E20: Concrete Construction
+F20: Concrete - Post-Installed Structural Anchor in Concrete
+H20: ✓
+I20: ✓  ICC
+J20: SE or CE (ICC)
+K20: ✓  ICC + ACI
+L20: Reinforced Concrete (47)
+M20: Conc Construction & Conc Field Testing Technician Grade 1
+Q20: standard: ACI 318-19 26.13.1.5 and 26.13.1.6 certified inspector (via IBC 1705.3) + DPP policy
+R20: E-074, E-075
+B21: SI-017
+C21: 1705.4
+D21: IBC
+E21: Masonry Construction
+F21: Masonry Construction
+H21: ✓
+I21: ✓  ICC
+J21: SE or CE (ICC)
+K21: ✓  ICC + ACI
+L21: Structural Masonry (84)
+M21: Conc Construction & Conc Field Testing Technician Grade 1
+Q21: unverified: TMS 402/602 not held (IBC 1705.4) + DPP policy
+R21: E-083, E-084
+A22: CONFLICT
+B22: SI-018
+C22: 1705.4
+D22: IBC
+E22: Masonry Construction
+F22: Masonry Construction
+G22: Welding of Reinforcement
+H22: ✓
+I22: ✓  ICC
+J22: SE (ICC + AWS)
+K22: ✓  ICC + AWS
+L22: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+O22: Certified Welding Inspector; & Certified Assoc Welding Inspector
+Q22: unverified: TMS 402/602 not held (IBC 1705.4) + DPP policy
+R22: E-001, E-083, E-084
+B23: SI-019
+C23: 1705.3
+D23: IBC
+E23: Concrete Construction
+F23: Shotcrete
+H23: ✓
+I23: ✓  ACI
+J23: SE or AR or CE (ACI)
+K23: ✓  ACI
+M23: Shotcrete SI
+Q23: DPP policy
+R23: E-080
+B24: SI-020
+C24: 1705.6
+D24: IBC
+E24: Soils
+F24: Soils
+H24: ✓
+I24: ✓  ICC + NICET
+J24: CE (ICC)
+K24: ✓  ICC + NICET
+L24: Soils (EC)
+N24: Geotechnical engineering technology or Lvl II
+Q24: DPP policy
+R24: E-105
+B25: SI-021
+C25: 1705.7
+D25: IBC
+E25: Driven Deep Foundations
+F25: Driven Deep Foundations
+H25: ✓
+I25: ✓  ICC + ACI + NICET
+J25: CE (ICC)
+K25: —
+L25: Soils (EC)
+M25: Conc Construction & Conc Field Testing Technician Grade 1
+N25: Geotechnical engineering technology or Lvl II
+Q25: DPP policy
+R25: E-106
+B26: SI-022
+C26: 1705.8
+D26: IBC
+E26: Cast-in-Place Deep Foundations
+F26: Cast-in-Place Deep Foundations
+H26: ✓
+I26: ✓  ICC + ACI + NICET
+J26: CE (ICC)
+K26: —
+L26: Soils (EC)
+M26: Conc Construction & Conc Field Testing Technician Grade 1
+N26: Geotechnical engineering technology or Lvl II
+Q26: DPP policy
+R26: E-107
+B27: SI-023
+C27: 1705.9
+D27: IBC
+E27: Helical Pile Foundations
+F27: Helical Pile Foundations
+H27: ✓
+I27: ✓  ICC + ACI + NICET
+J27: CE (ICC)
+K27: —
+L27: Soils (EC)
+M27: Conc Construction & Conc Field Testing Technician Grade 1
+N27: Geotechnical engineering technology or Lvl II
+Q27: DPP policy
+R27: E-108
+A28: GAP — no row
+B28: NEW-03
+C28: 1705.10
+D28: IBC
+E28: Structural Integrity of Deep Foundation Elements
+F28: Structural Integrity of Deep Foundation Elements
+Q28: to be set by DPP
+B29: SI-026
+C29: 1705.12
+D29: IBC
+E29: Special Inspections for Wind Resistance
+F29: Wind Resistance
+H29: ✓
+I29: —
+J29: —
+K29: —
+Q29: no credential listed
+R29: E-116
+B30: SI-027
+C30: 1705.12.1
+D30: IBC
+E30: Structural Wood  [HSBC amends this subsection, retitled "Complete load path and uplift ties"]
+F30: Load Path & Uplift ties
+H30: ✓
+I30: ✓  ICC
+J30: AR or SE (ICC)
+K30: ✓  ICC
+L30: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+Q30: DPP policy
+R30: E-102, E-109
+B31: SI-028
+C31: 1705.13
+D31: IBC
+E31: Special Inspections for Seismic Resistance
+F31: Seismic Resistance
+H31: ✓
+I31: —
+J31: —
+K31: —
+Q31: no credential listed
+R31: E-117
+B32: SI-029
+C32: 1705.15
+D32: IBC
+E32: Sprayed Fire-Resistive Materials (SFRM)
+F32: Sprayed Fire - Resistant Materials
+H32: ✓
+I32: ✓  ICC or Other
+J32: AR (ICC or Other)
+K32: ✓  ICC or Other
+L32: Spray -Applied Fireproofing (86), Fire Inspector I (66)
+P32: NFCA - CAP Program Education & Exam
+Q32: DPP policy
+R32: E-110
+A33: check
+B33: SI-030
+C33: 1705.16
+D33: IBC
+E33: Intumescent Fire-Resistive Materials
+F33: Mastic & Intumenscent Fire-Resistant Coating
+H33: ✓
+I33: ✓  ICC or Other
+J33: AR (ICC)
+K33: ✓  ICC or Other
+L33: Spray -Applied Fireproofing, Fire Inspector I (66)
+P33: NFCA - CAP Program Education & Exam
+Q33: unverified: AWCI 12-B not held (IBC 1705.16) + DPP policy
+R33: E-085, E-086, E-091, E-092
+B34: SI-031
+C34: 1705.17
+D34: IBC
+E34: Exterior Insulation and Finish Systems (EIFS)
+F34: Exterior Insulation Finish System
+H34: ✓
+I34: ✓  Other
+J34: AR (Other)
+K34: ✓  Other
+P34: AWCI - EIFS
+Q34: DPP policy
+R34: E-111
+B35: SI-032
+C35: 1705.18
+D35: IBC
+E35: Fire-Resistant Penetrations and Joints
+F35: Fire -Resistant Penetrations & Joints
+H35: ✓
+I35: ✓  Other
+J35: AR (Other)
+K35: ✓  Other
+P35: UL - Firestop Exam, & Factory Mutual Firestop Exam
+Q35: unverified: ASTM E2174 / E2393 not held (IBC 1705.18.1 and 1705.18.2) + DPP policy
+R35: E-087, E-088
+A36: COLLISION
+B36: SI-033
+C36: 1705.19
+D36: IBC
+E36: Testing for Smoke Control
+F36: Smoke Control Systems
+H36: ✓
+I36: ✓  Other
+J36: ME or FP (Other)
+K36: ✓  Other
+P36: AABC - Tech Certification; & Nat'l Environmental Balancing Bureau - Tech Certification
+Q36: code: IBC 1705.19.2 certification as air balancers + DPP policy
+R36: E-007, E-015
+A37: COLLISION
+B37: SI-034
+C37: 1705.19
+D37: ROH 16-1.1
+E37: Fire-protection systems. Special inspection for fire-protection systems is required. See Section 901.2.
+F37: Water-Based Fire Protection System
+H37: ✓
+I37: ✓  ICC or NICET(b)
+J37: ME or FP (ICC)
+K37: ✓  ICC + NICET(a)
+L37: Commercial Fire Sprinkler (CF)
+N37: NICET:                             a) Level III;                 b) Level II
+Q37: DPP policy
+R37: E-006, E-007, E-016
+A38: COLLISION
+B38: SI-024
+C38: 1705.20
+D38: ROH 16-1.1
+E38: Termite protection. Where termite protection consists of soil treatment, installation of termite barrier, structural lumber and pipe penetrations for new wood frame residential buildings.
+F38: Termite Protection
+H38: ✓
+I38: ✓  ICC + Other(b)
+J38: SE or AR (ICC)
+K38: ✓  ICC + Other(a) + Other(b)
+L38: Commercial Bldg Inspector (2B); and Residential Bldg Inspector (1B)
+P38: HDOA Commercial Termite - Certification of Pesticide Applicators in Hawaii; or HDOA course  #4322, 4415, 4422,  & 4484
+Q38: unverified: HDOA certification not held + DPP policy
+R38: E-008, E-009, E-020
+A39: check
+B39: SI-025
+C39: 1705.21
+D39: ROH 16-1.1
+E39: Soils and foundation. Where soils conditions warrant a geotechnical investigation or are specified in ROH Chapter 18A.
+F39: Special Grading, Excavation/Filling
+G39: Soils
+H39: ✓
+I39: ✓  ICC + NICET
+J39: CE (ICC)
+K39: ✓  ICC + NICET
+L39: Soils (EC)
+N39: Geotechnical engineering technology or Lvl II
+Q39: DPP policy
+R39: E-011, E-017
+A40: CONFLICT
+B40: SI-035
+C40: 1319.4
+D40: ROH 19-1
+E40: Approval. "...Medical gas and vacuum systems must be tested and inspected by a plumbing special inspector." [ROH 19-1 amend. (79)]
+F40: Medical Gas & Vacuum Systems
+H40: ✓
+I40: ✓  Other
+J40: ME (Other)
+K40: ✓  Other
+P40: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI); and NFPA 99 Certification
+Q40: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+R40: E-022, E-023
+A41: CONFLICT
+B41: SI-036
+C41: 1501.2
+D41: ROH 19-1
+E41: System Design. "...Alternate water source systems must be tested and inspected by a plumbing special inspector." [ROH 19-1 amend. (81)]
+F41: Alternate Source Nonpotable Water System
+H41: ✓
+I41: ✓  Other
+J41: CE or ME (Other)
+K41: ✓  Other
+P41: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI)
+Q41: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+R41: E-022, E-024
+A42: CONFLICT
+B42: SI-037
+C42: 1602.2
+D42: ROH 19-1
+E42: Plumbing Plan Submission. "...Nonpotable rainwater catchment systems must be tested and inspected by a plumbing special inspector." [ROH 19-1 amend. (85)]
+F42: Nonpotable Rainwater Catchment System
+H42: ✓
+I42: ✓  Other
+J42: CE or ME (Other)
+K42: ✓  Other
+P42: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI)
+Q42: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+R42: E-022, E-025
+A43: policy
+B43: SI-038
+C43: Pending DPP Policy
+D43: DPP policy
+E43: [department policy — no code citation]
+F43: Plumbing Site Utilities 5' outside of bldg line
+H43: ✓  Other
+I43: —
+J43: —
+K43: —
+P43: IAPMO Certifications:  Plans Examiner (PPE)
+Q43: DPP policy
+R43: E-031
+A45: ✓ = this person may perform the inspection.   “+” = must hold ALL of.   “or” = any ONE of.   — = not permitted.   Sub-letters such as Other(b) point to the second option listed in that cell.
+A46: FLAGS.  COLLISION = the section number is used by both the City and the 2024 base code.  CONFLICT = the row permits something a code, standard or ordinance appears to restrict; the Flags tab says which.  GAP — no row = a 2024 section with no row yet.  check = needs DPP confirmation; nothing found contradicts it.  policy = department policy with no code citation.  Blank = checked, nothing found.  Shaded rows are not base IBC: City & County amendments (ROH 16-1.1), the plumbing rows, and department policy.  Every flag and every credential basis is backed by an entry on the Evidence tab (column R).
+A47: Certification columns (ICC through Other) are reproduced from the 2018 sheet and have NOT been edited. Findings about them are on the Decisions and Credential check tabs.
+A48: HOW THE CREDENTIAL BASIS COLUMN IS DERIVED: follow the code chain from the cited section.  "code" = the IBC section itself names the qualification.  "standard" = the section routes to a referenced standard that names it (clause given).  "ordinance" = a City ordinance sets it.  "unverified" = the chain leads to a standard that is not held (named in the cell).  "DPP policy" = the chain names no qualification, so the choice is the department's.  Most rows combine these with "+".
+A49: SOURCE OF THE CERTIFICATION REQUIREMENTS:  reproduced from the Special Inspection Qualifications matrix dated 08-26-2025, maintained by the Civil Engineering Branch, Department of Planning and Permitting, City and County of Honolulu, and treated here as DPP policy of record under IBC 1704.2.1, which delegates the special inspector competence standard to the building official.  [DPP TO CONFIRM THIS SENTENCE AND SUPPLY THE NAME AND TITLE OF RECORD.]
+########## Flags
+A1: FLAGS — the note behind every flagged or checked row in Matrix 2024, keyed by Ref. Evidence IDs point to the Evidence tab.
+A2: Ref
+B2: Section
+C2: Classification
+D2: Flag
+E2: 2018 row
+F2: Credential basis
+G2: What it is
+H2: Evidence
+A3: SI-003
+B3: 1705.3
+C3: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+D3: check
+E3: 3
+F3: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+G3: Fabricator inspection has its own sections: 1704.2.5 "Special Inspection of Fabricated Items" and 1705.11 "Fabricated Items". Confirm which applies.
+H3: E-096, E-097
+A4: SI-004
+B4: 1705.2.4
+C4: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+D4: CONFLICT
+E4: 4
+F4: DPP policy
+G4: Was cited to 1705.1 (the general section); 1705.2.4 is the joist section. ROH amend. (111) excludes the DPOR and their personnel from welding and high strength bolting inspection, but columns H and I permit them here, and the row's credentials are welding (S2, CWI). Confirm whether the exception applies to shop fabrication. See Decision 3.
+H4: E-001, E-047, E-048
+A5: SI-005
+B5: 1705.2.6
+C5: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+D5: CONFLICT
+E5: 5
+F5: standard: AISC 360-22 N4.2 (via IBC 1705.2.6 and 1705.2.1) + DPP policy
+G5: The 2018 sheet cited 1705.11, which in the 2018 IBC is Special Inspections for Wind Resistance. 1705.2.6 Metal Building Systems, with Table 1705.2.6, is new in the 2024 base code (the 2021 edition has no 1705.2.6) and routes to the structural steel sections. Same City welding exception as SI-004. See Decision 3.
+H5: E-001, E-042, E-043, E-044, E-045, E-046
+A6: SI-006
+B6: 1705.2.1
+C6: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+D6: CONFLICT
+E6: 6
+F6: standard: AISC 360-22 N4.2 (via IBC 1705.2.1) + DPP policy
+G6: Structural steel fabrication. Same City welding exception as SI-004: columns H and I permit the DPOR and their personnel, and the credentials are welding and bolting (S1, S2, CWI). IBC 1705.2.1 routes to AISC 360 (360-22 is the edition the 2024 IBC references), whose N4.2 sets QA inspector qualifications. See Decision 3.
+H6: E-001, E-038, E-039, E-040
+A7: NEW-04
+B7: 1705.11
+C7: Fabricated Items
+D7: GAP — no row
+E7: —
+F7: to be set by DPP
+G7: Not new: this was 1705.10 Fabricated Items in the 2018 IBC. The five Fabricator rows (SI-003 to SI-007) already cover fabrication inspection but cite material sections; 1705.11 routes to 1704.2.5. Confirm whether a separate row is wanted. See Decision 5.
+H7: E-095, E-096
+A8: SI-008
+B8: 1705.2.1
+C8: Structural Steel - High Strenth Bolting
+D8: CONFLICT
+E8: 8
+F8: DPP policy (AISC 360-22 N4.2 asks bolting inspectors only for documented training and experience)
+G8: ROH amend. (111) lets the DPOR and their personnel act as special inspector "with the exception of welding and high strength bolting." Columns H and I permit them on this row. The exception is City-only: the 2024 IBC 1704.2.1 and the Hawaii State version of 1704.2.1 have none, so it reaches a 2024 adoption only if the City re-adopts (111). AISC 360-22 N4.2 asks bolting inspectors only for documented training and experience. See Decisions 3 and 16.
+H8: E-001, E-002, E-003, E-041
+A9: SI-009
+B9: 1705.2.1
+C9: Structural Steel - Welding
+D9: CONFLICT
+E9: 9
+F9: standard: AISC 360-22 N4.2 (via IBC 1705.2.1) + DPP policy
+G9: Same City exception (welding), columns H and I. The 2018 third-party cell reads "SE1 & 2" (ICC + ACI) but this row has no ACI credential; likely meant "& 4" (AWS). AISC 360-22 N4.2 qualifies QA welding inspectors as AWS B5.1 WI or SWI (AWI only under direct WI supervision) or under AWS D1.1 8.1.4.2(5). See Decision 3.
+H9: E-001, E-040, E-059
+A10: SI-010
+B10: 1705.2.3 / .2.4 / .2.5
+C10: Steel - Structural Cold-Formed Steel
+D10: verified
+E10: 10
+F10: unverified: SDI QA/QC not held (IBC 1705.2.3) + DPP policy
+G10: 2024 inserts 1705.2.2 Structural Stainless Steel (in 2021, 1705.2.2 was Cold-Formed Steel Deck), shifting these down one. IBC 1705.2.3 routes welding inspector qualification for steel deck to SDI QA/QC, which is not held. The 2018 supervised-staff cell requires no credential ("X") while the registered SI cell requires ICC ("X1"); confirm that is deliberate.
+H10: E-049, E-051, E-052, E-053, E-054
+A11: NEW-01
+B11: 1705.2.2
+C11: Steel - Structural Stainless Steel
+D11: GAP — no row
+E11: —
+F11: to be set by DPP
+G11: New in 2024 (in 2021, 1705.2.2 was Cold-Formed Steel Deck). Routes to AISC 370 (370-21 per Chapter 35), which is not held. Stainless welding is AWS D1.6, whose 8.1.4.1 accepts CWI, CWB / CSA W178.2, or training and experience.
+H11: E-051, E-052, E-055, E-056, E-057, E-058
+A12: SI-011
+B12: 1705.5.1 / 1705.5.2
+C12: Structural Wood Construction - High-load diaphragms; Metal-plate-wood truss
+D12: check
+E12: 11
+F12: DPP policy
+G12: The 2018 sheet cited "1705.5; 1705.1; 1705.2". The specific subsections are 1705.5.1 and 1705.5.2. Left as flagged in case the row deliberately covers steel truss elements.
+H12: E-100, E-101
+A13: NEW-02
+B13: 1705.5.3
+C13: Wood - Mass Timber Construction
+D13: GAP — no row
+E13: —
+F13: to be set by DPP
+G13: New, with Table 1705.5.3. ICC Category 93 Tall Mass Timber Buildings Special Inspector exists.
+H13: E-098, E-136
+A14: NEW-05
+B14: 1705.20
+C14: Sealing of Mass Timber
+D14: GAP — no row
+E14: —
+F14: to be set by DPP
+G14: New. Periodic special inspection of sealants or adhesives required by Section 703.7. ICC Category 93 likely applies. The City uses this number for termite protection (SI-024).
+H14: E-009, E-099, E-136
+A15: SI-012
+B15: 1705.3
+C15: Concrete
+D15: check
+E15: 12
+F15: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3)
+G15: The 2018 third-party cell names licences ("SE, AR, CE") with no credential, while the registered SI cell requires ACI ("X2"). Confirm.
+H15: E-081, E-082
+A16: SI-013
+B16: 1705.3
+C16: Concrete - Reinforced Concrete
+D16: check
+E16: 13
+F16: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+G16: The 2018 sheet cited 1705.3.1, which is titled "Welding of Reinforcing Bars"; that fits the welding sub-row, not this one.
+H16: E-066, E-070
+A17: SI-014
+B17: 1705.3.1
+C17: Concrete - Reinforced Concrete
+D17: CONFLICT
+E17: 14
+F17: standard: AWS D1.4 9.1.2 (via IBC 1705.3.1) + DPP policy
+G17: City welding exception applies (columns H and I). IBC 1705.3.1 itself requires rebar welding inspection and inspector qualification per AWS D1.4, and D1.4 9.1.2 accepts AWS CWI, so the listed CWI satisfies it. See Decisions 3 and 8.
+H17: E-001, E-066, E-069
+A18: SI-015
+B18: 1705.3
+C18: Concrete - Pre-Stressing & Precast
+D18: verified
+E18: 15
+F18: standard: ACI 318-19 26.12.1.1(d) certified field testing technicians (via IBC 1705.3) + DPP policy
+G18: Pre-stressed Concrete (92) and Reinforced Concrete (49) are both current ICC certifications, and 92 requires 49. The PCI credential's printed name is "Level II Quality Control Technician/Inspector".
+H18: E-122, E-123, E-145
+A19: SI-016
+B19: 1705.3
+C19: Concrete - Post-Installed Structural Anchor in Concrete
+D19: check
+E19: 16
+F19: standard: ACI 318-19 26.13.1.5 and 26.13.1.6 certified inspector (via IBC 1705.3) + DPP policy
+G19: ACI 318-19 26.13.1.6 requires a certified inspector for adhesive anchors; 26.13.1.5 allows a certified inspector, or a qualified inspector approved by the licensed design professional and the building official, for mechanical anchors. The ACI anchor programs (CPP 681.1, 681.2) are named only in the commentary, as examples. The registered SI cell requires ICC Reinforced Concrete, a certification that IAS AC291 accepts for post-installed anchors. See Decision 9.
+H19: E-074, E-075, E-076, E-077, E-078, E-079
+A20: SI-017
+B20: 1705.4
+C20: Masonry Construction
+D20: verified
+E20: 17
+F20: unverified: TMS 402/602 not held (IBC 1705.4) + DPP policy
+G20: 2024 routes masonry inspection to TMS 402 and TMS 602, which are not held.
+H20: E-083, E-084
+A21: SI-018
+B21: 1705.4
+C21: Masonry Construction
+D21: CONFLICT
+E21: 18
+F21: unverified: TMS 402/602 not held (IBC 1705.4) + DPP policy
+G21: City welding exception applies (columns H and I). Also: the 2018 supervised-staff cell requires ICC only ("X1") while SI-014 requires ICC + AWS ("X1 & 4"); same sub-category, different answer. See Decisions 3 and 11.
+H21: E-001, E-071, E-072
+A22: SI-020
+B22: 1705.6
+C22: Soils
+D22: verified
+E22: 20
+F22: DPP policy
+G22: + Table 1705.6.
+H22: E-112
+A23: SI-021
+B23: 1705.7
+C23: Driven Deep Foundations
+D23: verified
+E23: 21
+F23: DPP policy
+G23: + Table 1705.7. 1705.10 Structural Integrity of Deep Foundation Elements also applies; no row exists for it.
+H23: E-094, E-113
+A24: SI-022
+B24: 1705.8
+C24: Cast-in-Place Deep Foundations
+D24: verified
+E24: 22
+F24: DPP policy
+G24: + Table 1705.8. See note on 1705.10.
+H24: E-114
+A25: SI-023
+B25: 1705.9
+C25: Helical Pile Foundations
+D25: verified
+E25: 23
+F25: DPP policy
+G25: See note on 1705.10.
+H25: E-115
+A26: NEW-03
+B26: 1705.10
+C26: Structural Integrity of Deep Foundation Elements
+D26: GAP — no row
+E26: —
+F26: to be set by DPP
+G26: Added in the 2021 edition. This insertion is what shifts every later 1705 section by +1. Applies alongside the rows for 1705.7 to 1705.9.
+H26: E-093, E-094
+A27: SI-029
+B27: 1705.15
+C27: Sprayed Fire - Resistant Materials
+D27: verified
+E27: 29
+F27: DPP policy
+G27: 2018: 1705.14 Sprayed Fire-Resistant Materials. 2024: 1705.15 Sprayed Fire-Resistive Materials (SFRM).
+H27: E-089, E-090
+A28: SI-030
+B28: 1705.16
+C28: Mastic & Intumenscent Fire-Resistant Coating
+D28: check
+E28: 30
+F28: unverified: AWCI 12-B not held (IBC 1705.16) + DPP policy
+G28: 2018: 1705.15 Mastic and Intumescent Fire-Resistant Coatings. 2024: 1705.16 Intumescent Fire-Resistive Materials, which drops "Mastic and" and references AWCI 12-B (not held). Consider retitling the classification.
+H28: E-085, E-091, E-092
+A29: SI-033
+B29: 1705.19
+C29: Smoke Control Systems
+D29: COLLISION
+E29: 33
+F29: code: IBC 1705.19.2 certification as air balancers + DPP policy
+G29: 1705.19.2 is code-backed: approved agencies for smoke control testing need "certification as air balancers", which the Other column provides. Collides with ROH 1705.19 (SI-034). ROH 919.5 still cites 1705.18, which was Testing for Smoke Control in the 2018 IBC.
+H29: E-007, E-013, E-014, E-015
+A30: SI-034
+B30: 1705.19
+C30: Water-Based Fire Protection System
+D30: COLLISION
+E30: 34
+F30: DPP policy
+G30: ROH amend. (112). Collides with IBC-2024 1705.19 Testing for Smoke Control (SI-033). DPP to renumber; the 2024 base code stops at 1705.20 and ROH uses 1705.21, so the first free number is 1705.22.
+H30: E-006, E-007, E-010
+A31: SI-024
+B31: 1705.20
+C31: Termite Protection
+D31: COLLISION
+E31: 24
+F31: unverified: HDOA certification not held + DPP policy
+G31: ROH amend. (113); the 2018 sheet read "1705.2" (dropped zero). Collides with IBC-2024 1705.20 Sealing of Mass Timber. Residential counterpart is ROH 16-1.2 R109.5.2. HDOA credentials are Department of Agriculture licensing, a separate statute, not checked.
+H31: E-008, E-009, E-018, E-019
+A32: SI-025
+B32: 1705.21
+C32: Special Grading, Excavation/Filling
+D32: check
+E32: 25
+F32: DPP policy
+G32: ROH amend. (113). 1705.21 requires special inspection where soil conditions warrant a geotechnical investigation or are specified in ROH Chapter 18A, and amend. (114) places grading, excavation and earthwork under Chapter 18A. The "Special Grading" label is therefore defensible; confirm the intended scope. 1705.21 also blocks that number as a renumbering target. See Decisions 2 and 6.
+H32: E-011, E-012
+A33: SI-035
+B33: 1319.4
+C33: Medical Gas & Vacuum Systems
+D33: CONFLICT
+E33: 35
+F33: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+G33: Citation updated from the 2018 sheet's "2021 Uniform Plumbing Code Chapter 13". ROH 19-1 adopts the Hawaii State Plumbing Code, which adopts the Uniform Plumbing Code, 28th Edition (2018), 6th Printing. DPP may be applying the 2021 UPC deliberately; recorded, not overwritten. ROH 19-1 105.2.7 requires plumbing special inspections by Registered Design Professionals licensed in Hawaii and not involved in the work. The UPC 2018 section 1319.4 itself could not be located in the scan held. See Decision 12.
+H33: E-021, E-022, E-023, E-029, E-030
+A34: SI-036
+B34: 1501.2
+C34: Alternate Source Nonpotable Water System
+D34: CONFLICT
+E34: 36
+F34: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+G34: Citation updated from "2021 UPC Chapter 15". Same edition and framework notes as SI-035. UPC 2018 1501.2 is "System Design". ROH 19-1 amend. (80) deletes UPC Chapter 14 entirely.
+H34: E-024, E-026, E-027
+A35: SI-037
+B35: 1602.2
+C35: Nonpotable Rainwater Catchment System
+D35: CONFLICT
+E35: 37
+F35: ordinance: ROH 19-1 105.2.7 Registered Design Professional + DPP policy
+G35: Citation updated from "2021 UPC Chapter 16". Same edition and framework notes as SI-035. UPC 2018 1602.2 is "Plumbing Plan Submission".
+H35: E-025, E-028
+A36: SI-038
+B36: Pending DPP Policy
+C36: Plumbing Site Utilities 5' outside of bldg line
+D36: policy
+E36: 38
+F36: DPP policy
+G36: Labelled "Pending DPP Policy" in the 2018 sheet.
+H36: E-031
+########## Decisions
+A1: DECISIONS — items only DPP can settle. Columns F to H are for DPP.
+A2: #
+B2: Decision
+C2: Why it matters
+D2: Recommendation / first free option
+E2: Rows affected
+F2: DPP answer
+G2: Initials
+H2: Date
+I2: Evidence
+A3: 1
+B3: Renumber the two colliding City sections.
+C3: ROH 1705.19 "Fire-protection systems" collides with IBC-2024 1705.19 "Testing for Smoke Control". ROH 1705.20 "Termite protection" collides with IBC-2024 1705.20 "Sealing of Mass Timber". Both appear in the matrix printing the same number as a different requirement.
+D3: The 2024 base code stops at 1705.20 and ROH already uses 1705.21, so the first free numbers are 1705.22 and 1705.23. The ordinance text has to move with them. NO NUMBER HAS BEEN ASSIGNED IN THIS FILE.
+E3: SI-033, SI-034, SI-024
+I3: E-006, E-007, E-008, E-009, E-010
+A4: 2
+B4: Does ROH 1705.21 stay where it is?
+C4: It does not collide, but it sits directly above the obvious renumbering targets.
+D4: Confirm it stays, or move all three together.
+E4: SI-025
+I4: E-011
+A5: 3
+B5: The welding / high strength bolting exception.
+C5: ROH amend. (111) lets the DPOR/EOR and their personnel act as special inspector "with the exception of welding and high strength bolting." Seven rows permit them in columns H and I for welding or bolting work: the two structural steel rows, both Welding of Reinforcement rows, and the three steel Fabricator rows.
+D5: Either those cells should read — (not permitted), or the exception is read more narrowly (for example, not applying to shop fabrication). This is a permissions question, not a formatting one.
+E5: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018
+I5: E-001
+A6: 4
+B6: Target edition.
+C6: ROH 16-1.1 (amended through Ord. 25-11) adopts the Hawaii State Building Code of 20 April 2021, which adopts the 2018 IBC. Is this matrix staged for a future adoption or meant to be usable now?
+D6: If usable now, the edition labels revert to 2018 and only the flags survive.
+E6: all rows
+I6: E-004, E-005
+A7: 5
+B7: Add rows for the 2024 sections that have none?
+C7: Four sections new since the 2018 IBC have no row: 1705.2.2 Structural Stainless Steel, 1705.5.3 Mass Timber Construction, 1705.10 Structural Integrity of Deep Foundation Elements, 1705.20 Sealing of Mass Timber. 1705.11 Fabricated Items is not new (it was 1705.10 in 2018) and may already be covered by the five Fabricator rows.
+D7: Marked as gaps, with no credentials assigned. ICC Category 93 Tall Mass Timber Buildings Special Inspector covers the two timber sections.
+E7: NEW-01, NEW-02, NEW-03, NEW-04, NEW-05
+I7: E-009, E-094, E-095, E-096, E-098, E-136
+A8: 6
+B8: The "Special Grading, Excavation/Filling" label.
+C8: ROH 1705.21 is titled "Soils and foundation" and requires special inspection where conditions are specified in ROH Chapter 18A, which amend. (114) makes the chapter for excavation, grading and earthwork. The label is defensible but broader than the title.
+D8: Confirm the intended scope, or retitle the classification to match the section.
+E8: SI-025
+I8: E-011, E-012
+A9: 7
+B9: CAWI listed alongside CWI in seven rows.
+C9: AWS D1.1:2020 8.1.4.2 qualifies the Inspector as CWI or SCWI; 8.1.4.5 qualifies CAWI (or higher) as an Assistant Inspector, and 8.1.4.4 has assistants work under the Inspector's supervision. AISC 360-22 N4.2 likewise permits an Associate Welding Inspector only under the direct supervision of a Welding Inspector on the premises. The 2018 cell joins them with "&".
+D9: If the intent is that a CAWI may serve alone, that conflicts with both standards.
+E9: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018
+I9: E-040, E-060, E-063, E-064, E-065
+A10: 8
+B10: Rebar welding inspector qualification.
+C10: IBC 1705.3.1 and ACI 318-19 26.13.1.4 both route reinforcing bar welding inspection to AWS D1.4 (2018-AMD1 per Chapter 35). D1.4 9.1.2 accepts AWS CWI, CWB / CSA W178.2, or training and experience.
+D10: The listed CWI already satisfies D1.4. No change needed unless DPP wants the rows to name D1.4.
+E10: SI-014, SI-018
+I10: E-066, E-067, E-068, E-069
+A11: 9
+B11: Post-installed anchor inspector qualification.
+C11: ACI 318-19 26.13.1.6 requires a certified inspector for adhesive anchors; 26.13.1.5 allows a certified inspector or an approved qualified inspector for mechanical anchors. The code names no program: the commentary gives ACI CPP 681.1 and 681.2 as examples, "or similar program". IAS AC291 accepts ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI for this work.
+D11: Confirm whether ICC Reinforced Concrete plus ACI Field Testing Technician is the intended certified-inspector route, or name the ACI anchor programs.
+E11: SI-016
+I11: E-074, E-075, E-076, E-077, E-079
+A12: 10
+B12: ICC certification names in column L.
+C12: ICC lists special inspector certifications by category (47, 48, 49, 84, 86, 92, 93, EC, S1, S2), each earned through a General Requirements module plus codes and plans exams (for example 47C and 47P). Category 49 Reinforced Concrete Special Inspector exists and is the prerequisite for 92. The building inspector exams are B1 and B2; the 2018 sheet writes 1B and 2B.
+D12: The category numbers in column L are current ICC names. Only 1B / 2B need correcting, to B1 / B2.
+E12: SI-007, SI-010, SI-011, SI-024, SI-027
+I12: E-121, E-122, E-123, E-127, E-132, E-133
+A13: 11
+B13: Two rows for the same sub-category disagree - internal to DPP policy.
+C13: Both Welding of Reinforcement rows carry the same AWS credential and the same registered SI requirement, but the supervised-employee cell requires AWS on one ("X1 & 4") and not the other ("X1").
+D13: Only the department can reconcile it. Flagged, not changed.
+E13: SI-014, SI-018
+I13: E-071, E-072
+A14: 12
+B14: The plumbing rows - edition, and who may inspect.
+C14: The 2018 sheet cites the "2021 Uniform Plumbing Code". ROH 19-1 adopts the Hawaii State Plumbing Code, which adopts the Uniform Plumbing Code, 28th Edition (2018), 6th Printing. The special inspection requirements are City amendments: 1319.4 (medical gas and vacuum), 1501.2 (alternate water source), 1602.2 (nonpotable rainwater catchment). ROH 19-1 105.2.7 requires plumbing special inspections by Registered Design Professionals licensed in Hawaii and not involved in the work.
+D14: (a) Confirm whether the 2021 UPC reference is intentional. (b) Confirm how the who-may-perform cells should read given 105.2.7, which is narrower than the building-side pool; the IAPMO certifications in the Other column appear nowhere in ROH 19-1.
+E14: SI-035, SI-036, SI-037
+I14: E-021, E-022, E-023, E-024, E-025, E-030
+A15: 13
+B15: The SI FORM acknowledgement citation.
+C15: The SI FORM cites "Section 1704.4 ... Access for Special Inspection" and "ROH Chapter 16-2 Section R109.6". In the 2024 IBC, 1704.4 is Contractor Responsibility and Access for Special Inspection is 1704.2.2. ROH Chapter 16 Article 2 is Relocation of Buildings; the residential code is ROH 16-1.2, where R109.6 is Building permit requirement and R109.8 is Contractor responsibility.
+D15: The sentence cites the wrong subsections and the wrong ROH article. NOT changed: the SI FORM tab was left untouched.
+E15: SI FORM tab
+I15: E-032, E-033, E-034, E-035, E-036, E-037
+A16: 14
+B16: Add NEBB to the acronym table.
+C16: The smoke control row requires "Nat'l Environmental Balancing Bureau" certification, spelled out rather than abbreviated, and IBC-2024 1705.19.2 backs it: approved agencies need "certification as air balancers". NEBB is the only organisation in the matrix with no acronym-table entry.
+D16: Housekeeping. Add NEBB alongside AABC.
+E16: SI-033
+I16: E-015, E-118
+A17: 15
+B17: Does DPP accept the other qualification bases the welding codes allow?
+C17: AWS D1.1:2020 8.1.4.2 lists five bases for a welding inspector, including CSA W178.2 Level 2 or 3 and ASNT SNT-TC-1A-VT Level II; D1.4 9.1.2 and D1.6 8.1.4.1 accept CWI, CWB / CSA W178.2, or training and experience. The matrix names only AWS CWI.
+D17: NOT A DEFECT. A jurisdiction may be more stringent than the standard it adopts. Recorded so the choice is visible to an applicant with a CSA- or ASNT-qualified inspector.
+E17: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018
+I17: E-058, E-060, E-061, E-062, E-069
+A18: 16
+B18: City amendments are written against the 2018 IBC.
+C18: Every ROH 16-1.1 amendment amends the 2018 IBC as adopted by the State. Neither the 2024 IBC 1704.2.1 nor the Hawaii State version of 1704.2.1 has a welding or bolting exception; it exists only in ROH amend. (111). ROH 1705.19 to 1705.21 are likewise City additions. This matrix assumes the City will re-adopt its amendments against the 2024 edition.
+D18: Confirm the City intends to carry these forward. If not, the CONFLICT flags for the exception and the COLLISION flags fall away.
+E18: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018, SI-033, SI-034, SI-024, SI-025
+I18: E-001, E-002, E-003, E-004, E-008
+A19: 17
+B19: Reading the 2018 footnote notation.
+C19: The 2018 sheet keys credentials to footnotes (headers ICC1, ACI2, NICET3, AWS4, Other5) but footnotes 1 to 6 are not in the file. This matrix reads a comma as AND in the employee and registered SI columns ("X1, 2, & 3" = ICC + ACI + NICET) and as OR between professions in the third-party column ("SE1 & 4, AR1 & 4, IAS" = SE or AR, each with ICC + AWS, or an IAS agency). All 144 permission cells were translated this way and are checked against the 2018 sheet.
+D19: Confirm the reading, and supply footnotes 1 to 6 if they exist.
+E19: all rows
+I19: E-119, E-120
+########## Credential check
+A1: CREDENTIAL CHECK — the certification columns are DPP policy of record. This tab asks only (1) does each credential exist under that name with its issuer, and (2) does a code or referenced standard name a different credential for the work. SCOPE rows are the second kind.
+A2: ID
+B2: Issuer
+C2: Matrix rows
+D2: What the matrix says
+E2: What the issuer lists now / what the standard says
+F2: Status
+G2: Note
+H2: Evidence
+A3: CC-01
+B3: ICC
+C3: SI-003, SI-013, SI-016
+D3: Reinforced Concrete (47)
+E3: Category 47 Reinforced Concrete: General Requirements module + 47C Reinforced Concrete Codes + 47P Reinforced Concrete Plans
+F3: current
+G3: Current certification name.
+H3: E-121
+A4: CC-02
+B4: ICC
+C4: SI-015
+D4: Reinforced Concrete (49)
+E4: Category 49 Reinforced Concrete Special Inspector: Category 47 plus ACI Concrete Field Testing Technician Grade I
+F4: current
+G4: Consistent with ICC's prerequisite chain: Category 92 requires Category 49. (rev18 called 49 an error; that was wrong.)
+H4: E-122, E-123, E-125
+A5: CC-03
+B5: ICC
+C5: SI-015
+D5: Pre-stressed Concrete (92)
+E5: Category 92 Prestressed Concrete: Category 49 + 92C + 92P
+F5: current
+H5: E-123, E-124
+A6: CC-04
+B6: ICC
+C6: SI-017
+D6: Structural Masonry (84)
+E6: Category 84 Structural Masonry: General Requirements + 84C + 84P
+F6: current
+H6: E-126
+A7: CC-05
+B7: ICC
+C7: SI-020, SI-021, SI-022, SI-023, SI-025
+D7: Soils (EC)
+E7: Category EC Soils: General Requirements + ECC Soils Codes + ECP Soils Plans
+F7: current
+G7: EC is the certification; ECC and ECP are its exams. (rev18 called EC an error; that was wrong.)
+H7: E-127
+A8: CC-06
+B8: ICC
+C8: SI-004, SI-005, SI-006, SI-008, SI-014, SI-018
+D8: Structural Steel & Bolting (S1)
+E8: Category S1 Structural Steel and Bolting: General Requirements + S1C + S1P
+F8: current
+H8: E-128
+A9: CC-07
+B9: ICC
+C9: SI-004, SI-005, SI-006, SI-009, SI-014, SI-018
+D9: Structural Steel Welding (S2)
+E9: Category S2 Structural Welding: Category S1 + S2C + S2P
+F9: current
+G9: S2 requires S1.
+H9: E-129
+A10: CC-08
+B10: ICC
+C10: SI-029, SI-030
+D10: Spray-Applied Fireproofing (86)
+E10: Category 86 Spray-applied Fireproofing: General Requirements + exam 86 (codes and plans)
+F10: current
+G10: No "86M" designation appears on ICC's page. (rev18 said 86M.)
+H10: E-130, E-131
+A11: CC-09
+B11: ICC
+C11: SI-007, SI-010, SI-011, SI-024, SI-027
+D11: Commercial Bldg Inspector (2B)
+E11: B2 Commercial Building Inspector
+F11: naming
+G11: The exam ID is B2, not 2B.
+H11: E-132
+A12: CC-10
+B12: ICC
+C12: SI-007, SI-010, SI-011, SI-024, SI-027
+D12: Residential Bldg Inspector (1B)
+E12: B1 Residential Building Inspector
+F12: naming
+G12: The exam ID is B1, not 1B.
+H12: E-133
+A13: CC-11
+B13: ICC
+C13: SI-029, SI-030
+D13: Fire Inspector I (66)
+E13: 66 - Fire Inspector I
+F13: current
+H13: E-134
+A14: CC-12
+B14: ICC
+C14: SI-034
+D14: Commercial Fire Sprinkler (CF)
+E14: CF - Commercial Fire Sprinkler Inspector
+F14: current
+G14: Exact match.
+H14: E-135
+A15: CC-13
+B15: ICC
+C15: NEW-02, NEW-05
+D15: (none listed)
+E15: Category 93 Tall Mass Timber Buildings: General Requirements + exam 93
+F15: current
+G15: Candidate for the two mass timber gap rows.
+H15: E-136
+A16: CC-14
+B16: ACI
+C16: SI-003, SI-012, SI-013, SI-015, SI-016, SI-017, SI-021, SI-022, SI-023
+D16: Conc Construction & Conc Field Testing Technician Grade 1
+E16: ACI 318-19 26.12.1.1(d): certified field testing technicians perform tests on fresh concrete at the job site. ICC Category 49 requires ACI Grade I.
+F16: current
+G16: Code-backed for testing, via IBC 1705.3.
+H16: E-073, E-125
+A17: CC-15
+B17: ACI
+C17: SI-016
+D17: Conc Field Testing Technician Grade 1, for post-installed anchors
+E17: ACI 318-19 26.13.1.6: adhesive anchors need a certified inspector. 26.13.1.5: mechanical anchors need a certified inspector or an approved qualified inspector. ACI CPP 681.1 / 681.2 are named only in the commentary, as examples. IAS AC291 accepts ICC Reinforced Concrete SI.
+F17: SCOPE — check
+G17: See Decision 9.
+H17: E-074, E-075, E-076, E-077, E-078, E-079
+A18: CC-16
+B18: ACI
+C18: SI-019
+D18: Shotcrete SI
+E18: ACI Shotcrete Inspector certification program
+F18: current
+G18: Full name "Shotcrete Inspector". ACI 318-19 does not name a shotcrete inspector certification.
+H18: E-080, E-137
+A19: CC-17
+B19: AWS
+C19: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018
+D19: Certified Welding Inspector
+E19: AWS D1.1:2020 8.1.4.2(1): CWI or SCWI qualifies the Inspector. AWS D1.4 9.1.2(1): CWI.
+F19: current
+H19: E-060, E-069
+A20: CC-18
+B20: AWS
+C20: SI-004, SI-005, SI-006, SI-008, SI-009, SI-014, SI-018
+D20: Certified Assoc Welding Inspector
+E20: AWS D1.1:2020 8.1.4.5(1): CAWI or higher qualifies an Assistant Inspector, who works under the Inspector's supervision (8.1.4.4). AISC 360-22 N4.2: AWI only under direct supervision of a WI.
+F20: SCOPE — check
+G20: See Decision 7.
+H20: E-040, E-063, E-064
+A21: CC-19
+B21: AWS
+C21: SI-014, SI-018
+D21: (welding inspector for reinforcing bars)
+E21: IBC 1705.3.1 routes to AWS D1.4. D1.4 9.1.2 accepts CWI, CWB / CSA W178.2, or training and experience.
+F21: current
+G21: The listed CWI satisfies D1.4. See Decision 8.
+H21: E-066, E-069
+A22: CC-20
+B22: NICET
+C22: SI-020, SI-021, SI-022, SI-023, SI-025
+D22: Geotechnical engineering technology
+E22: Not on NICET's current certification programs page. NICET still hosts the program manual (published June 1994). IAS AC291, effective 2024, still lists NICET Geotechnical Engineering Technology Levels I to IV as acceptable.
+F22: UNCONFIRMED
+G22: Whether NICET still issues it needs NICET. Existing holders appear to remain accepted.
+H22: E-138, E-139, E-140, E-141
+A23: CC-21
+B23: NICET
+C23: SI-020, SI-021, SI-022, SI-023, SI-025
+D23: Lvl II
+E23: IAS AC291 Table 1: NICET II (geotechnical or construction or construction material testing or soils)
+F23: current
+H23: E-142
+A24: CC-22
+B24: NICET
+C24: SI-003
+D24: NICET Lvl III with 2 yrs experience
+E24: Level exists; no program named in the cell
+F24: naming
+G24: Which NICET program is not stated.
+H24: E-143
+A25: CC-23
+B25: NICET
+C25: SI-034
+D25: NICET: a) Level III; b) Level II
+E25: NICET program "Inspection and Testing of Water-Based Systems" (distinct from "Water-Based Systems Layout")
+F25: naming
+G25: Program not named in the cell.
+H25: E-144
+A26: CC-24
+B26: PCI
+C26: SI-015
+D26: PCI - Inspector Level II
+E26: PCI Level II Quality Control Technician/Inspector Certification
+F26: naming
+G26: Printed name differs.
+H26: E-145, E-146
+A27: CC-25
+B27: NFCA
+C27: SI-029, SI-030
+D27: NFCA - CAP Program Education & Exam
+E27: CAP accredits fireproofing contractors. NFCA's Fireproofing Education and Exams are offered for CAP, UL Designated Responsible Individuals, and Inspectors. IAS AC291 lists ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I for this work, not NFCA.
+F27: SCOPE — check
+G27: The education and exam is an inspector route; CAP itself is not.
+H27: E-147, E-148, E-149
+A28: CC-26
+B28: AWCI
+C28: SI-031
+D28: AWCI - EIFS
+E28: AWCI EIFS Inspector certification; IAS AC291 names "Exterior Insulated Finish System Inspector (EIFS-I)"
+F28: naming
+G28: The cell names it loosely.
+H28: E-150, E-151
+A29: CC-27
+B29: AABC
+C29: SI-033
+D29: AABC - Tech Certification
+E29: AABC Test and Balance Technician certification
+F29: naming
+G29: IBC 1705.19.2 requires certification as air balancers.
+H29: E-015, E-152
+A30: CC-28
+B30: NEBB
+C30: SI-033
+D30: Nat'l Environmental Balancing Bureau - Tech Certification
+E30: NEBB certifies Professionals and Technicians. IAS AC291 accepts AABC, NEBB or equivalent balancing technician certification.
+F30: naming
+G30: The exact NEBB credential title is not pinned. See Decision 14.
+H30: E-153, E-154
+A31: CC-29
+B31: IAPMO
+C31: SI-035, SI-036, SI-037
+D31: UPC Residential & Commercial Plumbing Inspector (PI)
+E31: UPC Residential and Commercial Plumbing Inspector (PI)
+F31: current
+G31: Exact match.
+H31: E-155
+A32: CC-30
+B32: IAPMO
+C32: SI-038
+D32: Plans Examiner (PPE)
+E32: UPC Residential and Commercial Plumbing Plans Examiner (PPE)
+F32: current
+H32: E-156
+A33: CC-31
+B33: UL / FM
+C33: SI-032
+D33: UL - Firestop Exam, & Factory Mutual Firestop Exam
+E33: IAS AC291 Table 1, fire-resistant penetrations and joints: ICC CLA or UL Firestop Examination or FM Firestop Examination (or the IFC exam). The exams are taken by individuals; FM 4991 and UL's qualified contractor program are separate company accreditations.
+F33: current
+G33: rev18 called these contractor-only; the exams are recognised inspector qualifications.
+H33: E-157, E-159
+A34: CC-32
+B34: AWC
+C34: SI-007
+D34: AWC Durable Construction with Preservative-Treated Wood
+E34: A course on AWC's own learning portal (AWCLearn), not a certification
+F34: naming
+G34: The issuer is AWC; the item is a course. DPP to confirm what an applicant presents.
+H34: E-158
+A35: CC-33
+B35: HDOA
+C35: SI-024
+D35: Certification of Pesticide Applicators in Hawaii; HDOA courses #4322, 4415, 4422, 4484
+E35: Not checked: the HDOA portal returned Forbidden.
+F35: not checked
+G35: Separate statute; HDOA to confirm.
+H35: E-020
+A36: CC-34
+B36: NFPA
+C36: SI-035
+D36: NFPA 99 Certification
+E36: NFPA 99 is the Health Care Facilities Code. ASSE 6020 Medical Gas Systems Inspector is a personnel certification whose training covers NFPA 99.
+F36: SCOPE — check
+G36: The cell names a code where a credential belongs.
+H36: E-160, E-161
+########## SI FORM dropdown
+A1: SI FORM DROPDOWN — what changed, and what was deliberately held back.
+A2: Cell
+B2: Entry
+C2: Status
+D2: Why
+A3: B2
+B3: Structural Steel; High Strength Bolting
+C3: unchanged
+A4: B3
+B4: Welding
+C4: unchanged
+A5: B4
+B5: Cold Form Steel
+C5: unchanged
+A6: B5
+B6: High Load Diaphragm; Metal Plate Wood Truss
+C6: unchanged
+A7: B6
+B7: Concrete
+C7: unchanged
+A8: B7
+B8: Post Installed Anchor  Installed in Concrete
+C8: unchanged
+A9: B8
+B9: Concrete Prestessing Steel
+C9: unchanged
+A10: B9
+B10: Concrete Reinforcing Steel
+C10: unchanged
+A11: B10
+B11: Structural Masonry
+C11: unchanged
+A12: B11
+B12: Shotcrete
+C12: unchanged
+A13: B12
+B13: Drive Deep; CIP Deep & Helical Pile Foundations
+C13: unchanged
+A14: B13
+B14: Termite Protection
+C14: unchanged
+A15: B14
+B15: Special Grading, Excavation/Filling/Water Quality
+C15: unchanged
+D15: The matrix row this serves cites ROH 1705.21, which is titled "Soils and foundation". "Water Quality" appears here but not in the matrix. Worth reconciling.
+A16: B15
+B16: Wind Resistance
+C16: unchanged
+A17: B16
+B17: Load Path & Uplift Ties
+C17: unchanged
+A18: B17
+B18: Seismic Resistance
+C18: unchanged
+A19: B18
+B19: Smoke Control Systems
+C19: unchanged
+A20: B19
+B20: Spray-Applied Fire-Res. Mat'l; Mastic & Intumen.
+C20: unchanged
+A21: B20
+B21: Exterior Insulation Finish System
+C21: unchanged
+A22: B21
+B22: Fire Resistence Penetration & Joints
+C22: unchanged
+A23: B22
+B23: Water Based Fire Protection
+C23: unchanged
+A24: B23
+B24: Medical Gas & Vacuum Systems
+C24: unchanged
+A25: B24
+B25: Alternate Source Nonpotable Water System
+C25: unchanged
+A26: B25
+B26: Nonpotable Rainwater Catchment System
+C26: unchanged
+A27: B26
+B27: Fabricator (Concrete/Precast; Steel Joists; Metal Buildings; Structural Steel; Wood)
+C27: ADDED
+D27: Five matrix rows (SI-003 to SI-007) are Fabricator sub-categories. The dropdown had no Fabricator entry at all, so an applicant could not select it. Pre-existing gap, not created by the code update.
+A28: B27
+B28: Soils
+C28: ADDED
+D28: IBC 1705.6 Soils (matrix row SI-020) had no entry. B12 covers the deep foundations and B14 the grading, but plain soils was missing. Also pre-existing.
+A29: B28
+B29: Plumbing Site Utilities 5' outside of bldg line
+C29: ADDED
+D29: Matrix row SI-038. Marked Pending DPP Policy, but it exists in the matrix and had no way to be selected.
+A30: B29
+B30: Other
+C30: MOVED
+D30: Was B26. Moved so it stays last in the list after the additions above. Text unchanged.
+A32: SI FORM
+B32: Validation ranges rewritten
+C32: CHANGED
+D32: THE ONLY EDIT MADE TO THE SI FORM TAB. The three list rules read 'Drop-down'!$B$1:$B$26 (cells A9:A19 and A21) and 'Drop-down'!$B$1:$B$23 (cell A20). All three now read $B$1:$B$29. Nothing else on that tab was touched.
+A33: SI FORM
+B33: A pre-existing anomaly, now fixed
+C33: CHANGED
+D33: Cell A20 was pointed at B1:B23 while every other row pointed at B1:B26 — so on that one line the form could not offer Alternate Source Nonpotable Water, Nonpotable Rainwater Catchment, or Other. It now matches the rest.
+A35: HELD BACK — pending Decision 5
+A36: —
+B36: Steel - Structural Stainless Steel (IBC 1705.2.2)
+C36: NOT ADDED
+D36: These are 2024 sections with no row in the matrix and no certifications assigned. Adding them to the dropdown would let an applicant select a classification for which DPP has not yet set a qualification. They belong in the list only once Decision 5 is answered.
+A37: —
+B37: Mass Timber Construction (IBC 1705.5.3)
+C37: NOT ADDED
+D37: These are 2024 sections with no row in the matrix and no certifications assigned. Adding them to the dropdown would let an applicant select a classification for which DPP has not yet set a qualification. They belong in the list only once Decision 5 is answered.
+A38: —
+B38: Sealing of Mass Timber (IBC 1705.20)
+C38: NOT ADDED
+D38: These are 2024 sections with no row in the matrix and no certifications assigned. Adding them to the dropdown would let an applicant select a classification for which DPP has not yet set a qualification. They belong in the list only once Decision 5 is answered.
+A39: —
+B39: Structural Integrity of Deep Foundation Elements (IBC 1705.10)
+C39: NOT ADDED
+D39: These are 2024 sections with no row in the matrix and no certifications assigned. Adding them to the dropdown would let an applicant select a classification for which DPP has not yet set a qualification. They belong in the list only once Decision 5 is answered.
+A40: —
+B40: Fabricated Items (IBC 1705.11)
+C40: NOT ADDED
+D40: These are 2024 sections with no row in the matrix and no certifications assigned. Adding them to the dropdown would let an applicant select a classification for which DPP has not yet set a qualification. They belong in the list only once Decision 5 is answered.
+########## SI FORM
+A1: PROJECT
+F1: APPLICATION NOS.
+A2: PROJECT ADDRESS
+F2: TMK
+A4: Chapter 17 of the International Building Code as amended by the City and County of Honolulu, required the owner employ one or more special 
+A5: inspectors independent of the contractors performing the work.  The special inspector, listed below for the selected classification, must be either
+A6: the project Design Profession of Record (DPOR) or a certified Special Inspector (SI) registered with the department.
+A8: Classification
+C8: SI or DPOR Credential No.
+D8: Name
+F8: Email Address
+G8: Phone No.
+H8: Signature
+A23: Duties and responsibilities of the special inspector:
+B24: 1.  Observe work assigned for conformance with approved design drawings and specifications.
+B25: 2.  Furnish inspection reports to the owner, the engineer or architect of record, and other owner-designated persons.  All
+B26:      discrepancies shall be brought to the immediate attention of the contractor for correction.  If uncorrected,the proper
+B27:      design authority, owner, and building official shall be notified.
+B28: 3.  Submit a final signed report stating whether the work required special inspection was, to the best of the special inspector's
+B29:      knowledge, in conformance with approved plans and inspections and the applicable report shall be submitted prior to the
+B30:      issuance of the Certificate of Occupancy.
+A32: Owner's and Contractor's Statement of Acknowledgement of Special Inspections:
+A33: Per 2018 Hawaii Building Code adopted by the City and County of Honolulu (CCH), Revised Ordinances of Honolulu, as amended, (ROH) Chapter 16-1.1,
+A34: Section 1704.4 and 2018 Hawaii Residential Code adopted by the CCH, ROH Chapter 16-2 Section R109.6 Access for Special Inspection.  The construction
+A35: or work, for which the inspection is required, shall remain accessible and exposed for special inspection purposes, until completion of the required
+A36: special inspections.
+A38: Owner:
+F38: Contractor:
+A40: Print Name
+C40: Signature
+E40: Date
+F40: Print Name
+G40: Signature 
+I40: Date
+########## Drop-down
+C1: Matrix rows (Ref)
+A2: 1705.2
+B2: Structural Steel; High Strength Bolting
+C2: SI-008
+A3: 1705.2.1
+B3: Welding
+C3: SI-009, SI-014, SI-018
+B4: Cold Form Steel
+C4: SI-010
+A5: 1705.1, 2, 5
+B5: High Load Diaphragm; Metal Plate Wood Truss
+C5: SI-011
+A6: 1705.3
+B6: Concrete
+C6: SI-012
+A7: 1705.3
+B7: Post Installed Anchor  Installed in Concrete
+C7: SI-016
+A8: 1705.3
+B8: Concrete Prestessing Steel
+C8: SI-015
+A9: 1705.3.1
+B9: Concrete Reinforcing Steel
+C9: SI-013
+A10: 1705.4
+B10: Structural Masonry
+C10: SI-017
+A11: 1705.3
+B11: Shotcrete
+C11: SI-019
+A12: 1705.7,8, &9
+B12: Drive Deep; CIP Deep & Helical Pile Foundations
+C12: SI-021, SI-022, SI-023
+A13: 1705.20
+B13: Termite Protection
+C13: SI-024
+A14: 1705.21
+B14: Special Grading, Excavation/Filling/Water Quality
+C14: SI-025
+B15: Wind Resistance
+C15: SI-026
+A16: 1705.12
+B16: Load Path & Uplift Ties
+C16: SI-027
+B17: Seismic Resistance
+C17: SI-028
+A18: 1705.19
+B18: Smoke Control Systems
+C18: SI-033
+A19: 1705.15
+B19: Spray-Applied Fire-Res. Mat'l; Mastic & Intumen.
+C19: SI-029, SI-030
+B20: Exterior Insulation Finish System
+C20: SI-031
+B21: Fire Resistence Penetration & Joints
+C21: SI-032
+A22: 1705.19
+B22: Water Based Fire Protection
+C22: SI-034
+B23: Medical Gas & Vacuum Systems
+C23: SI-035
+B24: Alternate Source Nonpotable Water System
+C24: SI-036
+B25: Nonpotable Rainwater Catchment System
+C25: SI-037
+B26: Fabricator (Concrete/Precast; Steel Joists; Metal Buildings; Structural Steel; Wood)
+C26: SI-003, SI-004, SI-005, SI-006, SI-007
+B27: Soils
+C27: SI-020
+B28: Plumbing Site Utilities 5' outside of bldg line
+C28: SI-038
+B29: Other
+C29: —
+A33: WHAT THIS TAB IS FOR: column B is the pick-list behind the Classification dropdown on the SI FORM tab (validation range B1:B29, applied to SI FORM cells A9:A21). Do not insert, delete or reorder rows in column B. Column A is reference only. Column C lists the Matrix 2024 rows each entry covers; check D-02 fails if a matrix row has no entry. If a classification is added or renamed in Matrix 2024, update columns B and C together and extend the validation range.
+########## Footer
+B1: Acrynom
+G1: Website
+I1: Acrynom
+B2: ICC
+C2:  International Code Council
+G2: https://www.iccsafe.org/
+I2: AR
+J2: Architect licensed in the state of Hawaii
+B3: ACI
+C3: American Concrete Institute
+G3: https://www.concrete.org/
+I3: SE
+J3: Structural Engineer licensed in the state of Hawaii
+B4: NICET
+C4:  National Institute for Certification in Engineering Technologies
+G4: https://www.nicet.org/
+I4: CE
+J4: Civil Engineer licensed in the state of Hawaii
+B5: AWS
+C5: American Welding Society
+G5: https://www.aws.org/
+I5: ME
+J5: Mechanical Engineer licensed in the state of Hawaii
+B6: AWCI
+C6: Association of the Wall and Ceiling Industry
+G6: https://www.awci.org/
+I6: FP
+J6: Fire Protection Engineer licensed in the state of Hawaii
+B7: UL
+C7: Underwriters Laboratoies
+G7: https://ul.org/
+I7: IAS
+J7: International Acrreditation Service
+B8: AABC
+C8: Associated Air Balance Council
+G8: https://www.aabc.com/
+I8: DPOR
+J8: Design Professional of Record
+B9: PCI
+C9: Precast/Prestressed Concrete Institute
+G9: http:// www.pci.org/
+I9: CCH
+J9: City and County of Honolulu
+B10: NFCA
+C10: National Fireproofing Contractors Association
+G10: https://www.nfca-online.org/
+########## blurb
+A1: The State Building Codes, as amended, in effect, requires the owner to employ and individual to perform the special inspection, who is
+A2: independent of the contractors performing the work.  The owner must retain the individual for the duration of the project under construction
+A3: until the completed work can be certified.  The individual retained for the selected classification must submit the certification letter for the
+A4: portion of the work inspected.  Should there be a change in special inspector, after the building permit is issued, the owner must notify the
+A5: DPP, using this form.
+A7: Upon request, the special inspector must provide a list of each employee providing special inspection services under his/her supervision
+A8: and their qualifications to DPP.  Should the owner report to DPP, that an individual did not fulfilling his/her obligation as a special inspector, 
+A9: the individual's registration may be suspended for not more than for a three month period for each incident during the investigation of such
+A10: complaint.
+A12: An individual inspecting multiple classification may submit one certification letter listing each classification.
+########## SI Qual 2018 (as received)
+A1: 2018 Building Code Chapter 17
+B1: Special Inspection Classification
+D1: Registered Design Professional in the state of Hawaii ,in responsible charge & the Design Professional of Record (DPOR/EOR) for the Project
+F1: DPP Registered Third Party PE or AR with minimum 3 years of relevant experience or IAS Agency
+G1: Registered Special Inspector6,7
+H1: Minimum Qualifications of a Special Inspector [Minimum 3 yrs of relevent experience within the classification; an engineering or architectural degree from an accredited college may be substituted for 2 yrs of experience; a 2 yr degree in engineering technology may be substituted for 1 yr of experitence]6
+A2: Section No.
+B2: Classification
+C2: Sub-Category
+D2: PE or AR
+E2: Unlicensed Qualified Employee under  direct supervision of DPOR/EOR
+H2: ICC1
+I2: ACI2
+J2: NICET3
+K2: AWS4
+L2: Other5,8
+A3: 1705.3
+B3: Fabricator           (Designs for prefabricated structures are reviewed and approved by submitting the Alternate Material & Method application.)
+C3: Concrete/ Precast
+D3: X
+E3: X1, 2, & 3
+F3: SE1 & 4, AR1 & 4, IAS
+G3: X1, 2, & 3
+H3: Reinforced Concrete (47)
+I3: Conc Construction & Conc Field Testing Technician Grade 1
+J3: NICET Lvl III with 2 yrs experience
+A4: 1705.1
+C4: Steel Joists & Joist Girders
+D4: X
+E4: X1 & 4 
+F4: SE1 & 4, AR1 & 4, IAS
+G4: X1 & 4
+H4: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+K4: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A5: 1705.11
+C5: Metal Buildings
+D5: X
+E5: X1 & 4
+F5: SE1 & 4, AR1 & 4, IAS
+G5: X1 & 4
+H5: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+K5: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A6: 1705.2
+C6: Structural Steel
+D6: X
+E6: X1 & 4 
+F6: SE1 & 4, AR1 & 4, IAS
+G6: X1 & 4
+H6: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+K6: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A7: 1705.5
+C7: Wood Construction
+D7: X
+E7: X1 & 5
+F7: SE1, AR1, IAS
+G7: X1 & 5
+H7: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+L7: AWC Durable Construction with Preservative -Treated Wood
+A8: 1705.2
+B8: Structural Steel - High Strenth Bolting
+D8: X
+E8: X1 & 4
+F8: SE1 & 4, AR1 & 4
+G8: X1 & 4
+H8: Structural Steel Bolting (S1)
+K8: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A9: 1705.2.1
+B9:  Structural Steel - Welding
+D9: X
+E9: X1 & 4
+F9: SE1 & 2
+G9: X1 & 4
+H9: Structural Steel Welding SI
+K9: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A10: 1705.2.2; 1705.2.3; 1705.2.4
+B10: Steel - Structural Cold-Formed Steel
+D10: X
+E10: X
+F10: SE1
+G10: X1
+H10: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+A11: 1705.5; 1705.1; 1705.2
+B11: Structural Wood Construction - High-load diaphragms; Metal-plate-wood truss
+D11: X
+E11: X1
+F11: SE1, AR1
+G11: X1
+H11: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+A12: 1705.3
+B12: Concrete
+D12: X
+E12: X
+F12: SE, AR, CE
+G12: X2
+I12: Conc Construction & Conc Field Testing Technician Grade 1
+A13: 1705.3.1
+B13: Concrete - Reinforced Concrete
+D13: X
+E13: X1
+F13: SE1, CE1
+G13: X1 & 2
+H13: Reinforced Concrete (47)
+I13: Conc Construction & Conc Field Testing Technician Grade 1
+C14: Welding of Reinforcement
+D14: X
+E14: X1 & 4
+F14: SE1 & 4
+G14: X1 & 4
+H14: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+K14: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A15: 1705.3
+B15: Concrete - Pre-Stressing & Precast
+D15: X
+E15: X1 or 5; & 2
+F15: SE1 or 5, CE1 or 5
+G15: X1 or 5; & 2
+H15: Pre-stressed Concrete (92) & Reinforced Concrete (49)
+I15: Conc Construction & Conc Field Testing Technician Grade 1
+L15: PCI - Inspector Level II
+A16: 1705.3
+B16: Concrete - Post-Installed Structural Anchor in Concrete
+D16: X
+E16: X1
+F16: SE1, CE1
+G16: X1 & 2
+H16: Reinforced Concrete (47)
+I16: Conc Construction & Conc Field Testing Technician Grade 1
+A17: 1705.4
+B17: Masonry Construction
+D17: X
+E17: X1
+F17: SE1, CE1
+G17: X1 & 2
+H17: Structural Masonry (84)
+I17: Conc Construction & Conc Field Testing Technician Grade 1
+C18: Welding of Reinforcement
+D18: X
+E18: X1
+F18: SE1 & 4
+G18: X1 & 4
+H18: Structural Steel Welding (S2) & Structural Steel & Bolting (S1)
+K18: Certified Welding Inspector; & Certified Assoc Welding Inspector
+A19: 1705.3
+B19: Shotcrete
+D19: X
+E19: X2
+F19: SE2, AR2, CE2
+G19: X2
+I19: Shotcrete SI
+A20: 1705.6
+B20: Soils
+D20: X
+E20: X1 & 3
+F20: CE1
+G20: X1 & 3
+H20: Soils (EC)
+J20: Geotechnical engineering technology or Lvl II
+A21: 1705.7
+B21: Driven Deep Foundations
+D21: X
+E21: X1, 2 & 3
+F21: CE1
+G21: NA
+H21: Soils (EC)
+I21: Conc Construction & Conc Field Testing Technician Grade 1
+J21: Geotechnical engineering technology or Lvl II
+A22: 1705.8
+B22: Cast-in-Place Deep Foundations
+D22: X
+E22: X1 , 2 & 3
+F22: CE1
+G22: NA
+H22: Soils (EC)
+I22: Conc Construction & Conc Field Testing Technician Grade 1
+J22: Geotechnical engineering technology or Lvl II
+A23: 1705.9
+B23: Helical Pile Foundations
+D23: X
+E23: X1, 2 & 3
+F23: CE1
+G23: NA
+H23: Soils (EC)
+I23: Conc Construction & Conc Field Testing Technician Grade 1
+J23: Geotechnical engineering technology or Lvl II
+A24: 1705.2
+B24: Termite Protection
+D24: X
+E24: X1 and 5(b)
+F24: SE1, AR1
+G24: X1, 5(a)&(b)
+H24: Commercial Bldg Inspector (2B); and Residential Bldg Inspector (1B)
+L24: HDOA Commercial Termite - Certification of Pesticide Applicators in Hawaii; or HDOA course  #4322, 4415, 4422,  & 4484
+A25: 1705.21
+B25: Special Grading, Excavation/Filling
+C25: Soils
+D25: X
+E25: X 1 & 3
+F25: CE1
+G25: X 1 & 3
+H25: Soils (EC)
+J25: Geotechnical engineering technology or Lvl II
+A26: 1705.11
+B26: Wind Resistance
+D26: X
+E26: NA
+F26: NA
+G26: NA
+A27: 1705.11
+B27: Load Path & Uplift ties
+D27: X
+E27: X1
+F27: AR1, SE1
+G27: X1
+H27: Commercial Bldg Inspector (2B); & Residential Bldg Inspector (1B)
+A28: 1705.12
+B28: Seismic Resistance
+D28: X
+E28: NA
+F28: NA
+G28: NA
+A29: 1705.14
+B29: Sprayed Fire - Resistant Materials
+D29: X
+E29: X1 or 5
+F29: AR1 or 5
+G29: X1 or 5
+H29: Spray -Applied Fireproofing (86), Fire Inspector I (66)
+L29:  NFCA - CAP Program Education & Exam
+A30: 1705.15
+B30: Mastic & Intumenscent Fire-Resistant Coating
+D30: X
+E30: X1 or 5
+F30: AR1
+G30: X1 or 5
+H30: Spray -Applied Fireproofing, Fire Inspector I (66)
+L30: NFCA - CAP Program Education & Exam
+A31: 1705.16
+B31: Exterior Insulation Finish System
+D31: X
+E31: X5
+F31: AR5
+G31: X5
+L31: AWCI - EIFS
+A32: 1705.17
+B32: Fire -Resistant Penetrations & Joints
+D32: X
+E32: X5
+F32: AR5
+G32: X5
+L32: UL - Firestop Exam, & Factory Mutual Firestop Exam
+A33: 1705.18
+B33: Smoke Control Systems
+D33: X
+E33: X5
+F33: ME5, FP5
+G33: X5
+L33: AABC - Tech Certification; & Nat'l Environmental Balancing Bureau - Tech Certification
+A34: 1705.19
+B34: Water-Based Fire Protection System
+D34: X
+E34: X1 or 3b
+F34: ME1, FP1
+G34: X1 & 3a
+H34: Commercial Fire Sprinkler (CF)
+J34: NICET:                             a) Level III;                 b) Level II
+A35: 2021 Uniform Plumbing Code Chapter 13
+B35: Medical Gas & Vacuum Systems
+D35: X
+E35: X5
+F35: ME5
+G35: X5
+L35: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI); and NFPA 99 Certification
+A36: 2021 Uniform Plumbing Code Chapter 15
+B36: Alternate Source Nonpotable Water System
+D36: X
+E36: X5
+F36: CE5, ME5
+G36: X5
+L36: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI)
+A37: 2021 Uniform Plumbing Code Chapter 16
+B37: Nonpotable Rainwater Catchment System
+D37: X
+E37: X5
+F37: CE5, ME5
+G37: X5
+L37: IAPMO Certifications: UPC Residential & Commercial Plumbing Inspector (PI)
+A38: Pending DPP  Policy
+B38: Plumbing Site Utilities 5' outside of bldg line
+D38: X5
+E38: NA
+F38: NA
+G38: NA
+L38: IAPMO Certifications:  Plans Examiner (PPE)
+A40: 7A Special Inspection Agency  must have a registered Special Inspector supervising the employees.  A list of the qualified employees must be provided to the project owner and contractor for authorized entry into the project site.
+A41: 8Other nationally recognized certification or training program may be accepted by the department.
+A44: Acrynom
+F44: Website
+I44: Acrynom
+A45: ICC
+B45: International Code Council
+F45: https://www.iccsafe.org/
+I45: AR
+J45: Architect licensed in the state of Hawaii
+A46: ACI
+B46: American Concrete Institute
+F46: https://www.concrete.org/
+I46: SE
+J46: Structural Engineer licensed in the state of Hawaii
+A47: NICET
+B47: National Institute for Certification in Engineering Technologies
+F47: https://www.nicet.org/
+I47: CE
+J47: Civil Engineer licensed in the state of Hawaii
+A48: AWS
+B48: American Welding Society
+F48: https://www.aws.org/
+I48: ME
+J48: Mechanical Engineer licensed in the state of Hawaii
+A49: AWCI
+B49: Association of the Wall and Ceiling Industry
+F49: https://www.awci.org/
+I49: FP
+J49: Fire Protection Engineer licensed in the state of Hawaii
+A50: UL
+B50: Underwriters Laboratoies
+F50: https://ul.org/
+I50: IAS
+J50: International Acrreditation Service
+A51: AABC
+B51: Associated Air Balance Council
+F51: https://www.aabc.com/
+I51: CCH
+J51: City and County of Honolulu
+A52: PCI
+B52: Precast/Prestressed Concrete Institute
+F52: https:// www.pci.org/
+I52: UPC
+J52: Uniform Plumbing Code
+A53: NFCA
+B53: National Fireproofing Contractors Association
+F53: https://www.nfca-online.org/
+I53: NFPA
+J53: National Fire Protection Association
+A54: IAPMO
+B54: International Association of Plumbing and Mechanical Officials
+F54: https://www.iapmo.org/
+A55: HDOA
+B55: Hawaii Department of Agriculture
+D55: https://hdoa.inforps.hi.gov/PesticidesEducation/#/upcomingcourses-lookup
+A56: AWC
+B56: American Wood Council
+F56: https://awc.org
+########## Change Log
+A1: CHANGE LOG — what changed between the 2018 sheet (tab "SI Qual 2018 (as received)", preserved untouched) and "Matrix 2024".
+A2: ID
+B2: Area
+C2: Change
+D2: Detail
+E2: Evidence
+A3: CL-01
+B3: Structure
+C3: Rows re-ordered by authority layer, then section number.
+D3: Base IBC first, then City & County amendments, then the plumbing code rows, then department policy. The "2018 row" column on Flags maps every row back to its original position.
+A4: CL-02
+B4: Structure
+C4: Added Code and Section title columns.
+D4: A bare section number could previously mean base IBC, a state amendment, a City amendment or department policy. The Code column separates them, and the section title is reproduced as printed so a number can be checked against its words.
+A5: CL-03
+B5: Structure
+C5: Superscript pointer notation replaced with explicit text.
+D5: "X1, 2, & 3" now reads "✓ ICC + ACI + NICET". "SE1 & 4, AR1 & 4, IAS" now reads "SE or AR (ICC + AWS), or IAS agency". The reading of the 2018 shorthand is an interpretation; see Decision 17.
+A6: CL-04
+B6: Structure
+C6: Credential columns reproduced verbatim.
+D6: Columns L through P are copied cell-for-cell from the 2018 sheet. No credential has been edited. Findings about them are on Decisions and Credential check.
+A7: CL-05
+B7: Structure
+C7: Credential basis column (Q).
+D7: Re-derived 2026-09-11 from the code chain: IBC section, then any referenced standard, then the clause naming an inspector qualification. "unverified" where the standard is not held.
+A8: CL-06
+B8: Citation
+C8: Steel Joists & Joist Girders: 1705.1 -> 1705.2.4
+D8: The 2018 cell pointed at the general section.
+E8: E-047
+A9: CL-07
+B9: Citation
+C9: Metal Buildings: 1705.11 -> 1705.2.6
+D9: 1705.2.6 Metal Building Systems and Table 1705.2.6 are new in the 2024 base code. In the 2018 IBC, 1705.11 is Special Inspections for Wind Resistance.
+E9: E-042, E-043, E-044, E-045, E-046
+A10: CL-08
+B10: Citation
+C10: Cold-Formed Steel: 1705.2.2/.3/.4 -> 1705.2.3/.4/.5
+D10: The 2024 IBC inserts 1705.2.2 Structural Stainless Steel.
+E10: E-051, E-052
+A11: CL-09
+B11: Citation
+C11: Wind 1705.11 -> 1705.12; Seismic 1705.12 -> 1705.13; SFRM 1705.14 -> 1705.15; Intumescent 1705.15 -> 1705.16; EIFS 1705.16 -> 1705.17; Penetrations 1705.17 -> 1705.18; Smoke control 1705.18 -> 1705.19.
+D11: The +1 shift. Caused by 1705.10 Structural Integrity of Deep Foundation Elements, added in the 2021 IBC. Honolulu adopts the 2018 IBC, so the 2021 and 2024 changes arrive together.
+E11: E-014, E-045, E-093
+A12: CL-10
+B12: Citation
+C12: Termite Protection: 1705.2 -> ROH 1705.20
+D12: The 2018 sheet read "1705.2", a dropped zero. ROH 16-1.1 amend. (113).
+E12: E-008, E-019
+A13: CL-11
+B13: Citation
+C13: Water-Based Fire Protection: kept at ROH 1705.19
+D13: ROH amend. (112) "Fire-protection systems". Left at its own number; renumbering is DPP's call.
+E13: E-006
+A14: CL-12
+B14: Citation
+C14: Special Grading: kept at ROH 1705.21
+D14: Citation correct. The section is titled "Soils and foundation" and refers to ROH Chapter 18A; see Decision 6.
+E14: E-011
+A15: CL-13
+B15: Title
+C15: Two title changes worth noting.
+D15: 1705.15 is now "Sprayed Fire-Resistive Materials (SFRM)" (2018: Sprayed Fire-Resistant Materials). 1705.16 is now "Intumescent Fire-Resistive Materials" (2018: Mastic and Intumescent Fire-Resistant Coatings).
+E15: E-089, E-090, E-091, E-092
+A16: CL-14
+B16: Not changed
+C16: SI FORM and blurb tabs.
+D16: SI FORM: only its three dropdown validation ranges changed (see SI FORM dropdown tab). blurb: unchanged. Neither tab's text was touched.
+A17: CL-15
+B17: Not changed
+C17: Drop-down tab column B, rows 2 to 25.
+D17: Rows 26 to 29 were added (see SI FORM dropdown tab). Column C, added 2026-09-11, lists the Matrix 2024 rows each entry covers.
+A18: CL-16
+B18: Not changed
+C18: Every credential in columns L through P.
+D18: See Decisions 7 through 10 and 15 for what was found but not applied.
+A19: CL-17
+B19: Repair
+C19: 2026-09-11: workbook repaired so Excel opens it.
+D19: Excel 16 refused to open rev18, even in repair mode. Causes: Drop-down rows written out of order; the Matrix filter written in the wrong place in the file; a tab name over Excel's 31-character limit (now "SI Qual 2018 (as received)"). No values changed.
+A20: CL-18
+B20: QA
+C20: 2026-09-11: corrections from the independent QA pass.
+D20: ICC 49, EC and 86 restored as current; column references corrected (H and I; L through P); firestop exam, AWC course, anchor requirement and grading label findings corrected; SI-004 to SI-006 flagged for the City welding exception; SI-016 downgraded to check; credential basis re-derived; Decisions 16 and 17 added; README and Evidence tabs added; QA log tab removed. Report: handoff/QA-REPORT-2026-09-11.md in the repository.
+########## Sources
+A1: SOURCES — every document relied on. Generated from verification/sources/manifest.json.
+A2: ID
+B2: Document
+C2: Issuer
+D2: Edition
+E2: Complete?
+F2: Use
+G2: Limitation
+A3: ibc-2024-ch17
+B3: International Building Code 2024, Chapter 17 Special Inspections and Tests (full chapter, 1701-1709 incl. tables)
+C3: ICC
+D3: 2024
+E3: full
+F3: evidence
+A4: ibc-2024-ch35
+B4: International Building Code 2024, Chapter 35 Referenced Standards (UpCodes, Austin viewer)
+C4: ICC
+D4: 2024
+E4: full
+F4: evidence
+G4: Rendered by a local-jurisdiction viewer. Used only for referenced-standard EDITIONS, which local adoption does not change.
+A5: ibc-2021-ch17
+B5: International Building Code 2021, Chapter 17 (UpCodes, Colorado viewer - no local 1705 amendments)
+C5: ICC
+D5: 2021
+E5: full
+F5: evidence
+G5: Used only to date when section numbers changed. Do NOT use the Connecticut 2021 viewer: it carries state amendments inside 1705.2.
+A6: ibc-2018-ch17-hawaii
+B6: International Building Code 2018, Chapter 17, as amended by the Hawaii State Building Code (UpCodes, Hawaii viewer)
+C6: ICC
+D6: 2018 + Hawaii amendments
+E6: full
+F6: evidence
+G6: A third-party rendering with state amendments merged in. Where it matters, cite the State adoption document (hi-sbc-2018) for the amendment itself.
+A7: aci-318-19-code
+B7: ACI 318-19 (SI), Building Code Requirements for Structural Concrete - CODE column
+C7: ACI
+D7: 318-19
+E7: full
+F7: evidence
+G7: ACI prints code (left) and commentary (right) side by side. The split is by page gutter; full-width pages (front matter, some tables) may be split mid-line. Code text is what is mandatory.
+A8: aci-318-19-commentary
+B8: ACI 318R-19 (SI) - COMMENTARY column (not mandatory)
+C8: ACI
+D8: 318R-19
+E8: full
+F8: evidence
+G8: Commentary explains the code and is NOT a requirement. Evidence citing it must be typed as commentary.
+A9: aws-d1-1-2020
+B9: AWS D1.1/D1.1M:2020 Structural Welding Code - Steel
+C9: AWS
+D9: D1.1:2020
+E9: full
+F9: evidence
+A10: aws-d1-4-2018
+B10: AWS D1.4/D1.4M:2018 Structural Welding Code - Steel Reinforcing Bars
+C10: AWS
+D10: D1.4:2018
+E10: full
+F10: evidence
+A11: aws-d1-6-2017
+B11: AWS D1.6/D1.6M:2017 Structural Welding Code - Stainless Steel
+C11: AWS
+D11: D1.6:2017
+E11: full
+F11: evidence
+A12: aisc-360-22
+B12: ANSI/AISC 360-22 Specification for Structural Steel Buildings (the edition the 2024 IBC references)
+C12: AISC
+D12: 360-22
+E12: full
+F12: evidence
+A13: aisc-360-16
+B13: ANSI/AISC 360-16 Specification for Structural Steel Buildings (the edition the adopted 2018 IBC references)
+C13: AISC
+D13: 360-16
+E13: full
+F13: context
+G13: Held to compare against 360-22 if DPP decides the matrix must be usable under the currently adopted 2018 IBC (Decision 4). No 2024 claim rests on it.
+A14: upc-2018
+B14: IAPMO Uniform Plumbing Code 2018 (28th ed.)
+C14: IAPMO
+D14: 2018
+E14: partial
+F14: evidence
+G14: A poor scan: much of the text layer is garbled or letter-spaced. Section 1319.4 could not be located. A negative search in this file proves nothing.
+A15: roh-16-1-1
+B15: Revised Ordinances of Honolulu Sec. 16-1.1, Building Code (amended through Ord. 25-11)
+C15: City & County of Honolulu
+D15: as codified
+E15: full
+F15: evidence
+A16: roh-16-1-2
+B16: Revised Ordinances of Honolulu Sec. 16-1.2, Residential Code
+C16: City & County of Honolulu
+D16: as codified
+E16: full
+F16: evidence
+A17: roh-16-2
+B17: Revised Ordinances of Honolulu Chapter 16 Article 2, Relocation of Buildings
+C17: City & County of Honolulu
+D17: as codified
+E17: full
+F17: evidence
+A18: roh-19-1
+B18: Revised Ordinances of Honolulu Sec. 19-1, Plumbing Code
+C18: City & County of Honolulu
+D18: as codified
+E18: full
+F18: evidence
+A19: hi-sbc-2018
+B19: Hawaii State Building Code as adopted 20 Apr 2021 (SBCC adoption document: 2018 IBC with state amendments)
+C19: State of Hawaii DAGS / SBCC
+D19: adopted 2021-04-20
+E19: full
+F19: evidence
+A20: ias-ac291
+B20: IAS AC291 Accreditation Criteria for Special Inspection Agencies (effective 2024-01-01), incl. Table 1 minimum inspector certifications
+C20: IAS
+D20: 2023-10-04, eff. 2024-01-01
+E20: full
+F20: evidence
+A21: icc-si-exams
+B21: ICC Special Inspector Certifications page
+C21: ICC
+D21: as published 2026-09-11
+E21: full
+F21: evidence
+G21: Collapsed sections on the live page are included in this snapshot; Ctrl+F on the live page will not find them until expanded.
+A22: icc-combo-designations
+B22: ICC Combination Designations page
+C22: ICC
+D22: as published 2026-09-11
+E22: full
+F22: evidence
+A23: icc-cf-store
+B23: ICC store: CF Commercial Fire Sprinkler Inspector
+C23: ICC
+D23: as published 2026-09-11
+E23: full
+F23: evidence
+A24: nicet-programs
+B24: NICET Certification Programs page
+C24: NICET
+D24: as published 2026-09-11
+E24: full
+F24: evidence
+A25: nicet-geotech-manual
+B25: NICET Geotechnical Engineering Technology Program Detail Manual (hosted PDF)
+C25: NICET
+D25: as published 2026-09-11
+E25: full
+F25: evidence
+G25: Establishes the program's structure and that no withdrawal notice is attached. Does NOT establish whether NICET still issues it.
+A26: nfca-cap
+B26: NFCA Contractor Accreditation Program page
+C26: NFCA
+D26: as published 2026-09-11
+E26: full
+F26: evidence
+A27: nfca-learning
+B27: NFCA Programs & Exams page
+C27: NFCA
+D27: as published 2026-09-11
+E27: full
+F27: evidence
+A28: icc-fire-inspector-1
+B28: ICC store: 66 - Fire Inspector I
+C28: ICC
+D28: as published 2026-09-11
+E28: full
+F28: evidence
+A29: awc-learn-preservative
+B29: AWCLearn course search: preservative
+C29: AWC
+D29: as published 2026-09-11
+E29: full
+F29: evidence
+A30: iapmo-pi
+B30: IAPMO: UPC Residential and Commercial Plumbing Inspector (PI)
+C30: IAPMO
+D30: as published 2026-09-11
+E30: full
+F30: evidence
+A31: iapmo-ppe
+B31: IAPMO: UPC Residential and Commercial Plumbing Plans Examiner (PPE)
+C31: IAPMO
+D31: as published 2026-09-11
+E31: full
+F31: evidence
+A32: aabc-certification
+B32: AABC Certification page
+C32: AABC
+D32: as published 2026-09-11
+E32: full
+F32: context
+G32: Program landing page. The credential name is cited from AABC's own application form (aabc-tbt-application).
+A33: aabc-tbt-application
+B33: AABC Test and Balance Technician Certification Application (PDF)
+C33: AABC
+D33: as published 2026-09-11
+E33: full
+F33: evidence
+A34: pci-level-ii
+B34: PCI Level II Quality Control Technician/Inspector Certification page
+C34: PCI
+D34: as published 2026-09-11
+E34: full
+F34: evidence
+A35: pci-overview
+B35: PCI Personnel Certification Program Overview
+C35: PCI
+D35: as published 2026-09-11
+E35: full
+F35: evidence
+A36: asse-6020
+B36: ASSE 6020 Medical Gas Systems Inspector (certifying body page, MGTC)
+C36: NFPA
+D36: as published 2026-09-11
+E36: full
+F36: evidence
+A37: nebb-certification
+B37: NEBB Certification page
+C37: NEBB
+D37: as published 2026-09-11
+E37: full
+F37: evidence
+A38: awci-eifs
+B38: AWCI EIFS Inspector Certification page
+C38: AWCI
+D38: as published 2026-09-11
+E38: full
+F38: evidence
+A39: aci-shotcrete-inspector
+B39: ACI Shotcrete Inspector certification program page
+C39: ACI
+D39: as published 2026-09-11
+E39: full
+F39: evidence
+A41: NOT HELD — each of these was needed and could not be obtained:
+A42: aisc-370-21 — ANSI/AISC 370-21 Specification for Structural Stainless Steel Buildings (not obtained). Leaves open: What IBC 1705.2.2 (stainless steel) requires of an inspector. The NEW-01 gap row cannot be given a code-backed credential.
+A43: tms-402-602 — TMS 402/602 Building Code Requirements and Specification for Masonry Structures (not obtained). Leaves open: Whether the masonry rows' credentials are code-backed (IBC 1705.4).
+A44: sdi-qa-qc — SDI QA/QC Standard for Quality Control and Quality Assurance for Installation of Steel Deck (not obtained). Leaves open: Welding inspector qualification for cold-formed steel deck, which IBC 1705.2.3 routes to SDI QA/QC.
+A45: awci-12-b — AWCI Technical Manual 12-B (intumescent fire-resistive materials inspection) (not obtained). Leaves open: Whether IBC 1705.16 (via AWCI 12-B) names an inspector qualification.
+A46: astm-e2174-e2393 — ASTM E2174 / E2393 (firestop and joint system inspection) (not obtained). Leaves open: Whether IBC 1705.18 (via ASTM E2174/E2393) names an inspector qualification.
+A47: aws-b5-1 — AWS B5.1 Specification for the Qualification of Welding Inspectors (not obtained). Leaves open: The exact WI / SWI / AWI definitions that AISC 360-22 N4 points to.
+A48: aws-qc1 — AWS QC1 Standard for AWS Certification of Welding Inspectors (not obtained). Leaves open: Nothing on its own: D1.1 8.1.4.2 and 8.1.4.5 already state the CWI / CAWI tiers that reference it.
+A49: ul-fm-firestop-exams — UL Solutions and FM Approvals firestop examination pages (issuer pages blocked automated retrieval). Leaves open: The exams' current official names as UL and FM publish them. IAS AC291 Table 1 names both exams and is cited instead.
+A50: hdoa-courses — Hawaii Department of Agriculture pesticide applicator certification and course listings (portal returned Forbidden). Leaves open: Whether HDOA courses 4322, 4415, 4422, 4484 exist and are current.
+A51: dpp-registry-practice — What DPP's special inspector registry accepts in practice (internal to DPP). Leaves open: Whether any credential set is the one DPP wants. IBC 1704.2.1 leaves competence to the building official.
+########## Evidence
+A1: EVIDENCE — what backs each claim. Quotes are checked against the full text of each source (verification/sources).
+A2: ID
+B2: Claim
+C2: Type
+D2: Source
+E2: Where
+F2: Quote or terms
+G2: Used by
+A3: E-001
+B3: ROH 16-1.1 amend. (111) excludes welding and high strength bolting from what the DPOR and their personnel may inspect.
+C3: supports
+D3: roh-16-1-1
+E3: amend. (111), 1704.2.1
+F3: The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as the special inspector and their personnel are permitted to act as the special inspectors for the work designed by them, provided they qualify as special inspectors, with the exception of welding and high strength bolting.
+G3: Matrix 2024:SI-004:Flag; Matrix 2024:SI-005:Flag; Matrix 2024:SI-006:Flag; Matrix 2024:SI-008:Flag; Matrix 2024:SI-009:Flag; Matrix 2024:SI-014:Flag; Matrix 2024:SI-018:Flag; Flags:SI-004; Flags:SI-005; Flags:SI-006; Flags:SI-008; Flags:SI-009; Flags:SI-014; Flags:SI-018; Decisions:3; Decisions:16
+A4: E-002
+B4: The 2024 IBC 1704.2.1 lets the DPOR's personnel act as special inspectors with no welding or bolting exception.
+C4: supports
+D4: ibc-2024-ch17
+E4: §1704.2.1
+F4: The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as an approved agency and their personnel are permitted to act as special inspectors for the work designed by them, provided they qualify as special inspectors.
+G4: Flags:SI-008; Decisions:16
+A5: E-003
+B5: The Hawaii State Building Code version of 1704.2.1 has no welding or bolting exception.
+C5: supports
+D5: hi-sbc-2018
+E5: State amendment 30, 1704.2.1
+F5: The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as the special inspector and their personnel are permitted to act as special inspectors for the work designed by them, provided they qualify as special inspectors
+G5: Flags:SI-008; Decisions:16
+A6: E-004
+B6: ROH 16-1.1 adopts the Hawaii State Building Code of 20 April 2021, which adopts the 2018 IBC.
+C6: supports
+D6: roh-16-1-1
+E6: §16-1.1
+F6: The Hawaii State Building code, as adopted by the State of Hawaii on April 20, 2021, which adopts with modifications, the International Building Code, 2018 Edition
+G6: Decisions:4; Decisions:16
+A7: E-005
+B7: ROH 16-1.1 is amended through Ord. 25-11.
+C7: supports
+D7: roh-16-1-1
+E7: history note
+F7: Am. Ords. 13-3, 17-49, 20-7, 24-15, 25-11
+G7: Decisions:4
+A8: E-006
+B8: ROH amend. (112) adds 1705.19 Fire-protection systems.
+C8: supports
+D8: roh-16-1-1
+E8: amend. (112)
+F8: (112) Amending Section 1705. Section 1705 is amended by adding Section 1705.19 to read: 1705.19 Fire-protection systems. Special inspection for fire-protection systems is required. See Section 901.2.
+G8: Matrix 2024:SI-034:Flag; Flags:SI-034; Decisions:1; Change Log:CL-11
+A9: E-007
+B9: The 2024 IBC numbers Testing for Smoke Control 1705.19.
+C9: supports
+D9: ibc-2024-ch17
+E9: §1705.19
+F9: 1705.19 Testing for Smoke Control
+G9: Matrix 2024:SI-033:Flag; Matrix 2024:SI-034:Flag; Flags:SI-033; Flags:SI-034; Decisions:1
+A10: E-008
+B10: ROH amend. (113) adds 1705.20 Termite protection and 1705.21 Soils and foundation.
+C10: supports
+D10: roh-16-1-1
+E10: amend. (113)
+F10: (113) Amending Section 1705. Section 1705 is amended by adding Sections 1705.20 and 1705.21 to read: 1705.20 Termite protection.
+G10: Matrix 2024:SI-024:Flag; Flags:SI-024; Decisions:1; Decisions:16; Change Log:CL-10
+A11: E-009
+B11: The 2024 IBC numbers Sealing of Mass Timber 1705.20.
+C11: supports
+D11: ibc-2024-ch17
+E11: §1705.20
+F11: 1705.20 Sealing of Mass Timber
+G11: Matrix 2024:SI-024:Flag; Flags:SI-024; Flags:NEW-05; Decisions:1; Decisions:5
+A12: E-010
+B12: The 2024 IBC Chapter 17 has no section 1705.21, so 1705.22 is the first number free of both the base code and ROH.
+C12: absent
+D12: ibc-2024-ch17
+E12: whole chapter
+F12: absent: 1705.21
+G12: Decisions:1; Flags:SI-034
+A13: E-011
+B13: ROH 1705.21 requires special inspection where soil conditions warrant it or are specified in ROH Chapter 18A.
+C13: supports
+D13: roh-16-1-1
+E13: amend. (113), 1705.21
+F13: 1705.21 Soils and foundation. Where soils conditions warrant a geotechnical investigation or are specified in ROH Chapter 18A. Special inspection is required.
+G13: Matrix 2024:SI-025:Flag; Matrix 2024:SI-025:Section title; Flags:SI-025; Decisions:2; Decisions:6; Change Log:CL-12
+A14: E-012
+B14: ROH amend. (114) places excavation, grading and earthwork under ROH Chapter 18A.
+C14: supports
+D14: roh-16-1-1
+E14: amend. (114), 1801.1
+F14: Requirements governing excavation, grading, and earthwork construction, including fills and embankments, are governed by ROH Chapter 18A.
+G14: Flags:SI-025; Decisions:6
+A15: E-013
+B15: ROH 919.5 still cites 1705.18 for smoke control.
+C15: supports
+D15: roh-16-1-1
+E15: amend. (82), 919.5
+F15: 919.5 Smoke Control Systems. Smoke control systems shall be inspected and evaluated in accordance to the requirements of Sections 909 and 1705.18.
+G15: Flags:SI-033
+A16: E-014
+B16: In the 2018 IBC, 1705.18 is Testing for Smoke Control.
+C16: supports
+D16: ibc-2018-ch17-hawaii
+E16: §1705.18
+F16: 1705.18 Testing for Smoke Control
+G16: Flags:SI-033; Change Log:CL-09
+A17: E-015
+B17: IBC 1705.19.2 requires smoke control testing agencies to hold certification as air balancers.
+C17: supports
+D17: ibc-2024-ch17
+E17: §1705.19.2
+F17: Approved agencies for smoke control testing shall have expertise in fire protection engineering, mechanical engineering and certification as air balancers.
+G17: Matrix 2024:SI-033:Credential basis; Flags:SI-033; Decisions:14; Credential check:CC-27
+A18: E-016
+B18: ROH 1705.19 names no inspector qualification.
+C18: absent
+D18: roh-16-1-1
+E18: 1705.19 span
+F18: absent: qualif, certif (within 1705.19)
+G18: Matrix 2024:SI-034:Credential basis
+A19: E-017
+B19: ROH 1705.21 names no inspector qualification.
+C19: absent
+D19: roh-16-1-1
+E19: 1705.21 span
+F19: absent: qualif, certif (within 1705.21)
+G19: Matrix 2024:SI-025:Credential basis
+A20: E-018
+B20: ROH 16-1.2 R109.5.2 is the residential termite protection special inspection.
+C20: supports
+D20: roh-16-1-2
+E20: amend. (11)
+F20: R109.5.2 Termite protection.
+G20: Flags:SI-024
+A21: E-019
+B21: The 2018 sheet cited termite protection as 1705.2.
+C21: internal
+D21: orig-2018
+E21: SI Qualification!A24
+F21: 1705.2
+G21: Flags:SI-024; Change Log:CL-10
+A22: E-020
+B22: HDOA pesticide applicator certification and course numbers could not be checked.
+C22: open
+D22: hdoa-courses
+E22: not held
+G22: Matrix 2024:SI-024:Credential basis; Credential check:CC-33
+A23: E-021
+B23: ROH 19-1 adopts the Uniform Plumbing Code, 28th Edition (2018), 6th Printing.
+C23: supports
+D23: roh-19-1
+E23: §19-1.1
+F23: which adopts, with modifications, the Uniform Plumbing Code, 28th Edition (2018), 6th Printing
+G23: Flags:SI-035; Decisions:12
+A24: E-022
+B24: ROH 19-1 105.2.7 requires plumbing special inspections by Registered Design Professionals licensed in Hawaii and not involved in the work.
+C24: supports
+D24: roh-19-1
+E24: amend. (17), 105.2.7
+F24: Plumbing special inspections must be performed by appropriately Registered Design Professionals currently licensed in the State of Hawaii that are not involved in performing the work that will be inspected.
+G24: Matrix 2024:SI-035:Credential basis; Matrix 2024:SI-036:Credential basis; Matrix 2024:SI-037:Credential basis; Flags:SI-035; Decisions:12
+A25: E-023
+B25: ROH 19-1 amend. (79) requires medical gas and vacuum systems to be inspected by a plumbing special inspector.
+C25: supports
+D25: roh-19-1
+E25: amend. (79), 1319.4
+F25: Medical gas and vacuum systems must be tested and inspected by a plumbing special inspector.
+G25: Matrix 2024:SI-035:Flag; Matrix 2024:SI-035:Section title; Flags:SI-035; Decisions:12
+A26: E-024
+B26: ROH 19-1 amend. (81) requires alternate water source systems to be inspected by a plumbing special inspector.
+C26: supports
+D26: roh-19-1
+E26: amend. (81), 1501.2
+F26: Alternate water source systems must be tested and inspected by a plumbing special inspector.
+G26: Matrix 2024:SI-036:Flag; Matrix 2024:SI-036:Section title; Flags:SI-036; Decisions:12
+A27: E-025
+B27: ROH 19-1 amend. (85) requires nonpotable rainwater catchment systems to be inspected by a plumbing special inspector.
+C27: supports
+D27: roh-19-1
+E27: amend. (85), 1602.2
+F27: Nonpotable rainwater catchment systems must be tested and inspected by a plumbing special inspector.
+G27: Matrix 2024:SI-037:Flag; Matrix 2024:SI-037:Section title; Flags:SI-037; Decisions:12
+A28: E-026
+B28: ROH 19-1 amend. (80) deletes UPC Chapter 14.
+C28: supports
+D28: roh-19-1
+E28: amend. (80)
+F28: (80) Deleting Chapter 14. Chapter 14 is deleted.
+G28: Flags:SI-036
+A29: E-027
+B29: UPC 2018 1501.2 is titled System Design.
+C29: supports
+D29: upc-2018
+E29: §1501.2 (garbled scan)
+F29: 1501.2SystemDesign.
+G29: Flags:SI-036
+A30: E-028
+B30: UPC 2018 1602.2 is titled Plumbing Plan Submission.
+C30: supports
+D30: upc-2018
+E30: §1602.2 (garbled scan)
+F30: 1602.2PlumbingPlanSubmission.
+G30: Flags:SI-037
+A31: E-029
+B31: UPC 2018 1319.4 could not be located in the scan held.
+C31: open
+D31: upc-2018
+E31: not held
+G31: Flags:SI-035
+A32: E-030
+B32: The 2018 sheet cited the 2021 Uniform Plumbing Code for medical gas.
+C32: internal
+D32: orig-2018
+E32: SI Qualification!A35
+F32: 2021 Uniform Plumbing Code Chapter 13
+G32: Flags:SI-035; Decisions:12
+A33: E-031
+B33: The 2018 sheet labels the plumbing site utilities row as pending DPP policy.
+C33: internal
+D33: orig-2018
+E33: SI Qualification!A38
+F33: Pending DPP  Policy
+G33: Matrix 2024:SI-038:Flag; Matrix 2024:SI-038:Credential basis; Flags:SI-038
+A34: E-032
+B34: The SI FORM cites ROH Chapter 16-2 Section R109.6 for access for special inspection.
+C34: internal
+D34: orig-2018
+E34: SI FORM!A34
+F34: Section 1704.4 and 2018 Hawaii Residential Code adopted by the CCH, ROH Chapter 16-2 Section R109.6 Access for Special Inspection.  The construction
+G34: Decisions:13
+A35: E-033
+B35: ROH Chapter 16 Article 2 is Relocation of Buildings.
+C35: supports
+D35: roh-16-2
+E35: Art. 2 heading
+F35: ARTICLE 2: RELOCATION OF BUILDINGS
+G35: Decisions:13
+A36: E-034
+B36: In ROH 16-1.2, R109.6 is Building permit requirement.
+C36: supports
+D36: roh-16-1-2
+E36: amend. (11)
+F36: R109.6 Building permit requirement.
+G36: Decisions:13
+A37: E-035
+B37: In ROH 16-1.2, R109.8 is Contractor responsibility.
+C37: supports
+D37: roh-16-1-2
+E37: amend. (11)
+F37: R109.8 Contractor responsibility.
+G37: Decisions:13
+A38: E-036
+B38: In the 2024 IBC, 1704.4 is Contractor Responsibility.
+C38: supports
+D38: ibc-2024-ch17
+E38: §1704.4
+F38: 1704.4 Contractor Responsibility
+G38: Decisions:13
+A39: E-037
+B39: In the 2024 IBC, Access for Special Inspection is 1704.2.2.
+C39: supports
+D39: ibc-2024-ch17
+E39: §1704.2.2
+F39: 1704.2.2 Access for Special Inspection
+G39: Decisions:13
+A40: E-038
+B40: IBC 1705.2.1 routes structural steel special inspection to AISC 360.
+C40: supports
+D40: ibc-2024-ch17
+E40: §1705.2.1
+F40: shall be in accordance with the quality assurance inspection requirements of AISC 360.
+G40: Matrix 2024:SI-005:Credential basis; Matrix 2024:SI-006:Credential basis; Matrix 2024:SI-008:Credential basis; Matrix 2024:SI-009:Credential basis; Flags:SI-006
+A41: E-039
+B41: The 2024 IBC references AISC 360-22.
+C41: supports
+D41: ibc-2024-ch35
+E41: Chapter 35, AISC
+F41: ANSI/AISC 360-22
+G41: Flags:SI-006
+A42: E-040
+B42: AISC 360-22 N4.2 qualifies QA welding inspectors as AWS B5.1 WI or SWI (AWI only under direct supervision), or under AWS D1.1 8.1.4.2(5).
+C42: supports
+D42: aisc-360-22
+E42: N4.2
+F42: 2. Quality Assurance Inspector Qualifications QA welding inspectors shall be qualified to the satisfaction of the QA agency's writ-ten practice, and in accordance with either of the following: (a) Welding inspectors (WI) or senior welding inspectors (SWI), as defined in Standard for the Qualification of Welding Inspectors (AWS B5.1), except AWI are permitted to be used under the direct supervision of WI, who are on the premises and available when weld inspection is being conducted, or (b) Qualified under the provisions of AWS D1.1/D1.1M, clause 8.1.4.2(5).
+G42: Matrix 2024:SI-005:Credential basis; Matrix 2024:SI-006:Credential basis; Matrix 2024:SI-009:Credential basis; Flags:SI-006; Flags:SI-009; Decisions:7; Credential check:CC-18
+A43: E-041
+B43: AISC 360-22 N4.2 qualifies QA bolting inspectors on documented training and experience only.
+C43: supports
+D43: aisc-360-22
+E43: N4.2
+F43: QA bolting inspection personnel shall be qualified on the basis of documented train-ing and experience in structural bolting inspection.
+G43: Matrix 2024:SI-008:Credential basis; Flags:SI-008
+A44: E-042
+B44: IBC 1705.2.6 routes metal building systems inspection to the structural steel sections.
+C44: supports
+D44: ibc-2024-ch17
+E44: §1705.2.6
+F44: Special inspections of metal building systems shall be performed in accordance with Sections 1705.2.1, 1705.2.3, 1705.2.4 and 1705.2.5
+G44: Matrix 2024:SI-005:Credential basis; Flags:SI-005; Change Log:CL-07
+A45: E-043
+B45: 1705.2.6 Metal Building Systems exists in the 2024 IBC.
+C45: supports
+D45: ibc-2024-ch17
+E45: §1705.2.6
+F45: 1705.2.6 Metal Building Systems
+G45: Flags:SI-005; Change Log:CL-07
+A46: E-044
+B46: The 2021 IBC base code has no 1705.2.6, so Metal Building Systems is new in 2024.
+C46: absent
+D46: ibc-2021-ch17
+E46: whole chapter
+F46: absent: 1705.2.6
+G46: Flags:SI-005; Change Log:CL-07
+A47: E-045
+B47: In the 2018 IBC, 1705.11 is Special Inspections for Wind Resistance.
+C47: supports
+D47: ibc-2018-ch17-hawaii
+E47: §1705.11
+F47: 1705.11 Special Inspections for Wind Resistance
+G47: Flags:SI-005; Change Log:CL-07; Change Log:CL-09
+A48: E-046
+B48: The 2018 sheet cited Metal Buildings to 1705.11.
+C48: internal
+D48: orig-2018
+E48: SI Qualification!A5
+F48: 1705.11
+G48: Flags:SI-005; Change Log:CL-07
+A49: E-047
+B49: The 2018 sheet cited Steel Joists to 1705.1.
+C49: internal
+D49: orig-2018
+E49: SI Qualification!A4
+F49: 1705.1
+G49: Flags:SI-004; Change Log:CL-06
+A50: E-048
+B50: IBC 1705.2.4 names no inspector qualification or referenced standard for it.
+C50: absent
+D50: ibc-2024-ch17
+E50: §1705.2.4 span
+F50: absent: qualif, certif (within 1705.2.4)
+G50: Matrix 2024:SI-004:Credential basis; Flags:SI-004
+A51: E-049
+B51: IBC 1705.2.3 routes welding special inspector qualification for steel deck to SDI QA/QC.
+C51: supports
+D51: ibc-2024-ch17
+E51: §1705.2.3
+F51: Special inspections and qualification of welding special inspectors for cold-formed steel floor and roof deck shall be in accordance with the quality assurance inspection requirements of SDI QA/QC.
+G51: Matrix 2024:SI-010:Credential basis; Flags:SI-010
+A52: E-050
+B52: SDI QA/QC is not held.
+C52: open
+D52: sdi-qa-qc
+E52: not held
+G52: Matrix 2024:SI-010:Credential basis
+A53: E-051
+B53: In the 2021 IBC, 1705.2.2 is Cold-Formed Steel Deck.
+C53: supports
+D53: ibc-2021-ch17
+E53: §1705.2.2
+F53: 1705.2.2 Cold-Formed Steel Deck
+G53: Flags:SI-010; Flags:NEW-01; Change Log:CL-08
+A54: E-052
+B54: In the 2024 IBC, 1705.2.2 is Structural Stainless Steel.
+C54: supports
+D54: ibc-2024-ch17
+E54: §1705.2.2
+F54: 1705.2.2 Structural Stainless Steel
+G54: Flags:SI-010; Flags:NEW-01; Change Log:CL-08
+A55: E-053
+B55: The 2018 supervised-staff cell for cold-formed steel requires no credential.
+C55: internal
+D55: orig-2018
+E55: SI Qualification!E10
+F55: X
+G55: Flags:SI-010
+A56: E-054
+B56: The 2018 registered SI cell for cold-formed steel requires ICC.
+C56: internal
+D56: orig-2018
+E56: SI Qualification!G10
+F56: X1
+G56: Flags:SI-010
+A57: E-055
+B57: IBC 1705.2.2 routes stainless steel inspection to AISC 370.
+C57: supports
+D57: ibc-2024-ch17
+E57: §1705.2.2
+F57: in accordance with the quality assurance inspection requirements of AISC 370.
+G57: Flags:NEW-01
+A58: E-056
+B58: The 2024 IBC references AISC 370-21.
+C58: supports
+D58: ibc-2024-ch35
+E58: Chapter 35, AISC
+F58: ANSI/AISC 370-21
+G58: Flags:NEW-01
+A59: E-057
+B59: AISC 370-21 is not held.
+C59: open
+D59: aisc-370-21
+E59: not held
+G59: Flags:NEW-01
+A60: E-058
+B60: AWS D1.6 8.1.4.1 accepts CWI, CWB / CSA W178.2, or training and experience for a stainless welding inspector.
+C60: supports
+D60: aws-d1-6-2017
+E60: §8.1.4.1
+F60: 8.1.4.1 Basis for Inspector Qualification. Inspectors responsible for acceptance or rejection of materials and workmanship shall be qualified. The basis of Inspector qualification shall be documented. If the Engineer elects to specify the basis of Inspector qualification, it shall be so specified in the contract documents. The acceptable qualification basis shall be the following: (1) Current or previous certification as an AWS Certified Welding Inspector (CWI)
+G60: Flags:NEW-01; Decisions:15
+A61: E-059
+B61: The 2018 third-party cell for Structural Steel - Welding reads SE1 & 2.
+C61: internal
+D61: orig-2018
+E61: SI Qualification!F9
+F61: SE1 & 2
+G61: Flags:SI-009
+A62: E-060
+B62: AWS D1.1:2020 8.1.4.2(1): CWI or SCWI qualifies the Inspector.
+C62: supports
+D62: aws-d1-1-2020
+E62: §8.1.4.2(1)
+F62: (1) Current or previous certification as an AWS Certified Welding Inspector (CWI) or Senior Certified Welding Inspector (SCWI)
+G62: Decisions:7; Decisions:15; Credential check:CC-17
+A63: E-061
+B63: AWS D1.1:2020 8.1.4.2(2) also accepts CSA W178.2 Level 2 or 3.
+C63: supports
+D63: aws-d1-1-2020
+E63: §8.1.4.2(2)
+F63: (2) Current or previous certification as a Level 2 or Level 3 Welding Inspector in conformance with the requirements of Canadian Standards Association (CSA) Standard W178.2
+G63: Decisions:15
+A64: E-062
+B64: AWS D1.1:2020 8.1.4.2(4) also accepts ASNT SNT-TC-1A-VT Level II.
+C64: supports
+D64: aws-d1-1-2020
+E64: §8.1.4.2(4)
+F64: ASNT SNT-TC-1A-VT Level II
+G64: Decisions:15
+A65: E-063
+B65: AWS D1.1:2020 8.1.4.4: Assistant Inspectors work under the supervision of the Inspector.
+C65: supports
+D65: aws-d1-1-2020
+E65: §8.1.4.4
+F65: 8.1.4.4 Assistant Inspector. The Inspector may be supported by Assistant Inspectors who may perform specific inspection functions under the supervision of the Inspector.
+G65: Decisions:7; Credential check:CC-18
+A66: E-064
+B66: AWS D1.1:2020 8.1.4.5(1): CAWI or higher qualifies an Assistant Inspector.
+C66: supports
+D66: aws-d1-1-2020
+E66: §8.1.4.5(1)
+F66: (1 ) Current or previous certification as an AWS Certified Associate Welding Inspector (CAWI) or higher
+G66: Decisions:7; Credential check:CC-18
+A67: E-065
+B67: The 2018 AWS column joins CWI and CAWI with an ampersand.
+C67: internal
+D67: orig-2018
+E67: SI Qualification!K4
+F67: Certified Welding Inspector; & Certified Assoc Welding Inspector
+G67: Decisions:7
+A68: E-066
+B68: IBC 1705.3.1 routes rebar welding inspection and inspector qualification to AWS D1.4.
+C68: supports
+D68: ibc-2024-ch17
+E68: §1705.3.1
+F68: Special inspections of welding and qualifications of special inspectors for reinforcing bars shall be in accordance with the requirements of AWS D1.4
+G68: Matrix 2024:SI-014:Credential basis; Flags:SI-014; Flags:SI-013; Decisions:8; Credential check:CC-19
+A69: E-067
+B69: ACI 318-19 26.13.1.4 (code) routes rebar welding inspection to AWS D1.4.
+C69: supports
+D69: aci-318-19-code
+E69: §26.13.1.4
+F69: 26.13.1.4 Inspection of reinforcement welding shall be performed by a qualified welding inspector in accordance with AWS D1.4.
+G69: Decisions:8
+A70: E-068
+B70: The 2024 IBC references AWS D1.4-2018-AMD1.
+C70: supports
+D70: ibc-2024-ch35
+E70: Chapter 35, AWS
+F70: D1.4/D1.4M-2018-AMD1
+G70: Decisions:8
+A71: E-069
+B71: AWS D1.4 9.1.2 accepts CWI, CWB / CSA W178.2, or training and experience.
+C71: supports
+D71: aws-d1-4-2018
+E71: §9.1.2
+F71: Inspectors responsible for acceptance or rej ection of material and workmanship shall be qualified. The basis of Inspector qualification shall be documented. If the Engineer elects to specify the basis of inspector qualification, it shall be so stated in contract documents. The following are acceptable qualification bases: (1 ) Current or previous certification as an AWS Certified Welding Inspector (CWI) in accordance with the provisions ofAWS QC1, Standard for AWS Certification ofWelding Inspectors; (2) Current or previous qualification by the Canadian Welding Bureau (CWB) to the requirements of the Canadian Standard Association (CSA) Standard W1 78.2, Certification ofWelding Inspectors; (3) An individual who, by training or experience, or both, in metals fabrication, inspection and testing, is competent to perform inspection of the work.
+G71: Matrix 2024:SI-014:Credential basis; Flags:SI-014; Decisions:8; Decisions:15; Credential check:CC-17; Credential check:CC-19
+A72: E-070
+B72: The 2018 sheet cited Concrete - Reinforced Concrete to 1705.3.1.
+C72: internal
+D72: orig-2018
+E72: SI Qualification!A13
+F72: 1705.3.1
+G72: Flags:SI-013; Matrix 2024:SI-013:Flag
+A73: E-071
+B73: The 2018 supervised-staff cell on the masonry welding row requires ICC only.
+C73: internal
+D73: orig-2018
+E73: SI Qualification!E18
+F73: X1
+G73: Flags:SI-018; Decisions:11
+A74: E-072
+B74: The 2018 supervised-staff cell on the concrete welding row requires ICC and AWS.
+C74: internal
+D74: orig-2018
+E74: SI Qualification!E14
+F74: X1 & 4
+G74: Flags:SI-018; Decisions:11
+A75: E-073
+B75: ACI 318-19 26.12.1.1(d) (code): certified field testing technicians perform tests on fresh concrete at the job site.
+C75: supports
+D75: aci-318-19-code
+E75: §26.12.1.1(d)
+F75: Certified field testing technicians shall perform tests on fresh concrete at the job site
+G75: Matrix 2024:SI-003:Credential basis; Matrix 2024:SI-012:Credential basis; Matrix 2024:SI-013:Credential basis; Matrix 2024:SI-015:Credential basis; Credential check:CC-14
+A76: E-074
+B76: ACI 318-19 26.13.1.6 (code) requires a certified inspector for adhesive anchor installation.
+C76: supports
+D76: aci-318-19-code
+E76: §26.13.1.6
+F76: 26.13.1.6 The installation inspection of all adhesive anchors shall be performed by a certified inspector.
+G76: Matrix 2024:SI-016:Credential basis; Matrix 2024:SI-016:Flag; Flags:SI-016; Decisions:9; Credential check:CC-15
+A77: E-075
+B77: ACI 318-19 26.13.1.5 (code) allows a certified inspector or an approved qualified inspector for mechanical anchors.
+C77: supports
+D77: aci-318-19-code
+E77: §26.13.1.5
+F77: 26.13.1.5 Inspection of the installation of post-installed expansion (torque-controlled and displacement-controlled), screw, and undercut anchors shall be performed by a certi-fied inspector or a qualified inspector specifically approved for that purpose by the Licensed Design Professional and the building official.
+G77: Matrix 2024:SI-016:Credential basis; Flags:SI-016; Decisions:9; Credential check:CC-15
+A78: E-076
+B78: The ACI adhesive anchor program appears in the COMMENTARY as an example, 'or similar program'.
+C78: supports
+D78: aci-318-19-commentary
+E78: §R26.13.1.6
+F78: ACI Adhesive Anchor Installation Inspector program (ACI CPP 681.1-17), or similar program with equivalent requirements
+G78: Flags:SI-016; Decisions:9; Credential check:CC-15
+A79: E-077
+B79: The ACI post-installed anchor program appears in the COMMENTARY as an example, 'or similar program'.
+C79: supports
+D79: aci-318-19-commentary
+E79: §R26.13.1.5
+F79: ACI Post-Installed Concrete Anchor Installation Inspector program (ACI CPP 681.2-19), or similar program with equivalent requirements
+G79: Flags:SI-016; Decisions:9; Credential check:CC-15
+A80: E-078
+B80: The ACI 318-19 code text does not name the CPP 681 anchor programs.
+C80: absent
+D80: aci-318-19-code
+E80: code column
+F80: absent: CPP 681
+G80: Flags:SI-016; Credential check:CC-15
+A81: E-079
+B81: IAS AC291 accepts ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI for post-installed anchors.
+C81: supports
+D81: ias-ac291
+E81: Table 1, item 9
+F81: ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI
+G81: Flags:SI-016; Decisions:9; Credential check:CC-15
+A82: E-080
+B82: ACI 318-19 code text names no shotcrete inspector certification.
+C82: absent
+D82: aci-318-19-code
+E82: code column
+F82: absent: shotcrete inspector
+G82: Matrix 2024:SI-019:Credential basis; Credential check:CC-16
+A83: E-081
+B83: The 2018 third-party cell for Concrete names licences only.
+C83: internal
+D83: orig-2018
+E83: SI Qualification!F12
+F83: SE, AR, CE
+G83: Flags:SI-012; Matrix 2024:SI-012:Flag
+A84: E-082
+B84: The 2018 registered SI cell for Concrete requires ACI.
+C84: internal
+D84: orig-2018
+E84: SI Qualification!G12
+F84: X2
+G84: Flags:SI-012; Matrix 2024:SI-012:Flag
+A85: E-083
+B85: IBC 1705.4 routes masonry inspection to TMS 402 and TMS 602.
+C85: supports
+D85: ibc-2024-ch17
+E85: §1705.4
+F85: TMS 402 and TMS 602
+G85: Matrix 2024:SI-017:Credential basis; Matrix 2024:SI-018:Credential basis; Flags:SI-017
+A86: E-084
+B86: TMS 402/602 is not held.
+C86: open
+D86: tms-402-602
+E86: not held
+G86: Matrix 2024:SI-017:Credential basis; Matrix 2024:SI-018:Credential basis; Flags:SI-017
+A87: E-085
+B87: IBC 1705.16 routes intumescent fire-resistive material inspection to AWCI 12-B.
+C87: supports
+D87: ibc-2024-ch17
+E87: §1705.16
+F87: shall be performed in accordance with AWCI 12-B.
+G87: Matrix 2024:SI-030:Credential basis; Flags:SI-030
+A88: E-086
+B88: AWCI 12-B is not held.
+C88: open
+D88: awci-12-b
+E88: not held
+G88: Matrix 2024:SI-030:Credential basis
+A89: E-087
+B89: IBC 1705.18.1 routes penetration firestop inspection to ASTM E2174.
+C89: supports
+D89: ibc-2024-ch17
+E89: §1705.18.1
+F89: in accordance with ASTM E2174.
+G89: Matrix 2024:SI-032:Credential basis
+A90: E-088
+B90: ASTM E2174 / E2393 are not held.
+C90: open
+D90: astm-e2174-e2393
+E90: not held
+G90: Matrix 2024:SI-032:Credential basis
+A91: E-089
+B91: In the 2018 IBC, 1705.14 is Sprayed Fire-Resistant Materials.
+C91: supports
+D91: ibc-2018-ch17-hawaii
+E91: §1705.14
+F91: 1705.14 Sprayed Fire-Resistant Materials
+G91: Flags:SI-029; Change Log:CL-13
+A92: E-090
+B92: In the 2024 IBC, 1705.15 is Sprayed Fire-Resistive Materials (SFRM).
+C92: supports
+D92: ibc-2024-ch17
+E92: §1705.15
+F92: 1705.15 Sprayed Fire-Resistive Materials (SFRM)
+G92: Flags:SI-029; Change Log:CL-13
+A93: E-091
+B93: In the 2018 IBC, 1705.15 is Mastic and Intumescent Fire-Resistant Coatings.
+C93: supports
+D93: ibc-2018-ch17-hawaii
+E93: §1705.15
+F93: 1705.15 Mastic and Intumescent Fire-Resistant Coatings
+G93: Flags:SI-030; Change Log:CL-13; Matrix 2024:SI-030:Flag
+A94: E-092
+B94: In the 2024 IBC, 1705.16 is Intumescent Fire-Resistive Materials.
+C94: supports
+D94: ibc-2024-ch17
+E94: §1705.16
+F94: 1705.16 Intumescent Fire-Resistive Materials
+G94: Flags:SI-030; Change Log:CL-13; Matrix 2024:SI-030:Flag
+A95: E-093
+B95: In the 2021 IBC, 1705.10 is Structural Integrity of Deep Foundation Elements.
+C95: supports
+D95: ibc-2021-ch17
+E95: §1705.10
+F95: 1705.10 Structural Integrity of Deep Foundation Elements
+G95: Flags:NEW-03; Change Log:CL-09
+A96: E-094
+B96: In the 2024 IBC, 1705.10 is Structural Integrity of Deep Foundation Elements.
+C96: supports
+D96: ibc-2024-ch17
+E96: §1705.10
+F96: 1705.10 Structural Integrity of Deep Foundation Elements
+G96: Flags:NEW-03; Flags:SI-021; Decisions:5
+A97: E-095
+B97: In the 2018 IBC, 1705.10 is Fabricated Items.
+C97: supports
+D97: ibc-2018-ch17-hawaii
+E97: §1705.10
+F97: 1705.10 Fabricated Items
+G97: Flags:NEW-04; Decisions:5
+A98: E-096
+B98: IBC 1705.11 routes fabricated items to 1704.2.5.
+C98: supports
+D98: ibc-2024-ch17
+E98: §1705.11
+F98: Special inspections of fabricated items shall be performed in accordance with Section 1704.2.5.
+G98: Flags:NEW-04; Flags:SI-003; Decisions:5; Matrix 2024:SI-003:Flag
+A99: E-097
+B99: In the 2024 IBC, 1704.2.5 is Special Inspection of Fabricated Items.
+C99: supports
+D99: ibc-2024-ch17
+E99: §1704.2.5
+F99: 1704.2.5 Special Inspection of Fabricated Items
+G99: Flags:SI-003; Matrix 2024:SI-003:Flag
+A100: E-098
+B100: 1705.5.3 Mass Timber Construction exists in the 2024 IBC.
+C100: supports
+D100: ibc-2024-ch17
+E100: §1705.5.3
+F100: 1705.5.3 Mass Timber Construction
+G100: Flags:NEW-02; Decisions:5
+A101: E-099
+B101: IBC 1705.20 requires periodic special inspection of sealants or adhesives required by Section 703.7.
+C101: supports
+D101: ibc-2024-ch17
+E101: §1705.20
+F101: required by Section 703.7
+G101: Flags:NEW-05
+A102: E-100
+B102: 1705.5.1 High-Load Diaphragms and 1705.5.2 are the specific wood subsections.
+C102: supports
+D102: ibc-2024-ch17
+E102: §1705.5.1
+F102: 1705.5.1 High-Load Diaphragms
+G102: Flags:SI-011; Matrix 2024:SI-011:Flag
+A103: E-101
+B103: The 2018 sheet cited high-load diaphragms to 1705.5; 1705.1; 1705.2.
+C103: internal
+D103: orig-2018
+E103: SI Qualification!A11
+F103: 1705.5; 1705.1; 1705.2
+G103: Flags:SI-011; Matrix 2024:SI-011:Flag
+A104: E-102
+B104: The Hawaii State Building Code retitles 1705.11.1 Complete Load Path and Uplift Ties.
+C104: supports
+D104: hi-sbc-2018
+E104: State amendment 37
+F104: 1705.11.1 Complete Load Path and Uplift Ties.
+G104: Matrix 2024:SI-027:Section title
+A105: E-103
+B105: IBC 1705.5 names no inspector qualification.
+C105: absent
+D105: ibc-2024-ch17
+E105: §1705.5 span
+F105: absent: qualif, certif (within 1705.5)
+G105: Matrix 2024:SI-007:Credential basis
+A106: E-104
+B106: IBC 1705.5.1 names no inspector qualification.
+C106: absent
+D106: ibc-2024-ch17
+E106: §1705.5.1 span
+F106: absent: qualif, certif (within 1705.5.1)
+G106: Matrix 2024:SI-011:Credential basis
+A107: E-105
+B107: IBC 1705.6 names no inspector qualification.
+C107: absent
+D107: ibc-2024-ch17
+E107: §1705.6 span
+F107: absent: qualif, certif (within 1705.6)
+G107: Matrix 2024:SI-020:Credential basis
+A108: E-106
+B108: IBC 1705.7 names no inspector qualification.
+C108: absent
+D108: ibc-2024-ch17
+E108: §1705.7 span
+F108: absent: qualif, certif (within 1705.7)
+G108: Matrix 2024:SI-021:Credential basis
+A109: E-107
+B109: IBC 1705.8 names no inspector qualification.
+C109: absent
+D109: ibc-2024-ch17
+E109: §1705.8 span
+F109: absent: qualif, certif (within 1705.8)
+G109: Matrix 2024:SI-022:Credential basis
+A110: E-108
+B110: IBC 1705.9 names no inspector qualification.
+C110: absent
+D110: ibc-2024-ch17
+E110: §1705.9 span
+F110: absent: qualif, certif (within 1705.9)
+G110: Matrix 2024:SI-023:Credential basis
+A111: E-109
+B111: IBC 1705.12.1 names no inspector qualification.
+C111: absent
+D111: ibc-2024-ch17
+E111: §1705.12.1 span
+F111: absent: qualif, certif (within 1705.12.1)
+G111: Matrix 2024:SI-027:Credential basis
+A112: E-110
+B112: IBC 1705.15 names no inspector qualification.
+C112: absent
+D112: ibc-2024-ch17
+E112: §1705.15 span
+F112: absent: qualif, certif (within 1705.15)
+G112: Matrix 2024:SI-029:Credential basis
+A113: E-111
+B113: IBC 1705.17 names no inspector qualification.
+C113: absent
+D113: ibc-2024-ch17
+E113: §1705.17 span
+F113: absent: qualif, certif (within 1705.17)
+G113: Matrix 2024:SI-031:Credential basis
+A114: E-112
+B114: IBC 1705.6 carries its table of required inspections.
+C114: supports
+D114: ibc-2024-ch17
+E114: §1705.6
+F114: 1705.6 Soils
+G114: Flags:SI-020
+A115: E-113
+B115: IBC 1705.7 carries its table of required inspections.
+C115: supports
+D115: ibc-2024-ch17
+E115: §1705.7
+F115: 1705.7 Driven Deep Foundations
+G115: Flags:SI-021
+A116: E-114
+B116: IBC 1705.8 carries its table of required inspections.
+C116: supports
+D116: ibc-2024-ch17
+E116: §1705.8
+F116: 1705.8 Cast-in-Place Deep Foundations
+G116: Flags:SI-022
+A117: E-115
+B117: IBC 1705.9 Helical Pile Foundations exists in the 2024 IBC.
+C117: supports
+D117: ibc-2024-ch17
+E117: §1705.9
+F117: 1705.9 Helical Pile Foundations
+G117: Flags:SI-023
+A118: E-116
+B118: The 2018 sheet lists no special inspector for wind resistance.
+C118: internal
+D118: orig-2018
+E118: SI Qualification!G26
+F118: NA
+G118: Matrix 2024:SI-026:Credential basis
+A119: E-117
+B119: The 2018 sheet lists no special inspector for seismic resistance.
+C119: internal
+D119: orig-2018
+E119: SI Qualification!G28
+F119: NA
+G119: Matrix 2024:SI-028:Credential basis
+A120: E-118
+B120: The 2018 sheet spells out the National Environmental Balancing Bureau.
+C120: internal
+D120: orig-2018
+E120: SI Qualification!L33
+F120: AABC - Tech Certification; & Nat'l Environmental Balancing Bureau - Tech Certification
+G120: Decisions:14
+A121: E-119
+B121: The 2018 sheet keys the ICC column to footnote 1.
+C121: internal
+D121: orig-2018
+E121: SI Qualification!H2
+F121: ICC1
+G121: Decisions:17
+A122: E-120
+B122: The 2018 employee cell for the precast fabricator row reads X1, 2, & 3.
+C122: internal
+D122: orig-2018
+E122: SI Qualification!E3
+F122: X1, 2, & 3
+G122: Decisions:17
+A123: E-121
+B123: ICC Category 47 Reinforced Concrete is General Requirements plus 47C and 47P.
+C123: supports
+D123: icc-si-exams
+E123: 47 Reinforced Concrete
+F123: Reinforced Concrete Codes - 47C
+G123: Credential check:CC-01; Decisions:10
+A124: E-122
+B124: ICC Category 49 Reinforced Concrete Special Inspector exists.
+C124: supports
+D124: icc-si-exams
+E124: 47 Reinforced Concrete
+F124: ICC Category 49 (Reinforced Concrete Special Inspector)
+G124: Credential check:CC-02; Flags:SI-015; Decisions:10
+A125: E-123
+B125: ICC Category 92 requires Category 49.
+C125: supports
+D125: icc-si-exams
+E125: 92 Prestressed Concrete
+F125: Reinforced Concrete Special Inspector Certification - Category 49
+G125: Credential check:CC-02; Credential check:CC-03; Flags:SI-015; Decisions:10
+A126: E-124
+B126: ICC Category 92 includes 92C.
+C126: supports
+D126: icc-si-exams
+E126: 92 Prestressed Concrete
+F126: Prestressed Concrete Codes - 92C
+G126: Credential check:CC-03
+A127: E-125
+B127: ICC Category 49 requires ACI Grade I Technician.
+C127: supports
+D127: icc-si-exams
+E127: 47 Reinforced Concrete
+F127: Grade I Technician is required to obtain Category 49
+G127: Credential check:CC-02; Credential check:CC-14
+A128: E-126
+B128: ICC Category 84 includes 84C.
+C128: supports
+D128: icc-si-exams
+E128: 84 Structural Masonry
+F128: Structural Masonry Codes 84C
+G128: Credential check:CC-04
+A129: E-127
+B129: ICC's soils certification is EC Soils, earned through ECC.
+C129: supports
+D129: icc-si-exams
+E129: EC Soils
+F129: Soils Codes - ECC
+G129: Credential check:CC-05; Decisions:10
+A130: E-128
+B130: ICC Category S1 includes S1C.
+C130: supports
+D130: icc-si-exams
+E130: S1
+F130: Structural Steel and Bolting Codes S1C
+G130: Credential check:CC-06
+A131: E-129
+B131: ICC Category S2 includes S2C.
+C131: supports
+D131: icc-si-exams
+E131: S2
+F131: Structural Welding Codes - S2C
+G131: Credential check:CC-07
+A132: E-130
+B132: ICC Category 86 is General Requirements plus a combined codes and plans exam 86.
+C132: supports
+D132: icc-si-exams
+E132: 86
+F132: Spray-applied Fireproofing Codes and Plans - 86
+G132: Credential check:CC-08
+A133: E-131
+B133: ICC's special inspector page has no 86M designation.
+C133: absent
+D133: icc-si-exams
+E133: whole page
+F133: absent: 86M
+G133: Credential check:CC-08
+A134: E-132
+B134: ICC exam B2 is Commercial Building Inspector.
+C134: supports
+D134: icc-combo-designations
+E134: exam list
+F134: B2 Commercial Building Inspector
+G134: Credential check:CC-09; Decisions:10
+A135: E-133
+B135: ICC exam B1 is Residential Building Inspector.
+C135: supports
+D135: icc-combo-designations
+E135: exam list
+F135: B1 Residential Building Inspector
+G135: Credential check:CC-10; Decisions:10
+A136: E-134
+B136: ICC exam 66 is Fire Inspector I.
+C136: supports
+D136: icc-fire-inspector-1
+E136: store listing
+F136: 66 - Fire Inspector I
+G136: Credential check:CC-11
+A137: E-135
+B137: ICC CF is Commercial Fire Sprinkler Inspector.
+C137: supports
+D137: icc-cf-store
+E137: store listing
+F137: CF - Commercial Fire Sprinkler Inspector
+G137: Credential check:CC-12
+A138: E-136
+B138: ICC Category 93 Tall Mass Timber Buildings exists.
+C138: supports
+D138: icc-si-exams
+E138: 93
+F138: Tall Mass Timber Buildings Special Inspector Exam - 93
+G138: Credential check:CC-13; Flags:NEW-02; Flags:NEW-05; Decisions:5
+A139: E-137
+B139: ACI runs a Shotcrete Inspector certification.
+C139: supports
+D139: aci-shotcrete-inspector
+E139: program page
+F139: Shotcrete Inspector
+G139: Credential check:CC-16
+A140: E-138
+B140: NICET's current certification programs page does not list Geotechnical Engineering Technology.
+C140: absent
+D140: nicet-programs
+E140: whole page
+F140: absent: geotechnical
+G140: Credential check:CC-20
+A141: E-139
+B141: NICET still hosts the Geotechnical Engineering Technology manual.
+C141: supports
+D141: nicet-geotech-manual
+E141: manual
+F141: The date of publication of this manual is June 1994.
+G141: Credential check:CC-20
+A142: E-140
+B142: IAS AC291 (effective 2024) lists NICET Geotechnical Engineering Technology Levels I to IV.
+C142: supports
+D142: ias-ac291
+E142: Section on NICET
+F142: Geotechnical Engineering Technology-Construction Subfield Levels I, II, III, and IV
+G142: Credential check:CC-20
+A143: E-141
+B143: IAS AC291 is effective 1 January 2024.
+C143: supports
+D143: ias-ac291
+E143: cover
+F143: Effective January 1, 2024
+G143: Credential check:CC-20
+A144: E-142
+B144: IAS AC291 Table 1 accepts NICET II for soils.
+C144: supports
+D144: ias-ac291
+E144: Table 1, item 3
+F144: NICET II (geotechnical or construction or construction material testing or soils)
+G144: Credential check:CC-21
+A145: E-143
+B145: The 2018 NICET cell for the precast fabricator row names a level but no program.
+C145: internal
+D145: orig-2018
+E145: SI Qualification!J3
+F145: NICET Lvl III with 2 yrs experience
+G145: Credential check:CC-22
+A146: E-144
+B146: NICET's program is Inspection and Testing of Water-Based Systems.
+C146: supports
+D146: nicet-programs
+E146: programs page
+F146: Inspection and Testing of Water-Based Systems
+G146: Credential check:CC-23
+A147: E-145
+B147: PCI's credential is Level II Quality Control Technician/Inspector.
+C147: supports
+D147: pci-level-ii
+E147: page title
+F147: PCI Level II Quality Control Technician/Inspector Certification
+G147: Credential check:CC-24; Flags:SI-015
+A148: E-146
+B148: PCI plant quality control certification has Levels I, II and III.
+C148: supports
+D148: pci-overview
+E148: program overview
+F148: Level I Level II Level III
+G148: Credential check:CC-24
+A149: E-147
+B149: NFCA CAP is for fireproofing contractors.
+C149: supports
+D149: nfca-cap
+E149: CAP page
+F149: The NFCA Contractor Accreditation Program (CAP) was created by NFCA to provide a means for Fireproofing Contractors
+G149: Credential check:CC-25
+A150: E-148
+B150: NFCA's education and exams are offered for CAP, UL DRIs and Inspectors.
+C150: supports
+D150: nfca-learning
+E150: programs page
+F150: The NFCA Fireproofing Education and Exams for NFCA Contractor Accreditation Program (CAP) and UL Designated Responsible Individuals (DRI's) and Inspectors
+G150: Credential check:CC-25
+A151: E-149
+B151: IAS AC291 accepts ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I for SFRM and intumescent coatings.
+C151: supports
+D151: ias-ac291
+E151: Table 1, item 20
+F151: ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I
+G151: Credential check:CC-25
+A152: E-150
+B152: AWCI runs EIFS inspector certification.
+C152: supports
+D152: awci-eifs
+E152: certification page
+F152: EIFS Inspectors
+G152: Credential check:CC-26
+A153: E-151
+B153: IAS AC291 names the AWCI Exterior Insulated Finish System Inspector (EIFS-I).
+C153: supports
+D153: ias-ac291
+E153: Section on AWCI
+F153: Exterior Insulated Finish System Inspector (EIFS-I)
+G153: Credential check:CC-26
+A154: E-152
+B154: AABC's individual credential is Test and Balance Technician.
+C154: supports
+D154: aabc-tbt-application
+E154: application form
+F154: AABC Test and Balance Technician Certification Application
+G154: Credential check:CC-27
+A155: E-153
+B155: NEBB certifies Professionals and Technicians.
+C155: supports
+D155: nebb-certification
+E155: certification page
+F155: Certified Professionals and Technicians
+G155: Credential check:CC-28
+A156: E-154
+B156: IAS AC291 accepts AABC, NEBB or equivalent balancing technician certification for smoke control.
+C156: supports
+D156: ias-ac291
+E156: Table 1, item 16
+F156: AABC, NEBB or other equivalent Balancing Technician Certification
+G156: Credential check:CC-28
+A157: E-155
+B157: IAPMO issues UPC Residential and Commercial Plumbing Inspector (PI).
+C157: supports
+D157: iapmo-pi
+E157: certification page
+F157: UPC Residential and Commercial Plumbing Inspector (PI)
+G157: Credential check:CC-29
+A158: E-156
+B158: IAPMO issues UPC Residential and Commercial Plumbing Plans Examiner (PPE).
+C158: supports
+D158: iapmo-ppe
+E158: certification page
+F158: UPC Residential and Commercial Plumbing Plans Examiner (PPE)
+G158: Credential check:CC-30
+A159: E-157
+B159: IAS AC291 accepts the UL Firestop Examination or FM Firestop Examination for firestop special inspectors.
+C159: supports
+D159: ias-ac291
+E159: Table 1, item 21
+F159: ICC CLA or UL Firestop Examination or FM Firestop Examination
+G159: Credential check:CC-31
+A160: E-158
+B160: AWC offers Durable Construction with Preservative-Treated Wood as a course on AWCLearn.
+C160: supports
+D160: awc-learn-preservative
+E160: course search
+F160: Durable Construction with Preservative -Treated Wood
+G160: Credential check:CC-32
+A161: E-159
+B161: UL's and FM's own firestop exam pages were not captured; IAS AC291 is cited instead.
+C161: open
+D161: ul-fm-firestop-exams
+E161: not held
+G161: Credential check:CC-31
+A162: E-160
+B162: ASSE 6020 Medical Gas Systems Inspector is a personnel certification.
+C162: supports
+D162: asse-6020
+E162: certification page
+F162: ASSE 6020 Medical Gas Systems Inspector
+G162: Credential check:CC-34
+A163: E-161
+B163: ASSE 6020 training covers NFPA 99.
+C163: supports
+D163: asse-6020
+E163: certification page
+F163: current NFPA 99 Medical Gas Systems Code
+G163: Credential check:CC-34

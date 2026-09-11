@@ -1,0 +1,2293 @@
+{
+ "schema": "dpp-si-evidence/1",
+ "about": "Every flag, credential basis, Flags note, Decision, Credential check row and citation Change Log row points here. Types: supports = the quote is in the source; absent = none of 'terms' occurs in the source (or the named section), which is only allowed against a complete source; internal = the quote is a cell of DPP's 2018 workbook; open = the source is not held, and 'source' names the catalog entry saying what that leaves open.",
+ "evidence": [
+  {
+   "claim": "ROH 16-1.1 amend. (111) excludes welding and high strength bolting from what the DPOR and their personnel may inspect.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (111), 1704.2.1",
+   "part": "text",
+   "quote": "The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as the special inspector and their personnel are permitted to act as the special inspectors for the work designed by them, provided they qualify as special inspectors, with the exception of welding and high strength bolting.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-004:Flag",
+    "Matrix 2024:SI-005:Flag",
+    "Matrix 2024:SI-006:Flag",
+    "Matrix 2024:SI-008:Flag",
+    "Matrix 2024:SI-009:Flag",
+    "Matrix 2024:SI-014:Flag",
+    "Matrix 2024:SI-018:Flag",
+    "Flags:SI-004",
+    "Flags:SI-005",
+    "Flags:SI-006",
+    "Flags:SI-008",
+    "Flags:SI-009",
+    "Flags:SI-014",
+    "Flags:SI-018",
+    "Decisions:3",
+    "Decisions:16"
+   ],
+   "id": "E-001"
+  },
+  {
+   "claim": "The 2024 IBC 1704.2.1 lets the DPOR's personnel act as special inspectors with no welding or bolting exception.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1704.2.1",
+   "part": "text",
+   "quote": "The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as an approved agency and their personnel are permitted to act as special inspectors for the work designed by them, provided they qualify as special inspectors.",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-008",
+    "Decisions:16"
+   ],
+   "id": "E-002"
+  },
+  {
+   "claim": "The Hawaii State Building Code version of 1704.2.1 has no welding or bolting exception.",
+   "type": "supports",
+   "source": "hi-sbc-2018",
+   "where": "State amendment 30, 1704.2.1",
+   "part": "text",
+   "quote": "The registered design professional in responsible charge and engineers of record involved in the design of the project are permitted to act as the special inspector and their personnel are permitted to act as special inspectors for the work designed by them, provided they qualify as special inspectors",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-008",
+    "Decisions:16"
+   ],
+   "id": "E-003"
+  },
+  {
+   "claim": "ROH 16-1.1 adopts the Hawaii State Building Code of 20 April 2021, which adopts the 2018 IBC.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "§16-1.1",
+   "part": "text",
+   "quote": "The Hawaii State Building code, as adopted by the State of Hawaii on April 20, 2021, which adopts with modifications, the International Building Code, 2018 Edition",
+   "match": "exact",
+   "used_by": [
+    "Decisions:4",
+    "Decisions:16"
+   ],
+   "id": "E-004"
+  },
+  {
+   "claim": "ROH 16-1.1 is amended through Ord. 25-11.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "history note",
+   "part": "text",
+   "quote": "Am. Ords. 13-3, 17-49, 20-7, 24-15, 25-11",
+   "match": "exact",
+   "used_by": [
+    "Decisions:4"
+   ],
+   "id": "E-005"
+  },
+  {
+   "claim": "ROH amend. (112) adds 1705.19 Fire-protection systems.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (112)",
+   "part": "text",
+   "quote": "(112) Amending Section 1705. Section 1705 is amended by adding Section 1705.19 to read: 1705.19 Fire-protection systems. Special inspection for fire-protection systems is required. See Section 901.2.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-034:Flag",
+    "Flags:SI-034",
+    "Decisions:1",
+    "Change Log:CL-11"
+   ],
+   "id": "E-006"
+  },
+  {
+   "claim": "The 2024 IBC numbers Testing for Smoke Control 1705.19.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.19",
+   "part": "text",
+   "quote": "1705.19 Testing for Smoke Control",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-033:Flag",
+    "Matrix 2024:SI-034:Flag",
+    "Flags:SI-033",
+    "Flags:SI-034",
+    "Decisions:1"
+   ],
+   "id": "E-007"
+  },
+  {
+   "claim": "ROH amend. (113) adds 1705.20 Termite protection and 1705.21 Soils and foundation.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (113)",
+   "part": "text",
+   "quote": "(113) Amending Section 1705. Section 1705 is amended by adding Sections 1705.20 and 1705.21 to read: 1705.20 Termite protection.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-024:Flag",
+    "Flags:SI-024",
+    "Decisions:1",
+    "Decisions:16",
+    "Change Log:CL-10"
+   ],
+   "id": "E-008"
+  },
+  {
+   "claim": "The 2024 IBC numbers Sealing of Mass Timber 1705.20.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.20",
+   "part": "text",
+   "quote": "1705.20 Sealing of Mass Timber",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-024:Flag",
+    "Flags:SI-024",
+    "Flags:NEW-05",
+    "Decisions:1",
+    "Decisions:5"
+   ],
+   "id": "E-009"
+  },
+  {
+   "claim": "The 2024 IBC Chapter 17 has no section 1705.21, so 1705.22 is the first number free of both the base code and ROH.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "whole chapter",
+   "part": "text",
+   "terms": [
+    "1705.21"
+   ],
+   "within": null,
+   "used_by": [
+    "Decisions:1",
+    "Flags:SI-034"
+   ],
+   "id": "E-010"
+  },
+  {
+   "claim": "ROH 1705.21 requires special inspection where soil conditions warrant it or are specified in ROH Chapter 18A.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (113), 1705.21",
+   "part": "text",
+   "quote": "1705.21 Soils and foundation. Where soils conditions warrant a geotechnical investigation or are specified in ROH Chapter 18A. Special inspection is required.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-025:Flag",
+    "Matrix 2024:SI-025:Section title",
+    "Flags:SI-025",
+    "Decisions:2",
+    "Decisions:6",
+    "Change Log:CL-12"
+   ],
+   "id": "E-011"
+  },
+  {
+   "claim": "ROH amend. (114) places excavation, grading and earthwork under ROH Chapter 18A.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (114), 1801.1",
+   "part": "text",
+   "quote": "Requirements governing excavation, grading, and earthwork construction, including fills and embankments, are governed by ROH Chapter 18A.",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-025",
+    "Decisions:6"
+   ],
+   "id": "E-012"
+  },
+  {
+   "claim": "ROH 919.5 still cites 1705.18 for smoke control.",
+   "type": "supports",
+   "source": "roh-16-1-1",
+   "where": "amend. (82), 919.5",
+   "part": "text",
+   "quote": "919.5 Smoke Control Systems. Smoke control systems shall be inspected and evaluated in accordance to the requirements of Sections 909 and 1705.18.",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-033"
+   ],
+   "id": "E-013"
+  },
+  {
+   "claim": "In the 2018 IBC, 1705.18 is Testing for Smoke Control.",
+   "type": "supports",
+   "source": "ibc-2018-ch17-hawaii",
+   "where": "§1705.18",
+   "part": "text",
+   "quote": "1705.18 Testing for Smoke Control",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-033",
+    "Change Log:CL-09"
+   ],
+   "id": "E-014"
+  },
+  {
+   "claim": "IBC 1705.19.2 requires smoke control testing agencies to hold certification as air balancers.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.19.2",
+   "part": "text",
+   "quote": "Approved agencies for smoke control testing shall have expertise in fire protection engineering, mechanical engineering and certification as air balancers.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-033:Credential basis",
+    "Flags:SI-033",
+    "Decisions:14",
+    "Credential check:CC-27"
+   ],
+   "id": "E-015"
+  },
+  {
+   "claim": "ROH 1705.19 names no inspector qualification.",
+   "type": "absent",
+   "source": "roh-16-1-1",
+   "where": "1705.19 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.19",
+   "used_by": [
+    "Matrix 2024:SI-034:Credential basis"
+   ],
+   "id": "E-016"
+  },
+  {
+   "claim": "ROH 1705.21 names no inspector qualification.",
+   "type": "absent",
+   "source": "roh-16-1-1",
+   "where": "1705.21 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.21",
+   "used_by": [
+    "Matrix 2024:SI-025:Credential basis"
+   ],
+   "id": "E-017"
+  },
+  {
+   "claim": "ROH 16-1.2 R109.5.2 is the residential termite protection special inspection.",
+   "type": "supports",
+   "source": "roh-16-1-2",
+   "where": "amend. (11)",
+   "part": "text",
+   "quote": "R109.5.2 Termite protection.",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-024"
+   ],
+   "id": "E-018"
+  },
+  {
+   "claim": "The 2018 sheet cited termite protection as 1705.2.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A24",
+   "part": "text",
+   "quote": "1705.2",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-024",
+    "Change Log:CL-10"
+   ],
+   "id": "E-019"
+  },
+  {
+   "claim": "HDOA pesticide applicator certification and course numbers could not be checked.",
+   "type": "open",
+   "source": "hdoa-courses",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Matrix 2024:SI-024:Credential basis",
+    "Credential check:CC-33"
+   ],
+   "id": "E-020"
+  },
+  {
+   "claim": "ROH 19-1 adopts the Uniform Plumbing Code, 28th Edition (2018), 6th Printing.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "§19-1.1",
+   "part": "text",
+   "quote": "which adopts, with modifications, the Uniform Plumbing Code, 28th Edition (2018), 6th Printing",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-035",
+    "Decisions:12"
+   ],
+   "id": "E-021"
+  },
+  {
+   "claim": "ROH 19-1 105.2.7 requires plumbing special inspections by Registered Design Professionals licensed in Hawaii and not involved in the work.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "amend. (17), 105.2.7",
+   "part": "text",
+   "quote": "Plumbing special inspections must be performed by appropriately Registered Design Professionals currently licensed in the State of Hawaii that are not involved in performing the work that will be inspected.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-035:Credential basis",
+    "Matrix 2024:SI-036:Credential basis",
+    "Matrix 2024:SI-037:Credential basis",
+    "Flags:SI-035",
+    "Decisions:12"
+   ],
+   "id": "E-022"
+  },
+  {
+   "claim": "ROH 19-1 amend. (79) requires medical gas and vacuum systems to be inspected by a plumbing special inspector.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "amend. (79), 1319.4",
+   "part": "text",
+   "quote": "Medical gas and vacuum systems must be tested and inspected by a plumbing special inspector.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-035:Flag",
+    "Matrix 2024:SI-035:Section title",
+    "Flags:SI-035",
+    "Decisions:12"
+   ],
+   "id": "E-023"
+  },
+  {
+   "claim": "ROH 19-1 amend. (81) requires alternate water source systems to be inspected by a plumbing special inspector.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "amend. (81), 1501.2",
+   "part": "text",
+   "quote": "Alternate water source systems must be tested and inspected by a plumbing special inspector.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-036:Flag",
+    "Matrix 2024:SI-036:Section title",
+    "Flags:SI-036",
+    "Decisions:12"
+   ],
+   "id": "E-024"
+  },
+  {
+   "claim": "ROH 19-1 amend. (85) requires nonpotable rainwater catchment systems to be inspected by a plumbing special inspector.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "amend. (85), 1602.2",
+   "part": "text",
+   "quote": "Nonpotable rainwater catchment systems must be tested and inspected by a plumbing special inspector.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-037:Flag",
+    "Matrix 2024:SI-037:Section title",
+    "Flags:SI-037",
+    "Decisions:12"
+   ],
+   "id": "E-025"
+  },
+  {
+   "claim": "ROH 19-1 amend. (80) deletes UPC Chapter 14.",
+   "type": "supports",
+   "source": "roh-19-1",
+   "where": "amend. (80)",
+   "part": "text",
+   "quote": "(80) Deleting Chapter 14. Chapter 14 is deleted.",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-036"
+   ],
+   "id": "E-026"
+  },
+  {
+   "claim": "UPC 2018 1501.2 is titled System Design.",
+   "type": "supports",
+   "source": "upc-2018",
+   "where": "§1501.2 (garbled scan)",
+   "part": "text",
+   "quote": "1501.2SystemDesign.",
+   "match": "nospace",
+   "used_by": [
+    "Flags:SI-036"
+   ],
+   "id": "E-027"
+  },
+  {
+   "claim": "UPC 2018 1602.2 is titled Plumbing Plan Submission.",
+   "type": "supports",
+   "source": "upc-2018",
+   "where": "§1602.2 (garbled scan)",
+   "part": "text",
+   "quote": "1602.2PlumbingPlanSubmission.",
+   "match": "nospace",
+   "used_by": [
+    "Flags:SI-037"
+   ],
+   "id": "E-028"
+  },
+  {
+   "claim": "UPC 2018 1319.4 could not be located in the scan held.",
+   "type": "open",
+   "source": "upc-2018",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Flags:SI-035"
+   ],
+   "id": "E-029"
+  },
+  {
+   "claim": "The 2018 sheet cited the 2021 Uniform Plumbing Code for medical gas.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A35",
+   "part": "text",
+   "quote": "2021 Uniform Plumbing Code Chapter 13",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-035",
+    "Decisions:12"
+   ],
+   "id": "E-030"
+  },
+  {
+   "claim": "The 2018 sheet labels the plumbing site utilities row as pending DPP policy.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A38",
+   "part": "text",
+   "quote": "Pending DPP  Policy",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-038:Flag",
+    "Matrix 2024:SI-038:Credential basis",
+    "Flags:SI-038"
+   ],
+   "id": "E-031"
+  },
+  {
+   "claim": "The SI FORM cites ROH Chapter 16-2 Section R109.6 for access for special inspection.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI FORM!A34",
+   "part": "text",
+   "quote": "Section 1704.4 and 2018 Hawaii Residential Code adopted by the CCH, ROH Chapter 16-2 Section R109.6 Access for Special Inspection.  The construction",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-032"
+  },
+  {
+   "claim": "ROH Chapter 16 Article 2 is Relocation of Buildings.",
+   "type": "supports",
+   "source": "roh-16-2",
+   "where": "Art. 2 heading",
+   "part": "text",
+   "quote": "ARTICLE 2: RELOCATION OF BUILDINGS",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-033"
+  },
+  {
+   "claim": "In ROH 16-1.2, R109.6 is Building permit requirement.",
+   "type": "supports",
+   "source": "roh-16-1-2",
+   "where": "amend. (11)",
+   "part": "text",
+   "quote": "R109.6 Building permit requirement.",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-034"
+  },
+  {
+   "claim": "In ROH 16-1.2, R109.8 is Contractor responsibility.",
+   "type": "supports",
+   "source": "roh-16-1-2",
+   "where": "amend. (11)",
+   "part": "text",
+   "quote": "R109.8 Contractor responsibility.",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-035"
+  },
+  {
+   "claim": "In the 2024 IBC, 1704.4 is Contractor Responsibility.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1704.4",
+   "part": "text",
+   "quote": "1704.4 Contractor Responsibility",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-036"
+  },
+  {
+   "claim": "In the 2024 IBC, Access for Special Inspection is 1704.2.2.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1704.2.2",
+   "part": "text",
+   "quote": "1704.2.2 Access for Special Inspection",
+   "match": "exact",
+   "used_by": [
+    "Decisions:13"
+   ],
+   "id": "E-037"
+  },
+  {
+   "claim": "IBC 1705.2.1 routes structural steel special inspection to AISC 360.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.1",
+   "part": "text",
+   "quote": "shall be in accordance with the quality assurance inspection requirements of AISC 360.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-005:Credential basis",
+    "Matrix 2024:SI-006:Credential basis",
+    "Matrix 2024:SI-008:Credential basis",
+    "Matrix 2024:SI-009:Credential basis",
+    "Flags:SI-006"
+   ],
+   "id": "E-038"
+  },
+  {
+   "claim": "The 2024 IBC references AISC 360-22.",
+   "type": "supports",
+   "source": "ibc-2024-ch35",
+   "where": "Chapter 35, AISC",
+   "part": "text",
+   "quote": "ANSI/AISC 360-22",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-006"
+   ],
+   "id": "E-039"
+  },
+  {
+   "claim": "AISC 360-22 N4.2 qualifies QA welding inspectors as AWS B5.1 WI or SWI (AWI only under direct supervision), or under AWS D1.1 8.1.4.2(5).",
+   "type": "supports",
+   "source": "aisc-360-22",
+   "where": "N4.2",
+   "part": "text",
+   "quote": "2. Quality Assurance Inspector Qualifications QA welding inspectors shall be qualified to the satisfaction of the QA agency's writ-ten practice, and in accordance with either of the following: (a) Welding inspectors (WI) or senior welding inspectors (SWI), as defined in Standard for the Qualification of Welding Inspectors (AWS B5.1), except AWI are permitted to be used under the direct supervision of WI, who are on the premises and available when weld inspection is being conducted, or (b) Qualified under the provisions of AWS D1.1/D1.1M, clause 8.1.4.2(5).",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-005:Credential basis",
+    "Matrix 2024:SI-006:Credential basis",
+    "Matrix 2024:SI-009:Credential basis",
+    "Flags:SI-006",
+    "Flags:SI-009",
+    "Decisions:7",
+    "Credential check:CC-18"
+   ],
+   "id": "E-040"
+  },
+  {
+   "claim": "AISC 360-22 N4.2 qualifies QA bolting inspectors on documented training and experience only.",
+   "type": "supports",
+   "source": "aisc-360-22",
+   "where": "N4.2",
+   "part": "text",
+   "quote": "QA bolting inspection personnel shall be qualified on the basis of documented train-ing and experience in structural bolting inspection.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-008:Credential basis",
+    "Flags:SI-008"
+   ],
+   "id": "E-041"
+  },
+  {
+   "claim": "IBC 1705.2.6 routes metal building systems inspection to the structural steel sections.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.6",
+   "part": "text",
+   "quote": "Special inspections of metal building systems shall be performed in accordance with Sections 1705.2.1, 1705.2.3, 1705.2.4 and 1705.2.5",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-005:Credential basis",
+    "Flags:SI-005",
+    "Change Log:CL-07"
+   ],
+   "id": "E-042"
+  },
+  {
+   "claim": "1705.2.6 Metal Building Systems exists in the 2024 IBC.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.6",
+   "part": "text",
+   "quote": "1705.2.6 Metal Building Systems",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-005",
+    "Change Log:CL-07"
+   ],
+   "id": "E-043"
+  },
+  {
+   "claim": "The 2021 IBC base code has no 1705.2.6, so Metal Building Systems is new in 2024.",
+   "type": "absent",
+   "source": "ibc-2021-ch17",
+   "where": "whole chapter",
+   "part": "text",
+   "terms": [
+    "1705.2.6"
+   ],
+   "within": null,
+   "used_by": [
+    "Flags:SI-005",
+    "Change Log:CL-07"
+   ],
+   "id": "E-044"
+  },
+  {
+   "claim": "In the 2018 IBC, 1705.11 is Special Inspections for Wind Resistance.",
+   "type": "supports",
+   "source": "ibc-2018-ch17-hawaii",
+   "where": "§1705.11",
+   "part": "text",
+   "quote": "1705.11 Special Inspections for Wind Resistance",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-005",
+    "Change Log:CL-07",
+    "Change Log:CL-09"
+   ],
+   "id": "E-045"
+  },
+  {
+   "claim": "The 2018 sheet cited Metal Buildings to 1705.11.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A5",
+   "part": "text",
+   "quote": "1705.11",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-005",
+    "Change Log:CL-07"
+   ],
+   "id": "E-046"
+  },
+  {
+   "claim": "The 2018 sheet cited Steel Joists to 1705.1.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A4",
+   "part": "text",
+   "quote": "1705.1",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-004",
+    "Change Log:CL-06"
+   ],
+   "id": "E-047"
+  },
+  {
+   "claim": "IBC 1705.2.4 names no inspector qualification or referenced standard for it.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.4 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.2.4",
+   "used_by": [
+    "Matrix 2024:SI-004:Credential basis",
+    "Flags:SI-004"
+   ],
+   "id": "E-048"
+  },
+  {
+   "claim": "IBC 1705.2.3 routes welding special inspector qualification for steel deck to SDI QA/QC.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.3",
+   "part": "text",
+   "quote": "Special inspections and qualification of welding special inspectors for cold-formed steel floor and roof deck shall be in accordance with the quality assurance inspection requirements of SDI QA/QC.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-010:Credential basis",
+    "Flags:SI-010"
+   ],
+   "id": "E-049"
+  },
+  {
+   "claim": "SDI QA/QC is not held.",
+   "type": "open",
+   "source": "sdi-qa-qc",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Matrix 2024:SI-010:Credential basis"
+   ],
+   "id": "E-050"
+  },
+  {
+   "claim": "In the 2021 IBC, 1705.2.2 is Cold-Formed Steel Deck.",
+   "type": "supports",
+   "source": "ibc-2021-ch17",
+   "where": "§1705.2.2",
+   "part": "text",
+   "quote": "1705.2.2 Cold-Formed Steel Deck",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-010",
+    "Flags:NEW-01",
+    "Change Log:CL-08"
+   ],
+   "id": "E-051"
+  },
+  {
+   "claim": "In the 2024 IBC, 1705.2.2 is Structural Stainless Steel.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.2",
+   "part": "text",
+   "quote": "1705.2.2 Structural Stainless Steel",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-010",
+    "Flags:NEW-01",
+    "Change Log:CL-08"
+   ],
+   "id": "E-052"
+  },
+  {
+   "claim": "The 2018 supervised-staff cell for cold-formed steel requires no credential.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!E10",
+   "part": "text",
+   "quote": "X",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-010"
+   ],
+   "id": "E-053"
+  },
+  {
+   "claim": "The 2018 registered SI cell for cold-formed steel requires ICC.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!G10",
+   "part": "text",
+   "quote": "X1",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-010"
+   ],
+   "id": "E-054"
+  },
+  {
+   "claim": "IBC 1705.2.2 routes stainless steel inspection to AISC 370.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.2.2",
+   "part": "text",
+   "quote": "in accordance with the quality assurance inspection requirements of AISC 370.",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-01"
+   ],
+   "id": "E-055"
+  },
+  {
+   "claim": "The 2024 IBC references AISC 370-21.",
+   "type": "supports",
+   "source": "ibc-2024-ch35",
+   "where": "Chapter 35, AISC",
+   "part": "text",
+   "quote": "ANSI/AISC 370-21",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-01"
+   ],
+   "id": "E-056"
+  },
+  {
+   "claim": "AISC 370-21 is not held.",
+   "type": "open",
+   "source": "aisc-370-21",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Flags:NEW-01"
+   ],
+   "id": "E-057"
+  },
+  {
+   "claim": "AWS D1.6 8.1.4.1 accepts CWI, CWB / CSA W178.2, or training and experience for a stainless welding inspector.",
+   "type": "supports",
+   "source": "aws-d1-6-2017",
+   "where": "§8.1.4.1",
+   "part": "text",
+   "quote": "8.1.4.1 Basis for Inspector Qualification. Inspectors responsible for acceptance or rejection of materials and workmanship shall be qualified. The basis of Inspector qualification shall be documented. If the Engineer elects to specify the basis of Inspector qualification, it shall be so specified in the contract documents. The acceptable qualification basis shall be the following: (1) Current or previous certification as an AWS Certified Welding Inspector (CWI)",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-01",
+    "Decisions:15"
+   ],
+   "id": "E-058"
+  },
+  {
+   "claim": "The 2018 third-party cell for Structural Steel - Welding reads SE1 & 2.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!F9",
+   "part": "text",
+   "quote": "SE1 & 2",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-009"
+   ],
+   "id": "E-059"
+  },
+  {
+   "claim": "AWS D1.1:2020 8.1.4.2(1): CWI or SCWI qualifies the Inspector.",
+   "type": "supports",
+   "source": "aws-d1-1-2020",
+   "where": "§8.1.4.2(1)",
+   "part": "text",
+   "quote": "(1) Current or previous certification as an AWS Certified Welding Inspector (CWI) or Senior Certified Welding Inspector (SCWI)",
+   "match": "exact",
+   "used_by": [
+    "Decisions:7",
+    "Decisions:15",
+    "Credential check:CC-17"
+   ],
+   "id": "E-060"
+  },
+  {
+   "claim": "AWS D1.1:2020 8.1.4.2(2) also accepts CSA W178.2 Level 2 or 3.",
+   "type": "supports",
+   "source": "aws-d1-1-2020",
+   "where": "§8.1.4.2(2)",
+   "part": "text",
+   "quote": "(2) Current or previous certification as a Level 2 or Level 3 Welding Inspector in conformance with the requirements of Canadian Standards Association (CSA) Standard W178.2",
+   "match": "exact",
+   "used_by": [
+    "Decisions:15"
+   ],
+   "id": "E-061"
+  },
+  {
+   "claim": "AWS D1.1:2020 8.1.4.2(4) also accepts ASNT SNT-TC-1A-VT Level II.",
+   "type": "supports",
+   "source": "aws-d1-1-2020",
+   "where": "§8.1.4.2(4)",
+   "part": "text",
+   "quote": "ASNT SNT-TC-1A-VT Level II",
+   "match": "exact",
+   "used_by": [
+    "Decisions:15"
+   ],
+   "id": "E-062"
+  },
+  {
+   "claim": "AWS D1.1:2020 8.1.4.4: Assistant Inspectors work under the supervision of the Inspector.",
+   "type": "supports",
+   "source": "aws-d1-1-2020",
+   "where": "§8.1.4.4",
+   "part": "text",
+   "quote": "8.1.4.4 Assistant Inspector. The Inspector may be supported by Assistant Inspectors who may perform specific inspection functions under the supervision of the Inspector.",
+   "match": "exact",
+   "used_by": [
+    "Decisions:7",
+    "Credential check:CC-18"
+   ],
+   "id": "E-063"
+  },
+  {
+   "claim": "AWS D1.1:2020 8.1.4.5(1): CAWI or higher qualifies an Assistant Inspector.",
+   "type": "supports",
+   "source": "aws-d1-1-2020",
+   "where": "§8.1.4.5(1)",
+   "part": "text",
+   "quote": "(1 ) Current or previous certification as an AWS Certified Associate Welding Inspector (CAWI) or higher",
+   "match": "exact",
+   "used_by": [
+    "Decisions:7",
+    "Credential check:CC-18"
+   ],
+   "id": "E-064"
+  },
+  {
+   "claim": "The 2018 AWS column joins CWI and CAWI with an ampersand.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!K4",
+   "part": "text",
+   "quote": "Certified Welding Inspector; & Certified Assoc Welding Inspector",
+   "match": "exact",
+   "used_by": [
+    "Decisions:7"
+   ],
+   "id": "E-065"
+  },
+  {
+   "claim": "IBC 1705.3.1 routes rebar welding inspection and inspector qualification to AWS D1.4.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.3.1",
+   "part": "text",
+   "quote": "Special inspections of welding and qualifications of special inspectors for reinforcing bars shall be in accordance with the requirements of AWS D1.4",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-014:Credential basis",
+    "Flags:SI-014",
+    "Flags:SI-013",
+    "Decisions:8",
+    "Credential check:CC-19"
+   ],
+   "id": "E-066"
+  },
+  {
+   "claim": "ACI 318-19 26.13.1.4 (code) routes rebar welding inspection to AWS D1.4.",
+   "type": "supports",
+   "source": "aci-318-19-code",
+   "where": "§26.13.1.4",
+   "part": "code",
+   "quote": "26.13.1.4 Inspection of reinforcement welding shall be performed by a qualified welding inspector in accordance with AWS D1.4.",
+   "match": "exact",
+   "used_by": [
+    "Decisions:8"
+   ],
+   "id": "E-067"
+  },
+  {
+   "claim": "The 2024 IBC references AWS D1.4-2018-AMD1.",
+   "type": "supports",
+   "source": "ibc-2024-ch35",
+   "where": "Chapter 35, AWS",
+   "part": "text",
+   "quote": "D1.4/D1.4M-2018-AMD1",
+   "match": "exact",
+   "used_by": [
+    "Decisions:8"
+   ],
+   "id": "E-068"
+  },
+  {
+   "claim": "AWS D1.4 9.1.2 accepts CWI, CWB / CSA W178.2, or training and experience.",
+   "type": "supports",
+   "source": "aws-d1-4-2018",
+   "where": "§9.1.2",
+   "part": "text",
+   "quote": "Inspectors responsible for acceptance or rej ection of material and workmanship shall be qualified. The basis of Inspector qualification shall be documented. If the Engineer elects to specify the basis of inspector qualification, it shall be so stated in contract documents. The following are acceptable qualification bases: (1 ) Current or previous certification as an AWS Certified Welding Inspector (CWI) in accordance with the provisions ofAWS QC1, Standard for AWS Certification ofWelding Inspectors; (2) Current or previous qualification by the Canadian Welding Bureau (CWB) to the requirements of the Canadian Standard Association (CSA) Standard W1 78.2, Certification ofWelding Inspectors; (3) An individual who, by training or experience, or both, in metals fabrication, inspection and testing, is competent to perform inspection of the work.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-014:Credential basis",
+    "Flags:SI-014",
+    "Decisions:8",
+    "Decisions:15",
+    "Credential check:CC-17",
+    "Credential check:CC-19"
+   ],
+   "id": "E-069"
+  },
+  {
+   "claim": "The 2018 sheet cited Concrete - Reinforced Concrete to 1705.3.1.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A13",
+   "part": "text",
+   "quote": "1705.3.1",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-013",
+    "Matrix 2024:SI-013:Flag"
+   ],
+   "id": "E-070"
+  },
+  {
+   "claim": "The 2018 supervised-staff cell on the masonry welding row requires ICC only.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!E18",
+   "part": "text",
+   "quote": "X1",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-018",
+    "Decisions:11"
+   ],
+   "id": "E-071"
+  },
+  {
+   "claim": "The 2018 supervised-staff cell on the concrete welding row requires ICC and AWS.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!E14",
+   "part": "text",
+   "quote": "X1 & 4",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-018",
+    "Decisions:11"
+   ],
+   "id": "E-072"
+  },
+  {
+   "claim": "ACI 318-19 26.12.1.1(d) (code): certified field testing technicians perform tests on fresh concrete at the job site.",
+   "type": "supports",
+   "source": "aci-318-19-code",
+   "where": "§26.12.1.1(d)",
+   "part": "code",
+   "quote": "Certified field testing technicians shall perform tests on fresh concrete at the job site",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-003:Credential basis",
+    "Matrix 2024:SI-012:Credential basis",
+    "Matrix 2024:SI-013:Credential basis",
+    "Matrix 2024:SI-015:Credential basis",
+    "Credential check:CC-14"
+   ],
+   "id": "E-073"
+  },
+  {
+   "claim": "ACI 318-19 26.13.1.6 (code) requires a certified inspector for adhesive anchor installation.",
+   "type": "supports",
+   "source": "aci-318-19-code",
+   "where": "§26.13.1.6",
+   "part": "code",
+   "quote": "26.13.1.6 The installation inspection of all adhesive anchors shall be performed by a certified inspector.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-016:Credential basis",
+    "Matrix 2024:SI-016:Flag",
+    "Flags:SI-016",
+    "Decisions:9",
+    "Credential check:CC-15"
+   ],
+   "id": "E-074"
+  },
+  {
+   "claim": "ACI 318-19 26.13.1.5 (code) allows a certified inspector or an approved qualified inspector for mechanical anchors.",
+   "type": "supports",
+   "source": "aci-318-19-code",
+   "where": "§26.13.1.5",
+   "part": "code",
+   "quote": "26.13.1.5 Inspection of the installation of post-installed expansion (torque-controlled and displacement-controlled), screw, and undercut anchors shall be performed by a certi-fied inspector or a qualified inspector specifically approved for that purpose by the Licensed Design Professional and the building official.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-016:Credential basis",
+    "Flags:SI-016",
+    "Decisions:9",
+    "Credential check:CC-15"
+   ],
+   "id": "E-075"
+  },
+  {
+   "claim": "The ACI adhesive anchor program appears in the COMMENTARY as an example, 'or similar program'.",
+   "type": "supports",
+   "source": "aci-318-19-commentary",
+   "where": "§R26.13.1.6",
+   "part": "commentary",
+   "quote": "ACI Adhesive Anchor Installation Inspector program (ACI CPP 681.1-17), or similar program with equivalent requirements",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-016",
+    "Decisions:9",
+    "Credential check:CC-15"
+   ],
+   "id": "E-076"
+  },
+  {
+   "claim": "The ACI post-installed anchor program appears in the COMMENTARY as an example, 'or similar program'.",
+   "type": "supports",
+   "source": "aci-318-19-commentary",
+   "where": "§R26.13.1.5",
+   "part": "commentary",
+   "quote": "ACI Post-Installed Concrete Anchor Installation Inspector program (ACI CPP 681.2-19), or similar program with equivalent requirements",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-016",
+    "Decisions:9",
+    "Credential check:CC-15"
+   ],
+   "id": "E-077"
+  },
+  {
+   "claim": "The ACI 318-19 code text does not name the CPP 681 anchor programs.",
+   "type": "absent",
+   "source": "aci-318-19-code",
+   "where": "code column",
+   "part": "text",
+   "terms": [
+    "CPP 681"
+   ],
+   "within": null,
+   "used_by": [
+    "Flags:SI-016",
+    "Credential check:CC-15"
+   ],
+   "id": "E-078"
+  },
+  {
+   "claim": "IAS AC291 accepts ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI for post-installed anchors.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Table 1, item 9",
+   "part": "text",
+   "quote": "ICC Reinforced Concrete SI or ACI Concrete/Masonry Construction SI",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-016",
+    "Decisions:9",
+    "Credential check:CC-15"
+   ],
+   "id": "E-079"
+  },
+  {
+   "claim": "ACI 318-19 code text names no shotcrete inspector certification.",
+   "type": "absent",
+   "source": "aci-318-19-code",
+   "where": "code column",
+   "part": "text",
+   "terms": [
+    "shotcrete inspector"
+   ],
+   "within": null,
+   "used_by": [
+    "Matrix 2024:SI-019:Credential basis",
+    "Credential check:CC-16"
+   ],
+   "id": "E-080"
+  },
+  {
+   "claim": "The 2018 third-party cell for Concrete names licences only.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!F12",
+   "part": "text",
+   "quote": "SE, AR, CE",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-012",
+    "Matrix 2024:SI-012:Flag"
+   ],
+   "id": "E-081"
+  },
+  {
+   "claim": "The 2018 registered SI cell for Concrete requires ACI.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!G12",
+   "part": "text",
+   "quote": "X2",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-012",
+    "Matrix 2024:SI-012:Flag"
+   ],
+   "id": "E-082"
+  },
+  {
+   "claim": "IBC 1705.4 routes masonry inspection to TMS 402 and TMS 602.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.4",
+   "part": "text",
+   "quote": "TMS 402 and TMS 602",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-017:Credential basis",
+    "Matrix 2024:SI-018:Credential basis",
+    "Flags:SI-017"
+   ],
+   "id": "E-083"
+  },
+  {
+   "claim": "TMS 402/602 is not held.",
+   "type": "open",
+   "source": "tms-402-602",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Matrix 2024:SI-017:Credential basis",
+    "Matrix 2024:SI-018:Credential basis",
+    "Flags:SI-017"
+   ],
+   "id": "E-084"
+  },
+  {
+   "claim": "IBC 1705.16 routes intumescent fire-resistive material inspection to AWCI 12-B.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.16",
+   "part": "text",
+   "quote": "shall be performed in accordance with AWCI 12-B.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-030:Credential basis",
+    "Flags:SI-030"
+   ],
+   "id": "E-085"
+  },
+  {
+   "claim": "AWCI 12-B is not held.",
+   "type": "open",
+   "source": "awci-12-b",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Matrix 2024:SI-030:Credential basis"
+   ],
+   "id": "E-086"
+  },
+  {
+   "claim": "IBC 1705.18.1 routes penetration firestop inspection to ASTM E2174.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.18.1",
+   "part": "text",
+   "quote": "in accordance with ASTM E2174.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-032:Credential basis"
+   ],
+   "id": "E-087"
+  },
+  {
+   "claim": "ASTM E2174 / E2393 are not held.",
+   "type": "open",
+   "source": "astm-e2174-e2393",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Matrix 2024:SI-032:Credential basis"
+   ],
+   "id": "E-088"
+  },
+  {
+   "claim": "In the 2018 IBC, 1705.14 is Sprayed Fire-Resistant Materials.",
+   "type": "supports",
+   "source": "ibc-2018-ch17-hawaii",
+   "where": "§1705.14",
+   "part": "text",
+   "quote": "1705.14 Sprayed Fire-Resistant Materials",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-029",
+    "Change Log:CL-13"
+   ],
+   "id": "E-089"
+  },
+  {
+   "claim": "In the 2024 IBC, 1705.15 is Sprayed Fire-Resistive Materials (SFRM).",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.15",
+   "part": "text",
+   "quote": "1705.15 Sprayed Fire-Resistive Materials (SFRM)",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-029",
+    "Change Log:CL-13"
+   ],
+   "id": "E-090"
+  },
+  {
+   "claim": "In the 2018 IBC, 1705.15 is Mastic and Intumescent Fire-Resistant Coatings.",
+   "type": "supports",
+   "source": "ibc-2018-ch17-hawaii",
+   "where": "§1705.15",
+   "part": "text",
+   "quote": "1705.15 Mastic and Intumescent Fire-Resistant Coatings",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-030",
+    "Change Log:CL-13",
+    "Matrix 2024:SI-030:Flag"
+   ],
+   "id": "E-091"
+  },
+  {
+   "claim": "In the 2024 IBC, 1705.16 is Intumescent Fire-Resistive Materials.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.16",
+   "part": "text",
+   "quote": "1705.16 Intumescent Fire-Resistive Materials",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-030",
+    "Change Log:CL-13",
+    "Matrix 2024:SI-030:Flag"
+   ],
+   "id": "E-092"
+  },
+  {
+   "claim": "In the 2021 IBC, 1705.10 is Structural Integrity of Deep Foundation Elements.",
+   "type": "supports",
+   "source": "ibc-2021-ch17",
+   "where": "§1705.10",
+   "part": "text",
+   "quote": "1705.10 Structural Integrity of Deep Foundation Elements",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-03",
+    "Change Log:CL-09"
+   ],
+   "id": "E-093"
+  },
+  {
+   "claim": "In the 2024 IBC, 1705.10 is Structural Integrity of Deep Foundation Elements.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.10",
+   "part": "text",
+   "quote": "1705.10 Structural Integrity of Deep Foundation Elements",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-03",
+    "Flags:SI-021",
+    "Decisions:5"
+   ],
+   "id": "E-094"
+  },
+  {
+   "claim": "In the 2018 IBC, 1705.10 is Fabricated Items.",
+   "type": "supports",
+   "source": "ibc-2018-ch17-hawaii",
+   "where": "§1705.10",
+   "part": "text",
+   "quote": "1705.10 Fabricated Items",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-04",
+    "Decisions:5"
+   ],
+   "id": "E-095"
+  },
+  {
+   "claim": "IBC 1705.11 routes fabricated items to 1704.2.5.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.11",
+   "part": "text",
+   "quote": "Special inspections of fabricated items shall be performed in accordance with Section 1704.2.5.",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-04",
+    "Flags:SI-003",
+    "Decisions:5",
+    "Matrix 2024:SI-003:Flag"
+   ],
+   "id": "E-096"
+  },
+  {
+   "claim": "In the 2024 IBC, 1704.2.5 is Special Inspection of Fabricated Items.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1704.2.5",
+   "part": "text",
+   "quote": "1704.2.5 Special Inspection of Fabricated Items",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-003",
+    "Matrix 2024:SI-003:Flag"
+   ],
+   "id": "E-097"
+  },
+  {
+   "claim": "1705.5.3 Mass Timber Construction exists in the 2024 IBC.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.5.3",
+   "part": "text",
+   "quote": "1705.5.3 Mass Timber Construction",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-02",
+    "Decisions:5"
+   ],
+   "id": "E-098"
+  },
+  {
+   "claim": "IBC 1705.20 requires periodic special inspection of sealants or adhesives required by Section 703.7.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.20",
+   "part": "text",
+   "quote": "required by Section 703.7",
+   "match": "exact",
+   "used_by": [
+    "Flags:NEW-05"
+   ],
+   "id": "E-099"
+  },
+  {
+   "claim": "1705.5.1 High-Load Diaphragms and 1705.5.2 are the specific wood subsections.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.5.1",
+   "part": "text",
+   "quote": "1705.5.1 High-Load Diaphragms",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-011",
+    "Matrix 2024:SI-011:Flag"
+   ],
+   "id": "E-100"
+  },
+  {
+   "claim": "The 2018 sheet cited high-load diaphragms to 1705.5; 1705.1; 1705.2.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!A11",
+   "part": "text",
+   "quote": "1705.5; 1705.1; 1705.2",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-011",
+    "Matrix 2024:SI-011:Flag"
+   ],
+   "id": "E-101"
+  },
+  {
+   "claim": "The Hawaii State Building Code retitles 1705.11.1 Complete Load Path and Uplift Ties.",
+   "type": "supports",
+   "source": "hi-sbc-2018",
+   "where": "State amendment 37",
+   "part": "text",
+   "quote": "1705.11.1 Complete Load Path and Uplift Ties.",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-027:Section title"
+   ],
+   "id": "E-102"
+  },
+  {
+   "claim": "IBC 1705.5 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.5 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.5",
+   "used_by": [
+    "Matrix 2024:SI-007:Credential basis"
+   ],
+   "id": "E-103"
+  },
+  {
+   "claim": "IBC 1705.5.1 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.5.1 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.5.1",
+   "used_by": [
+    "Matrix 2024:SI-011:Credential basis"
+   ],
+   "id": "E-104"
+  },
+  {
+   "claim": "IBC 1705.6 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.6 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.6",
+   "used_by": [
+    "Matrix 2024:SI-020:Credential basis"
+   ],
+   "id": "E-105"
+  },
+  {
+   "claim": "IBC 1705.7 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.7 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.7",
+   "used_by": [
+    "Matrix 2024:SI-021:Credential basis"
+   ],
+   "id": "E-106"
+  },
+  {
+   "claim": "IBC 1705.8 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.8 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.8",
+   "used_by": [
+    "Matrix 2024:SI-022:Credential basis"
+   ],
+   "id": "E-107"
+  },
+  {
+   "claim": "IBC 1705.9 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.9 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.9",
+   "used_by": [
+    "Matrix 2024:SI-023:Credential basis"
+   ],
+   "id": "E-108"
+  },
+  {
+   "claim": "IBC 1705.12.1 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.12.1 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.12.1",
+   "used_by": [
+    "Matrix 2024:SI-027:Credential basis"
+   ],
+   "id": "E-109"
+  },
+  {
+   "claim": "IBC 1705.15 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.15 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.15",
+   "used_by": [
+    "Matrix 2024:SI-029:Credential basis"
+   ],
+   "id": "E-110"
+  },
+  {
+   "claim": "IBC 1705.17 names no inspector qualification.",
+   "type": "absent",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.17 span",
+   "part": "text",
+   "terms": [
+    "qualif",
+    "certif"
+   ],
+   "within": "1705.17",
+   "used_by": [
+    "Matrix 2024:SI-031:Credential basis"
+   ],
+   "id": "E-111"
+  },
+  {
+   "claim": "IBC 1705.6 carries its table of required inspections.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.6",
+   "part": "text",
+   "quote": "1705.6 Soils",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-020"
+   ],
+   "id": "E-112"
+  },
+  {
+   "claim": "IBC 1705.7 carries its table of required inspections.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.7",
+   "part": "text",
+   "quote": "1705.7 Driven Deep Foundations",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-021"
+   ],
+   "id": "E-113"
+  },
+  {
+   "claim": "IBC 1705.8 carries its table of required inspections.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.8",
+   "part": "text",
+   "quote": "1705.8 Cast-in-Place Deep Foundations",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-022"
+   ],
+   "id": "E-114"
+  },
+  {
+   "claim": "IBC 1705.9 Helical Pile Foundations exists in the 2024 IBC.",
+   "type": "supports",
+   "source": "ibc-2024-ch17",
+   "where": "§1705.9",
+   "part": "text",
+   "quote": "1705.9 Helical Pile Foundations",
+   "match": "exact",
+   "used_by": [
+    "Flags:SI-023"
+   ],
+   "id": "E-115"
+  },
+  {
+   "claim": "The 2018 sheet lists no special inspector for wind resistance.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!G26",
+   "part": "text",
+   "quote": "NA",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-026:Credential basis"
+   ],
+   "id": "E-116"
+  },
+  {
+   "claim": "The 2018 sheet lists no special inspector for seismic resistance.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!G28",
+   "part": "text",
+   "quote": "NA",
+   "match": "exact",
+   "used_by": [
+    "Matrix 2024:SI-028:Credential basis"
+   ],
+   "id": "E-117"
+  },
+  {
+   "claim": "The 2018 sheet spells out the National Environmental Balancing Bureau.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!L33",
+   "part": "text",
+   "quote": "AABC - Tech Certification; & Nat'l Environmental Balancing Bureau - Tech Certification",
+   "match": "exact",
+   "used_by": [
+    "Decisions:14"
+   ],
+   "id": "E-118"
+  },
+  {
+   "claim": "The 2018 sheet keys the ICC column to footnote 1.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!H2",
+   "part": "text",
+   "quote": "ICC1",
+   "match": "exact",
+   "used_by": [
+    "Decisions:17"
+   ],
+   "id": "E-119"
+  },
+  {
+   "claim": "The 2018 employee cell for the precast fabricator row reads X1, 2, & 3.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!E3",
+   "part": "text",
+   "quote": "X1, 2, & 3",
+   "match": "exact",
+   "used_by": [
+    "Decisions:17"
+   ],
+   "id": "E-120"
+  },
+  {
+   "claim": "ICC Category 47 Reinforced Concrete is General Requirements plus 47C and 47P.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "47 Reinforced Concrete",
+   "part": "text",
+   "quote": "Reinforced Concrete Codes - 47C",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-01",
+    "Decisions:10"
+   ],
+   "id": "E-121"
+  },
+  {
+   "claim": "ICC Category 49 Reinforced Concrete Special Inspector exists.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "47 Reinforced Concrete",
+   "part": "text",
+   "quote": "ICC Category 49 (Reinforced Concrete Special Inspector)",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-02",
+    "Flags:SI-015",
+    "Decisions:10"
+   ],
+   "id": "E-122"
+  },
+  {
+   "claim": "ICC Category 92 requires Category 49.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "92 Prestressed Concrete",
+   "part": "text",
+   "quote": "Reinforced Concrete Special Inspector Certification - Category 49",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-02",
+    "Credential check:CC-03",
+    "Flags:SI-015",
+    "Decisions:10"
+   ],
+   "id": "E-123"
+  },
+  {
+   "claim": "ICC Category 92 includes 92C.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "92 Prestressed Concrete",
+   "part": "text",
+   "quote": "Prestressed Concrete Codes - 92C",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-03"
+   ],
+   "id": "E-124"
+  },
+  {
+   "claim": "ICC Category 49 requires ACI Grade I Technician.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "47 Reinforced Concrete",
+   "part": "text",
+   "quote": "Grade I Technician is required to obtain Category 49",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-02",
+    "Credential check:CC-14"
+   ],
+   "id": "E-125"
+  },
+  {
+   "claim": "ICC Category 84 includes 84C.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "84 Structural Masonry",
+   "part": "text",
+   "quote": "Structural Masonry Codes 84C",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-04"
+   ],
+   "id": "E-126"
+  },
+  {
+   "claim": "ICC's soils certification is EC Soils, earned through ECC.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "EC Soils",
+   "part": "text",
+   "quote": "Soils Codes - ECC",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-05",
+    "Decisions:10"
+   ],
+   "id": "E-127"
+  },
+  {
+   "claim": "ICC Category S1 includes S1C.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "S1",
+   "part": "text",
+   "quote": "Structural Steel and Bolting Codes S1C",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-06"
+   ],
+   "id": "E-128"
+  },
+  {
+   "claim": "ICC Category S2 includes S2C.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "S2",
+   "part": "text",
+   "quote": "Structural Welding Codes - S2C",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-07"
+   ],
+   "id": "E-129"
+  },
+  {
+   "claim": "ICC Category 86 is General Requirements plus a combined codes and plans exam 86.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "86",
+   "part": "text",
+   "quote": "Spray-applied Fireproofing Codes and Plans - 86",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-08"
+   ],
+   "id": "E-130"
+  },
+  {
+   "claim": "ICC's special inspector page has no 86M designation.",
+   "type": "absent",
+   "source": "icc-si-exams",
+   "where": "whole page",
+   "part": "text",
+   "terms": [
+    "86M"
+   ],
+   "within": null,
+   "used_by": [
+    "Credential check:CC-08"
+   ],
+   "id": "E-131"
+  },
+  {
+   "claim": "ICC exam B2 is Commercial Building Inspector.",
+   "type": "supports",
+   "source": "icc-combo-designations",
+   "where": "exam list",
+   "part": "text",
+   "quote": "B2 Commercial Building Inspector",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-09",
+    "Decisions:10"
+   ],
+   "id": "E-132"
+  },
+  {
+   "claim": "ICC exam B1 is Residential Building Inspector.",
+   "type": "supports",
+   "source": "icc-combo-designations",
+   "where": "exam list",
+   "part": "text",
+   "quote": "B1 Residential Building Inspector",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-10",
+    "Decisions:10"
+   ],
+   "id": "E-133"
+  },
+  {
+   "claim": "ICC exam 66 is Fire Inspector I.",
+   "type": "supports",
+   "source": "icc-fire-inspector-1",
+   "where": "store listing",
+   "part": "text",
+   "quote": "66 - Fire Inspector I",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-11"
+   ],
+   "id": "E-134"
+  },
+  {
+   "claim": "ICC CF is Commercial Fire Sprinkler Inspector.",
+   "type": "supports",
+   "source": "icc-cf-store",
+   "where": "store listing",
+   "part": "text",
+   "quote": "CF - Commercial Fire Sprinkler Inspector",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-12"
+   ],
+   "id": "E-135"
+  },
+  {
+   "claim": "ICC Category 93 Tall Mass Timber Buildings exists.",
+   "type": "supports",
+   "source": "icc-si-exams",
+   "where": "93",
+   "part": "text",
+   "quote": "Tall Mass Timber Buildings Special Inspector Exam - 93",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-13",
+    "Flags:NEW-02",
+    "Flags:NEW-05",
+    "Decisions:5"
+   ],
+   "id": "E-136"
+  },
+  {
+   "claim": "ACI runs a Shotcrete Inspector certification.",
+   "type": "supports",
+   "source": "aci-shotcrete-inspector",
+   "where": "program page",
+   "part": "text",
+   "quote": "Shotcrete Inspector",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-16"
+   ],
+   "id": "E-137"
+  },
+  {
+   "claim": "NICET's current certification programs page does not list Geotechnical Engineering Technology.",
+   "type": "absent",
+   "source": "nicet-programs",
+   "where": "whole page",
+   "part": "text",
+   "terms": [
+    "geotechnical"
+   ],
+   "within": null,
+   "used_by": [
+    "Credential check:CC-20"
+   ],
+   "id": "E-138"
+  },
+  {
+   "claim": "NICET still hosts the Geotechnical Engineering Technology manual.",
+   "type": "supports",
+   "source": "nicet-geotech-manual",
+   "where": "manual",
+   "part": "text",
+   "quote": "The date of publication of this manual is June 1994.",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-20"
+   ],
+   "id": "E-139"
+  },
+  {
+   "claim": "IAS AC291 (effective 2024) lists NICET Geotechnical Engineering Technology Levels I to IV.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Section on NICET",
+   "part": "text",
+   "quote": "Geotechnical Engineering Technology-Construction Subfield Levels I, II, III, and IV",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-20"
+   ],
+   "id": "E-140"
+  },
+  {
+   "claim": "IAS AC291 is effective 1 January 2024.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "cover",
+   "part": "text",
+   "quote": "Effective January 1, 2024",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-20"
+   ],
+   "id": "E-141"
+  },
+  {
+   "claim": "IAS AC291 Table 1 accepts NICET II for soils.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Table 1, item 3",
+   "part": "text",
+   "quote": "NICET II (geotechnical or construction or construction material testing or soils)",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-21"
+   ],
+   "id": "E-142"
+  },
+  {
+   "claim": "The 2018 NICET cell for the precast fabricator row names a level but no program.",
+   "type": "internal",
+   "source": "orig-2018",
+   "where": "SI Qualification!J3",
+   "part": "text",
+   "quote": "NICET Lvl III with 2 yrs experience",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-22"
+   ],
+   "id": "E-143"
+  },
+  {
+   "claim": "NICET's program is Inspection and Testing of Water-Based Systems.",
+   "type": "supports",
+   "source": "nicet-programs",
+   "where": "programs page",
+   "part": "text",
+   "quote": "Inspection and Testing of Water-Based Systems",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-23"
+   ],
+   "id": "E-144"
+  },
+  {
+   "claim": "PCI's credential is Level II Quality Control Technician/Inspector.",
+   "type": "supports",
+   "source": "pci-level-ii",
+   "where": "page title",
+   "part": "text",
+   "quote": "PCI Level II Quality Control Technician/Inspector Certification",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-24",
+    "Flags:SI-015"
+   ],
+   "id": "E-145"
+  },
+  {
+   "claim": "PCI plant quality control certification has Levels I, II and III.",
+   "type": "supports",
+   "source": "pci-overview",
+   "where": "program overview",
+   "part": "text",
+   "quote": "Level I Level II Level III",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-24"
+   ],
+   "id": "E-146"
+  },
+  {
+   "claim": "NFCA CAP is for fireproofing contractors.",
+   "type": "supports",
+   "source": "nfca-cap",
+   "where": "CAP page",
+   "part": "text",
+   "quote": "The NFCA Contractor Accreditation Program (CAP) was created by NFCA to provide a means for Fireproofing Contractors",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-25"
+   ],
+   "id": "E-147"
+  },
+  {
+   "claim": "NFCA's education and exams are offered for CAP, UL DRIs and Inspectors.",
+   "type": "supports",
+   "source": "nfca-learning",
+   "where": "programs page",
+   "part": "text",
+   "quote": "The NFCA Fireproofing Education and Exams for NFCA Contractor Accreditation Program (CAP) and UL Designated Responsible Individuals (DRI's) and Inspectors",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-25"
+   ],
+   "id": "E-148"
+  },
+  {
+   "claim": "IAS AC291 accepts ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I for SFRM and intumescent coatings.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Table 1, item 20",
+   "part": "text",
+   "quote": "ICC Spray-Applied Fireproofing SI or ICC Fire Inspector I",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-25"
+   ],
+   "id": "E-149"
+  },
+  {
+   "claim": "AWCI runs EIFS inspector certification.",
+   "type": "supports",
+   "source": "awci-eifs",
+   "where": "certification page",
+   "part": "text",
+   "quote": "EIFS Inspectors",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-26"
+   ],
+   "id": "E-150"
+  },
+  {
+   "claim": "IAS AC291 names the AWCI Exterior Insulated Finish System Inspector (EIFS-I).",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Section on AWCI",
+   "part": "text",
+   "quote": "Exterior Insulated Finish System Inspector (EIFS-I)",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-26"
+   ],
+   "id": "E-151"
+  },
+  {
+   "claim": "AABC's individual credential is Test and Balance Technician.",
+   "type": "supports",
+   "source": "aabc-tbt-application",
+   "where": "application form",
+   "part": "text",
+   "quote": "AABC Test and Balance Technician Certification Application",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-27"
+   ],
+   "id": "E-152"
+  },
+  {
+   "claim": "NEBB certifies Professionals and Technicians.",
+   "type": "supports",
+   "source": "nebb-certification",
+   "where": "certification page",
+   "part": "text",
+   "quote": "Certified Professionals and Technicians",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-28"
+   ],
+   "id": "E-153"
+  },
+  {
+   "claim": "IAS AC291 accepts AABC, NEBB or equivalent balancing technician certification for smoke control.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Table 1, item 16",
+   "part": "text",
+   "quote": "AABC, NEBB or other equivalent Balancing Technician Certification",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-28"
+   ],
+   "id": "E-154"
+  },
+  {
+   "claim": "IAPMO issues UPC Residential and Commercial Plumbing Inspector (PI).",
+   "type": "supports",
+   "source": "iapmo-pi",
+   "where": "certification page",
+   "part": "text",
+   "quote": "UPC Residential and Commercial Plumbing Inspector (PI)",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-29"
+   ],
+   "id": "E-155"
+  },
+  {
+   "claim": "IAPMO issues UPC Residential and Commercial Plumbing Plans Examiner (PPE).",
+   "type": "supports",
+   "source": "iapmo-ppe",
+   "where": "certification page",
+   "part": "text",
+   "quote": "UPC Residential and Commercial Plumbing Plans Examiner (PPE)",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-30"
+   ],
+   "id": "E-156"
+  },
+  {
+   "claim": "IAS AC291 accepts the UL Firestop Examination or FM Firestop Examination for firestop special inspectors.",
+   "type": "supports",
+   "source": "ias-ac291",
+   "where": "Table 1, item 21",
+   "part": "text",
+   "quote": "ICC CLA or UL Firestop Examination or FM Firestop Examination",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-31"
+   ],
+   "id": "E-157"
+  },
+  {
+   "claim": "AWC offers Durable Construction with Preservative-Treated Wood as a course on AWCLearn.",
+   "type": "supports",
+   "source": "awc-learn-preservative",
+   "where": "course search",
+   "part": "text",
+   "quote": "Durable Construction with Preservative -Treated Wood",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-32"
+   ],
+   "id": "E-158"
+  },
+  {
+   "claim": "UL's and FM's own firestop exam pages were not captured; IAS AC291 is cited instead.",
+   "type": "open",
+   "source": "ul-fm-firestop-exams",
+   "where": "not held",
+   "part": "text",
+   "used_by": [
+    "Credential check:CC-31"
+   ],
+   "id": "E-159"
+  },
+  {
+   "claim": "ASSE 6020 Medical Gas Systems Inspector is a personnel certification.",
+   "type": "supports",
+   "source": "asse-6020",
+   "where": "certification page",
+   "part": "text",
+   "quote": "ASSE 6020 Medical Gas Systems Inspector",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-34"
+   ],
+   "id": "E-160"
+  },
+  {
+   "claim": "ASSE 6020 training covers NFPA 99.",
+   "type": "supports",
+   "source": "asse-6020",
+   "where": "certification page",
+   "part": "text",
+   "quote": "current NFPA 99 Medical Gas Systems Code",
+   "match": "exact",
+   "used_by": [
+    "Credential check:CC-34"
+   ],
+   "id": "E-161"
+  }
+ ]
+}
